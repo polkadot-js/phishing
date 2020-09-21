@@ -1,0 +1,8 @@
+{
+  "allow": [
+  ],
+  "deny": [
+    "polkawallets.site",
+    "polkodot.network"
+  ]
+}

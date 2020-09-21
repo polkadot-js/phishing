@@ -1,0 +1,8 @@
+.eslintrc.js
+.github/**
+.vscode/**
+.yarn/**
+**/binaryen/*
+**/build/*
+**/coverage/*
+**/node_modules/*
