@@ -14,7 +14,7 @@ export async function retrieveHostList (): Promise<HostList> {
 }
 
 // checks a host to see if it appears in the list
-export async function checkHost (items: string[], host: string): Promise<boolean> {
+export function checkHost (items: string[], host: string): boolean {
   const hostParts = host.split('.').reverse();
 
   return items.some((item): boolean => {
