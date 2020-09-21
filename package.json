@@ -2,6 +2,10 @@
   "repository": "https://github.com/polkadot-js/phishing",
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "license": "Apache-2",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "resolutions": {
     "babel-core": "^7.0.0-bridge.0",
     "typescript": "^4.0.2"
@@ -13,9 +17,6 @@
     "clean": "polkadot-dev-clean-build",
     "postinstall": "polkadot-dev-yarn-only",
     "test": "echo \"no tests\""
-  },
-  "dependencies": {
-    "@polkadot/x-fetch": "^0.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",

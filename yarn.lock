@@ -2847,7 +2847,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/x-fetch@npm:^0.3.2":
+"@polkadot/phishing@workspace:packages/phishing":
+  version: 0.0.0-use.local
+  resolution: "@polkadot/phishing@workspace:packages/phishing"
+  dependencies:
+    "@babel/runtime": ^7.11.2
+    "@polkadot/x-fetch": 0.3.2
+  languageName: unknown
+  linkType: soft
+
+"@polkadot/x-fetch@npm:0.3.2":
   version: 0.3.2
   resolution: "@polkadot/x-fetch@npm:0.3.2"
   dependencies:
@@ -15352,7 +15361,6 @@ fsevents@^1.2.7:
   dependencies:
     "@babel/core": ^7.11.6
     "@polkadot/dev": ^0.55.53
-    "@polkadot/x-fetch": ^0.3.2
     "@types/jest": ^26.0.10
   languageName: unknown
   linkType: soft
