@@ -1,12 +1,15 @@
 {
-  "extends": "@polkadot/dev/config/tsconfig",
+  "extends": "./node_modules/@polkadot/dev/config/tsconfig",
   "exclude": [
     "build/**/*",
     "**/build/**/*"
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
+    "paths":
+    {
+      "@polkadot/phishing": ["packages/phishing/src"],
+      "@polkadot/phishing/*": ["packages/phishing/src/*"]
     },
     "skipLibCheck": true,
     "typeRoots": [
