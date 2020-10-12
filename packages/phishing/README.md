@@ -1,7 +1,7 @@
 # @polkadot/phishing
 
 ```js
-import loadAndCheck from '@polkadot/phishing';
+import retrieveCheckDeny from '@polkadot/phishing';
 
 const isOnDeny = await retrieveCheckDeny(window.location.host);
 
