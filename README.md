@@ -4,9 +4,9 @@ A curated list of known less-than-honest sites inclusive of a simple JS utility 
 
 This list is maintained by the community, and is currently available at https://github.com/polkadot-js/phishing
 
-Any additions can be made by editing [https://github.com/polkadot-js/phishing/edit/master/all.json](<root>/all.json) and additng any new sites in alphabetical order.
+Any additions can be made by editing [<root>/all.json](https://github.com/polkadot-js/phishing/edit/master/all.json) and adding any new sites in alphabetical order.
 
 
 ## Contributing
 
-Contributions welcome, either via a PR to the above list of [https://github.com/polkadot-js/phishing/issues](via logging an issue).
+Contributions welcome, either via a PR to the above list or [via logging an issue](https://github.com/polkadot-js/phishing/issues).
