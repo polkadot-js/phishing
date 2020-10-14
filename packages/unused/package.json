@@ -1,6 +1,6 @@
 {
   "name": "@polkadot/unused",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Simple phishing scripts from a central source",
   "main": "index.js",
   "publishConfig": {
