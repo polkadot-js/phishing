@@ -7,6 +7,4 @@ Any additions can be made by editing [all.json](https://github.com/polkadot-js/p
 
 ## Contributing
 
-This list is maintained by the community, and is currently available at https://github.com/polkadot-js/phishing
-
-Contributions are welcome, either via a pull request or by [logging an issue](https://github.com/polkadot-js/phishing/issues).
+This list is intended to be maintained with active input from the community, so contributions are welcome, either via a pull request or by [logging an issue](https://github.com/polkadot-js/phishing/issues).
