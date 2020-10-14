@@ -9,4 +9,4 @@ Any additions can be made by editing [all.json](https://github.com/polkadot-js/p
 
 This list is maintained by the community, and is currently available at https://github.com/polkadot-js/phishing
 
-Contributions to the list is welcome, either via a pull request or by [logging an issue](https://github.com/polkadot-js/phishing/issues).
+Contributions are welcome, either via a pull request or by [logging an issue](https://github.com/polkadot-js/phishing/issues).
