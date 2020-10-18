@@ -5,6 +5,12 @@ import { HostList } from './types';
 
 import fetch from '@polkadot/x-fetch';
 
+function extractHost (path: string): string {
+  return path
+    .replace(/https:\/\/|http:\/\/|wss:\/\/|ws:\/\//, '')
+    .split('/')[0];
+}
+
 // retrieve allow/deny from our list provider
 export async function retrieveHostList (): Promise<HostList> {
   const response = await fetch('https://polkadot.js.org/phishing/all.json');
@@ -15,7 +21,7 @@ export async function retrieveHostList (): Promise<HostList> {
 
 // checks a host to see if it appears in the list
 export function checkHost (items: string[], host: string): boolean {
-  const hostParts = host.split('.').reverse();
+  const hostParts = extractHost(host).split('.').reverse();
 
   return items.some((item): boolean => {
     const checkParts = item.split('.').reverse();
@@ -30,7 +36,9 @@ export function checkHost (items: string[], host: string): boolean {
   });
 }
 
-// retrieve the deny list and check the host against it
+/**
+ * Determines if a host is in our deny list. Returns tru if host is a problematic one.
+ */
 export default async function retrieveCheckDeny (host: string): Promise<boolean> {
   const { deny } = await retrieveHostList();
 
