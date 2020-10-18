@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
-    "@babel/runtime": "^7.11.2",
-    "@polkadot/x-fetch": "0.3.2"
+    "@babel/runtime": "^7.12.1",
+    "@polkadot/x-fetch": "0.3.3"
   }
 }
