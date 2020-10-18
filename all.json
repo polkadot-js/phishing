@@ -2,6 +2,7 @@
   "allow": [
   ],
   "deny": [
+    "dothereum-polkadot.net",
     "polkadot-dot.info",
     "polkawallets.site",
     "polkodot.network"
