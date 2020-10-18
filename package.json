@@ -24,5 +24,5 @@
     "@polkadot/dev": "^0.58.3",
     "@types/jest": "^26.0.14"
   },
-  "version": "0.1.8"
+  "version": "0.1.9"
 }
