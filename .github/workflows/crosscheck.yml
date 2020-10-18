@@ -1,0 +1,24 @@
+name: crosscheck
+on:
+  schedule:
+    - cron:  '45 4 * * *'
+
+jobs:
+  ss58:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: check
+      env:
+        CI_LOG: 123
+      run: |
+        yarn install --immutable | grep -v 'YN0013'
+        yarn phishing:crosscheck
+
+    - name: issue
+      if: ${{ failure() }}
+      uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      with:
+        filename: .github/crosscheck.md

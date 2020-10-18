@@ -1823,7 +1823,9 @@ __metadata:
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
     "@babel/runtime": ^7.12.1
-    "@polkadot/x-fetch": 0.3.3
+    "@polkadot/x-fetch": ^0.3.3
+    "@types/js-yaml": ^3.12.5
+    js-yaml: ^3.14.0
   languageName: unknown
   linkType: soft
 
@@ -1833,7 +1835,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/x-fetch@npm:0.3.3":
+"@polkadot/x-fetch@npm:^0.3.3":
   version: 0.3.3
   resolution: "@polkadot/x-fetch@npm:0.3.3"
   dependencies:
@@ -1977,6 +1979,13 @@ __metadata:
     jest-diff: ^25.2.1
     pretty-format: ^25.2.1
   checksum: bddbe82d12217c5217efabcad09e4fbe2c5eaecf9392da9b0edbe4c3d9fb240b3fab914f88c5f3708f6d5046640a2782458944873eae4ac01abcb17d32d3c78f
+  languageName: node
+  linkType: hard
+
+"@types/js-yaml@npm:^3.12.5":
+  version: 3.12.5
+  resolution: "@types/js-yaml@npm:3.12.5"
+  checksum: 82ca4b40ee1baf82961f75b7db8fae5a1d63410c066475424659c3bd1873cf02bf015ebdeb8751e7b6d0c87b4d3f09f20d2cc2075c4bdd4e7d58409ddd6ad925
   languageName: node
   linkType: hard
 
@@ -7221,7 +7230,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.13.1":
+"js-yaml@npm:^3.13.1, js-yaml@npm:^3.14.0":
   version: 3.14.0
   resolution: "js-yaml@npm:3.14.0"
   dependencies:
