@@ -5,6 +5,7 @@ import { HostList } from './types';
 
 import fetch from '@polkadot/x-fetch';
 
+// Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/all.json
 const ALL_JSON = 'https://polkadot.js.org/phishing/all.json';
 
 // gets the host-only part for a host
