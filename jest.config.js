@@ -9,5 +9,5 @@ module.exports = Object.assign({}, config, {
   modulePathIgnorePatterns: [
     '<rootDir>/build'
   ],
-  resolver: './jest.resolver.js'
+  resolver: '@polkadot/dev/config/jest-resolver'
 });

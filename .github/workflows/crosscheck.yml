@@ -4,10 +4,10 @@ on:
     - cron:  '45 4 * * *'
 
 jobs:
-  ss58:
+  crosscheck:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: check
       env:
         CI_LOG: 123
