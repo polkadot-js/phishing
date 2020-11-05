@@ -1,10 +1,9 @@
 ---
-assignees: ['jacogr']
 title: Phishing missing cross-check entries
 labels: ['ci', '@all.json']
 ---
 
-cc @jacogr
+cc @polkadot-js/notifications
 
 Additional entries have been detected in other databases.
 
