@@ -3,6 +3,7 @@
   "version": "0.1.12",
   "description": "Simple phishing scripts from a central source",
   "main": "index.js",
+  "module": "esnext/index.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -23,7 +24,7 @@
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@polkadot/x-fetch": "^4.0.0-3"
+    "@polkadot/x-fetch": "^4.0.1"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.5",
