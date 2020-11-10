@@ -3,29 +3,18 @@
   "version": "0.1.16",
   "description": "Simple phishing scripts from a central source",
   "main": "index.js",
-  "module": "index.mjs",
+  "module": "esm/index.js",
   "sideEffects": false,
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/polkadot-js/phishing.git"
-  },
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "maintainers": [
-    "Jaco Greeff <jacogr@gmail.com>"
-  ],
+  "maintainers": [],
   "contributors": [],
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/polkadot-js/phishing/issues"
-  },
+  "bugs": "https://github.com/polkadot-js/phishing/issues",
+  "repository": "github.com:polkadot-js/phishing",
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@polkadot/x-fetch": "^4.0.2-8"
+    "@polkadot/x-fetch": "^4.0.2-11"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.5",
