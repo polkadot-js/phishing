@@ -1746,9 +1746,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/dev@npm:^0.59.21":
-  version: 0.59.21
-  resolution: "@polkadot/dev@npm:0.59.21"
+"@polkadot/dev@npm:^0.59.22":
+  version: 0.59.22
+  resolution: "@polkadot/dev@npm:0.59.22"
   dependencies:
     "@babel/cli": ^7.12.1
     "@babel/core": ^7.12.3
@@ -1775,6 +1775,7 @@ __metadata:
     "@typescript-eslint/parser": 4.6.1
     "@vue/component-compiler-utils": ^3.2.0
     babel-jest: ^26.6.3
+    babel-plugin-module-extension-resolver: ^0.3.0
     babel-plugin-module-resolver: ^4.0.0
     babel-plugin-styled-components: ^1.11.1
     browserslist: ^4.14.6
@@ -1834,7 +1835,7 @@ __metadata:
     polkadot-exec-typedoc: scripts/polkadot-exec-typedoc.js
     polkadot-exec-vuepress: scripts/polkadot-exec-vuepress.js
     polkadot-exec-webpack: scripts/polkadot-exec-webpack.js
-  checksum: c853d9077c256e68074fc2c08ff8e7e140f01e547e71a8021c71373c3b0fedf7a0e013e9e91eef463f3be60031ca5a1e5c7b490740d5eba5cc5e96b337369a2f
+  checksum: cdd11d3f5c5a3bb525be7a954b1d9679771e627719b703fd799fcc4e32694b519260607dc0df7c2ec98450cf61f711f61bed6f9801a6792be84547ff6cf75c43
   languageName: node
   linkType: hard
 
@@ -1843,7 +1844,7 @@ __metadata:
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
     "@babel/runtime": ^7.12.1
-    "@polkadot/x-fetch": ^4.0.2-7
+    "@polkadot/x-fetch": ^4.0.2-8
     "@types/js-yaml": ^3.12.5
     js-yaml: ^3.14.0
   languageName: unknown
@@ -1855,14 +1856,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/x-fetch@npm:^4.0.2-7":
-  version: 4.0.2-7
-  resolution: "@polkadot/x-fetch@npm:4.0.2-7"
+"@polkadot/x-fetch@npm:^4.0.2-8":
+  version: 4.0.2-8
+  resolution: "@polkadot/x-fetch@npm:4.0.2-8"
   dependencies:
     "@babel/runtime": ^7.12.1
     "@types/node-fetch": ^2.5.7
     node-fetch: ^2.6.1
-  checksum: d722d22428324f2c8f5fda43617ea791288ca3ffbbe73ddb0b3babb754073fa64e45c9ea6248cedf124ab7a121f16477915fb59c97770929e7656d64ab31aadd
+  checksum: 1ba3bc161b0312a14fb3b4e43597367e0c9e93b475400d58c1ed48b43018241f91dace6c0e085800084d7eb245e66d7206a5c16e85bb1c2671f86cb7d72bc1d6
   languageName: node
   linkType: hard
 
@@ -2648,6 +2649,13 @@ __metadata:
     "@types/babel__core": ^7.0.0
     "@types/babel__traverse": ^7.0.6
   checksum: e9c1de0fced1c8220590a0d6f37631f5b975964a8e876f0426fc7fd224f4c154b01f156e87401de47556b873bf4414eb2a9632fb56765f35fc07fe69e5b76d31
+  languageName: node
+  linkType: hard
+
+"babel-plugin-module-extension-resolver@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "babel-plugin-module-extension-resolver@npm:0.3.0"
+  checksum: d7522f7f17f27747aee35ca0ac0e5af6286065c67210e0e038ff5065e8173d5bdaef8a4f5916dd169fda5abcc96c8fb8175dececc1758210675144c6d48c9f32
   languageName: node
   linkType: hard
 
@@ -8654,7 +8662,7 @@ fsevents@^1.2.7:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/core": ^7.12.3
-    "@polkadot/dev": ^0.59.21
+    "@polkadot/dev": ^0.59.22
     "@types/jest": ^26.0.15
   languageName: unknown
   linkType: soft
