@@ -1,7 +1,7 @@
 // Copyright 2020 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import checkIfDenied from '.';
+import { checkIfDenied } from '.';
 
 describe('checkIfDenied', (): void => {
   it('returns false when host in list', async (): Promise<void> => {

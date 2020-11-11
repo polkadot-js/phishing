@@ -1,9 +1,8 @@
 {
   "name": "@polkadot/phishing",
-  "version": "0.1.17",
+  "version": "0.2.0",
   "description": "Simple phishing scripts from a central source",
   "main": "index.js",
-  "module": "esm/index.js",
   "sideEffects": false,
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "maintainers": [],
@@ -14,7 +13,7 @@
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@polkadot/x-fetch": "^4.0.2-11"
+    "@polkadot/x-fetch": "^4.0.1"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.5",
