@@ -1,9 +1,9 @@
 # @polkadot/phishing
 
 ```js
-import retrieveCheckDeny from '@polkadot/phishing';
+import { checkIfDenied } from '@polkadot/phishing';
 
-const isOnDeny = await retrieveCheckDeny(window.location.host);
+const isOnDeny = await checkIfDenied(window.location.host);
 
 console.log(`isOnDeny=${isOnDeny}`);
 ```
