@@ -48,7 +48,7 @@ export function checkHost (items: string[], host: string): boolean {
  * Determines if a host is in our deny list. Returns true if host is a problematic one. Returns
  * true if the host provided is in our list of less-than-honest sites.
  */
-export default async function checkIfDenied (host: string): Promise<boolean> {
+export async function checkIfDenied (host: string): Promise<boolean> {
   try {
     const { deny } = await retrieveHostList();
 
