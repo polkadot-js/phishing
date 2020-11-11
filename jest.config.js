@@ -1,7 +1,7 @@
 // Copyright 2020 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-const config = require('@polkadot/dev/config/jest');
+const config = require('@polkadot/dev/config/jest.cjs');
 
 module.exports = Object.assign({}, config, {
   moduleNameMapper: {
@@ -9,5 +9,5 @@ module.exports = Object.assign({}, config, {
   modulePathIgnorePatterns: [
     '<rootDir>/build'
   ],
-  resolver: '@polkadot/dev/config/jest-resolver'
+  resolver: '@polkadot/dev/config/jest-resolver.cjs'
 });

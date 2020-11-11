@@ -1746,9 +1746,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/dev@npm:^0.59.23":
-  version: 0.59.23
-  resolution: "@polkadot/dev@npm:0.59.23"
+"@polkadot/dev@npm:^0.60.1":
+  version: 0.60.1
+  resolution: "@polkadot/dev@npm:0.60.1"
   dependencies:
     "@babel/cli": ^7.12.1
     "@babel/core": ^7.12.3
@@ -1813,29 +1813,29 @@ __metadata:
     typescript: ^4.0.5
     yargs: ^16.1.0
   bin:
-    polkadot-ci-ghact-build: scripts/polkadot-ci-ghact-build.js
-    polkadot-ci-ghact-docs: scripts/polkadot-ci-ghact-docs.js
-    polkadot-ci-ghpages-force: scripts/polkadot-ci-ghpages-force.js
-    polkadot-dev-build-docs: scripts/polkadot-dev-build-docs.js
-    polkadot-dev-build-ts: scripts/polkadot-dev-build-ts.js
-    polkadot-dev-circular: scripts/polkadot-dev-circular.js
-    polkadot-dev-clean-build: scripts/polkadot-dev-clean-build.js
-    polkadot-dev-copy-to: scripts/polkadot-dev-copy-to.js
-    polkadot-dev-run-lint: scripts/polkadot-dev-run-lint.js
-    polkadot-dev-run-prettier: scripts/polkadot-dev-run-prettier.js
-    polkadot-dev-run-test: scripts/polkadot-dev-run-test.js
-    polkadot-dev-version: scripts/polkadot-dev-version.js
-    polkadot-dev-yarn-only: scripts/polkadot-dev-yarn-only.js
-    polkadot-exec-eslint: scripts/polkadot-exec-eslint.js
-    polkadot-exec-ghpages: scripts/polkadot-exec-ghpages.js
-    polkadot-exec-ghrelease: scripts/polkadot-exec-ghrelease.js
-    polkadot-exec-lerna: scripts/polkadot-exec-lerna.js
-    polkadot-exec-prettier: scripts/polkadot-exec-prettier.js
-    polkadot-exec-tsc: scripts/polkadot-exec-tsc.js
-    polkadot-exec-typedoc: scripts/polkadot-exec-typedoc.js
-    polkadot-exec-vuepress: scripts/polkadot-exec-vuepress.js
-    polkadot-exec-webpack: scripts/polkadot-exec-webpack.js
-  checksum: 1b9ba8a275ea59980530a3a7d891840727c8d0e91eabeca6717d8a38cff4f9f9a5629942c3f5e7ff5a309f1107a9486da9bf4782c7459549887c55a398b80c17
+    polkadot-ci-ghact-build: scripts/polkadot-ci-ghact-build.cjs
+    polkadot-ci-ghact-docs: scripts/polkadot-ci-ghact-docs.cjs
+    polkadot-ci-ghpages-force: scripts/polkadot-ci-ghpages-force.cjs
+    polkadot-dev-build-docs: scripts/polkadot-dev-build-docs.cjs
+    polkadot-dev-build-ts: scripts/polkadot-dev-build-ts.cjs
+    polkadot-dev-circular: scripts/polkadot-dev-circular.cjs
+    polkadot-dev-clean-build: scripts/polkadot-dev-clean-build.cjs
+    polkadot-dev-copy-to: scripts/polkadot-dev-copy-to.cjs
+    polkadot-dev-run-lint: scripts/polkadot-dev-run-lint.cjs
+    polkadot-dev-run-prettier: scripts/polkadot-dev-run-prettier.cjs
+    polkadot-dev-run-test: scripts/polkadot-dev-run-test.cjs
+    polkadot-dev-version: scripts/polkadot-dev-version.cjs
+    polkadot-dev-yarn-only: scripts/polkadot-dev-yarn-only.cjs
+    polkadot-exec-eslint: scripts/polkadot-exec-eslint.cjs
+    polkadot-exec-ghpages: scripts/polkadot-exec-ghpages.cjs
+    polkadot-exec-ghrelease: scripts/polkadot-exec-ghrelease.cjs
+    polkadot-exec-lerna: scripts/polkadot-exec-lerna.cjs
+    polkadot-exec-prettier: scripts/polkadot-exec-prettier.cjs
+    polkadot-exec-tsc: scripts/polkadot-exec-tsc.cjs
+    polkadot-exec-typedoc: scripts/polkadot-exec-typedoc.cjs
+    polkadot-exec-vuepress: scripts/polkadot-exec-vuepress.cjs
+    polkadot-exec-webpack: scripts/polkadot-exec-webpack.cjs
+  checksum: 87086fe151f853bad1206099b642a20c381801e67d3564c35f478acc1d5c2dd2f29b8ac4d4aaa71d30880764ab5d678adeb7f2edb6d38607a5e629e3ccb75ba2
   languageName: node
   linkType: hard
 
@@ -1844,7 +1844,7 @@ __metadata:
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
     "@babel/runtime": ^7.12.1
-    "@polkadot/x-fetch": ^4.0.2-11
+    "@polkadot/x-fetch": ^4.0.2-12
     "@types/js-yaml": ^3.12.5
     js-yaml: ^3.14.0
   languageName: unknown
@@ -1856,14 +1856,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/x-fetch@npm:^4.0.2-11":
-  version: 4.0.2-11
-  resolution: "@polkadot/x-fetch@npm:4.0.2-11"
+"@polkadot/x-fetch@npm:^4.0.2-12":
+  version: 4.0.2-12
+  resolution: "@polkadot/x-fetch@npm:4.0.2-12"
   dependencies:
     "@babel/runtime": ^7.12.1
     "@types/node-fetch": ^2.5.7
     node-fetch: ^2.6.1
-  checksum: c28e4c9087ebae418ea2e838fbb64e6b0748530aebf6081f47a493eeac23385056405db37244fea22aa8393d521551eb92e9656a67676c5d1676c26c115f65d1
+  checksum: 489f570417694a968be8f03173922441afc2ca54c8de03cdd3b831ff881eb004ea3fc95ea82db614bcc2189eb52e846b5fb75ca8711f94750304d73e15811828
   languageName: node
   linkType: hard
 
@@ -8662,7 +8662,7 @@ fsevents@^1.2.7:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/core": ^7.12.3
-    "@polkadot/dev": ^0.59.23
+    "@polkadot/dev": ^0.60.1
     "@types/jest": ^26.0.15
   languageName: unknown
   linkType: soft
