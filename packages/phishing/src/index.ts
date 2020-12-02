@@ -7,6 +7,11 @@ import fetch from '@polkadot/x-fetch';
 
 // Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/all.json
 const ALL_JSON = 'https://polkadot.js.org/phishing/all.json';
+// 1 hour cache refresh
+const CACHE_TIMEOUT = 1 * 60 * 60 * 1000;
+
+let cacheEnd = 0;
+let cacheList: HostList | null = null;
 
 // gets the host-only part for a host
 function extractHost (path: string): string {
@@ -18,9 +23,18 @@ function extractHost (path: string): string {
 /**
  * Retrieve allow/deny from our list provider
  */
-export async function retrieveHostList (): Promise<HostList> {
+export async function retrieveHostList (allowCached = true): Promise<HostList> {
+  const now = Date.now();
+
+  if (allowCached && cacheList && (now < cacheEnd)) {
+    return cacheList;
+  }
+
   const response = await fetch(ALL_JSON);
   const list = (await response.json()) as HostList;
+
+  cacheEnd = now + CACHE_TIMEOUT;
+  cacheList = list;
 
   return list;
 }
@@ -48,9 +62,9 @@ export function checkHost (items: string[], host: string): boolean {
  * Determines if a host is in our deny list. Returns true if host is a problematic one. Returns
  * true if the host provided is in our list of less-than-honest sites.
  */
-export async function checkIfDenied (host: string): Promise<boolean> {
+export async function checkIfDenied (host: string, allowCached = true): Promise<boolean> {
   try {
-    const { deny } = await retrieveHostList();
+    const { deny } = await retrieveHostList(allowCached);
 
     return checkHost(deny, host);
   } catch (error) {
