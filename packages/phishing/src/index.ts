@@ -7,6 +7,7 @@ import fetch from '@polkadot/x-fetch';
 
 // Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/all.json
 const ALL_JSON = 'https://polkadot.js.org/phishing/all.json';
+// 1 hour cache refresh
 const CACHE_TIMEOUT = 1 * 60 * 60 * 1000;
 
 let cacheEnd = 0;
@@ -25,7 +26,7 @@ function extractHost (path: string): string {
 export async function retrieveHostList (allowCached = true): Promise<HostList> {
   const now = Date.now();
 
-  if (allowCached && cacheList && now < cacheEnd) {
+  if (allowCached && cacheList && (now < cacheEnd)) {
     return cacheList;
   }
 
