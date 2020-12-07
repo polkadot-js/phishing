@@ -1,7 +1,7 @@
 // Copyright 2020 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { HostList } from './types';
+import type { HostList } from './types';
 
 import fetch from '@polkadot/x-fetch';
 
