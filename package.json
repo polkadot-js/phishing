@@ -19,9 +19,9 @@
     "test": "polkadot-dev-run-test --coverage --runInBand --testPathIgnorePatterns crosscheck"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.8",
-    "@polkadot/dev": "^0.60.8",
-    "@types/jest": "^26.0.15"
+    "@babel/core": "^7.12.9",
+    "@polkadot/dev": "^0.60.12",
+    "@types/jest": "^26.0.17"
   },
   "version": "0.2.7"
 }
