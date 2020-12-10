@@ -13,7 +13,7 @@
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
     "@babel/runtime": "^7.12.5",
-    "@polkadot/x-fetch": "^4.2.2-9"
+    "@polkadot/x-fetch": "^4.2.2-10"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.5",
