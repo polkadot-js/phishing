@@ -4,7 +4,7 @@
 import fs from 'fs';
 import { safeLoad } from 'js-yaml';
 
-import fetch from '@polkadot/x-fetch';
+import { fetch } from '@polkadot/x-fetch';
 
 import { retrieveHostList } from '.';
 
