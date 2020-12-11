@@ -49,7 +49,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.9, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.7.5":
   version: 7.12.10
   resolution: "@babel/core@npm:7.12.10"
   dependencies:
@@ -1686,9 +1686,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/dev@npm:^0.60.23":
-  version: 0.60.23
-  resolution: "@polkadot/dev@npm:0.60.23"
+"@polkadot/dev@npm:^0.60.27":
+  version: 0.60.27
+  resolution: "@polkadot/dev@npm:0.60.27"
   dependencies:
     "@babel/cli": ^7.12.10
     "@babel/core": ^7.12.10
@@ -1776,7 +1776,7 @@ __metadata:
     polkadot-exec-typedoc: scripts/polkadot-exec-typedoc.cjs
     polkadot-exec-vuepress: scripts/polkadot-exec-vuepress.cjs
     polkadot-exec-webpack: scripts/polkadot-exec-webpack.cjs
-  checksum: e6d1d95ea6dbc6713344f776b9638cea7c649fb56a4713d4c7f579ba0e918937a679e7dd65f09f6cf44da363767ed5a1c7689646043721c317cacfe880e66ed1
+  checksum: e4e90914eed69bd21f6617265030388e4d651046e156717a816e5a4719b75abbb5641e71025d2df1a71e45265b0fcadd201450e4b4ae67abf9b56dc029a2bb65
   languageName: node
   linkType: hard
 
@@ -1785,7 +1785,7 @@ __metadata:
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@polkadot/x-fetch": ^4.2.2-12
+    "@polkadot/x-fetch": ^4.2.2-14
     "@types/js-yaml": ^3.12.5
     js-yaml: ^3.14.1
   languageName: unknown
@@ -1797,14 +1797,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/x-fetch@npm:^4.2.2-12":
-  version: 4.2.2-12
-  resolution: "@polkadot/x-fetch@npm:4.2.2-12"
+"@polkadot/x-fetch@npm:^4.2.2-14":
+  version: 4.2.2-14
+  resolution: "@polkadot/x-fetch@npm:4.2.2-14"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/node-fetch": ^2.5.7
     node-fetch: ^2.6.1
-  checksum: 676b029254d1ea92ebad478ac825aeac695c3d738332be78101f49c44d43e06de33407f20f2d8ff9adc25ee70bbfbaf505e4e784df6818e8137871861b72429f
+  checksum: e4afe8536abb7e846cb1582c30c35d70f0567bc57c5e07163241087e12c6ac55c423dd702fa515c9dfc533162d4810960880e11e56b319365cd3181be7c40622
   languageName: node
   linkType: hard
 
@@ -1924,13 +1924,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^26.0.17":
-  version: 26.0.17
-  resolution: "@types/jest@npm:26.0.17"
+"@types/jest@npm:^26.0.19":
+  version: 26.0.19
+  resolution: "@types/jest@npm:26.0.19"
   dependencies:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
-  checksum: 025af4f5b584e15097c96ff1b1873a75f785a3c4f7700609ed131ca1a74f05c94c08f112a2b5a0585c753e9163d26346d459f10c10f9d600e1d23e92cde65e9e
+  checksum: 98c8daaf89ca79823461818c1c22d337354e250a135e0314ba1a49e615620c8e2f54c5b900ba8554bf853919c97538f9a38b5af00cea83fd715ee2e6d75e04b8
   languageName: node
   linkType: hard
 
@@ -8520,9 +8520,9 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@babel/core": ^7.12.9
-    "@polkadot/dev": ^0.60.23
-    "@types/jest": ^26.0.17
+    "@babel/core": ^7.12.10
+    "@polkadot/dev": ^0.60.27
+    "@types/jest": ^26.0.19
   languageName: unknown
   linkType: soft
 
