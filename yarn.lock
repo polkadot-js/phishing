@@ -1686,9 +1686,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/dev@npm:^0.60.27":
-  version: 0.60.27
-  resolution: "@polkadot/dev@npm:0.60.27"
+"@polkadot/dev@npm:^0.60.29":
+  version: 0.60.29
+  resolution: "@polkadot/dev@npm:0.60.29"
   dependencies:
     "@babel/cli": ^7.12.10
     "@babel/core": ^7.12.10
@@ -1776,7 +1776,7 @@ __metadata:
     polkadot-exec-typedoc: scripts/polkadot-exec-typedoc.cjs
     polkadot-exec-vuepress: scripts/polkadot-exec-vuepress.cjs
     polkadot-exec-webpack: scripts/polkadot-exec-webpack.cjs
-  checksum: e4e90914eed69bd21f6617265030388e4d651046e156717a816e5a4719b75abbb5641e71025d2df1a71e45265b0fcadd201450e4b4ae67abf9b56dc029a2bb65
+  checksum: e2ff24a9b0d4ac815030e1b5d74f1556f35135f14963dd5c0718c552904548f5fef4185d20fa8441dd66576a4fe07600b69194c4c71364b5988fe08babfaf9ad
   languageName: node
   linkType: hard
 
@@ -1785,7 +1785,7 @@ __metadata:
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@polkadot/x-fetch": ^4.2.2-14
+    "@polkadot/x-fetch": ^4.2.2-16
     "@types/js-yaml": ^3.12.5
     js-yaml: ^3.14.1
   languageName: unknown
@@ -1797,14 +1797,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/x-fetch@npm:^4.2.2-14":
-  version: 4.2.2-14
-  resolution: "@polkadot/x-fetch@npm:4.2.2-14"
+"@polkadot/x-fetch@npm:^4.2.2-16":
+  version: 4.2.2-16
+  resolution: "@polkadot/x-fetch@npm:4.2.2-16"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/node-fetch": ^2.5.7
     node-fetch: ^2.6.1
-  checksum: e4afe8536abb7e846cb1582c30c35d70f0567bc57c5e07163241087e12c6ac55c423dd702fa515c9dfc533162d4810960880e11e56b319365cd3181be7c40622
+  checksum: de0803ed6ca4f98130bbdaccfc0b038c0d3de915e93f252c0355ebe9c72c1d2436b50a7bea77593474ae6baad2d42d57e2e3acc816bff189375da21d84932d86
   languageName: node
   linkType: hard
 
@@ -8521,7 +8521,7 @@ fsevents@~2.1.2:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/core": ^7.12.10
-    "@polkadot/dev": ^0.60.27
+    "@polkadot/dev": ^0.60.29
     "@types/jest": ^26.0.19
   languageName: unknown
   linkType: soft
