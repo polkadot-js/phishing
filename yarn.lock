@@ -1686,9 +1686,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/dev@npm:^0.60.29":
-  version: 0.60.29
-  resolution: "@polkadot/dev@npm:0.60.29"
+"@polkadot/dev@npm:^0.61.2":
+  version: 0.61.2
+  resolution: "@polkadot/dev@npm:0.61.2"
   dependencies:
     "@babel/cli": ^7.12.10
     "@babel/core": ^7.12.10
@@ -1751,7 +1751,7 @@ __metadata:
     typedoc: ^0.19.2
     typedoc-plugin-markdown: ^3.1.1
     typedoc-plugin-no-inherit: ^1.2.0
-    typescript: ^4.1.2
+    typescript: ^4.1.3
     yargs: ^16.2.0
   bin:
     polkadot-ci-ghact-build: scripts/polkadot-ci-ghact-build.cjs
@@ -1770,13 +1770,12 @@ __metadata:
     polkadot-exec-eslint: scripts/polkadot-exec-eslint.cjs
     polkadot-exec-ghpages: scripts/polkadot-exec-ghpages.cjs
     polkadot-exec-ghrelease: scripts/polkadot-exec-ghrelease.cjs
-    polkadot-exec-lerna: scripts/polkadot-exec-lerna.cjs
     polkadot-exec-prettier: scripts/polkadot-exec-prettier.cjs
     polkadot-exec-tsc: scripts/polkadot-exec-tsc.cjs
     polkadot-exec-typedoc: scripts/polkadot-exec-typedoc.cjs
     polkadot-exec-vuepress: scripts/polkadot-exec-vuepress.cjs
     polkadot-exec-webpack: scripts/polkadot-exec-webpack.cjs
-  checksum: e2ff24a9b0d4ac815030e1b5d74f1556f35135f14963dd5c0718c552904548f5fef4185d20fa8441dd66576a4fe07600b69194c4c71364b5988fe08babfaf9ad
+  checksum: aada176bd714442e309941c42f0cf48466599aa1e0cbca894e00c91b6efd2eb6b11a677f1e607d46f3245a780934d5f0b4b4029ee2124e8d41cb5f6c96423b21
   languageName: node
   linkType: hard
 
@@ -1785,7 +1784,7 @@ __metadata:
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@polkadot/x-fetch": ^4.2.2-16
+    "@polkadot/x-fetch": ^5.0.1
     "@types/js-yaml": ^3.12.5
     js-yaml: ^3.14.1
   languageName: unknown
@@ -1797,14 +1796,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/x-fetch@npm:^4.2.2-16":
-  version: 4.2.2-16
-  resolution: "@polkadot/x-fetch@npm:4.2.2-16"
+"@polkadot/x-fetch@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@polkadot/x-fetch@npm:5.0.1"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/node-fetch": ^2.5.7
     node-fetch: ^2.6.1
-  checksum: de0803ed6ca4f98130bbdaccfc0b038c0d3de915e93f252c0355ebe9c72c1d2436b50a7bea77593474ae6baad2d42d57e2e3acc816bff189375da21d84932d86
+  checksum: 15df4ac74c4cce6ac1179d309ea18bd9125567274f2f21b26689eb99a67523083abfca22475588d8c44212f63f82a2e47c12fd34114f6dacc59bbd66066aec7f
   languageName: node
   linkType: hard
 
@@ -8521,7 +8520,7 @@ fsevents@~2.1.2:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/core": ^7.12.10
-    "@polkadot/dev": ^0.60.29
+    "@polkadot/dev": ^0.61.2
     "@types/jest": ^26.0.19
   languageName: unknown
   linkType: soft
@@ -9666,23 +9665,23 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "typescript@npm:4.1.2"
+"typescript@npm:^4.1.3":
+  version: 4.1.3
+  resolution: "typescript@npm:4.1.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d2ac373b469e973448c7287d0fbc732dbd34d00d07911b9506bbf81469a80db6613361fc9293d021da357cb7c7da2ee32f56d8ef76446361231374200cd6aee9
+  checksum: 4f7ab1506ea22c7a1c313ec5b4285e93ce08d709ad6086d02d3096adb399ca339972ee56d1e578213c51dd0fb7b0fad50283c2d3c39642405644458ae29774f8
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^4.1.2#builtin<compat/typescript>":
-  version: 4.1.2
-  resolution: "typescript@patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730"
+"typescript@patch:typescript@npm%3A^4.1.3#builtin<compat/typescript>":
+  version: 4.1.3
+  resolution: "typescript@patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 001ab09bb8f597aab1ec43476aedb91b5d547749219273c232bf34cf5a2209d18fa782e64475755115f0907598bb9b503f5e1c0fed06c3651cac584fc88a8172
+  checksum: 017af992148346e671d5b83b041773825888e9c94db8d2b9472cdbb6d6f0ee85927817473121524d319f8be6ffe5a6904d27ff6ef21356d2274fcadd52e17938
   languageName: node
   linkType: hard
 
