@@ -22,13 +22,19 @@ describe('checkIfDenied', (): void => {
     ).toEqual(true);
   });
 
+  it('returns true when host in list (www-prefix)', async (): Promise<void> => {
+    expect(
+      await checkIfDenied('www.polkadotfund.com')
+    ).toEqual(true);
+  });
+
   it('returns true when host in list (protocol)', async (): Promise<void> => {
     expect(
       await checkIfDenied('https://polkawallets.site')
     ).toEqual(true);
   });
 
-  it('returns true when host in list (path)', async (): Promise<void> => {
+  it('returns true when host in list (protocol + path)', async (): Promise<void> => {
     expect(
       await checkIfDenied('https://polkawallets.site/something/index.html')
     ).toEqual(true);
