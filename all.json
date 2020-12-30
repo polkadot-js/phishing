@@ -3,10 +3,10 @@
   "deny": [
     "dothereum-polkadot.net",
     "polkadot-dot.info",
+    "polkadot-wallet.com",
+    "polkadot.com.se",
     "polkadotfund.com",
     "polkawallets.site",
-    "polkodot.network",
-    "polkadot.com.se",
-    "polkadot-wallet.com"
+    "polkodot.network"
   ]
 }
