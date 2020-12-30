@@ -11,6 +11,7 @@
   },
   "scripts": {
     "build": "polkadot-dev-build-ts",
+    "build:extra": "node scripts/sortAll.mjs",
     "build:release": "polkadot-ci-ghact-build --skip-beta",
     "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
