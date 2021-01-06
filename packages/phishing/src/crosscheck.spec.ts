@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import fs from 'fs';
-import { safeLoad } from 'js-yaml';
+import { load as yamlParse } from 'js-yaml';
 
 import { fetch } from '@polkadot/x-fetch';
 
@@ -37,7 +37,7 @@ describe('crosscheck', (): void => {
 
   beforeAll(async (): Promise<void> => {
     ours = (await retrieveHostList()).deny;
-    scamDb = safeLoad(await (await fetch(CRYPTOSCAM)).text()) as CryptoScamEntry[];
+    scamDb = yamlParse(await (await fetch(CRYPTOSCAM)).text()) as CryptoScamEntry[];
   });
 
   it('has all the relevant entries from CryptoScamDb', (): void => {
