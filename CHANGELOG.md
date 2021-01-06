@@ -1,11 +1,19 @@
 # CHANGELOG
 
-## 0.4.0-x
+## master
+
+Contributed:
+
+- Added polkadot-wallet.com (Thanks to https://github.com/FlorianFranzen)
 
 Changes:
 
+- Added polkadot-airdrop.live
 - Added polkadotfund.com
 - Add test for sites with www prefix
+- Sort sites as part of the pre-publish build
+- Add urlmeta.json for extended info
+- Add index.html for table display from meta
 
 
 ## 0.3.1 Dec 13, 2020
