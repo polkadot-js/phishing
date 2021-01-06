@@ -11,4 +11,4 @@ const original = JSON.parse(fs.readFileSync('all.json', 'utf-8'));
 const allow = sortSection(original.allow);
 const deny = sortSection(original.deny);
 
-fs.writeFileSync('all.json', JSON.stringify({ allow, deny }, null, 2));
+fs.writeFileSync('all.json', `${JSON.stringify({ allow, deny }, null, 2)}\n`);
