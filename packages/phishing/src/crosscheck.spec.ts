@@ -18,6 +18,10 @@ interface CryptoScamEntry {
   url: string;
 }
 
+interface EthPhishing {
+  blacklist: string[];
+}
+
 function assertAndLog (check: boolean, error: string): void {
   if (!check) {
     process.env.CI_LOG && fs.appendFileSync('./.github/crosscheck.md', `
@@ -29,25 +33,35 @@ ${error}
   }
 }
 
-const CRYPTOSCAM = 'https://raw.githubusercontent.com/CryptoScamDB/blacklist/master/data/urls.yaml';
+const CRYPTODB = 'https://raw.githubusercontent.com/CryptoScamDB/blacklist/master/data/urls.yaml';
+const ETHPHISH = 'https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json';
 
 describe('crosscheck', (): void => {
-  let scamDb: CryptoScamEntry[];
   let ours: string[];
 
   beforeAll(async (): Promise<void> => {
     ours = (await retrieveHostList()).deny;
-    scamDb = yamlParse(await (await fetch(CRYPTOSCAM)).text()) as CryptoScamEntry[];
   });
 
-  it('has all the relevant entries from CryptoScamDb', (): void => {
+  it('has all the relevant entries from CryptoScamDb', async (): Promise<void> => {
+    const scamDb = yamlParse(await (await fetch(CRYPTODB)).text()) as CryptoScamEntry[];
     const filtered = scamDb.filter(({ subcategory }) => subcategory === 'Polkadot');
     const missing = filtered.filter(({ url }) =>
       !ours.includes(url.replace(/https:\/\/|http:\/\//, '').split('/')[0])
     );
 
-    console.log(JSON.stringify(filtered, null, 2));
+    console.log('CryptoScamDb', JSON.stringify(filtered, null, 2));
 
     assertAndLog(missing.length === 0, `Missing entries found from CryptoScamDB: ${JSON.stringify(missing, null, 2)}`);
+  });
+
+  it('has polkadot/kusama entries from eth-phishing-detect', async (): Promise<void> => {
+    const ethDb = await (await fetch(ETHPHISH)).json() as EthPhishing;
+    const filtered = ethDb.blacklist.filter((url) => url.includes('polkadot') || url.includes('kusama'));
+    const missing = filtered.filter((url) => !ours.includes(url));
+
+    console.log('eth-phishing-detect', JSON.stringify(filtered, null, 2));
+
+    assertAndLog(missing.length === 0, `Missing entries found from eth-phishing-detect: ${JSON.stringify(missing, null, 2)}`);
   });
 });
