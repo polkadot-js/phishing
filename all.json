@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "4dot.net",
     "dothereum-polkadot.net",
     "polkadot-airdrop.info",
     "polkadot-airdrop.live",
@@ -9,6 +10,8 @@
     "polkadot.com.se",
     "polkadotfund.com",
     "polkawallets.site",
+    "polkadots.network",
+    "polkadotwallet-unlock.org",
     "polkodot.network"
   ]
 }
