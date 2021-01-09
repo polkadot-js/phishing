@@ -30,6 +30,6 @@ fs.writeFileSync('urlmeta.json', `${JSON.stringify(
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date, url }))
     )
-    .sort((a, b) => a.url.localeCompare(b.url)),
+    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url)),
   null, 2
 )}\n`);
