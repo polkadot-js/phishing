@@ -7,12 +7,12 @@
     <title>polkadot{.js}/phishing</title>
     <style>
       a { color: #ff8c00 !important; text-decoration: none }
-      body { color: #4e4e4e; font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height: 100vh; overflow: hidden; padding: 0 }
+      body { color: #4e4e4e; font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height: 100vh; overflow-x: hidden; padding: 0 }
       h3 { font-weight: 400; margin: 1rem 0; opacity: 0.95; text-transform: lowercase }
       p { margin: 1rem 0 }
 
       .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 0 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
-      .container { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-top: 4rem }
+      .container { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-top: 4rem; padding-bottom: 2rem }
       .desc { font-size:  0.95rem; opacity: 0.85; white-space: normal }
       .dot { border-radius: 50%; position: absolute; z-index: 0 }
       .header { align-items: center; background: rgba(255, 255, 255, 0.85); display: flex; left: 0; justify-content: space-between; padding: 0.5rem 1rem; position: fixed; right: 0; top: 0; z-index: 1 }
@@ -22,6 +22,8 @@
       table { margin: 1rem 0 }
       td { padding: 0.25rem 0.5rem; text-align: right }
       td:last-child { width: 100% }
+      td > h3 { margin: 0; opacity: 0.5 }
+      tr + tr > td > h3 { margin-top: 0.5rem }
     </style>
   </head>
   <body>
@@ -70,24 +72,44 @@
         setTimeout(() => window.requestAnimationFrame(draw), 25);
       }
 
+      function appendRow (date, url = '') {
+        const row = document.createElement('tr');
+        const a = document.createElement('td');
+        const b = document.createElement('td');
+
+        a.appendChild(document.createTextNode(url));
+
+        if (typeof date === 'string') {
+          b.appendChild(document.createTextNode(date));
+        } else {
+          b.appendChild(date);
+        }
+
+        row.appendChild(a);
+        row.appendChild(b);
+
+        table.appendChild(row);
+      }
+
       async function main () {
         draw();
 
         const metaBody = await fetch('https://polkadot.js.org/phishing/urlmeta.json');
         const metaJson = await metaBody.json();
+        let prevMonth = '';
 
         metaJson.forEach(({ date, url }) => {
-          const row = document.createElement('tr');
-          const u = document.createElement('td');
-          const d = document.createElement('td');
+          const thisMonth = date.split('-').slice(0, 2).join('-');
 
-          u.appendChild(document.createTextNode(url));
-          d.appendChild(document.createTextNode(date))
+          if (thisMonth !== prevMonth) {
+            const c = document.createElement('h3');
 
-          row.appendChild(u);
-          row.appendChild(d);
+            c.appendChild(document.createTextNode(thisMonth));
+            appendRow(c);
+            prevMonth = thisMonth;
+          }
 
-          table.appendChild(row);
+          appendRow(date, url);
         });
       }
 
