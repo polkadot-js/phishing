@@ -44,7 +44,10 @@ describe('crosscheck', (): void => {
   });
 
   it('has all the relevant entries from CryptoScamDb', async (): Promise<void> => {
-    const scamDb = yamlParse(await (await fetch(CRYPTODB)).text()) as CryptoScamEntry[];
+    const raw = await (await fetch(CRYPTODB)).text();
+
+    // this is a hack, the text slipped in upstream
+    const scamDb = yamlParse(raw.replace('∂ç', '')) as CryptoScamEntry[];
     const filtered = scamDb.filter(({ subcategory }) => subcategory === 'Polkadot');
     const missing = filtered.filter(({ url }) =>
       !ours.includes(url.replace(/https:\/\/|http:\/\//, '').split('/')[0])
