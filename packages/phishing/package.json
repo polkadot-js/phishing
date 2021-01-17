@@ -1,6 +1,6 @@
 {
   "name": "@polkadot/phishing",
-  "version": "0.3.15",
+  "version": "0.3.16",
   "description": "Simple phishing scripts from a central source",
   "main": "index.js",
   "module": "index.mjs",
