@@ -2,7 +2,9 @@
   "allow": [],
   "deny": [
     "4dot.net",
+    "dot4.org",
     "dothereum-polkadot.net",
+    "getpolkadot.net",
     "polkadot-airdrop.info",
     "polkadot-airdrop.live",
     "polkadot-dot.info",
