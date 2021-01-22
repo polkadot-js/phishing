@@ -91,8 +91,8 @@ export function checkHost (items: string[], host: string): boolean {
 }
 
 /**
- * Determines if a host is in our deny list. Returns true if host is a problematic one. Returns
- * true if the host provided is in our list of less-than-honest sites.
+ * Determines if a host is in our deny list. Returns a string containing the phishing site if host is a
+ * problematic one. Returns null if the address is not associated with phishing.
  */
 export async function checkAddress (address: string | Uint8Array, allowCached = true): Promise<string | null> {
   try {
@@ -111,7 +111,7 @@ export async function checkAddress (address: string | Uint8Array, allowCached = 
 
 /**
  * Determines if a host is in our deny list. Returns true if host is a problematic one. Returns
- * true if the host provided is in our list of less-than-honest sites.
+ * false if the host provided is not in our list of less-than-honest sites.
  */
 export async function checkIfDenied (host: string, allowCached = true): Promise<boolean> {
   try {
