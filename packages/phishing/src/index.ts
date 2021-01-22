@@ -15,6 +15,7 @@ const CACHE_TIMEOUT = 45 * 60 * 1000;
 
 let cacheAddrEnd = 0;
 let cacheAddrList: AddressList | null = null;
+let cacheAddrU8a: [string, Uint8Array[]][] | null = null;
 let cacheHostEnd = 0;
 let cacheHostList: HostList | null = null;
 
@@ -45,11 +46,19 @@ export async function retrieveAddrList (allowCached = true): Promise<AddressList
 }
 
 async function retrieveAddrU8a (allowCached = true): Promise<[string, Uint8Array[]][]> {
+  const now = Date.now();
+
+  if (allowCached && cacheAddrU8a && (now < cacheAddrEnd)) {
+    return cacheAddrU8a;
+  }
+
   const all = await retrieveAddrList(allowCached);
 
-  return Object
+  cacheAddrU8a = Object
     .entries(all)
     .map(([key, addresses]): [string, Uint8Array[]] => [key, addresses.map((a) => decodeAddress(a))]);
+
+  return cacheAddrU8a;
 }
 
 /**
