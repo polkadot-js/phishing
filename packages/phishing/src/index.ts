@@ -1,17 +1,20 @@
 // Copyright 2020-2021 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HostList } from './types';
+import type { AddressList, HostList } from './types';
 
 import { fetch } from '@polkadot/x-fetch';
 
-// Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/all.json
+// Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/{address,all}.json
+const ADDRESS_JSON = 'https://polkadot.js.org/phishing/address.json';
 const ALL_JSON = 'https://polkadot.js.org/phishing/all.json';
 // 1 hour cache refresh
-const CACHE_TIMEOUT = 1 * 60 * 60 * 1000;
+const CACHE_TIMEOUT = 45 * 60 * 1000;
 
-let cacheEnd = 0;
-let cacheList: HostList | null = null;
+let cacheAddrEnd = 0;
+let cacheAddrList: AddressList | null = null;
+let cacheHostEnd = 0;
+let cacheHostList: HostList | null = null;
 
 // gets the host-only part for a host
 function extractHost (path: string): string {
@@ -21,20 +24,39 @@ function extractHost (path: string): string {
 }
 
 /**
+ * Retrieve a list of known phishing addresses
+ */
+export async function retrieveAddrList (allowCached = true): Promise<AddressList> {
+  const now = Date.now();
+
+  if (allowCached && cacheAddrList && (now < cacheAddrEnd)) {
+    return cacheAddrList;
+  }
+
+  const response = await fetch(ADDRESS_JSON);
+  const list = (await response.json()) as AddressList;
+
+  cacheAddrEnd = now + CACHE_TIMEOUT;
+  cacheAddrList = list;
+
+  return list;
+}
+
+/**
  * Retrieve allow/deny from our list provider
  */
 export async function retrieveHostList (allowCached = true): Promise<HostList> {
   const now = Date.now();
 
-  if (allowCached && cacheList && (now < cacheEnd)) {
-    return cacheList;
+  if (allowCached && cacheHostList && (now < cacheHostEnd)) {
+    return cacheHostList;
   }
 
   const response = await fetch(ALL_JSON);
   const list = (await response.json()) as HostList;
 
-  cacheEnd = now + CACHE_TIMEOUT;
-  cacheList = list;
+  cacheHostEnd = now + CACHE_TIMEOUT;
+  cacheHostList = list;
 
   return list;
 }

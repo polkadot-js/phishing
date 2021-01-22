@@ -1713,7 +1713,7 @@ __metadata:
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@polkadot/x-fetch": ^5.3.1
+    "@polkadot/x-fetch": ^5.3.2-6
     "@types/js-yaml": ^4.0.0
     js-yaml: ^4.0.0
   languageName: unknown
@@ -1725,14 +1725,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@polkadot/x-fetch@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "@polkadot/x-fetch@npm:5.3.1"
+"@polkadot/x-fetch@npm:^5.3.2-6":
+  version: 5.3.2-6
+  resolution: "@polkadot/x-fetch@npm:5.3.2-6"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/node-fetch": ^2.5.8
     node-fetch: ^2.6.1
-  checksum: 7a0408e9ae106b1625fb193cad7c8e5e2a1a80d1f103eaa5d1fc3234563d22c2e98cbbe1a6bc17a50793fe8012c2c57a962de3207735bf956fd7594bbbdcd4b3
+  checksum: c6fff084f52f296b056ef15f0169c59d4e8f5897b1c9a6b224462aeed44520bed7f79661da3fb7f799e997a4baa72563ae71f6a360f8534b5b65e60a7c214fd6
   languageName: node
   linkType: hard
 
