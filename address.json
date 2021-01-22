@@ -1,9 +1,18 @@
 {
-  "polkadot-airprop.info": [
-    "13DUJB2UFQYJNG8eAgvbPUDZowTnb45cq7EM7WvtkNksPMZW"
+  "dot4.org": [
+    "13iTPfjzkacRggDUPpN3SUWgbLT9ziasXNKXCbUVdwqiNTCX"
+  ],
+  "dotevent.org": [
+    "1ZkzFrJ3jecDVQ4oLWJ2fEftUUc2aSAyN8kAPLrV2dFJt3K"
+  ],
+  "getpolkadot.net": [
+    "14yHC3SsfvF6mDLG5co7hyX124hJmriUJA6oFHBVaqa8MUF5"
   ],
   "polkadot-airdrop.live": [
     "15x6f6M42ccmTq3emCtyCZUKCbYLH3msCPmHGnEgwUxZRAu4"
+  ],
+  "polkadot-airprop.info": [
+    "13DUJB2UFQYJNG8eAgvbPUDZowTnb45cq7EM7WvtkNksPMZW"
   ],
   "polkadot.center": [
     "12sGH82aAENExuio8BpNqXGxaXgrxMS88Qm9bfSJrav9Nito",
@@ -11,22 +20,13 @@
     "14Vxs7UB9FqfQ53wwTJUBAJThs5N7b3bg89HscRU6eBqrFhQ",
     "15dLxX36VPeP2LvFDYAjT5h4T4aHT7z6YoUSe9fBZSnGhJ9m"
   ],
-  "dot4.org": [
-    "13iTPfjzkacRggDUPpN3SUWgbLT9ziasXNKXCbUVdwqiNTCX"
-  ],
-  "polkadots.network": [
-    "14h58wtSWXy6sh8F2XhSb87RLQK6puYWFkeyewYnprcxzz9Z"
-  ],
-  "getpolkadot.net": [
-    "14yHC3SsfvF6mDLG5co7hyX124hJmriUJA6oFHBVaqa8MUF5"
+  "polkadot.company": [
+    "1s3B8f5dJbtV4rVTZs1WNRpzKCUJWxK2zULErjmA52Do2SF"
   ],
   "polkadotlive.network": [
     "16UDgowT2DEEk73EX2bB5c5HmuvJrLvmWsGomWmyK3CqyzVz"
   ],
-  "polkadot.company": [
-    "1s3B8f5dJbtV4rVTZs1WNRpzKCUJWxK2zULErjmA52Do2SF"
-  ],
-  "dotevent.org": [
-    "1ZkzFrJ3jecDVQ4oLWJ2fEftUUc2aSAyN8kAPLrV2dFJt3K"
+  "polkadots.network": [
+    "14h58wtSWXy6sh8F2XhSb87RLQK6puYWFkeyewYnprcxzz9Z"
   ]
 }
