@@ -3,6 +3,8 @@
 
 import type { AddressList, HostList } from './types';
 
+import { u8aEq } from '@polkadot/util';
+import { decodeAddress } from '@polkadot/util-crypto';
 import { fetch } from '@polkadot/x-fetch';
 
 // Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/{address,all}.json
@@ -42,6 +44,14 @@ export async function retrieveAddrList (allowCached = true): Promise<AddressList
   return list;
 }
 
+async function retrieveAddrU8a (allowCached = true): Promise<[string, Uint8Array[]][]> {
+  const all = await retrieveAddrList(allowCached);
+
+  return Object
+    .entries(all)
+    .map(([key, addresses]): [string, Uint8Array[]] => [key, addresses.map((a) => decodeAddress(a))]);
+}
+
 /**
  * Retrieve allow/deny from our list provider
  */
@@ -78,6 +88,25 @@ export function checkHost (items: string[], host: string): boolean {
     // ensure each section matches
     return checkParts.every((part, index) => hostParts[index] === part);
   });
+}
+
+/**
+ * Determines if a host is in our deny list. Returns true if host is a problematic one. Returns
+ * true if the host provided is in our list of less-than-honest sites.
+ */
+export async function checkAddress (address: string | Uint8Array, allowCached = true): Promise<string | null> {
+  try {
+    const all = await retrieveAddrU8a(allowCached);
+    const u8a = decodeAddress(address);
+    const entry = all.find(([, all]) => all.some((a) => u8aEq(a, u8a))) || [null];
+
+    return entry[0];
+  } catch (error) {
+    console.error('Exception while checking host, assuming false');
+    console.error(error);
+
+    return null;
+  }
 }
 
 /**

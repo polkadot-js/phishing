@@ -1,7 +1,7 @@
 // Copyright 2020-2021 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { checkIfDenied } from '.';
+import { checkAddress, checkIfDenied } from '.';
 
 describe('checkIfDenied', (): void => {
   it('returns false when host in list', async (): Promise<void> => {
@@ -38,5 +38,25 @@ describe('checkIfDenied', (): void => {
     expect(
       await checkIfDenied('https://polkawallets.site/something/index.html')
     ).toEqual(true);
+  });
+});
+
+describe('checkAddress', (): void => {
+  it('returns null if the address is not found', async (): Promise<void> => {
+    expect(
+      await checkAddress('5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY')
+    ).toEqual(null);
+  });
+
+  it('returns the site when the address is found', async (): Promise<void> => {
+    expect(
+      await checkAddress('14Vxs7UB9FqfQ53wwTJUBAJThs5N7b3bg89HscRU6eBqrFhQ')
+    ).toEqual('polkadot.center');
+  });
+
+  it('returns the site even if the ss58 is different', async (): Promise<void> => {
+    expect(
+      await checkAddress('5FkmzcdNekhdSA7j4teSSyHGUnKT8bzNBFvVVeZSGmbSpYHH')
+    ).toEqual('polkadots.network');
   });
 });
