@@ -15,6 +15,20 @@ function sortAddress (values) {
     .reduce((all, [key, addresses]) => ({ ...all, [key]: addresses }), {});
 }
 
+function isUnique (type, list) {
+  const others = [];
+
+  list.forEach((entry) => {
+    if (others.includes(entry)) {
+      throw new Error(`${entry} is duplicated in ${type}`);
+    } else {
+      others.push(entry);
+    }
+  });
+
+  return true;
+}
+
 const addr = JSON.parse(fs.readFileSync('address.json', 'utf-8'));
 const all = JSON.parse(fs.readFileSync('all.json', 'utf-8'));
 const meta = JSON.parse(fs.readFileSync('urlmeta.json', 'utf-8'));
@@ -22,6 +36,11 @@ const meta = JSON.parse(fs.readFileSync('urlmeta.json', 'utf-8'));
 // sorted order for all entries
 const allow = sortSection(all.allow);
 const deny = sortSection(all.deny);
+
+// check for unique entries
+isUnique('all.json/allow', allow);
+isUnique('all.json/deny', deny);
+isUnique('address.json', Object.keys(addr));
 
 // rewrite with all our entries (newline included)
 fs.writeFileSync('address.json', `${JSON.stringify(sortAddress(addr), null, 2)}\n`);
