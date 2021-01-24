@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## master
+## 0.4.1 Jan 24, 2021
 
 Contributed:
 
@@ -14,15 +14,15 @@ Contributed:
 
 Changes:
 
-- Added polkadot-airdrop.live
-- Added polkadotfund.com
+- Add `checkAddress` function to check addresses
 - Add test for sites with www prefix
 - Sort sites as part of the pre-publish build
 - Add duplicate check on CI
 - Add address.json for list of known addresses
 - Add urlmeta.json for extended info
 - Add index.html for table display from meta
-- Add `checkAddress` function to check addresses
+- Added polkadot-airdrop.live
+- Added polkadotfund.com
 
 
 ## 0.3.1 Dec 13, 2020
