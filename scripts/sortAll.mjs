@@ -22,7 +22,7 @@ function isUnique (type, list) {
     if (others.includes(entry)) {
       throw new Error(`${entry} is duplicated in ${type}`);
     } else {
-      others.unshift(entry);
+      others.push(entry);
     }
   });
 
