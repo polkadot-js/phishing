@@ -1,6 +1,6 @@
 ---
 title: Missing address entries
-labels: ['ci', '@all.json']
+labels: ['ci', '@ddress.json']
 ---
 
 cc @polkadot-js/notifications
