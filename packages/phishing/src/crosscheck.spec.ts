@@ -40,6 +40,7 @@ describe('crosscheck', (): void => {
   let ours: string[];
 
   beforeAll(async (): Promise<void> => {
+    jest.setTimeout(120000);
     ours = (await retrieveHostList()).deny;
   });
 

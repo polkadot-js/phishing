@@ -1,5 +1,5 @@
 ---
-title: Phishing missing cross-check entries
+title: Missing cross-check entries
 labels: ['ci', '@all.json']
 ---
 
