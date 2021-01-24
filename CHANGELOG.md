@@ -5,6 +5,12 @@
 Contributed:
 
 - Added polkadot-wallet.com (Thanks to https://github.com/FlorianFranzen)
+- Added 4dot.net, polkadots.network, polkadotwallet-unlock.org (Thanks to https://github.com/FlorianFranzen)
+- Added polkadotunlockwallet.com, polkadot.company (Thanks to https://github.com/FlorianFranzen)
+- Added dot4.org, getpolkadot.net (Thanks to https://github.com/FlorianFranzen)
+- Added dotevent.org, polkadot.center, polkadotlive.network (Thanks to https://github.com/FlorianFranzen)
+- Added polkadot.express (Thanks to https://github.com/laboon)
+- Added polkadot-airdrop.org, polkadot-live.online, walletsynchronization.com (Thanks to https://github.com/jackesky)
 
 Changes:
 
@@ -12,8 +18,11 @@ Changes:
 - Added polkadotfund.com
 - Add test for sites with www prefix
 - Sort sites as part of the pre-publish build
+- Add duplicate check on CI
+- Add address.json for list of known addresses
 - Add urlmeta.json for extended info
 - Add index.html for table display from meta
+- Add `checkAddress` function to check addresses
 
 
 ## 0.3.1 Dec 13, 2020
