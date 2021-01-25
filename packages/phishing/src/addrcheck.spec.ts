@@ -24,6 +24,33 @@ function delayLoop (): Promise<void> {
   });
 }
 
+// shared between polkadot.center & polkadot-event.com (addresses are also the same on first run)
+async function checkGetWallet (ours: Record<string, string[]>, site: string): Promise<void> {
+  const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
+    all.push(...addrs);
+
+    return all;
+  }, []);
+  const found: string[] = [];
+
+  for (let i = 0; i < 25; i++) {
+    const result = await (await fetch(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
+    const wallet = result.wallet.replace('\r', '');
+
+    if (!found.includes(wallet)) {
+      found.push(wallet);
+    }
+
+    await delayLoop();
+  }
+
+  console.log(site, JSON.stringify(found));
+
+  const missing = found.filter((a) => !all.includes(a));
+
+  assertAndLog(missing.length === 0, `Missing entries found for ${site}: ${JSON.stringify(missing)}`);
+}
+
 describe('addrcheck', (): void => {
   let ours: Record<string, string[]>;
 
@@ -33,23 +60,10 @@ describe('addrcheck', (): void => {
   });
 
   it('has all entries from polkadot.center', async (): Promise<void> => {
-    const found: string[] = [];
+    await checkGetWallet(ours, 'polkadot.center');
+  });
 
-    for (let i = 0; i < 25; i++) {
-      const result = await (await fetch('https://polkadot.center/get_wallet.php')).json() as Record<string, string>;
-      const wallet = result.wallet.replace('\r', '');
-
-      if (!found.includes(wallet)) {
-        found.push(wallet);
-      }
-
-      await delayLoop();
-    }
-
-    console.log('polkadot.center', JSON.stringify(found));
-
-    const missing = found.filter((a) => !ours['polkadot.center'].includes(a));
-
-    assertAndLog(missing.length === 0, `Missing entries found for polkadot.center: ${JSON.stringify(missing)}`);
+  it('has all entries from polkadot-event.com', async (): Promise<void> => {
+    await checkGetWallet(ours, 'polkadot-event.com');
   });
 });
