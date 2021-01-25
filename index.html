@@ -8,10 +8,12 @@
     <style>
       a { color: #ff8c00 !important; text-decoration: none }
       body { color: #4e4e4e; font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height: 100vh; overflow-x: hidden; padding: 0 }
-      h3 { font-weight: 400; margin: 1rem 0; opacity: 0.95; text-transform: lowercase }
-      p { margin: 1rem 0 }
+      h3 { font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; margin: 1rem 0; opacity: 0.95; text-transform: lowercase }
+      p { line-height: 1.5rem; margin: 0.75rem 0 }
 
       .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 0 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
+      .buttons { margin: 2rem 0 1.5rem }
+      .buttons a { border: 1px solid #eee; border-radius: 0.5rem; margin: 0 0.25rem; padding: 0.5rem 0.75rem }
       .container { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-top: 4rem; padding-bottom: 2rem }
       .desc { font-size:  0.95rem; opacity: 0.85; white-space: normal }
       .dot { border-radius: 50%; position: absolute; z-index: 0 }
@@ -19,8 +21,8 @@
       .header div.logo { display: flex; align-items: center }
       .header img { height: 1.5rem; margin-right: 0.5rem; width: 1.5rem }
       .row { align-items: center; display: flex; justify-content: center }
-      table { margin: 1rem 0 }
-      td { padding: 0.25rem 0.5rem; text-align: right }
+      table { margin: 0 0 1rem }
+      td { font-family: monospace; padding: 0.25rem 0.5rem; text-align: right }
       td:last-child { width: 100% }
       td > h3 { margin: 0; opacity: 0.25 }
       tr + tr > td > h3 { margin-top: 0.5rem }
@@ -31,12 +33,9 @@
       <div class="row">
         <div class="box">
           <h3>phishing</h3>
-          <p class="desc">A curated list of known less-than-honest sites inclusive of a simple JS utility function to check any host against this list.</p>
-          <p class="desc">Any additions can be made by editing <a href="https://github.com/polkadot-js/phishing/edit/master/all.json">phishing/all.json</a> and adding any new sites in alphabetical order. For any discrepancies or requests <a href="https://github.com/polkadot-js/phishing/issues">log an issue</a>.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="box">
+          <p class="desc">A community driven curated list of known less-than-honest operators.</p>
+          <p class="desc">Any additions can be made by editing <a href="https://github.com/polkadot-js/phishing/edit/master/all.json">phishing/all.json</a> and adding any new sites in alphabetical order. In the same vein addresses can be added in <a href="https://github.com/polkadot-js/phishing/edit/master/address.json">phishing/address.json</a>. For any discrepancies or requests <a href="https://github.com/polkadot-js/phishing/issues">log an issue</a>.</p>
+          <p class="buttons"><a href="#" onclick="fillTable('sites')">Sites</a><a href="#" onclick="fillTable('addresses')">Addresses</a></p>
           <table>
             <tbody id="table">
             </tbody>
@@ -63,13 +62,18 @@
 
       let hue = Math.floor(Math.random() * 359);
       let counter = 0;
+      let navTo = '';
+      let metaJson;
+      let addrJson;
+      let addresses;
+      let balances = [];
 
       function draw () {
         hue = (hue + 1) % 360;
         document.body.style.background = `hsl(${hue}, 45%, 85%)`;
-        style.innerHTML = `a { color: hsl(${hue}, 45%, 45%) !important }`;
+        style.innerHTML = `a { color: hsl(${hue}, 45%, 45%) !important } .buttons a { border-color: hsl(${hue}, 45%, 45%) !important }`;
 
-        setTimeout(() => window.requestAnimationFrame(draw), 25);
+        setTimeout(() => window.requestAnimationFrame(draw), 100);
       }
 
       function appendRow (date, url = '') {
@@ -91,11 +95,15 @@
         table.appendChild(row);
       }
 
-      async function main () {
-        draw();
+      async function fillAddresses () {
+        addresses.forEach((address, index) => {
+          const balance = balances[index] || '';
 
-        const metaBody = await fetch('https://polkadot.js.org/phishing/urlmeta.json');
-        const metaJson = await metaBody.json();
+          appendRow(balance === '0' ? '' : balance, address);
+        });
+      }
+
+      async function fillSites () {
         let prevMonth = '';
 
         metaJson.forEach(({ date, url }) => {
@@ -111,6 +119,53 @@
 
           appendRow(date, url);
         });
+      }
+
+      async function fillTable (newNav) {
+        if (newNav !== navTo) {
+          navTo = newNav;
+          table.innerHTML = '';
+
+          if (navTo === 'sites') {
+            await fillSites();
+          } else {
+            await fillAddresses();
+          }
+        }
+      }
+
+      async function main () {
+        draw();
+
+        const [addrBody, metaBody] = await Promise.all([
+          fetch('https://polkadot.js.org/phishing/address.json'),
+          fetch('https://polkadot.js.org/phishing/urlmeta.json')
+        ]);
+
+        [addrJson, metaJson] = await Promise.all([
+          addrBody.json(),
+          metaBody.json()
+        ]);
+        addresses = Object
+          .values(addrJson)
+          .reduce((all, addrs) => all.concat(...addrs), [])
+          .sort((a, b) => a.localeCompare(b));
+
+        // Promise.all(
+        //   addresses.map((key) => fetch('https://polkadot.subscan.io/api/scan/search', {
+        //     method: 'POST',
+        //     headers: {
+        //       'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify({
+        //       key,
+        //       page: 0,
+        //       row: 1
+        //     })
+        //   }).then((body) => body.json()).then(({ data }) => (data && data.balance) || '0'))
+        // ).then((b) => balances = b).catch(console.error);
+
+        await fillTable('sites');
       }
 
       main();
