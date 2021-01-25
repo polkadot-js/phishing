@@ -17,7 +17,7 @@ Making additions to the list will be reflected on merge at [polkadot.js.org/phis
 
 ### Integration
 
-Since the lists are published as JSON, any non-JS wallets (only a JS library that is provided), integrartion should be simple - retrieve the list, parse the JSON and do the required checks. The Javascript library does have some features that may be worth thinking about for other integrations -
+Since the lists are published as JSON, integration for any non-JS wallets (only a JS library that is provided) should be simple - retrieve the applicable list, parse the JSON and do the required checks either on host or address as per the requirements. The Javascript library does have some features that may be worth thinking about for other integrations -
 
 - instead of retrieving the list each time a request is made, a local copy is cached for 45 mins and then re-retrieved when the timer expires (as a request is made)
 - for address checks the check is done on the decoded ss58 address to ensure that network-jumps with the same keys are avoided (so addresses does not have to be re-added for other networks, a single entry will cover all)
