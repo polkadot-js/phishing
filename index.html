@@ -13,7 +13,8 @@
 
       .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 0 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
       .buttons { margin: 2rem 0 1.5rem }
-      .buttons a { border: 1px solid #eee; border-radius: 0.5rem; margin: 0 0.25rem; padding: 0.5rem 0.75rem }
+      .buttons a { border: 1px solid #eee; border-radius: 0.25rem; margin: 0 0.25rem; padding: 0.5rem 0.75rem }
+      .buttons .invert { color: rgba(255, 255, 255, 0.85) !important }
       .container { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-top: 4rem; padding-bottom: 2rem }
       .desc { font-size:  0.95rem; opacity: 0.85; white-space: normal }
       .dot { border-radius: 50%; position: absolute; z-index: 0 }
@@ -35,7 +36,7 @@
           <h3>phishing</h3>
           <p class="desc">A community driven curated list of known less-than-honest operators.</p>
           <p class="desc">Any additions can be made by editing <a href="https://github.com/polkadot-js/phishing/edit/master/all.json">phishing/all.json</a> and adding any new sites in alphabetical order. In the same vein addresses can be added in <a href="https://github.com/polkadot-js/phishing/edit/master/address.json">phishing/address.json</a>. For any discrepancies or requests <a href="https://github.com/polkadot-js/phishing/issues">log an issue</a>.</p>
-          <p class="buttons"><a href="#" onclick="fillTable('sites')">Sites</a><a href="#" onclick="fillTable('addresses')">Addresses</a></p>
+          <p class="buttons"><a href="#" id="btn-sites" onclick="fillTable('sites')">Sites</a><a href="#" id="btn-addresses" onclick="fillTable('addresses')">Addresses</a></p>
           <table>
             <tbody id="table">
             </tbody>
@@ -71,7 +72,7 @@
       function draw () {
         hue = (hue + 1) % 360;
         document.body.style.background = `hsl(${hue}, 45%, 85%)`;
-        style.innerHTML = `a { color: hsl(${hue}, 45%, 45%) !important } .buttons a { border-color: hsl(${hue}, 45%, 45%) !important }`;
+        style.innerHTML = `a { color: hsl(${hue}, 45%, 45%) !important } .buttons a { border-color: hsl(${hue}, 45%, 45%) !important } .buttons .invert { background: hsl(${hue}, 45%, 45%) !important }`;
 
         setTimeout(() => window.requestAnimationFrame(draw), 100);
       }
@@ -123,6 +124,12 @@
 
       async function fillTable (newNav) {
         if (newNav !== navTo) {
+          if (navTo) {
+            document.getElementById(`btn-${navTo}`).classList = '';
+          }
+
+          document.getElementById(`btn-${newNav}`).classList = 'invert';
+
           navTo = newNav;
           table.innerHTML = '';
 
