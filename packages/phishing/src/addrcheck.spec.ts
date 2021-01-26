@@ -34,14 +34,18 @@ async function checkGetWallet (ours: Record<string, string[]>, site: string): Pr
   const found: string[] = [];
 
   for (let i = 0; i < 25; i++) {
-    const result = await (await fetch(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
+    try {
+      const result = await (await fetch(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
 
-    if (result && result.wallet) {
-      const wallet = result.wallet.replace('\r', '');
+      if (result && result.wallet) {
+        const wallet = result.wallet.replace('\r', '');
 
-      if (!found.includes(wallet)) {
-        found.push(wallet);
+        if (!found.includes(wallet)) {
+          found.push(wallet);
+        }
       }
+    } catch (error) {
+      // ignore
     }
 
     await delayLoop();
