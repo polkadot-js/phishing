@@ -18,7 +18,7 @@ jobs:
       if: ${{ failure() }}
       uses: JasonEtco/create-an-issue@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
       with:
         filename: .github/crosscheck.md
 
@@ -36,6 +36,6 @@ jobs:
       if: ${{ failure() }}
       uses: JasonEtco/create-an-issue@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
       with:
         filename: .github/addrcheck.md
