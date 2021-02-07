@@ -1,6 +1,6 @@
 {
   "name": "@polkadot/unused",
-  "version": "0.4.24",
+  "version": "0.4.25",
   "description": "Dummy",
   "main": "index.js",
   "author": "Jaco Greeff <jacogr@gmail.com>",
