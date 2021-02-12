@@ -1,7 +1,7 @@
 name: crosscheck
 on:
   schedule:
-    - cron:  '45 4,16 * * *'
+    - cron:  '45 3,9,15,21 * * *'
 
 jobs:
   crosscheck:
@@ -21,6 +21,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
       with:
         filename: .github/crosscheck.md
+        update_existing: true
 
   addrcheck:
     runs-on: ubuntu-latest
@@ -39,3 +40,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
       with:
         filename: .github/addrcheck.md
+        update_existing: true
