@@ -83,7 +83,7 @@ describe('addrcheck', (): void => {
   let ours: Record<string, string[]>;
 
   beforeAll(async (): Promise<void> => {
-    jest.setTimeout(120000);
+    jest.setTimeout(10 * 60 * 1000);
     ours = await retrieveAddrList();
   });
 
