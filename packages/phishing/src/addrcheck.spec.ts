@@ -7,17 +7,15 @@ import { fetch } from '@polkadot/x-fetch';
 
 import { retrieveAddrList } from '.';
 
-function logMissing (site: string, missing: string[]): string | null {
-  if (missing.length) {
-    process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `
+function logMissing (values: Record<string, string[]>): void {
+  const sites = Object.keys(values);
 
-Missing entries found for ${site}: ${JSON.stringify(missing)}
+  sites.length && process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `
+
+${sites.length} urls with missing entries found at ${new Date().toUTCString()}:
+
+${JSON.stringify(values, null, 2)}
 `);
-
-    return site;
-  }
-
-  return null;
 }
 
 async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
@@ -30,12 +28,7 @@ async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response>
   return response;
 }
 
-async function loopSome (ours: Record<string, string[]>, site: string, matcher: () => Promise<string[] | null>): Promise<string | null> {
-  const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
-    all.push(...addrs);
-
-    return all;
-  }, []);
+async function loopSome (ours: Record<string, string[]>, site: string, matcher: () => Promise<string[] | null>): Promise<[string, string[]]> {
   const found: string[] = [];
 
   for (let i = 0; i < 20; i++) {
@@ -54,13 +47,11 @@ async function loopSome (ours: Record<string, string[]>, site: string, matcher: 
     await new Promise<boolean>((resolve) => setTimeout(() => resolve(true), Math.floor((Math.random() * 750) + 1000)));
   }
 
-  console.log(site, JSON.stringify(found));
-
-  return logMissing(site, found.filter((a) => !all.includes(a)));
+  return [site, found];
 }
 
 // shared between polkadot.center & polkadot-event.com (addresses are also the same on first run)
-function checkGetWallet (ours: Record<string, string[]>, site: string): Promise<string | null> {
+function checkGetWallet (ours: Record<string, string[]>, site: string): Promise<[string, string[]]> {
   return loopSome(ours, site, async (): Promise<string[] | null> => {
     const result = await (await fetchWithTimeout(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
 
@@ -71,7 +62,7 @@ function checkGetWallet (ours: Record<string, string[]>, site: string): Promise<
 }
 
 // check a specific tag with attributes
-function checkTag (ours: Record<string, string[]>, url: string, tag: string, attr?: string): Promise<string | null> {
+function checkTag (ours: Record<string, string[]>, url: string, tag: string, attr?: string): Promise<[string, string[]]> {
   const site = url.split('/')[2];
 
   return loopSome(ours, site, async (): Promise<string[] | null> => {
@@ -88,14 +79,17 @@ function checkTag (ours: Record<string, string[]>, url: string, tag: string, att
 }
 
 describe('addrcheck', (): void => {
-  let ours: Record<string, string[]>;
-
-  beforeAll(async (): Promise<void> => {
+  beforeAll((): void => {
     jest.setTimeout(5 * 60 * 1000);
-    ours = await retrieveAddrList();
   });
 
   it('has all known addresses', async (): Promise<void> => {
+    const ours = await retrieveAddrList();
+    const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
+      all.push(...addrs);
+
+      return all;
+    }, []);
     const results = await Promise.all([
       checkGetWallet(ours, 'polkadot.center'),
       checkGetWallet(ours, 'polkadot-event.com'),
@@ -107,10 +101,18 @@ describe('addrcheck', (): void => {
       checkTag(ours, 'https://polkadot-get.com/', 'span', 'id="cosh"'),
       checkTag(ours, 'https://dot4.org/promo/', 'p', 'class="payment-title"')
     ]);
-    const missing = results.filter((site) => !!site);
+    const mapFound = results.reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
+    const mapMiss = results
+      .map(([site, found]): [string, string[]] => [site, found.filter((a) => !all.includes(a))])
+      .filter(([, found]) => found.length)
+      .reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
+    const sites = Object.keys(mapMiss);
 
-    missing.length && console.error(`Discrepancies found on ${missing.join(', ')}`);
+    console.log('All available\n', JSON.stringify(mapFound, null, 2));
+    console.log('All missing\n', JSON.stringify(mapMiss, null, 2));
 
-    expect(missing).toEqual([]);
+    logMissing(mapMiss);
+
+    expect(sites).toEqual([]);
   });
 });
