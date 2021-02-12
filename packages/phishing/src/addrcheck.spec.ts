@@ -104,7 +104,7 @@ describe('addrcheck', (): void => {
       const match = result.match(/<p class="payment-title">(.*?)<\/p>/g);
 
       return match && match.length
-        ? match.map((v) => v.replace(/<\/?p( class="payment-title")?>/g, '').replace(/">/g, '').trim())
+        ? match.map((v) => v.replace(/<\/?p( class="payment-title")?>/g, '').trim())
         : null;
     });
   });
