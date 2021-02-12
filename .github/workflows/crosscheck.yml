@@ -1,7 +1,7 @@
 name: crosscheck
 on:
   schedule:
-    - cron:  '45 3,9,15,21 * * *'
+    - cron:  '45 5/1 * * *'
 
 jobs:
   crosscheck:
