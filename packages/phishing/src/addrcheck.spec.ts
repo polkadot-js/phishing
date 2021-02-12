@@ -20,6 +20,16 @@ Missing entries found for ${site}: ${JSON.stringify(missing)}
   return null;
 }
 
+async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeout);
+  const response = await fetch(url, { signal: controller.signal });
+
+  clearTimeout(id);
+
+  return response;
+}
+
 async function loopSome (ours: Record<string, string[]>, site: string, matcher: () => Promise<string[] | null>): Promise<string | null> {
   const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
     all.push(...addrs);
@@ -32,13 +42,11 @@ async function loopSome (ours: Record<string, string[]>, site: string, matcher: 
     try {
       const addresses = await matcher();
 
-      if (addresses) {
-        addresses.forEach((address): void => {
-          if (address && !found.includes(address)) {
-            found.push(address);
-          }
-        });
-      }
+      addresses && addresses.forEach((address): void => {
+        if (address && !found.includes(address)) {
+          found.push(address);
+        }
+      });
     } catch (error) {
       // ignore
     }
@@ -54,7 +62,7 @@ async function loopSome (ours: Record<string, string[]>, site: string, matcher: 
 // shared between polkadot.center & polkadot-event.com (addresses are also the same on first run)
 function checkGetWallet (ours: Record<string, string[]>, site: string): Promise<string | null> {
   return loopSome(ours, site, async (): Promise<string[] | null> => {
-    const result = await (await fetch(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
+    const result = await (await fetchWithTimeout(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
 
     return (result && result.wallet)
       ? [result.wallet.replace('\r', '').trim()]
@@ -67,7 +75,7 @@ function checkTag (ours: Record<string, string[]>, url: string, tag: string, att
   const site = url.split('/')[2];
 
   return loopSome(ours, site, async (): Promise<string[] | null> => {
-    const result = await (await fetch(url)).text();
+    const result = await (await fetchWithTimeout(url)).text();
 
     // /<p id="trnsctin">(.*?)<\/p>/g
     const match = new RegExp(`<${tag}${attr ? ` ${attr}` : ''}>(.*?)</${tag}>`, 'g').exec(result);
@@ -83,7 +91,7 @@ describe('addrcheck', (): void => {
   let ours: Record<string, string[]>;
 
   beforeAll(async (): Promise<void> => {
-    jest.setTimeout(10 * 60 * 1000);
+    jest.setTimeout(5 * 60 * 1000);
     ours = await retrieveAddrList();
   });
 
