@@ -88,9 +88,10 @@ describe('addrcheck', (): void => {
       checkTag('https://polkadots.network/block.html', 'p', 'id="trnsctin"'),
       checkTag('https://claimpolka.live/claim/index.html', 'span', 'class="real-address"'),
       checkTag('https://polkadot-airdrop.org/block/index.html', 'span', 'class="real-address"'),
-      checkTag('https://polkadotairdrop.com/address/', 'cool'),
       checkTag('https://polkadot-get.com/', 'span', 'id="cosh"'),
-      checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"')
+      checkTag('https://polkadot-promo.info/', 'span', 'id="cosh"'),
+      checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
+      checkTag('https://polkadotairdrop.com/address/', 'cool')
     ]);
     const mapFound = results.reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
     const mapMiss = results
@@ -99,8 +100,8 @@ describe('addrcheck', (): void => {
       .reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
     const sites = Object.keys(mapMiss);
 
-    console.log('All available\n', JSON.stringify(mapFound, null, 2));
-    console.log('All missing\n', JSON.stringify(mapMiss, null, 2));
+    console.log('Addresses found\n', JSON.stringify(mapFound, null, 2));
+    console.log('Addresses missing\n', JSON.stringify(mapMiss, null, 2));
 
     sites.length && process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `\n\n${sites.length} urls with missing entries found at ${new Date().toUTCString()}:\n\n${JSON.stringify(mapMiss, null, 2)}\n`);
 
