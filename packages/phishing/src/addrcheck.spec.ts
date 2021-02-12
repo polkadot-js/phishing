@@ -62,26 +62,19 @@ function checkGetWallet (ours: Record<string, string[]>, site: string): Promise<
   });
 }
 
-// shared between claimpolka.live & polkadots.network
-function checkTrnsctin (ours: Record<string, string[]>, site: string, url: string): Promise<string | null> {
+// check a specific tag with attributes
+function checkTag (ours: Record<string, string[]>, url: string, tag: string, attr?: string): Promise<string | null> {
+  const site = url.split('/')[2];
+
   return loopSome(ours, site, async (): Promise<string[] | null> => {
     const result = await (await fetch(url)).text();
-    const match = result.match(/<p id="trnsctin">(.*?)<\/p>/g);
 
+    // /<p id="trnsctin">(.*?)<\/p>/g
+    const match = new RegExp(`<${tag}${attr ? ` ${attr}` : ''}>(.*?)</${tag}>`, 'g').exec(result);
+
+    // /<\/?p( id="trnsctin")?>/g
     return match && match.length
-      ? match.map((v) => v.replace(/<\/?p( id="trnsctin")?>/g, '').trim())
-      : null;
-  });
-}
-
-// shared between polkadotlive.network & polkadot-airdrop.org
-async function checkRealAddr (ours: Record<string, string[]>, site: string, url: string): Promise<string | null> {
-  return loopSome(ours, site, async (): Promise<string[] | null> => {
-    const result = await (await fetch(url)).text();
-    const match = result.match(/<span class="real-address">(.*?)<\/span>/g);
-
-    return match && match.length
-      ? match.map((v) => v.replace(/<\/?span( class="real-address")?>/g, '').trim())
+      ? match.map((v) => v.replace(new RegExp(`</?${tag}${attr ? `( ${attr})?` : ''}>`, 'g'), '').trim())
       : null;
   });
 }
@@ -98,40 +91,18 @@ describe('addrcheck', (): void => {
     const results = await Promise.all([
       checkGetWallet(ours, 'polkadot.center'),
       checkGetWallet(ours, 'polkadot-event.com'),
-      checkTrnsctin(ours, 'polkadotlive.network', 'https://polkadotlive.network/block-assets/index.html'),
-      checkTrnsctin(ours, 'polkadots.network', 'https://polkadots.network/block.html'),
-      checkRealAddr(ours, 'claimpolka.live', 'https://claimpolka.live/claim/index.html'),
-      checkRealAddr(ours, 'polkadot-airdrop.org', 'https://polkadot-airdrop.org/block/index.html'),
-      loopSome(ours, 'polkadotairdrop.com', async (): Promise<string[] | null> => {
-        const result = await (await fetch('https://polkadotairdrop.com/address/')).text();
-        const match = result.match(/<cool>(.*?)<\/cool>/g);
-
-        return match && match.length
-          ? match.map((v) => v.replace(/<\/?cool>/g, '').trim())
-          : null;
-      }),
-      loopSome(ours, 'polkadot-get.com', async (): Promise<string[] | null> => {
-        const result = await (await fetch('https://polkadot-get.com/')).text();
-        const match = result.match(/<span id="cosh">(.*?)<\/span>/g);
-
-        return match && match.length
-          ? match.map((v) => v.replace(/<\/?span( id="cosh")?>/g, '').trim())
-          : null;
-      }),
-      loopSome(ours, 'dot4.org', async (): Promise<string[] | null> => {
-        const result = await (await fetch('https://dot4.org/promo/')).text();
-        const match = result.match(/<p class="payment-title">(.*?)<\/p>/g);
-
-        return match && match.length
-          ? match.map((v) => v.replace(/<\/?p( class="payment-title")?>/g, '').trim())
-          : null;
-      })
+      checkTag(ours, 'https://polkadotlive.network/block-assets/index.html', 'p', 'id="trnsctin"'),
+      checkTag(ours, 'https://polkadots.network/block.html', 'p', 'id="trnsctin"'),
+      checkTag(ours, 'https://claimpolka.live/claim/index.html', 'span', 'class="real-address"'),
+      checkTag(ours, 'https://polkadot-airdrop.org/block/index.html', 'span', 'class="real-address"'),
+      checkTag(ours, 'https://polkadotairdrop.com/address/', 'cool'),
+      checkTag(ours, 'https://polkadot-get.com/', 'span', 'id="cosh"'),
+      checkTag(ours, 'https://dot4.org/promo/', 'p', 'class="payment-title"')
     ]);
-
     const missing = results.filter((site) => !!site);
 
     missing.length && console.error(`Discrepancies found on ${missing.join(', ')}`);
 
-    expect(missing).toHaveLength(0);
+    expect(missing).toEqual([]);
   });
 });
