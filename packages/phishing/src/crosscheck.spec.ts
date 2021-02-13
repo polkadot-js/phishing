@@ -22,6 +22,8 @@ interface EthPhishing {
   blacklist: string[];
 }
 
+const TICKS = '```';
+
 function assertAndLog (check: boolean, error: string): void {
   if (!check) {
     process.env.CI_LOG && fs.appendFileSync('./.github/crosscheck.md', `
@@ -66,6 +68,6 @@ describe('crosscheck', (): void => {
 
     console.log('eth-phishing-detect', JSON.stringify(filtered, null, 2));
 
-    assertAndLog(missing.length === 0, `Missing entries found from eth-phishing-detect: ${JSON.stringify(missing, null, 2)}`);
+    assertAndLog(missing.length === 0, `Missing entries found from eth-phishing-detect:\n\n${TICKS}\n${JSON.stringify(missing, null, 2)}\n${TICKS}`);
   });
 });

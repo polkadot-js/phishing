@@ -7,6 +7,8 @@ import { fetch } from '@polkadot/x-fetch';
 
 import { retrieveAddrList } from '.';
 
+const TICKS = '```';
+
 // a timeout with a 2s timeout
 async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
   const controller = new AbortController();
@@ -103,7 +105,7 @@ describe('addrcheck', (): void => {
     console.log('Addresses found\n', JSON.stringify(mapFound, null, 2));
     console.log('Addresses missing\n', JSON.stringify(mapMiss, null, 2));
 
-    sites.length && process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `\n\n${sites.length} urls with missing entries found at ${new Date().toUTCString()}:\n\n${JSON.stringify(mapMiss, null, 2)}\n`);
+    sites.length && process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `\n\n${sites.length} urls with missing entries found at ${new Date().toUTCString()}:\n\n${TICKS}\n${JSON.stringify(mapMiss, null, 2)}\n${TICKS}\n`);
 
     expect(sites).toEqual([]);
   });
