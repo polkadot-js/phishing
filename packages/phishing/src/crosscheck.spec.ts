@@ -24,14 +24,18 @@ interface EthPhishing {
 
 const TICKS = '```';
 
-function assertAndLog (check: boolean, error: string): void {
+function assertAndLog (check: boolean, site: string, missing: unknown): void {
   if (!check) {
     process.env.CI_LOG && fs.appendFileSync('./.github/crosscheck.md', `
 
-${error}
+Missing entries found from ${site}:
+
+${TICKS}
+${JSON.stringify(missing, null, 2)}
+${TICKS}
 `);
 
-    throw new Error(error);
+    throw new Error(site);
   }
 }
 
@@ -56,9 +60,10 @@ describe('crosscheck', (): void => {
       !ours.includes(url.replace(/https:\/\/|http:\/\//, '').split('/')[0])
     );
 
-    console.log('CryptoScamDb', JSON.stringify(filtered, null, 2));
+    console.log('CryptoScamDb found\n', JSON.stringify(filtered, null, 2));
+    console.log('CryptoScamDb missing\n', JSON.stringify(missing, null, 2));
 
-    assertAndLog(missing.length === 0, `Missing entries found from CryptoScamDB: ${JSON.stringify(missing, null, 2)}`);
+    assertAndLog(missing.length === 0, 'CryptoScamDB', missing);
   });
 
   it('has polkadot/kusama entries from eth-phishing-detect', async (): Promise<void> => {
@@ -66,8 +71,9 @@ describe('crosscheck', (): void => {
     const filtered = ethDb.blacklist.filter((url) => url.includes('polkadot') || url.includes('kusama'));
     const missing = filtered.filter((url) => !ours.includes(url));
 
-    console.log('eth-phishing-detect', JSON.stringify(filtered, null, 2));
+    console.log('eth-phishing-detect found\n', JSON.stringify(filtered, null, 2));
+    console.log('eth-phishing-detect missing\n', JSON.stringify(missing, null, 2));
 
-    assertAndLog(missing.length === 0, `Missing entries found from eth-phishing-detect:\n\n${TICKS}\n${JSON.stringify(missing, null, 2)}\n${TICKS}`);
+    assertAndLog(missing.length === 0, 'eth-phishing-detect', missing);
   });
 });
