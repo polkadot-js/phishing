@@ -95,13 +95,15 @@ describe('addrcheck', (): void => {
       checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
       checkTag('https://polkadotairdrop.com/address/', 'cool')
     ]);
-    const mapFound = results.reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
+    const listEmpty = results.filter(([, found]) => !found.length).map(([site]) => site);
+    const mapFound = results.filter(([, found]) => found.length).reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
     const mapMiss = results
       .map(([site, found]): [string, string[]] => [site, found.filter((a) => !all.includes(a))])
       .filter(([, found]) => found.length)
       .reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
     const sites = Object.keys(mapMiss);
 
+    console.log('Sites with no results\n', JSON.stringify(listEmpty, null, 2));
     console.log('Addresses found\n', JSON.stringify(mapFound, null, 2));
     console.log('Addresses missing\n', JSON.stringify(mapMiss, null, 2));
 
