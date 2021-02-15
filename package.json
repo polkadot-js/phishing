@@ -13,6 +13,7 @@
     "build": "polkadot-dev-build-ts",
     "build:extra": "node scripts/sortAll.mjs",
     "build:release": "polkadot-ci-ghact-build --skip-beta",
+    "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
     "phishing:addrcheck": "polkadot-dev-run-test packages/phishing/src/addrcheck",
@@ -25,5 +26,9 @@
     "@polkadot/dev": "^0.61.25",
     "@types/jest": "^26.0.20"
   },
-  "version": "0.4.50"
+  "version": "0.4.50",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.11",
+    "dnslink-cloudflare": "^3.0.0"
+  }
 }
