@@ -145,8 +145,8 @@
         draw();
 
         const [addrBody, metaBody] = await Promise.all([
-          fetch('https://polkadot.js.org/phishing/address.json'),
-          fetch('https://polkadot.js.org/phishing/urlmeta.json')
+          fetch('address.json'),
+          fetch('urlmeta.json')
         ]);
 
         [addrJson, metaJson] = await Promise.all([

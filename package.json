@@ -13,6 +13,7 @@
     "build": "polkadot-dev-build-ts",
     "build:extra": "node scripts/sortAll.mjs",
     "build:release": "polkadot-ci-ghact-build --skip-beta",
+    "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
     "phishing:addrcheck": "polkadot-dev-run-test packages/phishing/src/addrcheck",
