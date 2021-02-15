@@ -8,6 +8,7 @@ Contributed:
 - Added polkadots.live (Thanks to https://github.com/SimonKraus)
 - Added polkadotairdrop.com (Thanks to https://github.com/NukeManDan)
 - Added polkadot-get.com, polkadot-promo.info (Thanks to https://github.com/BraveSam)
+- Add known historic phishing addresses (Thanks to https://github.com/jackesky)
 - Added non-threat simpleswap.io to known checks https://github.com/dud1337)
 
 Changes:
