@@ -1,8 +1,8 @@
 // Copyright 2020-2021 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-const pinataSDK = require('@pinata/sdk');
-const cloudflare = require('dnslink-cloudflare');
+import pinataSDK from '@pinata/sdk';
+import cloudflare from 'dnslink-cloudflare';
 
 const SUB_DOMAIN = 'phishing';
 const DOMAIN = 'dotapps.io';
