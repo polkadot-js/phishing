@@ -3,4 +3,4 @@
 # SPDX-License-Identifier: Apache-2.0
 
 mkdir -p build
-cp inhex.html address.json all.json known.json urlmeta.json build
+cp index.html address.json all.json known.json urlmeta.json build
