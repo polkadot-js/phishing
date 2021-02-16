@@ -24,9 +24,12 @@
       .row { align-items: center; display: flex; justify-content: center }
       table { margin: 0 0 1rem }
       td { font-family: monospace; padding: 0.25rem 0.5rem; text-align: right }
-      td:last-child { width: 100% }
+      td:nth-child(2) { width: 100% }
       td > h3 { margin: 0; opacity: 0.25 }
       tr + tr > td > h3 { margin-top: 0.5rem }
+      td > span { border-radius: 0.25em; color: white; font-size: 0.75rem; padding: 0.125em 0.375em }
+      td > span.active { background: darkred }
+      td > span.inactive { background: darkgrey }
     </style>
   </head>
   <body>
@@ -66,6 +69,7 @@
       let navTo = '';
       let metaJson;
       let addrJson;
+      let urlStatus;
       let addresses;
       let balances = [];
 
@@ -77,10 +81,11 @@
         setTimeout(() => window.requestAnimationFrame(draw), 100);
       }
 
-      function appendRow (date, url = '') {
+      function appendRow (date, url = '', status) {
         const row = document.createElement('tr');
         const a = document.createElement('td');
         const b = document.createElement('td');
+        const c = document.createElement('td');
 
         a.appendChild(document.createTextNode(url));
 
@@ -90,13 +95,22 @@
           b.appendChild(date);
         }
 
+        if (typeof status === 'string') {
+          const s = document.createElement('span');
+
+          s.classList.add(status);
+          s.appendChild(document.createTextNode(status));
+          c.appendChild(s);
+        }
+
         row.appendChild(a);
         row.appendChild(b);
+        row.appendChild(c);
 
         table.appendChild(row);
       }
 
-      async function fillAddresses () {
+      function fillAddresses () {
         addresses.forEach((address, index) => {
           const balance = balances[index] || '';
 
@@ -104,10 +118,10 @@
         });
       }
 
-      async function fillSites () {
+      function fillSites () {
         let prevMonth = '';
 
-        metaJson.forEach(({ date, url }) => {
+        metaJson.forEach(({ date, url }, index) => {
           const thisMonth = date.split('-').slice(0, 2).join('-');
 
           if (thisMonth !== prevMonth) {
@@ -118,11 +132,11 @@
             prevMonth = thisMonth;
           }
 
-          appendRow(date, url);
+          appendRow(date, url, urlStatus[index] ? 'active' : 'inactive');
         });
       }
 
-      async function fillTable (newNav) {
+      function fillTable (newNav) {
         if (newNav !== navTo) {
           if (navTo) {
             document.getElementById(`btn-${navTo}`).classList = '';
@@ -134,10 +148,25 @@
           table.innerHTML = '';
 
           if (navTo === 'sites') {
-            await fillSites();
+            fillSites();
           } else {
-            await fillAddresses();
+            fillAddresses();
           }
+        }
+      }
+
+      async function isUp (url) {
+        try {
+          const controller = new AbortController();
+          const id = setTimeout(() => controller.abort(), 2000);
+
+          await fetch(url, { signal: controller.signal });
+
+          clearTimeout(id);
+
+          return true;
+        } catch (error) {
+          return false;
         }
       }
 
@@ -157,6 +186,7 @@
           .values(addrJson)
           .reduce((all, addrs) => all.concat(...addrs), [])
           .sort((a, b) => a.localeCompare(b));
+        urlStatus = await Promise.all(metaJson.map(({ url }) => `https://${url}`).map(isUp))
 
         // Promise.all(
         //   addresses.map((key) => fetch('https://polkadot.subscan.io/api/scan/search', {
@@ -172,7 +202,7 @@
         //   }).then((body) => body.json()).then(({ data }) => (data && data.balance) || '0'))
         // ).then((b) => balances = b).catch(console.error);
 
-        await fillTable('sites');
+        fillTable('sites');
       }
 
       main();
