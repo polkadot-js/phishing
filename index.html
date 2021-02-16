@@ -160,7 +160,7 @@
           const controller = new AbortController();
           const id = setTimeout(() => controller.abort(), 2000);
 
-          await fetch(url, { signal: controller.signal });
+          await fetch(url, { mode: 'no-cors', signal: controller.signal });
 
           clearTimeout(id);
 
@@ -174,8 +174,8 @@
         draw();
 
         const [addrBody, metaBody] = await Promise.all([
-          fetch('address.json'),
-          fetch('urlmeta.json')
+          fetch('https://polkadot.js.org/phishing/address.json'),
+          fetch('https://polkadot.js.org/phishing/urlmeta.json')
         ]);
 
         [addrJson, metaJson] = await Promise.all([
