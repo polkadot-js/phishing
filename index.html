@@ -23,7 +23,8 @@
       .header img { height: 1.5rem; margin-right: 0.5rem; width: 1.5rem }
       .row { align-items: center; display: flex; justify-content: center }
       table { margin: 0 0 1rem }
-      td { font-family: monospace; padding: 0.25rem 0.5rem; text-align: right }
+      td:not(.centered) { font-family: monospace; padding: 0.25rem 0.5rem; text-align: right }
+      td.centered { text-align: center }
       td:nth-child(2) { width: 100% }
       td > h3 { margin: 0; opacity: 0.25 }
       tr + tr > td > h3 { margin-top: 0.5rem }
@@ -42,6 +43,11 @@
           <p class="buttons"><a href="#" id="btn-sites" onclick="fillTable('sites')">Sites</a><a href="#" id="btn-addresses" onclick="fillTable('addresses')">Addresses</a></p>
           <table>
             <tbody id="table">
+              <tr>
+                <td></td>
+                <td class="centered">Loading address & site metadata ...</td>
+                <td></td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -174,8 +180,8 @@
         draw();
 
         const [addrBody, metaBody] = await Promise.all([
-          fetch('https://polkadot.js.org/phishing/address.json'),
-          fetch('https://polkadot.js.org/phishing/urlmeta.json')
+          fetch('address.json'),
+          fetch('urlmeta.json')
         ]);
 
         [addrJson, metaJson] = await Promise.all([
