@@ -12,7 +12,7 @@
       p { line-height: 1.5rem; margin: 0.75rem 0 }
 
       .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 0 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
-      .buttons { margin: 2rem 0 1.5rem }
+      .buttons { display: none; margin: 2rem 0 1.5rem }
       .buttons a { border: 1px solid #eee; border-radius: 0.25rem; margin: 0 0.25rem; padding: 0.5rem 0.75rem }
       .buttons .invert { color: rgba(255, 255, 255, 0.85) !important }
       .container { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-top: 4rem; padding-bottom: 2rem }
@@ -24,7 +24,7 @@
       .row { align-items: center; display: flex; justify-content: center }
       table { margin: 0 0 1rem }
       td:not(.centered) { font-family: monospace; padding: 0.25rem 0.5rem; text-align: right }
-      td.centered { text-align: center }
+      td.centered { opacity: 0.65; padding: 1rem; text-align: center }
       td:nth-child(2) { width: 100% }
       td > h3 { margin: 0; opacity: 0.25 }
       tr + tr > td > h3 { margin-top: 0.5rem }
@@ -40,12 +40,12 @@
           <h3>phishing</h3>
           <p class="desc">A community driven curated list of known less-than-honest operators.</p>
           <p class="desc">Any additions can be made by editing <a href="https://github.com/polkadot-js/phishing/edit/master/all.json">phishing/all.json</a> and adding any new sites in alphabetical order. In the same vein addresses can be added in <a href="https://github.com/polkadot-js/phishing/edit/master/address.json">phishing/address.json</a>. For any discrepancies or requests <a href="https://github.com/polkadot-js/phishing/issues">log an issue</a>.</p>
-          <p class="buttons"><a href="#" id="btn-sites" onclick="fillTable('sites')">Sites</a><a href="#" id="btn-addresses" onclick="fillTable('addresses')">Addresses</a></p>
+          <p id="buttons" class="buttons"><a href="#" id="btn-sites" onclick="fillTable('sites')">Sites</a><a href="#" id="btn-addresses" onclick="fillTable('addresses')">Addresses</a></p>
           <table>
             <tbody id="table">
               <tr>
                 <td></td>
-                <td class="centered">Loading address & site metadata ...</td>
+                <td class="centered">.. loading url & address metadata ...</td>
                 <td></td>
               </tr>
             </tbody>
@@ -180,8 +180,8 @@
         draw();
 
         const [addrBody, metaBody] = await Promise.all([
-          fetch('address.json'),
-          fetch('urlmeta.json')
+          fetch('https://polkadot.js.org/phishing/address.json'),
+          fetch('https://polkadot.js.org/phishing/urlmeta.json')
         ]);
 
         [addrJson, metaJson] = await Promise.all([
@@ -208,6 +208,7 @@
         //   }).then((body) => body.json()).then(({ data }) => (data && data.balance) || '0'))
         // ).then((b) => balances = b).catch(console.error);
 
+        document.getElementById('buttons').style.display = 'block';
         fillTable('sites');
       }
 
