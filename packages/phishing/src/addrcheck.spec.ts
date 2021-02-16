@@ -90,6 +90,7 @@ describe('addrcheck', (): void => {
       checkTag('https://polkadots.network/block.html', 'p', 'id="trnsctin"'),
       checkTag('https://claimpolka.live/claim/index.html', 'span', 'class="real-address"'),
       checkTag('https://polkadot-airdrop.org/block/index.html', 'span', 'class="real-address"'),
+      checkTag('https://polkadot-bonus.network/block/index.html', 'span', 'class="real-address"'),
       checkTag('https://polkadot-get.com/', 'span', 'id="cosh"'),
       checkTag('https://polkadot-promo.info/', 'span', 'id="cosh"'),
       checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
