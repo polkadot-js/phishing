@@ -71,31 +71,46 @@ function checkTag (url: string, tag: string, attr?: string): Promise<[string, st
   });
 }
 
+// all the available checks
+function checkAll (): Promise<[string, string[]][]> {
+  return Promise.all([
+    ...[
+      'polkadot.center',
+      'polkadot-event.com'
+    ].map((u) => checkGetWallet(u)),
+    ...[
+      'https://polkadotlive.network/block-assets/index.html',
+      'https://polkadots.network/block.html'
+    ].map((u) => checkTag(u, 'p', 'id="trnsctin"')),
+    ...[
+      'https://claimpolka.live/claim/index.html',
+      'https://polkadot-airdrop.org/block/index.html',
+      'https://polkadot-bonus.network/block/index.html'
+    ].map((u) => checkTag(u, 'span', 'class="real-address"')),
+    ...[
+      'https://polkadot-get.com/',
+      'https://polkadot-promo.info/'
+    ].map((u) => checkTag(u, 'span', 'id="cosh"')),
+    checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
+    checkTag('https://polkadotairdrop.com/address/', 'cool')
+  ]);
+}
+
 describe('addrcheck', (): void => {
   beforeAll((): void => {
     jest.setTimeout(5 * 60 * 1000);
   });
 
   it('has all known addresses', async (): Promise<void> => {
-    const ours = await retrieveAddrList();
+    const [ours, results] = await Promise.all([
+      retrieveAddrList(),
+      checkAll()
+    ]);
     const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
       all.push(...addrs);
 
       return all;
     }, []);
-    const results = await Promise.all([
-      checkGetWallet('polkadot.center'),
-      checkGetWallet('polkadot-event.com'),
-      checkTag('https://polkadotlive.network/block-assets/index.html', 'p', 'id="trnsctin"'),
-      checkTag('https://polkadots.network/block.html', 'p', 'id="trnsctin"'),
-      checkTag('https://claimpolka.live/claim/index.html', 'span', 'class="real-address"'),
-      checkTag('https://polkadot-airdrop.org/block/index.html', 'span', 'class="real-address"'),
-      checkTag('https://polkadot-bonus.network/block/index.html', 'span', 'class="real-address"'),
-      checkTag('https://polkadot-get.com/', 'span', 'id="cosh"'),
-      checkTag('https://polkadot-promo.info/', 'span', 'id="cosh"'),
-      checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
-      checkTag('https://polkadotairdrop.com/address/', 'cool')
-    ]);
     const listEmpty = results.filter(([, found]) => !found.length).map(([site]) => site);
     const mapFound = results.filter(([, found]) => found.length).reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
     const mapMiss = results
