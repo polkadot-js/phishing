@@ -177,13 +177,14 @@
       }
 
       async function isUp (url) {
-        try {
-          await fetchTimeout(url, { mode: 'no-cors' });
-
-          return true;
-        } catch (error) {
-          return false;
-        }
+        return fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' })
+          .then(() =>
+            fetchTimeout(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`)
+              .then((body) => body.text())
+              .then((body) => !body.includes('has been suspended'))
+              .catch(() => true)
+          )
+          .catch(() => false);
       }
 
       async function getBalance (key) {
