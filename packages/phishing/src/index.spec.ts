@@ -1,6 +1,8 @@
 // Copyright 2020-2021 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import denied from '../../../address.json';
+import allowed from '../../../known.json';
 import { checkAddress, checkIfDenied } from '.';
 
 describe('checkIfDenied', (): void => {
@@ -58,5 +60,14 @@ describe('checkAddress', (): void => {
     expect(
       await checkAddress('5FkmzcdNekhdSA7j4teSSyHGUnKT8bzNBFvVVeZSGmbSpYHH')
     ).toEqual('polkadots.network');
+  });
+});
+
+describe('check additions', (): void => {
+  it('has no entries on the known addresses list', (): void => {
+    const added = Object.values(denied as Record<string, string[]>).reduce((all: string[], addrs: string[]) => all.concat(addrs), []);
+    const dupes = Object.entries(allowed as Record<string, string[]>).reduce((all: [string, string][], [site, addrs]) => all.concat(addrs.map((a) => [site, a])), []).filter(([, a]) => added.includes(a));
+
+    expect(dupes).toEqual([]);
   });
 });

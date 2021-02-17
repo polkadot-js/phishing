@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 0.5.1 Feb 15, 2021
+
+Contributed:
+
+- Added polkadot-event.com, polkadot-support.com, polkadot-js.online, claimpolka.live (Thanks to https://github.com/laboon)
+- Added polkadots.live (Thanks to https://github.com/SimonKraus)
+- Added polkadotairdrop.com (Thanks to https://github.com/NukeManDan)
+- Added polkadot-get.com, polkadot-promo.info (Thanks to https://github.com/BraveSam)
+- Add known historic phishing addresses (Thanks to https://github.com/jackesky)
+- Added non-threat simpleswap.io to known checks https://github.com/dud1337)
+
+Changes:
+
+- JSON files & index page published to IPNS, https://ipfs.io/ipns/phishing.dotapps.io
+- Add list of known phishing addresses under `address.json`
+- Add a CI check against known sites for addresses (as changed)
+- Add known phishing addresses not via sites (e.g. Youtube scam links)
+
+
 ## 0.4.1 Jan 24, 2021
 
 Contributed:

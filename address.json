@@ -1,8 +1,12 @@
 {
+  "claimpolka.live": [
+    "12aCLUsyTCWn5Dzf5wxuuRm93dx9rkAF5rqw9zBDTV5NSY1E"
+  ],
   "dot4.org": [
     "13iTPfjzkacRggDUPpN3SUWgbLT9ziasXNKXCbUVdwqiNTCX"
   ],
   "dotevent.org": [
+    "12759G1BVPC7cAb5tT8qLzDJUcnBuyW3n3icMwAA8uWGiUtT",
     "1ZkzFrJ3jecDVQ4oLWJ2fEftUUc2aSAyN8kAPLrV2dFJt3K"
   ],
   "getpolkadot.net": [
@@ -15,12 +19,24 @@
     "15x6f6M42ccmTq3emCtyCZUKCbYLH3msCPmHGnEgwUxZRAu4"
   ],
   "polkadot-airdrop.org": [
-    "14BFcanA3zYTpbCmzKGXVEnFe9WoBCq3JdPQdnsiEgEhXSA2"
+    "12We44NDCNUWa9tnfgxmSc38vDXFXcnLDkGdL2Xy45mnhZ52",
+    "14BFcanA3zYTpbCmzKGXVEnFe9WoBCq3JdPQdnsiEgEhXSA2",
+    "14oEqqqCabUQdsdq1zP1qdb8b4uhEnc2mL1YYHKf8xYbh8FB"
+  ],
+  "polkadot-bonus.network": [
+    "1DsARAWRSyMoy815SeZrFytb74Qvw7W2wsrsYWZxZmHcRC4"
   ],
   "polkadot-event.com": [
     "124QZBBTZtPDGPS4GqK6w8y5rPUC7EydLka9Gk3qCTDemGTN",
     "13DW6RWgjUPcZ9mwwEMcb8qBcakQyzpxNw8ic32QXAEfGLxW",
     "15GhxqrycWiRe9PePtN5CppTk8g63dXgM5vm9a9gwRMbPjRZ"
+  ],
+  "polkadot-get.com": [
+    "16hGDoTMCp5MidmTrNrM7C4PmW8YsKHWdfWuYNS4j7uqUMZ8",
+    "1xxiVzncNRjFHMHUo27iLDo931f35YjVQauRBWuA4JEHfRz"
+  ],
+  "polkadot-promo.info": [
+    "1s3B8f5dJbtV4rVTZs1WNRpzKCUJWxK2zULErjmA52Do2SF"
   ],
   "polkadot.center": [
     "12nNSFLEJU2HiuSidgd3c1bzSNn82SNpobnGso5GXF43eme6",
@@ -40,10 +56,16 @@
     "13nHdwVLfHNbfj7aAxCwXhdS8HvCKggMpzy7B65jgcUFXRp9",
     "1m4ETpXD8ea24oFkegbBfFSC3nXh6FqGuvgXdxpq2iQyUkn"
   ],
+  "polkadotairdrop.com": [
+    "1RnWVvUiL9ZmDEYWxSpNyrWhq9gHEQcihFoYBdJTmuWjaav"
+  ],
   "polkadotlive.network": [
+    "15TZMmGy3eX6FJqCJHLir4KSnd5ECUukFVvgfEPCuDhe8asx",
+    "16C6TrBTi7VohiMguZeSCNPxwqYTR9eWWoQsbwnJ7wtJTD2N",
     "16UDgowT2DEEk73EX2bB5c5HmuvJrLvmWsGomWmyK3CqyzVz"
   ],
   "polkadots.network": [
+    "125NoipEsCbtFHNW9b2oyBpKQue5Rco2KJKveB5QQJLQJKyY",
     "14h58wtSWXy6sh8F2XhSb87RLQK6puYWFkeyewYnprcxzz9Z"
   ],
   "telegra.ph": [
@@ -54,7 +76,6 @@
     "13xuoAwwqfZuyAsRuUBasa8AhjdqzRbdyS3m52Lu6oCpFQRv",
     "1461Dsvr9GmkRjUkdJcYGP6HFygwQeZcspc6W5QgJVAT59yt",
     "14gWkqi6J3U4mcRTCi7yy824S2GepSNqpM4xNjLTCzGQpCst",
-    "14QsifyV7XyEDay8C862PNLRngid2AGZmtCwz1K88x5gpf58",
     "1X3M7sGA1Nbgd8Qh45uqdQMPNFXSHbWnvPp6CkQ9Ttp46dQ"
   ]
 }

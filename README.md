@@ -14,6 +14,8 @@ To add a new scam address (typically per site), edit [address.json](https://gith
 
 Making additions to the list will be reflected on merge at [polkadot.js.org/phishing/all.json](https://polkadot.js.org/phishing/all.json) &  [polkadot.js.org/phishing/address.json](https://polkadot.js.org/phishing/address.json). These can be consumed via [@polkadot/phishing](https://github.com/polkadot-js/phishing/tree/master/packages/phishing) and other tools capable of parsing JSON.
 
+The `{address, all}.json` files are also published to IPFS, via [ipns/phishing.dotapps.io](https://ipfs.io/ipns/phishing.dotapps.io/). Libraries can also consume from here for a decentralized approach.
+
 
 ### Integration
 

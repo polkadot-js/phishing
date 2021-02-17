@@ -1,5 +1,5 @@
 ---
-title: Missing cross-check entries
+title: Missing site entries
 labels: ['ci', '@all.json']
 ---
 

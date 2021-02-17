@@ -7,12 +7,13 @@
     "packages/*"
   ],
   "resolutions": {
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.5"
   },
   "scripts": {
     "build": "polkadot-dev-build-ts",
     "build:extra": "node scripts/sortAll.mjs",
     "build:release": "polkadot-ci-ghact-build --skip-beta",
+    "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
     "phishing:addrcheck": "polkadot-dev-run-test packages/phishing/src/addrcheck",
@@ -21,9 +22,13 @@
     "test": "polkadot-dev-run-test --coverage --runInBand --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@polkadot/dev": "^0.61.24",
+    "@babel/core": "^7.12.16",
+    "@polkadot/dev": "^0.61.26",
     "@types/jest": "^26.0.20"
   },
-  "version": "0.4.23"
+  "version": "0.5.12",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.11",
+    "dnslink-cloudflare": "^3.0.0"
+  }
 }

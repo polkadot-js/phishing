@@ -25,6 +25,26 @@ jobs:
         yarn install --immutable | grep -v 'YN0013'
         yarn ${{ matrix.step }}
 
+  # publish to ipfs when a release is detected
+  ipfs:
+    strategy:
+      matrix:
+        step: ['build:release:ipfs']
+    name: ${{ matrix.step }}
+    if: "startsWith(github.event.head_commit.message, '[CI Skip] release/stable') && github.repository == 'polkadot-js/phishing'"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: ${{ matrix.step }}
+      env:
+        CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        PINATA_API_KEY: ${{ secrets.PINATA_API_KEY }}
+        PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_KEY }}
+      run: |
+        yarn install --immutable | grep -v 'YN0013'
+        ./scripts/ipfsPrep.sh
+        yarn ${{ matrix.step }}
+
   dummy:
     runs-on: ubuntu-latest
     steps:
