@@ -203,14 +203,6 @@
         }
       }
 
-      async function getBalances (addresses) {
-        balances = await Promise.all(addresses.map(getBalance));
-      }
-
-      async function getStatuses () {
-        urlStatus = await Promise.all(metaJson.map(({ url }) => `https://${url}`).map(isUp))
-      }
-
       async function main () {
         draw();
 
@@ -227,7 +219,10 @@
           }, [])
           .sort((a, b) => a.localeCompare(b));
 
-        await Promise.all([getBalances(addresses), getStatuses()]);
+        [balances, urlStatus] = await Promise.all([
+          Promise.all(addresses.map(getBalance)),
+          Promise.all(metaJson.map(({ url }) => isUp(`https://${url}`)))
+        ]);
 
         document.getElementById('buttons').style.display = 'block';
         fillTable('sites');
