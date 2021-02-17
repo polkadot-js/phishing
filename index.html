@@ -180,8 +180,14 @@
         return fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' })
           .then(() =>
             fetchTimeout(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`)
-              .then((body) => body.text())
-              .then((body) => !body.includes('has been suspended'))
+              .then((response) => response.text())
+              .then((body) =>
+                // this is from the allorigins proxy
+                !body.includes('UNABLE_TO_VERIFY_LEAF_SIGNATURE') &&
+                // include in inactive list when the provider has suspended the account
+                !body.includes('This Account has been suspended') &&
+                !body.includes('Хостинг сайта временно приостановлен')
+              )
               .catch(() => true)
           )
           .catch(() => false);
