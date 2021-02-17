@@ -6,9 +6,13 @@
     <link rel="shortcut icon" href="favicon.ico">
     <title>polkadot{.js}/phishing</title>
     <style>
+      :root {
+        --font-sans: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+
       a { color: #ff8c00 !important; text-decoration: none }
-      body { color: #4e4e4e; font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height: 100vh; overflow-x: hidden; padding: 0 }
-      h3 { font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; margin: 1rem 0; opacity: 0.95; text-transform: lowercase }
+      body { color: #4e4e4e; font-family: var(--font-sans); height: 100vh; overflow-x: hidden; padding: 0 }
+      h3 { font-family: var(--font-sans); font-weight: 400; margin: 1rem 0; opacity: 0.95; text-transform: lowercase }
       p { line-height: 1.5rem; margin: 0.75rem 0 }
 
       .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 0 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
@@ -22,6 +26,7 @@
       .header div.logo { display: flex; align-items: center }
       .header img { height: 1.5rem; margin-right: 0.5rem; width: 1.5rem }
       .row { align-items: center; display: flex; justify-content: center }
+
       table { margin: 0 0 1rem }
       td:not(.centered) { font-family: monospace; padding: 0.25rem 0.5rem; text-align: right }
       td.centered { opacity: 0.65; padding: 1rem; text-align: center }
@@ -161,14 +166,19 @@
         }
       }
 
+      async function fetchTimeout (url, options = {}) {
+        const controller = new AbortController();
+        const id = setTimeout(() => controller.abort(), 2500);
+        const response = await fetch(url, { ...options, signal: controller.signal });
+
+        clearTimeout(id);
+
+        return response;
+      }
+
       async function isUp (url) {
         try {
-          const controller = new AbortController();
-          const id = setTimeout(() => controller.abort(), 2000);
-
-          await fetch(url, { mode: 'no-cors', signal: controller.signal });
-
-          clearTimeout(id);
+          await fetchTimeout(url, { mode: 'no-cors' });
 
           return true;
         } catch (error) {
@@ -176,37 +186,43 @@
         }
       }
 
+      async function getBalance (key) {
+        try {
+          const response = await fetchTimeout('https://polkadot.subscan.io/api/scan/search', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ key, page: 0, row: 1 })
+          });
+          const { data } = await response.json();
+          const [pre, post] = ((data && data.account.balance) || '0').split('.');
+
+          return `${pre}.${`${post || ''}0000000000`.substr(0, 10)}`;
+        } catch (error) {
+          console.error(error);
+          return '';
+        }
+      }
+
       async function main () {
         draw();
 
-        const [addrBody, metaBody] = await Promise.all([
-          fetch('https://polkadot.js.org/phishing/address.json'),
-          fetch('https://polkadot.js.org/phishing/urlmeta.json')
-        ]);
+        const from = window.location.protocol === 'file:' ? 'https://polkadot.js.org/phishing/' : '';
+        const [addrBody, metaBody] = await Promise.all(['address', 'urlmeta'].map((j) => fetchTimeout(`${from}${j}.json`)));
 
-        [addrJson, metaJson] = await Promise.all([
-          addrBody.json(),
-          metaBody.json()
-        ]);
+        [addrJson, metaJson] = await Promise.all([addrBody.json(), metaBody.json()]);
         addresses = Object
           .values(addrJson)
-          .reduce((all, addrs) => all.concat(...addrs), [])
-          .sort((a, b) => a.localeCompare(b));
-        urlStatus = await Promise.all(metaJson.map(({ url }) => `https://${url}`).map(isUp))
+          .reduce((all, addrs) => {
+            addrs.forEach((a) => !all.includes(a) && all.push(a));
 
-        // Promise.all(
-        //   addresses.map((key) => fetch('https://polkadot.subscan.io/api/scan/search', {
-        //     method: 'POST',
-        //     headers: {
-        //       'Content-Type': 'application/json'
-        //     },
-        //     body: JSON.stringify({
-        //       key,
-        //       page: 0,
-        //       row: 1
-        //     })
-        //   }).then((body) => body.json()).then(({ data }) => (data && data.balance) || '0'))
-        // ).then((b) => balances = b).catch(console.error);
+            return all;
+          }, [])
+          .sort((a, b) => a.localeCompare(b));
+
+        [balances, urlStatus] = await Promise.all([
+          Promise.all(addresses.map(getBalance)),
+          Promise.all(metaJson.map(({ url }) => isUp(`https://${url}`)))
+        ]);
 
         document.getElementById('buttons').style.display = 'block';
         fillTable('sites');
