@@ -178,33 +178,30 @@
 
       function checkUpCors (url, { contents, status: { content_length, error } }) {
         // has an error from the CORS proxy
-        let isValid =
-          !error ||
-          (error.code !== 'UNABLE_TO_VERIFY_LEAF_SIGNATURE');
-
-        if (!isValid) {
+        if (
+          error &&
+          (error.code !== 'UNABLE_TO_VERIFY_LEAF_SIGNATURE')
+        ) {
           console.log(`${url} has an retrieval error`)
 
           return false;
         }
 
         // has actual content or it has a refresh
-        isValid =
-          (content_length > 100) ||
-          contents.includes('<meta http-equiv="refresh"');
-
-        if (!isValid) {
+        if (
+          (content_length < 100) &&
+          !contents.includes('<meta http-equiv="refresh"')
+        ) {
           console.log(`${url} has no content`);
 
           return false;
         }
 
         // include in inactive list when the provider has suspended the account
-        isValid =
-          !contents.includes('This Account has been suspended') &&
-          !contents.includes('Хостинг сайта временно приостановлен');
-
-        if (!isValid) {
+        if (
+          contents.includes('This Account has been suspended') ||
+          contents.includes('Хостинг сайта временно приостановлен')
+        ) {
           console.log(`${url} has been suspended`)
 
           return false;
