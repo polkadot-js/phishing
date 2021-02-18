@@ -176,18 +176,49 @@
         return response;
       }
 
+      function checkUpCors (url, { contents, status: { content_length, error } }) {
+        // has an error from the CORS proxy
+        let isValid =
+          !error ||
+          (error.code !== 'UNABLE_TO_VERIFY_LEAF_SIGNATURE');
+
+        if (!isValid) {
+          console.log(`${url} has an retrieval error`)
+
+          return false;
+        }
+
+        // has actual content or it has a refresh
+        isValid =
+          (content_length > 100) ||
+          contents.includes('<meta http-equiv="refresh"');
+
+        if (!isValid) {
+          console.log(`${url} has no content`);
+
+          return false;
+        }
+
+        // include in inactive list when the provider has suspended the account
+        isValid =
+          !contents.includes('This Account has been suspended') &&
+          !contents.includes('Хостинг сайта временно приостановлен');
+
+        if (!isValid) {
+          console.log(`${url} has been suspended`)
+
+          return false;
+        }
+
+        return true;
+      }
+
       async function isUp (url) {
         return fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' })
           .then(() =>
             fetchTimeout(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`)
-              .then((response) => response.text())
-              .then((body) =>
-                // this is from the allorigins proxy
-                !body.includes('UNABLE_TO_VERIFY_LEAF_SIGNATURE') &&
-                // include in inactive list when the provider has suspended the account
-                !body.includes('This Account has been suspended') &&
-                !body.includes('Хостинг сайта временно приостановлен')
-              )
+              .then((response) => response.json())
+              .then((json) => checkUpCors(url, json))
               .catch(() => true)
           )
           .catch(() => false);
