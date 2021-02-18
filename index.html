@@ -227,6 +227,10 @@
       }
 
       async function isUp (url) {
+        fetchTimeout(`https://white-dawn-0191.dotapps.workers.dev/?url=${encodeURIComponent(url)}`)
+          .then((response) => console.log(url, response))
+          .catch((error) => console.error(url, error));
+
         return fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' })
           .then(() =>
             fetchTimeout(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`)
