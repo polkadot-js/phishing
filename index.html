@@ -192,53 +192,16 @@
         return response;
       }
 
-      function checkUpCors (url, { contents, status: { content_length, error } }) {
-        // has an error from the CORS proxy
-        if (
-          error &&
-          (error.code !== 'UNABLE_TO_VERIFY_LEAF_SIGNATURE')
-        ) {
-          console.log(`${url} has an retrieval error`)
-
-          return false;
-        }
-
-        // has actual content or it has a refresh
-        if (
-          (content_length < 100) &&
-          !contents.includes('<meta http-equiv="refresh"')
-        ) {
-          console.log(`${url} has no content`);
-
-          return false;
-        }
-
-        // include in inactive list when the provider has suspended the account
-        if (
-          contents.includes('This Account has been suspended') ||
-          contents.includes('Хостинг сайта временно приостановлен')
-        ) {
-          console.log(`${url} has been suspended`)
-
-          return false;
-        }
-
-        return true;
-      }
-
       async function isUp (url) {
-        fetchTimeout(`https://proxy.dotapps.workers.dev/?url=${encodeURIComponent(url)}`)
-          .then((response) => console.log(url, response))
-          .catch((error) => console.error(url, error));
+        try {
+          await fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' });
 
-        return fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' })
-          .then(() =>
-            fetchTimeout(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`)
-              .then((response) => response.json())
-              .then((json) => checkUpCors(url, json))
-              .catch(() => true)
-          )
-          .catch(() => false);
+          const response = await fetchTimeout(`https://proxy.dotapps.workers.dev/?${url}`, { follow: 'error' });
+
+          return response.status === 200;
+        } catch (error) {
+          return false;
+        }
       }
 
       async function getBalance (key) {
