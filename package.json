@@ -26,7 +26,7 @@
     "@polkadot/dev": "^0.61.26",
     "@types/jest": "^26.0.20"
   },
-  "version": "0.5.28",
+  "version": "0.5.29",
   "dependencies": {
     "@pinata/sdk": "^1.1.11",
     "dnslink-cloudflare": "^3.0.0"
