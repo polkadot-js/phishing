@@ -34,7 +34,7 @@ async function loopSome (site: string, matcher: () => Promise<string[] | null>):
         }
       });
     } catch (error) {
-      // ignore
+      // console.error(error);
     }
 
     await new Promise<boolean>((resolve) => setTimeout(() => resolve(true), Math.floor((Math.random() * 750) + 1000)));
@@ -54,7 +54,7 @@ function checkGetWallet (site: string): Promise<[string, string[]]> {
   });
 }
 
-// check a specific tag with attributes
+// extract a specific tag from attributes
 function checkTag (url: string, tag: string, attr?: string): Promise<[string, string[]]> {
   const site = url.split('/')[2];
 
@@ -67,6 +67,22 @@ function checkTag (url: string, tag: string, attr?: string): Promise<[string, st
     // /<\/?p( id="trnsctin")?>/g
     return match && match.length
       ? match.map((v) => v.replace(new RegExp(`</?${tag}${attr ? `( ${attr})?` : ''}>`, 'g'), '').trim())
+      : null;
+  });
+}
+
+// extract a specific attribute from a tag
+function checkAttr (url: string, attr: string): Promise<[string, string[]]> {
+  const site = url.split('/')[2];
+
+  return loopSome(site, async (): Promise<string[] | null> => {
+    const result = await (await fetchWithTimeout(url)).text();
+
+    const regex = new RegExp(`${attr}"[a-zA-Z0-9]+"`, 'g');
+    const match = regex.exec(result);
+
+    return match && match.length
+      ? [match[0].replace(new RegExp(attr, 'g'), '').replace(/"/g, '').trim()]
       : null;
   });
 }
@@ -92,7 +108,9 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://polkadot-promo.info/'
     ].map((u) => checkTag(u, 'span', 'id="cosh"')),
     checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
-    checkTag('https://polkadotairdrop.com/address/', 'cool')
+    checkTag('https://polkadotairdrop.com/address/', 'cool'),
+    checkAttr('https://www.kusama-wallet.com/wallet.php', 'id="copyTarget" value=')
+      .then(([site, values]) => [site.replace('www.', ''), values])
   ]);
 }
 
