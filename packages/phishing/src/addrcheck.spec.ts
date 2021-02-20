@@ -109,8 +109,7 @@ function checkAll (): Promise<[string, string[]][]> {
     ].map((u) => checkTag(u, 'span', 'id="cosh"')),
     checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
     checkTag('https://polkadotairdrop.com/address/', 'cool'),
-    checkAttr('https://www.kusama-wallet.com/wallet.php', 'id="copyTarget" value=')
-      .then(([site, values]) => [site.replace('www.', ''), values])
+    checkAttr('https://kusama-wallet.com/wallet.php', 'id="copyTarget" value=')
   ]);
 }
 
