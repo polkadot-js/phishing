@@ -12,7 +12,7 @@
   "repository": "github.com:polkadot-js/phishing",
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
-    "@babel/runtime": "^7.12.13",
+    "@babel/runtime": "^7.12.18",
     "@polkadot/util": "^5.7.1",
     "@polkadot/util-crypto": "^5.7.1",
     "@polkadot/x-fetch": "^5.7.1"

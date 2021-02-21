@@ -22,7 +22,7 @@
     "test": "polkadot-dev-run-test --coverage --runInBand --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
+    "@babel/core": "^7.12.17",
     "@polkadot/dev": "^0.61.26",
     "@types/jest": "^26.0.20"
   },
