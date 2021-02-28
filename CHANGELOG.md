@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 0.6.1 Feb 28, 2021
+
+Contributed:
+
+- Added polkadot-bonus.network (Thanks to https://github.com/FlorianFranzen)
+- Added polkadgiveaway.com (Thanks to https://github.com/SimonKraus)
+- Added polkadotbridge.org, dot-event.org, dot-event.news (Thanks to https://github.com/NukeManDan)
+- Added wallet-validation.site, kusama-wallet.com, atomicwalletgift.live (Thanks to https://github.com/laboon)
+- Added polkadot-airdrop.online, polkadot-airdrops.net, polkadot.wallet-linker.net, web-polkadot.web.app (Thanks to https://github.com/nymetva)
+- Add scam addresses from victims (Thanks to https://github.com/michalisFr)
+
+Changes:
+
+- Align tests with all new sites as added
+- Adjust visual display for active status (via cors proxy)
+- Add current balances to account display
+- Group accounts based on network they belong to
+- Added polkadotlive.com, polkadotsnetwork.com, polkabeam.org, polkadot-js.site (as reported)
+
+
 ## 0.5.1 Feb 15, 2021
 
 Contributed:
