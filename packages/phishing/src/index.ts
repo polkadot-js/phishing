@@ -5,7 +5,8 @@ import type { AddressList, HostList } from './types';
 
 import { u8aEq } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/util-crypto';
-import { fetch } from '@polkadot/x-fetch';
+
+import { fetchWithTimeout } from './fetch';
 
 // Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/{address,all}.json
 const ADDRESS_JSON = 'https://polkadot.js.org/phishing/address.json';
@@ -36,7 +37,7 @@ export async function retrieveAddrList (allowCached = true): Promise<AddressList
     return cacheAddrList;
   }
 
-  const response = await fetch(ADDRESS_JSON);
+  const response = await fetchWithTimeout(ADDRESS_JSON);
   const list = (await response.json()) as AddressList;
 
   cacheAddrEnd = now + CACHE_TIMEOUT;
@@ -71,7 +72,7 @@ export async function retrieveHostList (allowCached = true): Promise<HostList> {
     return cacheHostList;
   }
 
-  const response = await fetch(ALL_JSON);
+  const response = await fetchWithTimeout(ALL_JSON);
   const list = (await response.json()) as HostList;
 
   cacheHostEnd = now + CACHE_TIMEOUT;

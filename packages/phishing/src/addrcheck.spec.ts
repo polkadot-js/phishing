@@ -3,22 +3,10 @@
 
 import fs from 'fs';
 
-import { fetch } from '@polkadot/x-fetch';
-
+import { fetchWithTimeout } from './fetch';
 import { retrieveAddrList } from '.';
 
 const TICKS = '```';
-
-// a timeout with a 2s timeout
-async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
-  const controller = new AbortController();
-  const id = setTimeout(() => controller.abort(), timeout);
-  const response = await fetch(url, { signal: controller.signal });
-
-  clearTimeout(id);
-
-  return response;
-}
 
 // loop through each site for a number of times, applying the transform
 async function loopSome (site: string, matcher: () => Promise<string[] | null>): Promise<[string, string[]]> {

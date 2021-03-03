@@ -6,7 +6,8 @@ const config = require('@polkadot/dev/config/jest.cjs');
 module.exports = Object.assign({}, config, {
   moduleNameMapper: {},
   modulePathIgnorePatterns: [
-    '<rootDir>/build'
+    '<rootDir>/build',
+    '<rootDir>/packages/phishing/build'
   ],
-  resolver: '@polkadot/dev/config/jest-resolver.cjs'
+  transformIgnorePatterns: ['/node_modules/(?!@polkadot|@babel/runtime/helpers/esm/)']
 });
