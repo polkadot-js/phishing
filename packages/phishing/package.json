@@ -1,6 +1,7 @@
 {
   "name": "@polkadot/phishing",
   "version": "0.6.2",
+  "type": "module",
   "description": "Simple phishing scripts from a central source",
   "main": "index.js",
   "sideEffects": false,
@@ -12,10 +13,10 @@
   "repository": "github.com:polkadot-js/phishing",
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
-    "@babel/runtime": "^7.13.8",
-    "@polkadot/util": "^5.9.2",
-    "@polkadot/util-crypto": "^5.9.2",
-    "@polkadot/x-fetch": "^5.9.2"
+    "@babel/runtime": "^7.13.9",
+    "@polkadot/util": "^6.0.1-4",
+    "@polkadot/util-crypto": "^6.0.1-4",
+    "@polkadot/x-fetch": "^6.0.1-4"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.0",
