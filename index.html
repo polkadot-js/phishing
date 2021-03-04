@@ -193,15 +193,17 @@
       }
 
       async function isUp (url) {
-        try {
-          await fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' });
+        // try {
+        //   await fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' });
 
-          const response = await fetchTimeout(`https://proxy.dotapps.workers.dev/?${url}`, { follow: 'error' });
+        //   const response = await fetchTimeout(`https://proxy.dotapps.workers.dev/?${url}`, { follow: 'error' });
 
-          return response.status === 200;
-        } catch (error) {
-          return false;
-        }
+        //   return response.status === 200;
+        // } catch (error) {
+        //   return false;
+        // }
+
+        return false;
       }
 
       async function getBalance (key) {
