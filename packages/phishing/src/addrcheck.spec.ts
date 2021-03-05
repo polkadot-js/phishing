@@ -101,9 +101,16 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://dot4.org/promo/',
       'https://dot4.top/promo/'
     ].map((u) => checkTag(u, 'p', 'class="payment-title"')),
+    ...[
+      'https://getpolkadot.us/',
+      'https://musk-in.com'
+    ].map((u) => checkTag(u, 'h5', 'class="transaction-address"')),
+    ...[
+      'https://getpolkadot.us/',
+      'https://musk-in.com'
+    ].map((u) => checkAttr(u, 'data-clipboard-text=')),
     checkTag('https://polkadotairdrop.com/address/', 'cool'),
-    checkAttr('https://kusama-wallet.com/wallet.php', 'id="copyTarget" value='),
-    checkAttr('https://getpolkadot.us/', 'data-clipboard-text=')
+    checkAttr('https://kusama-wallet.com/wallet.php', 'id="copyTarget" value=')
   ]);
 }
 
@@ -127,7 +134,10 @@ describe('addrcheck', (): void => {
     const mapMiss = results
       .map(([site, found]): [string, string[]] => [site, found.filter((a) => !all.includes(a))])
       .filter(([, found]) => found.length)
-      .reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
+      .reduce((all: Record<string, string[]>, [site, found]) => ({
+        ...all,
+        [site]: (all[site] || []).concat(found)
+      }), {});
     const sites = Object.keys(mapMiss);
 
     console.log('Sites with no results\n', JSON.stringify(listEmpty, null, 2));
