@@ -109,8 +109,11 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://getpolkadot.us/',
       'https://musk-in.com'
     ].map((u) => checkAttr(u, 'data-clipboard-text=')),
-    checkTag('https://polkadotairdrop.com/address/', 'cool'),
-    checkAttr('https://kusama-wallet.com/wallet.php', 'id="copyTarget" value=')
+    ...[
+      'https://kusama-wallet.com/wallet.php',
+      'https://polkadot-wallet.org/wallet.php'
+    ].map((u) => checkAttr(u, 'id="copyTarget" value=')),
+    checkTag('https://polkadotairdrop.com/address/', 'cool')
   ]);
 }
 
