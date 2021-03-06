@@ -98,6 +98,7 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://polkadot-promo.info/'
     ].map((u) => checkTag(u, 'span', 'id="cosh"')),
     ...[
+      'https://dot21.org/promo/',
       'https://dot4.org/promo/',
       'https://dot4.top/promo/'
     ].map((u) => checkTag(u, 'p', 'class="payment-title"')),
