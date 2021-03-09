@@ -54,7 +54,13 @@ function checkTag (url: string, tag: string, attr?: string): Promise<[string, st
 
     // /<\/?p( id="trnsctin")?>/g
     return match && match.length
-      ? match.map((v) => v.replace(new RegExp(`</?${tag}${attr ? `( ${attr})?` : ''}>`, 'g'), '').trim())
+      ? match.map((v) =>
+        v
+          .replace(new RegExp(`</?${tag}${attr ? `( ${attr})?` : ''}>`, 'g'), '')
+          .replace(/<br>/g, '')
+          .replace(/<\/br>/g, '')
+          .trim()
+      )
       : null;
   });
 }
@@ -114,7 +120,8 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://kusama-wallet.com/wallet.php',
       'https://polkadot-wallet.org/wallet.php'
     ].map((u) => checkAttr(u, 'id="copyTarget" value=')),
-    checkTag('https://polkadotairdrop.com/address/', 'cool')
+    checkTag('https://polkadotairdrop.com/address/', 'cool'),
+    checkTag('https://polkadot-online.live/nnn/polkadot-live.online/block/index.html', 'p', 'id="t12uEsctin"')
   ]);
 }
 
