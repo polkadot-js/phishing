@@ -3,11 +3,12 @@
 
 const config = require('@polkadot/dev/config/jest.cjs');
 
-module.exports = Object.assign({}, config, {
+module.exports = {
+  ...config,
   moduleNameMapper: {},
   modulePathIgnorePatterns: [
     '<rootDir>/build',
     '<rootDir>/packages/phishing/build'
   ],
   transformIgnorePatterns: ['/node_modules/(?!@polkadot|@babel/runtime/helpers/esm/)']
-});
+};
