@@ -94,6 +94,7 @@ function checkAll (): Promise<[string, string[]][]> {
     ].map((u) => checkTag(u, 'p', 'id="trnsctin"')),
     ...[
       'https://claimpolka.live/claim/index.html',
+      'https://claimpolkadot.com/claim/index.html',
       'https://polkadot-airdrop.org/block/index.html',
       'https://polkadot-airdrop.online/block/index.html',
       'https://polkadot-airdrops.net/block/index.html',
