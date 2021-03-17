@@ -3,22 +3,10 @@
 
 import fs from 'fs';
 
-import { fetch } from '@polkadot/x-fetch';
-
+import { fetchWithTimeout } from './fetch';
 import { retrieveAddrList } from '.';
 
 const TICKS = '```';
-
-// a timeout with a 2s timeout
-async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
-  const controller = new AbortController();
-  const id = setTimeout(() => controller.abort(), timeout);
-  const response = await fetch(url, { signal: controller.signal });
-
-  clearTimeout(id);
-
-  return response;
-}
 
 // loop through each site for a number of times, applying the transform
 async function loopSome (site: string, matcher: () => Promise<string[] | null>): Promise<[string, string[]]> {
@@ -34,7 +22,7 @@ async function loopSome (site: string, matcher: () => Promise<string[] | null>):
         }
       });
     } catch (error) {
-      // ignore
+      // console.error(error);
     }
 
     await new Promise<boolean>((resolve) => setTimeout(() => resolve(true), Math.floor((Math.random() * 750) + 1000)));
@@ -54,7 +42,7 @@ function checkGetWallet (site: string): Promise<[string, string[]]> {
   });
 }
 
-// check a specific tag with attributes
+// extract a specific tag from attributes
 function checkTag (url: string, tag: string, attr?: string): Promise<[string, string[]]> {
   const site = url.split('/')[2];
 
@@ -66,9 +54,76 @@ function checkTag (url: string, tag: string, attr?: string): Promise<[string, st
 
     // /<\/?p( id="trnsctin")?>/g
     return match && match.length
-      ? match.map((v) => v.replace(new RegExp(`</?${tag}${attr ? `( ${attr})?` : ''}>`, 'g'), '').trim())
+      ? match.map((v) =>
+        v
+          .replace(new RegExp(`</?${tag}${attr ? `( ${attr})?` : ''}>`, 'g'), '')
+          .replace(/<br>/g, '')
+          .replace(/<\/br>/g, '')
+          .trim()
+      )
       : null;
   });
+}
+
+// extract a specific attribute from a tag
+function checkAttr (url: string, attr: string): Promise<[string, string[]]> {
+  const site = url.split('/')[2];
+
+  return loopSome(site, async (): Promise<string[] | null> => {
+    const result = await (await fetchWithTimeout(url)).text();
+
+    const regex = new RegExp(`${attr}"[a-zA-Z0-9]+"`, 'g');
+    const match = regex.exec(result);
+
+    return match && match.length
+      ? [match[0].replace(new RegExp(attr, 'g'), '').replace(/"/g, '').trim()]
+      : null;
+  });
+}
+
+// all the available checks
+function checkAll (): Promise<[string, string[]][]> {
+  return Promise.all([
+    ...[
+      'polkadot.center',
+      'polkadot-event.com'
+    ].map((u) => checkGetWallet(u)),
+    ...[
+      'https://polkadotlive.network/block-assets/index.html',
+      'https://polkadots.network/block.html'
+    ].map((u) => checkTag(u, 'p', 'id="trnsctin"')),
+    ...[
+      'https://claimpolka.live/claim/index.html',
+      'https://claimpolkadot.com/claim/index.html',
+      'https://polkadot-airdrop.org/block/index.html',
+      'https://polkadot-airdrop.online/block/index.html',
+      'https://polkadot-airdrops.net/block/index.html',
+      'https://polkadot-bonus.network/block/index.html'
+    ].map((u) => checkTag(u, 'span', 'class="real-address"')),
+    ...[
+      'https://polkadot-get.com/',
+      'https://polkadot-promo.info/'
+    ].map((u) => checkTag(u, 'span', 'id="cosh"')),
+    ...[
+      'https://dot21.org/promo/',
+      'https://dot4.org/promo/',
+      'https://dot4.top/promo/'
+    ].map((u) => checkTag(u, 'p', 'class="payment-title"')),
+    ...[
+      'https://getpolkadot.us/',
+      'https://musk-in.com'
+    ].map((u) => checkTag(u, 'h5', 'class="transaction-address"')),
+    ...[
+      'https://getpolkadot.us/',
+      'https://musk-in.com'
+    ].map((u) => checkAttr(u, 'data-clipboard-text=')),
+    ...[
+      'https://kusama-wallet.com/wallet.php',
+      'https://polkadot-wallet.org/wallet.php'
+    ].map((u) => checkAttr(u, 'id="copyTarget" value=')),
+    checkTag('https://polkadotairdrop.com/address/', 'cool'),
+    checkTag('https://polkadot-online.live/nnn/polkadot-live.online/block/index.html', 'p', 'id="t12uEsctin"')
+  ]);
 }
 
 describe('addrcheck', (): void => {
@@ -77,30 +132,24 @@ describe('addrcheck', (): void => {
   });
 
   it('has all known addresses', async (): Promise<void> => {
-    const ours = await retrieveAddrList();
+    const [ours, results] = await Promise.all([
+      retrieveAddrList(),
+      checkAll()
+    ]);
     const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
       all.push(...addrs);
 
       return all;
     }, []);
-    const results = await Promise.all([
-      checkGetWallet('polkadot.center'),
-      checkGetWallet('polkadot-event.com'),
-      checkTag('https://polkadotlive.network/block-assets/index.html', 'p', 'id="trnsctin"'),
-      checkTag('https://polkadots.network/block.html', 'p', 'id="trnsctin"'),
-      checkTag('https://claimpolka.live/claim/index.html', 'span', 'class="real-address"'),
-      checkTag('https://polkadot-airdrop.org/block/index.html', 'span', 'class="real-address"'),
-      checkTag('https://polkadot-get.com/', 'span', 'id="cosh"'),
-      checkTag('https://polkadot-promo.info/', 'span', 'id="cosh"'),
-      checkTag('https://dot4.org/promo/', 'p', 'class="payment-title"'),
-      checkTag('https://polkadotairdrop.com/address/', 'cool')
-    ]);
     const listEmpty = results.filter(([, found]) => !found.length).map(([site]) => site);
     const mapFound = results.filter(([, found]) => found.length).reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
     const mapMiss = results
       .map(([site, found]): [string, string[]] => [site, found.filter((a) => !all.includes(a))])
       .filter(([, found]) => found.length)
-      .reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
+      .reduce((all: Record<string, string[]>, [site, found]) => ({
+        ...all,
+        [site]: (all[site] || []).concat(found)
+      }), {});
     const sites = Object.keys(mapMiss);
 
     console.log('Sites with no results\n', JSON.stringify(listEmpty, null, 2));

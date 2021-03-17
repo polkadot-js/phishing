@@ -6,13 +6,13 @@ import allowed from '../../../known.json';
 import { checkAddress, checkIfDenied } from '.';
 
 describe('checkIfDenied', (): void => {
-  it('returns false when host in list', async (): Promise<void> => {
+  it('returns false when host is not listed', async (): Promise<void> => {
     expect(
       await checkIfDenied('polkadot.network')
     ).toEqual(false);
   });
 
-  it('returns false when host in list (with protocol)', async (): Promise<void> => {
+  it('returns false when host is not listed (with protocol)', async (): Promise<void> => {
     expect(
       await checkIfDenied('https://polkadot.network')
     ).toEqual(false);
@@ -65,8 +65,13 @@ describe('checkAddress', (): void => {
 
 describe('check additions', (): void => {
   it('has no entries on the known addresses list', (): void => {
-    const added = Object.values(denied as Record<string, string[]>).reduce((all: string[], addrs: string[]) => all.concat(addrs), []);
-    const dupes = Object.entries(allowed as Record<string, string[]>).reduce((all: [string, string][], [site, addrs]) => all.concat(addrs.map((a) => [site, a])), []).filter(([, a]) => added.includes(a));
+    const added = Object
+      .values(denied as Record<string, string[]>)
+      .reduce<string[]>((all, addrs) => all.concat(addrs), []);
+    const dupes = Object
+      .entries(allowed as Record<string, string[]>)
+      .reduce<[string, string][]>((all, [site, addrs]) => all.concat(addrs.map((a) => [site, a])), [])
+      .filter(([, a]) => added.includes(a));
 
     expect(dupes).toEqual([]);
   });

@@ -6,13 +6,18 @@
     <link rel="shortcut icon" href="favicon.ico">
     <title>polkadot{.js}/phishing</title>
     <style>
+      :root {
+        --font-mono: 0.9em Consolas, monaco, "Ubuntu Mono", "Liberation Mono", "Courier New", Courier, monospace;
+        --font-sans: 1em "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+
       a { color: #ff8c00 !important; text-decoration: none }
-      body { color: #4e4e4e; font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height: 100vh; overflow-x: hidden; padding: 0 }
-      h3 { font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; margin: 1rem 0; opacity: 0.95; text-transform: lowercase }
+      body { color: #4e4e4e; font: var(--font-sans); height: 100vh; overflow-x: hidden; padding: 0 }
+      h3 { font: var(--font-sans); font-weight: 400; margin: 0; opacity: 0.5; text-transform: lowercase }
       p { line-height: 1.5rem; margin: 0.75rem 0 }
 
-      .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 0 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
-      .buttons { margin: 2rem 0 1.5rem }
+      .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 1rem 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
+      .buttons { display: none; margin: 2rem 0 1.5rem }
       .buttons a { border: 1px solid #eee; border-radius: 0.25rem; margin: 0 0.25rem; padding: 0.5rem 0.75rem }
       .buttons .invert { color: rgba(255, 255, 255, 0.85) !important }
       .container { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-top: 4rem; padding-bottom: 2rem }
@@ -22,23 +27,31 @@
       .header div.logo { display: flex; align-items: center }
       .header img { height: 1.5rem; margin-right: 0.5rem; width: 1.5rem }
       .row { align-items: center; display: flex; justify-content: center }
-      table { margin: 0 0 1rem }
-      td { font-family: monospace; padding: 0.25rem 0.5rem; text-align: right }
-      td:last-child { width: 100% }
-      td > h3 { margin: 0; opacity: 0.25 }
+
+      table { margin: 0 }
+      td:not(.centered) { font: var(--font-mono); padding: 0.25rem 0.5rem; text-align: right }
+      td.centered { opacity: 0.65; padding: 1rem; text-align: center }
+      td:nth-child(2) { width: 100% }
       tr + tr > td > h3 { margin-top: 0.5rem }
+      td > span { border-radius: 0.25em; color: white; font-size: 0.75rem; padding: 0.125em 0.375em }
+      td > span.active { background: darkred }
+      td > span.inactive { background: darkgrey; display: none }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="box">
-          <h3>phishing</h3>
           <p class="desc">A community driven curated list of known less-than-honest operators.</p>
           <p class="desc">Any additions can be made by editing <a href="https://github.com/polkadot-js/phishing/edit/master/all.json">phishing/all.json</a> and adding any new sites in alphabetical order. In the same vein addresses can be added in <a href="https://github.com/polkadot-js/phishing/edit/master/address.json">phishing/address.json</a>. For any discrepancies or requests <a href="https://github.com/polkadot-js/phishing/issues">log an issue</a>.</p>
-          <p class="buttons"><a href="#" id="btn-sites" onclick="fillTable('sites')">Sites</a><a href="#" id="btn-addresses" onclick="fillTable('addresses')">Addresses</a></p>
+          <p id="buttons" class="buttons"><a href="#" id="btn-sites" onclick="fillTable('sites')">Sites</a><a href="#" id="btn-addresses" onclick="fillTable('addresses')">Addresses</a></p>
           <table>
             <tbody id="table">
+              <tr>
+                <td></td>
+                <td class="centered">.. loading url & address metadata ...</td>
+                <td></td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -66,7 +79,7 @@
       let navTo = '';
       let metaJson;
       let addrJson;
-      let addresses;
+      let urlStatus;
       let balances = [];
 
       function draw () {
@@ -77,10 +90,11 @@
         setTimeout(() => window.requestAnimationFrame(draw), 100);
       }
 
-      function appendRow (date, url = '') {
+      function appendRow (date, url = '', status) {
         const row = document.createElement('tr');
         const a = document.createElement('td');
         const b = document.createElement('td');
+        const c = document.createElement('td');
 
         a.appendChild(document.createTextNode(url));
 
@@ -90,24 +104,50 @@
           b.appendChild(date);
         }
 
+        if (typeof status === 'string') {
+          const s = document.createElement('span');
+
+          s.classList.add(status);
+          s.appendChild(document.createTextNode(status));
+          c.appendChild(s);
+        }
+
         row.appendChild(a);
         row.appendChild(b);
+        row.appendChild(c);
 
         table.appendChild(row);
       }
 
-      async function fillAddresses () {
-        addresses.forEach((address, index) => {
-          const balance = balances[index] || '';
+      function fillAddressList (url, addresses) {
+        if (addresses && addresses.length) {
+          const c = document.createElement('h3');
 
-          appendRow(balance === '0' ? '' : balance, address);
+          c.appendChild(document.createTextNode(url));
+          appendRow(c);
+
+          addresses.forEach((address) => {
+            const balance = balances.find(([a]) => a === address) || ['', '']
+
+            appendRow(balance[1], address);
+          });
+        }
+      }
+
+      function fillAddresses () {
+        metaJson.forEach(({ url }) => fillAddressList(url, addrJson[url]));
+
+        Object.entries(addrJson).forEach(([url, addresses]) => {
+          if (!metaJson.find((m) => m.url === url)) {
+            fillAddressList(url, addresses);
+          }
         });
       }
 
-      async function fillSites () {
+      function fillSites () {
         let prevMonth = '';
 
-        metaJson.forEach(({ date, url }) => {
+        metaJson.forEach(({ date, url }, index) => {
           const thisMonth = date.split('-').slice(0, 2).join('-');
 
           if (thisMonth !== prevMonth) {
@@ -118,11 +158,11 @@
             prevMonth = thisMonth;
           }
 
-          appendRow(date, url);
+          appendRow(date, url, urlStatus[index] ? 'active' : 'inactive');
         });
       }
 
-      async function fillTable (newNav) {
+      function fillTable (newNav) {
         if (newNav !== navTo) {
           if (navTo) {
             document.getElementById(`btn-${navTo}`).classList = '';
@@ -134,45 +174,77 @@
           table.innerHTML = '';
 
           if (navTo === 'sites') {
-            await fillSites();
+            fillSites();
           } else {
-            await fillAddresses();
+            fillAddresses();
           }
+        }
+      }
+
+      async function fetchTimeout (url, options = {}) {
+        const controller = new AbortController();
+        const id = setTimeout(() => controller.abort(), 2500);
+        const response = await fetch(url, { ...options, signal: controller.signal });
+
+        clearTimeout(id);
+
+        return response;
+      }
+
+      async function isUp (url) {
+        // try {
+        //   await fetchTimeout(url, { method: 'HEAD', mode: 'no-cors' });
+
+        //   const response = await fetchTimeout(`https://proxy.dotapps.workers.dev/?${url}`, { follow: 'error' });
+
+        //   return response.status === 200;
+        // } catch (error) {
+        //   return false;
+        // }
+
+        return false;
+      }
+
+      async function getBalance (key) {
+        try {
+          const response = await fetchTimeout('https://polkadot.subscan.io/api/scan/search', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ key, page: 0, row: 1 })
+          });
+          const { data } = await response.json();
+          const [pre, post] = ((data && data.account.balance) || '0').split('.');
+
+          return [key, `${pre}.${`${post || ''}0000000000`.substr(0, 10)}`];
+        } catch (error) {
+          console.error(error);
+          return [key, ''];
         }
       }
 
       async function main () {
         draw();
 
-        const [addrBody, metaBody] = await Promise.all([
-          fetch('address.json'),
-          fetch('urlmeta.json')
-        ]);
+        const from = window.location.protocol === 'file:' ? 'https://polkadot.js.org/phishing/' : '';
+        const [addrBody, metaBody] = await Promise.all(['address', 'urlmeta'].map((j) => fetchTimeout(`${from}${j}.json`)));
 
-        [addrJson, metaJson] = await Promise.all([
-          addrBody.json(),
-          metaBody.json()
-        ]);
-        addresses = Object
+        [addrJson, metaJson] = await Promise.all([addrBody.json(), metaBody.json()]);
+
+        const addresses = Object
           .values(addrJson)
-          .reduce((all, addrs) => all.concat(...addrs), [])
-          .sort((a, b) => a.localeCompare(b));
+          .reduce((all, addrs) => {
+            addrs.forEach((a) => !all.includes(a) && all.push(a));
 
-        // Promise.all(
-        //   addresses.map((key) => fetch('https://polkadot.subscan.io/api/scan/search', {
-        //     method: 'POST',
-        //     headers: {
-        //       'Content-Type': 'application/json'
-        //     },
-        //     body: JSON.stringify({
-        //       key,
-        //       page: 0,
-        //       row: 1
-        //     })
-        //   }).then((body) => body.json()).then(({ data }) => (data && data.balance) || '0'))
-        // ).then((b) => balances = b).catch(console.error);
+            return all;
+          }, []);
 
-        await fillTable('sites');
+        [balances, urlStatus] = await Promise.all([
+          Promise.all(addresses.map(getBalance)),
+          Promise.all(metaJson.map(({ url }) => isUp(`https://${url}`)))
+        ]);
+
+        document.getElementById('buttons').style.display = 'block';
+        fillTable('sites');
       }
 
       main();

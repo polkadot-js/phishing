@@ -2,8 +2,18 @@
   "claimpolka.live": [
     "12aCLUsyTCWn5Dzf5wxuuRm93dx9rkAF5rqw9zBDTV5NSY1E"
   ],
+  "claimpolkadot.com": [
+    "16haZsnTpsAK3PaqRJJE16Zasq9WkpovgUCdQGStKHMskLdp"
+  ],
+  "dot21.net": [
+    "1Z5ohZkHN4TjWeKpcA3tqpd4uNSA3r9fzsEG9aviDUWAeo2"
+  ],
   "dot4.org": [
-    "13iTPfjzkacRggDUPpN3SUWgbLT9ziasXNKXCbUVdwqiNTCX"
+    "13iTPfjzkacRggDUPpN3SUWgbLT9ziasXNKXCbUVdwqiNTCX",
+    "1Z5ohZkHN4TjWeKpcA3tqpd4uNSA3r9fzsEG9aviDUWAeo2"
+  ],
+  "dot4.top": [
+    "1Z5ohZkHN4TjWeKpcA3tqpd4uNSA3r9fzsEG9aviDUWAeo2"
   ],
   "dotevent.org": [
     "12759G1BVPC7cAb5tT8qLzDJUcnBuyW3n3icMwAA8uWGiUtT",
@@ -12,15 +22,37 @@
   "getpolkadot.net": [
     "14yHC3SsfvF6mDLG5co7hyX124hJmriUJA6oFHBVaqa8MUF5"
   ],
+  "getpolkadot.us": [
+    "12rpYzbZHLmM83UcAuudQWr4cdb6xVCCe2brMQeno5isbSwK"
+  ],
+  "kusama-wallet.com": [
+    "Ep2sBdP9974k9FRYvmjyfyffnyy5WfpgWuBCefJS3ySf2DL",
+    "EXszXNkNJPxdaD3MbRGsSChYMEZqENx8ojN4QaFA2TXVdam",
+    "H4hHhuhs1zWm1jAjj42VAr7VTc99yV3J9x3tXLTtD2GnMvD"
+  ],
+  "musk-in.com": [
+    "12rpYzbZHLmM83UcAuudQWr4cdb6xVCCe2brMQeno5isbSwK"
+  ],
   "polkadot-airdrop.info": [
     "13DUJB2UFQYJNG8eAgvbPUDZowTnb45cq7EM7WvtkNksPMZW"
   ],
   "polkadot-airdrop.live": [
     "15x6f6M42ccmTq3emCtyCZUKCbYLH3msCPmHGnEgwUxZRAu4"
   ],
+  "polkadot-airdrop.online": [
+    "13tPgZsgmExwuRRKFsvj16LCVN4XXKtjGMH5yLW7cit8GJ73"
+  ],
   "polkadot-airdrop.org": [
+    "12We44NDCNUWa9tnfgxmSc38vDXFXcnLDkGdL2Xy45mnhZ52",
     "14BFcanA3zYTpbCmzKGXVEnFe9WoBCq3JdPQdnsiEgEhXSA2",
     "14oEqqqCabUQdsdq1zP1qdb8b4uhEnc2mL1YYHKf8xYbh8FB"
+  ],
+  "polkadot-airdrops.net": [
+    "15qeaJ252MdLNjiEfhb7aLrbDCekLT6MUtkVQPqKGa9P8r5J"
+  ],
+  "polkadot-bonus.network": [
+    "12RGBMjuLkCX6TKUoG33Fm4SzpxNYjwjgqHZ9huk5Nk4NAPh",
+    "1DsARAWRSyMoy815SeZrFytb74Qvw7W2wsrsYWZxZmHcRC4"
   ],
   "polkadot-event.com": [
     "124QZBBTZtPDGPS4GqK6w8y5rPUC7EydLka9Gk3qCTDemGTN",
@@ -31,8 +63,17 @@
     "16hGDoTMCp5MidmTrNrM7C4PmW8YsKHWdfWuYNS4j7uqUMZ8",
     "1xxiVzncNRjFHMHUo27iLDo931f35YjVQauRBWuA4JEHfRz"
   ],
+  "polkadot-online.live": [
+    "16h6cD9DvRkz7Z8Xd43BTmubqaSQcZ3EUMD3tiHNwJ6kuhQa"
+  ],
   "polkadot-promo.info": [
+    "15qfYtQaRHHqxxAhRX5qKh6HXeWaSaF7rLfzjLtgW27USYH1",
     "1s3B8f5dJbtV4rVTZs1WNRpzKCUJWxK2zULErjmA52Do2SF"
+  ],
+  "polkadot-wallet.org": [
+    "12nGrKnQprcq19X8zdVevfXZPNgD4AoDnsAwxs6FoEeThudY",
+    "15Mudzn4no9pY24o3mhbT4Gw3v5WYxMbzXre4MhVRPMFhcLX",
+    "1buui9R8oXZq3Y4Py39SJUySp5RtEgDgqYYPF3Kuui6JQDv"
   ],
   "polkadot.center": [
     "12nNSFLEJU2HiuSidgd3c1bzSNn82SNpobnGso5GXF43eme6",
@@ -56,15 +97,22 @@
     "1RnWVvUiL9ZmDEYWxSpNyrWhq9gHEQcihFoYBdJTmuWjaav"
   ],
   "polkadotlive.network": [
+    "12BSDyhSV4XXmBXcgKTnsMi6e4ir56ttufiXB36x7v4utRNw",
     "15TZMmGy3eX6FJqCJHLir4KSnd5ECUukFVvgfEPCuDhe8asx",
+    "161tc4jLym61rz84WaxqBiiBovmH2FmnKGVDKcZyquwUxJEg",
+    "16C6TrBTi7VohiMguZeSCNPxwqYTR9eWWoQsbwnJ7wtJTD2N",
     "16UDgowT2DEEk73EX2bB5c5HmuvJrLvmWsGomWmyK3CqyzVz"
   ],
   "polkadots.network": [
     "125NoipEsCbtFHNW9b2oyBpKQue5Rco2KJKveB5QQJLQJKyY",
+    "12MxahH5ht8VhJBHtgs5JzaB2BQu3FBc3f5ydi6q9t31AHbg",
     "14h58wtSWXy6sh8F2XhSb87RLQK6puYWFkeyewYnprcxzz9Z"
   ],
   "telegra.ph": [
     "14MrAYGMmV9Yy2JDQQUzvPS6zQUyXHNLrNLV8bLtPV4K7otN"
+  ],
+  "twitter.com": [
+    "15MGfKyXwLuuBndsiz25CJXjzR7Xp4SwTXkYJR2nNY5MGrPE"
   ],
   "youtube.com": [
     "13afnZRWDqmaRapMg6URQkDEnoxuVzHUCYo2v61dXaKHdgBB",
