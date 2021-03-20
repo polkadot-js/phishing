@@ -2,6 +2,7 @@
   "allow": [],
   "deny": [
     "4dot.net",
+    "activebonus.live",
     "apps.polkadomain.com",
     "atomicwalletgift.live",
     "buncebit.com",
@@ -19,6 +20,7 @@
     "kusama-wallet.com",
     "musk-in.com",
     "polkabeam.org",
+    "polkadomain.com",
     "polkadot-airdrop.info",
     "polkadot-airdrop.live",
     "polkadot-airdrop.online",
@@ -61,6 +63,7 @@
     "polkawallets.site",
     "polkdot-live.network",
     "polkodot.network",
+    "wallet-linker.net",
     "wallet-syncing.com",
     "wallet-validation.site",
     "walletsynchronization.com",
