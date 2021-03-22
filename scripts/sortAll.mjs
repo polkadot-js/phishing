@@ -3,6 +3,8 @@
 
 import fs from 'fs';
 
+const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
+
 function sortSection (values) {
   return values.sort((a, b) => a.localeCompare(b));
 }
@@ -13,6 +15,15 @@ function sortAddress (values) {
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([key, addresses]) => [key, sortSection(addresses)])
     .reduce((all, [key, addresses]) => ({ ...all, [key]: addresses }), {});
+}
+
+function addSites (deny, values) {
+  return Object.keys(values).reduce((deny, url) => {
+    !deny.includes(url) && !KNOWN_URLS.includes(url) &&
+      deny.push(url);
+
+    return deny;
+  }, deny);
 }
 
 function isUnique (type, list) {
@@ -35,7 +46,7 @@ const meta = JSON.parse(fs.readFileSync('urlmeta.json', 'utf-8'));
 
 // sorted order for all entries
 const allow = sortSection(all.allow);
-const deny = sortSection(all.deny);
+const deny = sortSection(addSites(all.deny, addr));
 
 // check for unique entries
 isUnique('all.json/allow', allow);
