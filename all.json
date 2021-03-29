@@ -1,10 +1,12 @@
 {
   "allow": [],
   "deny": [
+    "3xexchange.io",
     "4dot.net",
     "activebonus.live",
     "atomicwalletgift.live",
     "buncebit.com",
+    "claimpolka.com",
     "claimpolka.live",
     "claimpolkadot.com",
     "dot-event.news",
