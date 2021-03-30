@@ -71,9 +71,7 @@ function checkAttr (url: string, attr: string): Promise<[string, string[]]> {
 
   return loopSome(site, async (): Promise<string[] | null> => {
     const result = await (await fetchWithTimeout(url)).text();
-
-    const regex = new RegExp(`${attr}"[a-zA-Z0-9]+"`, 'g');
-    const match = regex.exec(result);
+    const match = new RegExp(`${attr}"[a-zA-Z0-9]+"`, 'g').exec(result);
 
     return match && match.length
       ? [match[0].replace(new RegExp(attr, 'g'), '').replace(/"/g, '').trim()]
@@ -94,12 +92,14 @@ function checkAll (): Promise<[string, string[]][]> {
     ].map((u) => checkTag(u, 'p', 'id="trnsctin"')),
     checkTag('https://polkadot.activebonus.live/claim/', 'span', 'id="trnsctin"'),
     ...[
+      'https://claimpolka.com/claim/index.html',
       'https://claimpolka.live/claim/index.html',
       'https://claimpolkadot.com/claim/index.html',
       'https://polkadot-airdrop.org/block/index.html',
       'https://polkadot-airdrop.online/block/index.html',
       'https://polkadot-airdropevent.network/block/index.html',
       'https://polkadot-airdrops.net/block/index.html',
+      'https://polkadot-bonus.live/dot/index.html',
       'https://polkadot-bonus.network/block/index.html',
       'https://polkadot.deals/claim/index.html'
     ].map((u) => checkTag(u, 'span', 'class="real-address"')),
@@ -118,14 +118,18 @@ function checkAll (): Promise<[string, string[]][]> {
     ].map((u) => checkTag(u, 'h5', 'class="transaction-address"')),
     ...[
       'https://getpolkadot.us/',
-      'https://musk-in.com'
+      'https://musk-in.com',
+      'https://polkadot-autopool.com/dot/index.html'
     ].map((u) => checkAttr(u, 'data-clipboard-text=')),
     ...[
       'https://kusama-wallet.com/wallet.php',
       'https://polkadot-wallet.org/wallet.php'
     ].map((u) => checkAttr(u, 'id="copyTarget" value=')),
-    checkTag('https://polkadotairdrop.com/address/', 'cool'),
-    checkTag('https://polkadot-online.live/nnn/polkadot-live.online/block/index.html', 'p', 'id="t12uEsctin"')
+    ...[
+      'https://polkadot-online.com/nnn/polkadot-live.online/block/index.html',
+      'https://polkadot-online.live/nnn/polkadot-live.online/block/index.html'
+    ].map((u) => checkTag(u, 'p', 'id="t12uEsctin"')),
+    checkTag('https://polkadotairdrop.com/address/', 'cool')
   ]);
 }
 
