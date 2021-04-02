@@ -76,8 +76,8 @@
     "polkamon.co",
     "polkamon.whitelist-network.com",
     "polkastarter.ai",
-    "polkastarter.ws",
     "polkastarter.cm",
+    "polkastarter.ws",
     "polkawallets.site",
     "polkdot-live.network",
     "polkodot.network",
@@ -87,9 +87,9 @@
     "wallet-validation.site",
     "walletbloksconnect.live",
     "walletconnectbot.com",
-    "xn--wlletconnect-cbb.com",
     "wallets-connect.net",
     "walletsynchronization.com",
-    "web-polkadot.web.app"
+    "web-polkadot.web.app",
+    "xn--wlletconnect-cbb.com"
   ]
 }
