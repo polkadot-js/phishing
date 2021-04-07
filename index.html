@@ -77,6 +77,7 @@
         window.top.location.href = window.location.href;
       }
 
+      const search = document.getElementById('search');
       const style = document.createElement('style');
       const table = document.getElementById('table');
 
@@ -203,6 +204,8 @@
           } else {
             fillAddresses();
           }
+
+          search.focus();
         }
       }
 
@@ -268,14 +271,10 @@
           Promise.all(metaJson.map(({ url }) => isUp(`https://${url}`)))
         ]);
 
-        document.getElementById('buttons').style.display = 'block';
-        fillTable('sites');
-
-        const search = document.getElementById('search');
-
         search.addEventListener('input', onSearch);
         search.style.display = 'block';
-        search.focus();
+        document.getElementById('buttons').style.display = 'block';
+        fillTable('sites');
       }
 
       main();
