@@ -32,12 +32,12 @@
     "polkadex.whitelist-network.com",
     "polkadomain.com",
     "polkadoot.com",
-    "polkadot.casa",
     "polkadot-airdrop.info",
     "polkadot-airdrop.live",
     "polkadot-airdrop.online",
     "polkadot-airdrop.org",
     "polkadot-airdropevent.network",
+    "polkadot-airdropevents.network",
     "polkadot-airdrops.live",
     "polkadot-airdrops.net",
     "polkadot-autopool.com",
@@ -63,6 +63,7 @@
     "polkadot-wallet.com",
     "polkadot-wallet.org",
     "polkadot.activebonus.live",
+    "polkadot.casa",
     "polkadot.center",
     "polkadot.com.se",
     "polkadot.company",
@@ -73,6 +74,7 @@
     "polkadotbonus.com",
     "polkadotfund.com",
     "polkadotgiveaway.com",
+    "polkadotjs.online",
     "polkadotlive.com",
     "polkadotlive.network",
     "polkadots.live",
@@ -106,9 +108,6 @@
     "walletweb.net",
     "web-polkadot.web.app",
     "whitelist-network.com",
-    "xn--wlletconnect-cbb.com",
-    "polkadotjs.online",
-    "polkadot-airdropevents.network"
-    
+    "xn--wlletconnect-cbb.com"
   ]
 }
