@@ -5,57 +5,62 @@ import fs from 'fs';
 
 const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
-function sortSection (values) {
-  return values.sort((a, b) => a.localeCompare(b));
+function sortSection (list) {
+  return list
+    .reduce((filtered, entry) => {
+      !filtered.includes(entry) &&
+        filtered.push(entry);
+
+      return filtered;
+    }, [])
+    .sort((a, b) => a.localeCompare(b));
 }
 
-function sortAddress (values) {
+function sortAddresses (values) {
   return Object
     .entries(values)
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([key, addresses]) => [key, sortSection(addresses)])
-    .reduce((all, [key, addresses]) => ({ ...all, [key]: addresses }), {});
+    .reduce((all, [key, addresses]) => {
+      if (!all[key]) {
+        all[key] = [];
+      }
+
+      sortSection(addresses).forEach((addr) => {
+        !all[key].includes(addr) &&
+          all[key].push(addr);
+      });
+
+      return all;
+    }, {});
 }
 
 function addSites (deny, values) {
-  return Object.keys(values).reduce((deny, url) => {
-    !deny.includes(url) && !KNOWN_URLS.includes(url) &&
-      deny.push(url);
+  return Object
+    .keys(values)
+    .reduce((filtered, url) => {
+      !filtered.includes(url) && !KNOWN_URLS.includes(url) &&
+        filtered.push(url);
 
-    return deny;
-  }, deny);
+      return filtered;
+    }, deny);
 }
 
-function isUnique (type, list) {
-  const others = [];
-
-  list.forEach((entry) => {
-    if (others.includes(entry)) {
-      throw new Error(`${entry} is duplicated in ${type}`);
-    } else {
-      others.push(entry);
-    }
-  });
-
-  return true;
+function readJson (file) {
+  return JSON.parse(fs.readFileSync(file, 'utf-8'));
 }
 
-const addr = JSON.parse(fs.readFileSync('address.json', 'utf-8'));
-const all = JSON.parse(fs.readFileSync('all.json', 'utf-8'));
-const meta = JSON.parse(fs.readFileSync('urlmeta.json', 'utf-8'));
+function writeJson (file, contents) {
+  fs.writeFileSync(file, `${JSON.stringify(contents, null, 2)}\n`);
+}
 
-// sorted order for all entries
-const allow = sortSection(all.allow);
+const addr = readJson('address.json');
+const all = readJson('all.json');
+const meta = readJson('urlmeta.json');
 const deny = sortSection(addSites(all.deny, addr));
 
-// check for unique entries
-isUnique('all.json/allow', allow);
-isUnique('all.json/deny', deny);
-isUnique('address.json', Object.keys(addr));
-
 // rewrite with all our entries (newline included)
-fs.writeFileSync('address.json', `${JSON.stringify(sortAddress(addr), null, 2)}\n`);
-fs.writeFileSync('all.json', `${JSON.stringify({ allow, deny }, null, 2)}\n`);
+writeJson('address.json', sortAddresses(addr));
+writeJson('all.json', { allow: sortSection(all.allow), deny });
 
 // find out what we don't have
 const urls = meta.map(({ url }) => url);
@@ -63,13 +68,12 @@ const now = new Date();
 const date = `${now.getUTCFullYear()}-${`00${now.getUTCMonth() + 1}`.slice(-2)}-${`00${now.getUTCDate()}`.slice(-2)}`;
 
 // rewrite with all our entries (newline included)
-fs.writeFileSync('urlmeta.json', `${JSON.stringify(
+writeJson('urlmeta.json',
   meta
     .concat(
       deny
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date, url }))
     )
-    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url)),
-  null, 2
-)}\n`);
+    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
+);
