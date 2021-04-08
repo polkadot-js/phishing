@@ -5,8 +5,15 @@ import fs from 'fs';
 
 const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
-function sortSection (values) {
-  return values.sort((a, b) => a.localeCompare(b));
+function sortSection (list) {
+  return list
+    .filter((filtered, entry) => {
+      !filtered.includes(entry) &&
+        filtered.push(entry);
+
+      return filtered;
+    }, [])
+    .sort((a, b) => a.localeCompare(b));
 }
 
 function sortAddress (values) {
@@ -18,26 +25,14 @@ function sortAddress (values) {
 }
 
 function addSites (deny, values) {
-  return Object.keys(values).reduce((deny, url) => {
-    !deny.includes(url) && !KNOWN_URLS.includes(url) &&
-      deny.push(url);
+  return Object
+    .keys(values)
+    .reduce((filtered, url) => {
+      !filtered.includes(url) && !KNOWN_URLS.includes(url) &&
+        filtered.push(url);
 
-    return deny;
-  }, deny);
-}
-
-function isUnique (type, list) {
-  const others = [];
-
-  list.forEach((entry) => {
-    if (others.includes(entry)) {
-      throw new Error(`${entry} is duplicated in ${type}`);
-    } else {
-      others.push(entry);
-    }
-  });
-
-  return true;
+      return filtered;
+    }, deny);
 }
 
 const addr = JSON.parse(fs.readFileSync('address.json', 'utf-8'));
@@ -47,11 +42,6 @@ const meta = JSON.parse(fs.readFileSync('urlmeta.json', 'utf-8'));
 // sorted order for all entries
 const allow = sortSection(all.allow);
 const deny = sortSection(addSites(all.deny, addr));
-
-// check for unique entries
-isUnique('all.json/allow', allow);
-isUnique('all.json/deny', deny);
-isUnique('address.json', Object.keys(addr));
 
 // rewrite with all our entries (newline included)
 fs.writeFileSync('address.json', `${JSON.stringify(sortAddress(addr), null, 2)}\n`);
