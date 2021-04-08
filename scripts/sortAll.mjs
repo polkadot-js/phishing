@@ -16,12 +16,22 @@ function sortSection (list) {
     .sort((a, b) => a.localeCompare(b));
 }
 
-function sortAddress (values) {
+function sortAddresses (values) {
   return Object
     .entries(values)
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([key, addresses]) => [key, sortSection(addresses)])
-    .reduce((all, [key, addresses]) => ({ ...all, [key]: addresses }), {});
+    .reduce((all, [key, addresses]) => {
+      if (!all[key]) {
+        all[key] = [];
+      }
+
+      sortSection(addresses).forEach((addr) => {
+        !all[key].includes(addr) &&
+          all[key].push(addr);
+      });
+
+      return all;
+    }, {});
 }
 
 function addSites (deny, values) {
@@ -35,17 +45,22 @@ function addSites (deny, values) {
     }, deny);
 }
 
-const addr = JSON.parse(fs.readFileSync('address.json', 'utf-8'));
-const all = JSON.parse(fs.readFileSync('all.json', 'utf-8'));
-const meta = JSON.parse(fs.readFileSync('urlmeta.json', 'utf-8'));
+function readJson (file) {
+  return JSON.parse(fs.readFileSync(file, 'utf-8'));
+}
 
-// sorted order for all entries
-const allow = sortSection(all.allow);
+function writeJson (file, contents) {
+  fs.writeFileSync(file, `${JSON.stringify(contents, null, 2)}\n`);
+}
+
+const addr = readJson('address.json');
+const all = readJson('all.json');
+const meta = readJson('urlmeta.json');
 const deny = sortSection(addSites(all.deny, addr));
 
 // rewrite with all our entries (newline included)
-fs.writeFileSync('address.json', `${JSON.stringify(sortAddress(addr), null, 2)}\n`);
-fs.writeFileSync('all.json', `${JSON.stringify({ allow, deny }, null, 2)}\n`);
+writeJson('address.json', sortAddresses(addr));
+writeJson('all.json', { allow: sortSection(all.allow), deny });
 
 // find out what we don't have
 const urls = meta.map(({ url }) => url);
@@ -53,13 +68,12 @@ const now = new Date();
 const date = `${now.getUTCFullYear()}-${`00${now.getUTCMonth() + 1}`.slice(-2)}-${`00${now.getUTCDate()}`.slice(-2)}`;
 
 // rewrite with all our entries (newline included)
-fs.writeFileSync('urlmeta.json', `${JSON.stringify(
+writeJson('urlmeta.json',
   meta
     .concat(
       deny
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date, url }))
     )
-    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url)),
-  null, 2
-)}\n`);
+    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
+);
