@@ -7,7 +7,7 @@ const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
 function sortSection (list) {
   return list
-    .filter((filtered, entry) => {
+    .reduce((filtered, entry) => {
       !filtered.includes(entry) &&
         filtered.push(entry);
 
