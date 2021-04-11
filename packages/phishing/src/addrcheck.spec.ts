@@ -131,6 +131,7 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://polkadot-online.com/nnn/polkadot-live.online/block/index.html',
       'https://polkadot-online.live/nnn/polkadot-live.online/block/index.html'
     ].map((u) => checkTag(u, 'p', 'id="t12uEsctin"')),
+    checkTag('https://polkadot-gift.info/', 'span', 'id="wallet"'),
     checkTag('https://polkadotairdrop.com/address/', 'cool')
   ]);
 }
