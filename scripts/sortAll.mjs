@@ -3,19 +3,64 @@
 
 import fs from 'fs';
 
-function sortSection (values) {
-  return values.sort((a, b) => a.localeCompare(b));
+const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
+
+function sortSection (list) {
+  return list
+    .reduce((filtered, entry) => {
+      !filtered.includes(entry) &&
+        filtered.push(entry);
+
+      return filtered;
+    }, [])
+    .sort((a, b) => a.localeCompare(b));
 }
 
-const original = JSON.parse(fs.readFileSync('all.json', 'utf-8'));
-const meta = JSON.parse(fs.readFileSync('urlmeta.json', 'utf-8'));
+function sortAddresses (values) {
+  return Object
+    .entries(values)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .reduce((all, [key, addresses]) => {
+      if (!all[key]) {
+        all[key] = [];
+      }
 
-// sorted order for all entries
-const allow = sortSection(original.allow);
-const deny = sortSection(original.deny);
+      sortSection(addresses).forEach((addr) => {
+        !all[key].includes(addr) &&
+          all[key].push(addr);
+      });
+
+      return all;
+    }, {});
+}
+
+function addSites (deny, values) {
+  return Object
+    .keys(values)
+    .reduce((filtered, url) => {
+      !filtered.includes(url) && !KNOWN_URLS.includes(url) &&
+        filtered.push(url);
+
+      return filtered;
+    }, deny);
+}
+
+function readJson (file) {
+  return JSON.parse(fs.readFileSync(file, 'utf-8'));
+}
+
+function writeJson (file, contents) {
+  fs.writeFileSync(file, `${JSON.stringify(contents, null, 2)}\n`);
+}
+
+const addr = readJson('address.json');
+const all = readJson('all.json');
+const meta = readJson('urlmeta.json');
+const deny = sortSection(addSites(all.deny, addr));
 
 // rewrite with all our entries (newline included)
-fs.writeFileSync('all.json', `${JSON.stringify({ allow, deny }, null, 2)}\n`);
+writeJson('address.json', sortAddresses(addr));
+writeJson('all.json', { allow: sortSection(all.allow), deny });
 
 // find out what we don't have
 const urls = meta.map(({ url }) => url);
@@ -23,13 +68,12 @@ const now = new Date();
 const date = `${now.getUTCFullYear()}-${`00${now.getUTCMonth() + 1}`.slice(-2)}-${`00${now.getUTCDate()}`.slice(-2)}`;
 
 // rewrite with all our entries (newline included)
-fs.writeFileSync('urlmeta.json', `${JSON.stringify(
+writeJson('urlmeta.json',
   meta
     .concat(
       deny
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date, url }))
     )
-    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url)),
-  null, 2
-)}\n`);
+    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
+);

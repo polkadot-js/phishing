@@ -1,7 +1,7 @@
 name: crosscheck
 on:
   schedule:
-    - cron:  '45 4 * * *'
+    - cron:  '45 5/1 * * *'
 
 jobs:
   crosscheck:
@@ -14,11 +14,30 @@ jobs:
       run: |
         yarn install --immutable | grep -v 'YN0013'
         yarn phishing:crosscheck
-
     - name: issue
       if: ${{ failure() }}
       uses: JasonEtco/create-an-issue@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
       with:
         filename: .github/crosscheck.md
+        update_existing: true
+
+  addrcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: check
+      env:
+        CI_LOG: 123
+      run: |
+        yarn install --immutable | grep -v 'YN0013'
+        yarn phishing:addrcheck
+    - name: issue
+      if: ${{ failure() }}
+      uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
+      with:
+        filename: .github/addrcheck.md
+        update_existing: true
