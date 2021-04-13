@@ -84,14 +84,17 @@
     "polkadotairdrop.com",
     "polkadotbank.com",
     "polkadotbonus.com",
+    "polkadotchain.net",
     "polkadotfund.com",
     "polkadotgiveaway.com",
     "polkadotjs.online",
     "polkadotlive.com",
     "polkadotlive.network",
+    "polkadotparachain.com",
     "polkadots.live",
     "polkadots.network",
     "polkadotsnetwork.com",
+    "polkadottoken.org",
     "polkadotunlockwallet.com",
     "polkadotwallet-unlock.org",
     "polkagiveaway.com",
@@ -127,9 +130,6 @@
     "walletweb.net",
     "web-polkadot.web.app",
     "whitelist-network.com",
-    "xn--wlletconnect-cbb.com",
-    "polkadotchain.net",
-    "polkadotparachain.com",
-    "polkadottoken.org"
+    "xn--wlletconnect-cbb.com"
   ]
 }
