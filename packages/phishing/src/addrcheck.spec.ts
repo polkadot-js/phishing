@@ -3,6 +3,8 @@
 
 import fs from 'fs';
 
+import { decodeAddress } from '@polkadot/util-crypto';
+
 import { fetchWithTimeout } from './fetch';
 import { retrieveAddrList } from '.';
 
@@ -88,7 +90,8 @@ function checkAll (): Promise<[string, string[]][]> {
     ].map((u) => checkGetWallet(u)),
     ...[
       'https://polkadotlive.network/block-assets/index.html',
-      'https://polkadots.network/block.html'
+      'https://polkadots.network/block.html',
+      'https://polkadot-gift.org/block.html'
     ].map((u) => checkTag(u, 'p', 'id="trnsctin"')),
     checkTag('https://polkadot.activebonus.live/claim/', 'span', 'id="trnsctin"'),
     ...[
@@ -142,10 +145,21 @@ describe('addrcheck', (): void => {
   });
 
   it('has all known addresses', async (): Promise<void> => {
-    const [ours, results] = await Promise.all([
+    const [ours, _results] = await Promise.all([
       retrieveAddrList(),
       checkAll()
     ]);
+    const results = _results.map(([url, addrs]): [string, string[]] => {
+      return [url, addrs.filter((a) => {
+        try {
+          return !!decodeAddress(a);
+        } catch (error) {
+          console.error(url, (error as Error).message);
+
+          return false;
+        }
+      })];
+    });
     const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
       all.push(...addrs);
 
