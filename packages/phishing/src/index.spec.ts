@@ -1,7 +1,9 @@
 // Copyright 2020-2021 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import denied from '../../../address.json';
+import { decodeAddress } from '@polkadot/util-crypto';
+
+import addresses from '../../../address.json';
 import allowed from '../../../known.json';
 import { checkAddress, checkIfDenied } from '.';
 
@@ -64,9 +66,30 @@ describe('checkAddress', (): void => {
 });
 
 describe('check additions', (): void => {
+  it('has no malformed addresses', (): void => {
+    const invalids = Object
+      .entries(addresses as Record<string, string[]>)
+      .map(([url, addrs]): [string, string[]] => {
+        return [url, addrs.filter((a) => {
+          try {
+            return decodeAddress(a).length !== 32;
+          } catch (error) {
+            console.error(url, (error as Error).message);
+
+            return true;
+          }
+        })];
+      })
+      .filter(([, addrs]) => addrs.length);
+
+    if (invalids.length) {
+      throw new Error(`Invalid ss58 checksum addresses found: ${invalids.map(([url, addrs]) => `\n\t${url}: ${addrs.join(', ')}`).join('')}`);
+    }
+  });
+
   it('has no entries on the known addresses list', (): void => {
     const added = Object
-      .values(denied as Record<string, string[]>)
+      .values(addresses as Record<string, string[]>)
       .reduce<string[]>((all, addrs) => all.concat(addrs), []);
     const dupes = Object
       .entries(allowed as Record<string, string[]>)
