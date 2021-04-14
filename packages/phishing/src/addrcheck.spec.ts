@@ -152,7 +152,7 @@ describe('addrcheck', (): void => {
     const results = _results.map(([url, addrs]): [string, string[]] => {
       return [url, addrs.filter((a) => {
         try {
-          return !!decodeAddress(a);
+          return decodeAddress(a).length === 32;
         } catch (error) {
           console.error(url, (error as Error).message);
 
