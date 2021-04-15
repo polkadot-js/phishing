@@ -5,8 +5,8 @@ import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
+import ourAddrList from '../../../address.json';
 import { fetchWithTimeout } from './fetch';
-import { retrieveAddrList } from '.';
 
 const TICKS = '```';
 
@@ -93,7 +93,10 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://polkadots.network/block.html',
       'https://polkadot-gift.org/block.html'
     ].map((u) => checkTag(u, 'p', 'id="trnsctin"')),
-    checkTag('https://polkadot.activebonus.live/claim/', 'span', 'id="trnsctin"'),
+    ...[
+      'https://polkagiveaway.com/verification/index.html',
+      'https://polkadot.activebonus.live/claim/'
+    ].map((u) => checkTag(u, 'span', 'id="trnsctin"')),
     ...[
       'https://claimpolka.com/claim/index.html',
       'https://claimpolka.live/claim/index.html',
@@ -141,14 +144,11 @@ function checkAll (): Promise<[string, string[]][]> {
 
 describe('addrcheck', (): void => {
   beforeAll((): void => {
-    jest.setTimeout(5 * 60 * 1000);
+    jest.setTimeout(2 * 60 * 1000);
   });
 
   it('has all known addresses', async (): Promise<void> => {
-    const [ours, _results] = await Promise.all([
-      retrieveAddrList(),
-      checkAll()
-    ]);
+    const _results = await checkAll();
     const results = _results.map(([url, addrs]): [string, string[]] => {
       return [url, addrs.filter((a) => {
         try {
@@ -160,7 +160,7 @@ describe('addrcheck', (): void => {
         }
       })];
     });
-    const all = Object.values(ours).reduce((all: string[], addrs: string[]): string[] => {
+    const all = Object.values(ourAddrList).reduce((all: string[], addrs: string[]): string[] => {
       all.push(...addrs);
 
       return all;
