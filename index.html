@@ -7,6 +7,7 @@
     <title>polkadot{.js}/phishing</title>
     <style>
       :root {
+        --bg-box: rgba(255, 255, 255, 0.85);
         --color: #4e4e4e;
         --font-mono: 0.9em Consolas, monaco, "Ubuntu Mono", "Liberation Mono", "Courier New", Courier, monospace;
         --font-sans: 1em "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -19,14 +20,14 @@
       input { color: var(--color); display: block; opacity: 0.85; padding: 0.5rem 0.75rem; width: 100% }
       input:focus { outline: none }
 
-      .box { background: rgba(255, 255, 255, 0.85); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 1rem 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
+      .box { background: var(--bg-box); border-radius: 0.25rem; flex: 1 1; margin: 0.5rem; min-width: 15rem; max-width: 40rem; padding: 1rem 1.5rem; text-align: center; white-space: nowrap; width: 40rem; z-index: 2 }
       .buttons { display: none; margin: 2rem 0 1.5rem }
       .buttons a { border: 1px solid #eee; border-radius: 0.25rem; margin: 0 0.25rem; padding: 0.5rem 0.75rem }
-      .buttons .invert { color: rgba(255, 255, 255, 0.85) !important }
+      .buttons .invert { color: var(--bg-box) !important }
       .container { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-top: 4rem; padding-bottom: 2rem }
       .desc { font-size:  0.95rem; opacity: 0.85; white-space: normal }
       .dot { border-radius: 50%; position: absolute; z-index: 0 }
-      .header { align-items: center; background: rgba(255, 255, 255, 0.85); display: flex; left: 0; justify-content: space-between; padding: 0.5rem 1rem; position: fixed; right: 0; top: 0; z-index: 1 }
+      .header { align-items: center; background: var(--bg-box); display: flex; left: 0; justify-content: space-between; padding: 0.5rem 1rem; position: fixed; right: 0; top: 0; z-index: 2 }
       .header div.logo { display: flex; align-items: center }
       .header img { height: 1.5rem; margin-right: 0.5rem; width: 1.5rem }
       .hidden { display: none }
@@ -173,6 +174,21 @@
 
       function fillSites () {
         let prevMonth = '';
+        let countIndex = -1;
+        const count = metaJson.reduce((count, { date }) => {
+          const thisMonth = date.split('-').slice(0, 2).join('-');
+
+          if (thisMonth !== prevMonth) {
+            count.push(0);
+            prevMonth = thisMonth;
+          }
+
+          count[count.length - 1] += 1;
+
+          return count;
+        }, []);
+
+        prevMonth = '';
 
         metaJson.forEach(({ date, url }, index) => {
           const thisMonth = date.split('-').slice(0, 2).join('-');
@@ -180,7 +196,8 @@
           if (thisMonth !== prevMonth) {
             const c = document.createElement('h3');
 
-            c.appendChild(document.createTextNode(thisMonth));
+            countIndex++;
+            c.appendChild(document.createTextNode(`${thisMonth} (${count[countIndex]})`));
             appendRow(c);
             prevMonth = thisMonth;
           }
@@ -274,7 +291,11 @@
 
         search.addEventListener('input', onSearch);
         search.style.display = 'block';
+
+        document.getElementById('btn-sites').innerText = `Sites (${metaJson.length})`;
+        document.getElementById('btn-addresses').innerText = `Addresses (${Object.values(addrJson).reduce((count, addrs) => count + addrs.length, 0)})`;
         document.getElementById('buttons').style.display = 'block';
+
         fillTable('sites');
       }
 
