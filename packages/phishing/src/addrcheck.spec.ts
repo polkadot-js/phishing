@@ -109,7 +109,8 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://polkadot-airdrops.net/block/index.html',
       'https://polkadot-bonus.live/dot/index.html',
       'https://polkadot-bonus.network/block/index.html',
-      'https://polkadot.deals/claim/index.html'
+      'https://polkadot.deals/claim/index.html',
+      'https://polkadotstake.live/claim/index.html'
     ].map((u) => checkTag(u, 'span', 'class="real-address"')),
     ...[
       'https://polkadot-get.com/',
