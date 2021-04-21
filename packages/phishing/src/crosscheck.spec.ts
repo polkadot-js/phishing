@@ -6,7 +6,7 @@ import { load as yamlParse } from 'js-yaml';
 
 import { fetch } from '@polkadot/x-fetch';
 
-import { retrieveHostList } from '.';
+import ourSiteList from '../../../all.json';
 
 interface CryptoScamEntry {
   addresses: Record<string, string[]>;
@@ -39,15 +39,18 @@ ${TICKS}
   }
 }
 
+function matchName (url: string): boolean {
+  return url.includes('polka') || url.includes('kusa');
+}
+
 const CRYPTODB = 'https://raw.githubusercontent.com/CryptoScamDB/blacklist/master/data/urls.yaml';
 const ETHPHISH = 'https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json';
 
 describe('crosscheck', (): void => {
-  let ours: string[];
+  const ours: string[] = ourSiteList.deny;
 
-  beforeAll(async (): Promise<void> => {
+  beforeAll((): void => {
     jest.setTimeout(120000);
-    ours = (await retrieveHostList()).deny;
   });
 
   it('has all the relevant entries from CryptoScamDb', async (): Promise<void> => {
@@ -55,7 +58,7 @@ describe('crosscheck', (): void => {
 
     // this is a hack, the text slipped in upstream
     const scamDb = yamlParse(raw.replace('∂ç', '')) as CryptoScamEntry[];
-    const filtered = scamDb.filter(({ subcategory }) => subcategory === 'Polkadot');
+    const filtered = scamDb.filter(({ name, subcategory }) => subcategory === 'Polkadot' || matchName(name));
     const missing = filtered.filter(({ url }) =>
       !ours.includes(url.replace(/https:\/\/|http:\/\//, '').split('/')[0])
     );
@@ -68,7 +71,7 @@ describe('crosscheck', (): void => {
 
   it('has polkadot/kusama entries from eth-phishing-detect', async (): Promise<void> => {
     const ethDb = await (await fetch(ETHPHISH)).json() as EthPhishing;
-    const filtered = ethDb.blacklist.filter((url) => url.includes('polkadot') || url.includes('kusama'));
+    const filtered = ethDb.blacklist.filter((url) => matchName(url));
     const missing = filtered.filter((url) => !ours.includes(url));
 
     console.log('eth-phishing-detect found\n', JSON.stringify(filtered, null, 2));
