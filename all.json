@@ -36,6 +36,7 @@
     "mynodeswallet.online",
     "oxy.dev",
     "p0lkadot.network",
+    "parity.site",
     "polkabeam.org",
     "polkabonus.com",
     "polkadex.whitelist-network.com",
@@ -81,6 +82,8 @@
     "polkadot.company",
     "polkadot.deals",
     "polkadot.express",
+    "polkadot.gg",
+    "polkadot.money",
     "polkadot.network.erc-20-airdrop-rewards.site",
     "polkadot.us.com",
     "polkadotairdrop.com",
@@ -146,9 +149,6 @@
     "web-unlock.net",
     "web-unlocker.com",
     "whitelist-network.com",
-    "xn--wlletconnect-cbb.com",
-    "parity.site",
-    "polkadot.money",
-    "polkadot.gg"
+    "xn--wlletconnect-cbb.com"
   ]
 }
