@@ -39,8 +39,10 @@ ${TICKS}
   }
 }
 
-function matchName (url: string): boolean {
-  return url.includes('polka') || url.includes('kusa');
+function matchName (_url: string): boolean {
+  const url = (_url || '').toLowerCase();
+
+  return !!url && (url.includes('polka') || url.includes('kusa'));
 }
 
 const CRYPTODB = 'https://raw.githubusercontent.com/CryptoScamDB/blacklist/master/data/urls.yaml';
@@ -58,7 +60,7 @@ describe('crosscheck', (): void => {
 
     // this is a hack, the text slipped in upstream
     const scamDb = yamlParse(raw.replace('∂ç', '')) as CryptoScamEntry[];
-    const filtered = scamDb.filter(({ name, subcategory }) => subcategory === 'Polkadot' || matchName(name));
+    const filtered = scamDb.filter(({ name, subcategory }) => matchName(subcategory) || matchName(name));
     const missing = filtered.filter(({ url }) =>
       !ours.includes(url.replace(/https:\/\/|http:\/\//, '').split('/')[0])
     );
