@@ -17,6 +17,7 @@
     "claimpolkadot.live",
     "claimpolkadot.network",
     "claimpolkadot.org",
+    "coinrau.com",
     "dot-event.news",
     "dot-event.org",
     "dot-give.com",
@@ -32,6 +33,8 @@
     "ido-polkastarter.com",
     "kusama-wallet.com",
     "kusama.fund",
+    "mina.limited",
+    "minaprotocols.tech",
     "musk-in.com",
     "mynodeswallet.online",
     "oxy.dev",
@@ -149,10 +152,7 @@
     "web-unlock.net",
     "web-unlocker.com",
     "whitelist-network.com",
-    "xn--wlletconnect-cbb.com",
-    "coinrau.com",
-    "minaprotocols.tech",
-    "mina.limited",
-    "winxcrypt.com"
+    "winxcrypt.com",
+    "xn--wlletconnect-cbb.com"
   ]
 }
