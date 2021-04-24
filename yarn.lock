@@ -1899,7 +1899,7 @@ __metadata:
     "@polkadot/util": ^6.2.1
     "@polkadot/util-crypto": ^6.2.1
     "@polkadot/x-fetch": ^6.2.1
-    "@types/js-yaml": ^4.0.0
+    "@types/js-yaml": ^4.0.1
     js-yaml: ^4.1.0
   languageName: unknown
   linkType: soft
@@ -2206,10 +2206,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/js-yaml@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@types/js-yaml@npm:4.0.0"
-  checksum: 7a4431db3069988c5fa7fd00be45f18f6e355ab227b3ba23c993eeb949ee6ee39bf7180663b94f5a2378bece277ec4c49f26a27189edc263da7eeb6cd4a09d27
+"@types/js-yaml@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@types/js-yaml@npm:4.0.1"
+  checksum: fd8985289c713e3b2a494d6c243139c94bdda856af60346cf0c0da25bd6289e0165d367e623202b8cdfab7cef73a424a183282063beb0c0823d152dbec6d4959
   languageName: node
   linkType: hard
 
