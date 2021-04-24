@@ -147,12 +147,30 @@
         table.appendChild(row);
       }
 
+      function appendHeader (header) {
+        const row = document.createElement('tr');
+        const ab = document.createElement('td');
+        const c = document.createElement('td');
+
+        if (typeof header === 'string') {
+          ab.appendChild(document.createTextNode(header));
+        } else {
+          ab.appendChild(header);
+        }
+
+        ab.colSpan = 2;
+
+        row.appendChild(ab);
+        row.appendChild(c);
+        table.appendChild(row);
+      }
+
       function fillAddressList (url, addresses) {
         if (addresses && addresses.length) {
           const c = document.createElement('h3');
 
           c.appendChild(document.createTextNode(url));
-          appendRow(c);
+          appendHeader(c);
 
           addresses.forEach((address) => {
             const balance = balances.find(([a]) => a === address) || ['', '']
@@ -198,7 +216,7 @@
 
             countIndex++;
             c.appendChild(document.createTextNode(`${thisMonth} (${count[countIndex]})`));
-            appendRow(c);
+            appendHeader(c);
             prevMonth = thisMonth;
           }
 
