@@ -10,11 +10,15 @@ import { fetchWithTimeout } from './fetch';
 
 const TICKS = '```';
 
+function fetch (url: string): Promise<Response> {
+  return fetchWithTimeout(url, 5000);
+}
+
 // loop through each site for a number of times, applying the transform
 async function loopSome (site: string, matcher: () => Promise<string[] | null>): Promise<[string, string[]]> {
   const found: string[] = [];
 
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 10; i++) {
     try {
       const addresses = await matcher();
 
@@ -36,7 +40,7 @@ async function loopSome (site: string, matcher: () => Promise<string[] | null>):
 // shared between polkadot.center & polkadot-event.com (addresses are also the same on first run)
 function checkGetWallet (site: string): Promise<[string, string[]]> {
   return loopSome(site, async (): Promise<string[] | null> => {
-    const result = await (await fetchWithTimeout(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
+    const result = await (await fetch(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
 
     return (result && result.wallet)
       ? [result.wallet.replace('\r', '').trim()]
@@ -49,7 +53,7 @@ function checkTag (url: string, tag: string, attr?: string): Promise<[string, st
   const site = url.split('/')[2];
 
   return loopSome(site, async (): Promise<string[] | null> => {
-    const result = await (await fetchWithTimeout(url)).text();
+    const result = await (await fetch(url)).text();
 
     // /<p id="trnsctin">(.*?)<\/p>/g
     const match = new RegExp(`<${tag}${attr ? ` ${attr}` : ''}>(.*?)</${tag}>`, 'g').exec(result);
@@ -72,7 +76,7 @@ function checkAttr (url: string, attr: string): Promise<[string, string[]]> {
   const site = url.split('/')[2];
 
   return loopSome(site, async (): Promise<string[] | null> => {
-    const result = await (await fetchWithTimeout(url)).text();
+    const result = await (await fetch(url)).text();
     const match = new RegExp(`${attr}"[a-zA-Z0-9]+"`, 'g').exec(result);
 
     return match && match.length
@@ -94,6 +98,7 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://polkadot-gift.org/block.html'
     ].map((u) => checkTag(u, 'p', 'id="trnsctin"')),
     ...[
+      'https://polkacoinbonus.com/verification/index.html',
       'https://polkagiveaway.com/verification/index.html',
       'https://polkadot.activebonus.live/claim/'
     ].map((u) => checkTag(u, 'span', 'id="trnsctin"')),
