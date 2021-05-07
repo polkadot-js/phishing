@@ -89,6 +89,9 @@ function checkAttr (url: string, attr: string): Promise<[string, string[]]> {
 function checkAll (): Promise<[string, string[]][]> {
   return Promise.all([
     ...[
+      'https://get-dot.me/'
+    ].map((u) => checkTag(u, 'div', 'class="wallet" id="code" style="width: 100%"')),
+    ...[
       'polkadot.center',
       'polkadot-event.com'
     ].map((u) => checkGetWallet(u)),
