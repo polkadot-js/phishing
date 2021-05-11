@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "moonbeam-sale.com",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -73,6 +72,7 @@
     "minaprotocols.limited",
     "minaprotocols.tech",
     "moon-beam.org",
+    "moonbeam-sale.com",
     "musk-in.com",
     "mynodeswallet.online",
     "mywallets-connect.site",
