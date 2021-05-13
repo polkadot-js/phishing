@@ -23,6 +23,7 @@
     "bscpad.in",
     "btc2xbonus.site",
     "buncebit.com",
+    "calimpolkadot.live",
     "claimpolka.com",
     "claimpolka.live",
     "claimpolkadot.com",
@@ -113,6 +114,7 @@
     "polkadex.whitelist-network.com",
     "polkado.com",
     "polkado.js.org",
+    "polkado.network",
     "polkadok.js.org",
     "polkadomain.com",
     "polkadoot.com",
@@ -171,6 +173,7 @@
     "polkadotfund.com",
     "polkadotgiveaway.com",
     "polkadotjs.online",
+    "polkadotjs.org",
     "polkadotlive.com",
     "polkadotlive.network",
     "polkadoto.js.org",
@@ -265,6 +268,7 @@
     "wallet-api.link",
     "wallet-autosync.art",
     "wallet-colnbase.com",
+    "wallet-connect-live.com",
     "wallet-connect.app",
     "wallet-connect.center",
     "wallet-connect.cloud",
@@ -448,10 +452,6 @@
     "winxcrypt.com",
     "wwwpolkadot.js.org",
     "xn--polkadot-q86nz68f.js.org",
-    "xn--wlletconnect-cbb.com",
-    "polkadotjs.org",
-    "calimpolkadot.live",
-    "wallet-connect-live.com",
-    "polkado.network"
+    "xn--wlletconnect-cbb.com"
   ]
 }
