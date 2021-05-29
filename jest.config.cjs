@@ -10,5 +10,6 @@ module.exports = {
     '<rootDir>/build',
     '<rootDir>/packages/phishing/build'
   ],
+  testEnvironment: 'jsdom',
   transformIgnorePatterns: ['/node_modules/(?!@polkadot|@babel/runtime/helpers/esm/)']
 };
