@@ -1858,9 +1858,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/dev@npm:^0.62.20":
-  version: 0.62.20
-  resolution: "@polkadot/dev@npm:0.62.20"
+"@polkadot/dev@npm:^0.62.21":
+  version: 0.62.21
+  resolution: "@polkadot/dev@npm:0.62.21"
   dependencies:
     "@babel/cli": ^7.14.3
     "@babel/core": ^7.14.3
@@ -1940,7 +1940,7 @@ __metadata:
     polkadot-exec-prettier: scripts/polkadot-exec-prettier.cjs
     polkadot-exec-tsc: scripts/polkadot-exec-tsc.cjs
     polkadot-exec-webpack: scripts/polkadot-exec-webpack.cjs
-  checksum: 8e05b996836929de6f6e1cac3cd8586bf6605c3b7c3ab010d5a00dda51f57a600ac51e0fe326f11954e6b6fa4bf770a3b7912c21c1e90f3a8dbe57137a3c04fe
+  checksum: b46433753b0d3dbfc84f39749b14e2bf7bc0f4a60b2def3f16556ad15b700c11305eaf89821cc3a91276686c89be46684a8cf15a3fad0c646b83fcf9023ac843
   languageName: node
   linkType: hard
 
@@ -9618,7 +9618,7 @@ resolve@^2.0.0-next.3:
   dependencies:
     "@babel/core": ^7.14.3
     "@pinata/sdk": ^1.1.20
-    "@polkadot/dev": ^0.62.20
+    "@polkadot/dev": ^0.62.21
     "@types/jest": ^26.0.23
     dnslink-cloudflare: ^3.0.0
   languageName: unknown
