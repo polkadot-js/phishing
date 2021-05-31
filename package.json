@@ -16,10 +16,10 @@
     "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
-    "phishing:addrcheck": "polkadot-dev-run-test packages/phishing/src/addrcheck",
-    "phishing:crosscheck": "polkadot-dev-run-test packages/phishing/src/crosscheck",
+    "phishing:addrcheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
+    "phishing:crosscheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "polkadot-dev-run-test --coverage --runInBand --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
+    "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
