@@ -11,5 +11,6 @@ module.exports = {
     '<rootDir>/packages/phishing/build'
   ],
   testEnvironment: 'jsdom',
+  testTimeout: 2 * 60 * 1000,
   transformIgnorePatterns: ['/node_modules/(?!@polkadot|@babel/runtime/helpers/esm/)']
 };

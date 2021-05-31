@@ -6,10 +6,25 @@ import { fetch } from '@polkadot/x-fetch';
 // a fetch with a 2s timeout
 export async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
   const controller = new AbortController();
-  const id = setTimeout(() => controller.abort(), timeout);
-  const response = await fetch(url, { signal: controller.signal });
+  let isAborted = false;
+  const id = setTimeout((): void => {
+    console.log(`Timeout on ${url}`);
 
-  clearTimeout(id);
+    isAborted = true;
+    controller.abort();
+  }, timeout);
 
-  return response;
+  try {
+    const response = await fetch(url, { signal: controller.signal });
+
+    clearTimeout(id);
+
+    return response;
+  } catch (error) {
+    if (!isAborted) {
+      clearTimeout(id);
+    }
+
+    throw error;
+  }
 }

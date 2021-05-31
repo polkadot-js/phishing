@@ -31,7 +31,12 @@ async function loopSome (site: string, matcher: () => Promise<string[] | null>):
       // console.error(error);
     }
 
-    await new Promise<boolean>((resolve) => setTimeout(() => resolve(true), Math.floor((Math.random() * 750) + 1000)));
+    await new Promise<boolean>((resolve) =>
+      setTimeout(
+        () => resolve(true),
+        Math.floor((Math.random() * 750) + 1000)
+      )
+    );
   }
 
   return [site, found];
