@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "karura-networks.com",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -137,6 +136,7 @@
     "ingreenwetrust.blog",
     "instanwalletpay.com",
     "karura-network.com",
+    "karura-networks.com",
     "kusama-wallet.com",
     "kusama.fund",
     "kusama.us",
