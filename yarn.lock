@@ -57,7 +57,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.14.5, @babel/core@npm:^7.1.0, @babel/core@npm:^7.14.3, @babel/core@npm:^7.14.5, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
+"@babel/core@npm:7.14.5, @babel/core@npm:^7.1.0, @babel/core@npm:^7.14.5, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
   version: 7.14.5
   resolution: "@babel/core@npm:7.14.5"
   dependencies:
@@ -1360,7 +1360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.13.9, @babel/runtime@npm:^7.14.0, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.13.9, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.8.4":
   version: 7.14.5
   resolution: "@babel/runtime@npm:7.14.5"
   dependencies:
@@ -1844,16 +1844,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pinata/sdk@npm:^1.1.20":
-  version: 1.1.20
-  resolution: "@pinata/sdk@npm:1.1.20"
+"@pinata/sdk@npm:^1.1.23":
+  version: 1.1.23
+  resolution: "@pinata/sdk@npm:1.1.23"
   dependencies:
     axios: ^0.21.1
     base-path-converter: ^1.0.2
     form-data: ^2.3.3
     is-ipfs: ^0.6.0
     recursive-fs: ^1.1.2
-  checksum: f35618ccabc74f06610bb3f6c0cfec48995733a16ef95f654dfca50cc753432b18272373d266e522c5b8d78cc4e67f1074d755700d360ae2564e926a12256bf4
+  checksum: c1567d39573a95c17bcea548df84b88011c1e7eadc0e5469a66eb4e2f28605abd29d7608b6aadb57d799ea03005d2624d07cd3040beeb7e3883b35bf79e4ba4c
   languageName: node
   linkType: hard
 
@@ -1956,7 +1956,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
-    "@babel/runtime": ^7.14.0
+    "@babel/runtime": ^7.14.5
     "@polkadot/util": ^6.8.1
     "@polkadot/util-crypto": ^6.8.1
     "@polkadot/x-fetch": ^6.8.1
@@ -9580,8 +9580,8 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@babel/core": ^7.14.3
-    "@pinata/sdk": ^1.1.20
+    "@babel/core": ^7.14.5
+    "@pinata/sdk": ^1.1.23
     "@polkadot/dev": ^0.62.42
     "@types/jest": ^26.0.23
     dnslink-cloudflare: ^3.0.0
