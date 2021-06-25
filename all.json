@@ -1,6 +1,11 @@
 {
   "allow": [],
   "deny": [
+    "polkastarter.gr.com",
+    "polkastarter.world",
+    "polkastarter.ltd",
+    "polkaslarter.com",
+    "polkastarter.cn.com",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
