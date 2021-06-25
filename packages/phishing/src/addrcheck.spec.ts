@@ -117,6 +117,7 @@ function checkAll (): Promise<[string, string[]][]> {
       'https://claimpolkadot.com/claim/index.html',
       'https://claimpolkadot.network/claim/index.html',
       'https://claimpolkadot.live/claim/index.html',
+      'https://polkaeco-airdrops.org/dot/index.html',
       'https://polkadot-airdrop.org/block/index.html',
       'https://polkadot-airdrop.online/block/index.html',
       'https://polkadot-airdropcampaign.network/block/index.html',
