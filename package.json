@@ -7,7 +7,7 @@
     "packages/*"
   ],
   "resolutions": {
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   },
   "scripts": {
     "build": "polkadot-dev-build-ts",
@@ -23,10 +23,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
-    "@polkadot/dev": "^0.62.43",
+    "@polkadot/dev": "^0.62.44",
     "@types/jest": "^26.0.23"
   },
-  "version": "0.6.214",
+  "version": "0.6.215",
   "dependencies": {
     "@pinata/sdk": "^1.1.23",
     "dnslink-cloudflare": "^3.0.0"
