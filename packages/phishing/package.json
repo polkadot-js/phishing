@@ -14,9 +14,9 @@
   "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "@polkadot/util": "^6.9.1",
-    "@polkadot/util-crypto": "^6.9.1",
-    "@polkadot/x-fetch": "^6.9.1"
+    "@polkadot/util": "^6.10.1",
+    "@polkadot/util-crypto": "^6.10.1",
+    "@polkadot/x-fetch": "^6.10.1"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.1",
