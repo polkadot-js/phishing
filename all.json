@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "polkastarters.sale",
-    "polkastarters.com",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -444,6 +442,8 @@
     "polkastarter.walletconnect-help.com",
     "polkastarter.world",
     "polkastarter.ws",
+    "polkastarters.com",
+    "polkastarters.sale",
     "polkastartor.com",
     "polkastater.link",
     "polkastatrer.com",
