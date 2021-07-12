@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "bnbpool.live",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
