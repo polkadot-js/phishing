@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "robonomicsrewards.com",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -541,6 +540,7 @@
     "restorewallet-activation.net",
     "restorewallets.online",
     "rewards-trust-crypto-wallet.000webhostapp.com",
+    "robonomicsrewards.com",
     "safetrustwallet.online",
     "scaleswap.medium.com.ru",
     "scaleswap.polkastarter.com.es",
