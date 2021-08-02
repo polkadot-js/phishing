@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "polkadots-drop.com",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -468,6 +467,7 @@
     "polkadots-airdrop.com",
     "polkadots-airdrops.com",
     "polkadots-bonus.com",
+    "polkadots-drop.com",
     "polkadots-event.com",
     "polkadots.js.org",
     "polkadots.live",
