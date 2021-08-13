@@ -31,5 +31,6 @@
   "dependencies": {
     "@pinata/sdk": "^1.1.23",
     "dnslink-cloudflare": "^3.0.0"
-  }
+  },
+  "packageManager": "yarn@3.0.1"
 }
