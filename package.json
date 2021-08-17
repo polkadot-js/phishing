@@ -23,8 +23,8 @@
     "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
-    "@polkadot/dev": "^0.62.59",
+    "@babel/core": "^7.15.0",
+    "@polkadot/dev": "^0.62.60",
     "@types/jest": "^26.0.24"
   },
   "version": "0.6.260",
