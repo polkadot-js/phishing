@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "acala.cc",
+    "acala.mainsale.co",
+    "mainsale.co",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
