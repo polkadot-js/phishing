@@ -1,9 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "acala.cc",
-    "acala.mainsale.co",
-    "mainsale.co",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -12,6 +9,8 @@
     "acala-network.com",
     "acala-network.tech",
     "acala-token.live",
+    "acala.cc",
+    "acala.mainsale.co",
     "activebonus.live",
     "advancedpolkadot.com",
     "airdropcampaign-polkadot.network",
@@ -231,6 +230,7 @@
     "livewallets.org",
     "livwalletconnect.com",
     "login-blockchaln.com.exploire-menu.com",
+    "mainsale.co",
     "metamask-node.com",
     "metamask-restore.online",
     "metamask-sync.com",
