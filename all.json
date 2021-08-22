@@ -1,6 +1,12 @@
 {
   "allow": [],
   "deny": [
+    "acala-network.site",
+    "acala.presales.live",
+    "acala.tech",
+    "walletsconnectivity.site",
+    "walletsconnectivity.com",
+    "officialbonus.net",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
