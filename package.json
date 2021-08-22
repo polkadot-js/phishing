@@ -19,8 +19,9 @@
     "clean": "polkadot-dev-clean-build",
     "phishing:addrcheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
     "phishing:crosscheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
+    "phishing:dupecheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/dupecheck",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
+    "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck --testPathIgnorePatterns dupecheck"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",

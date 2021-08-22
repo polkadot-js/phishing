@@ -41,3 +41,22 @@ jobs:
       with:
         filename: .github/addrcheck.md
         update_existing: true
+
+  dupecheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: check
+      env:
+        CI_LOG: 123
+      run: |
+        yarn install --immutable | grep -v 'YN0013'
+        yarn phishing:dupecheck
+    - name: issue
+      if: ${{ failure() }}
+      uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
+      with:
+        filename: .github/dupecheck.md
+        update_existing: true
