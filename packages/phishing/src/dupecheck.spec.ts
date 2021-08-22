@@ -5,7 +5,7 @@ import fs from 'fs';
 
 import ourSiteList from '../../../all.json';
 
-const IGNORE = ['com.au', 'com.co', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.pl', 'com.pl', 'com.pl', 'com.pl', 'com.pl', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.se', 'cn.com', 'de.com', 'eu.com', 'js.org', 'my.id', 'us.com', 'us.org', 'web.app', 'za.com', '000webhostapp.com', 'gr.com', 'in.net'];
+const IGNORE = ['com.au', 'com.co', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.es', 'com.pl', 'com.pl', 'com.pl', 'com.pl', 'com.pl', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.ru', 'com.se', 'cn.com', 'de.com', 'eu.com', 'js.org', 'my.id', 'us.com', 'us.org', 'web.app', 'za.com', '000webhostapp.com', 'gr.com', 'in.net', 'org.ua'];
 const TICKS = '```';
 
 function assertAndLog (missing: string[]): void {
@@ -25,10 +25,6 @@ ${TICKS}
 
 describe('crosscheck', (): void => {
   const ours: string[] = ourSiteList.deny;
-
-  beforeAll((): void => {
-    jest.setTimeout(120000);
-  });
 
   it('has all top-most specified', (): void => {
     assertAndLog(
