@@ -1,6 +1,12 @@
 {
   "allow": [],
   "deny": [
+    "acala.network",
+    "robonomics-network-xrt.cyberfi-tech-rewards-programs-claims-erc20-token.com",
+    "cyberfi-tech-rewards-programs-claims-erc20-token.com",
+    "rewalletauthorization.org",
+    "rewalletauthorization.net",
+    "rewalletauthorization.io",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
