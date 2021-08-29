@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "acala.network",
     "robonomics-network-xrt.cyberfi-tech-rewards-programs-claims-erc20-token.com",
     "cyberfi-tech-rewards-programs-claims-erc20-token.com",
     "rewalletauthorization.org",
