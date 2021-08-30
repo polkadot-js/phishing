@@ -112,8 +112,7 @@ export async function checkAddress (address: string | Uint8Array, allowCached = 
 
     return entry[0];
   } catch (error) {
-    console.error('Exception while checking address, assuming non-phishing');
-    console.error(error);
+    console.error('Exception while checking address, assuming non-phishing', (error as Error).message);
 
     return null;
   }
