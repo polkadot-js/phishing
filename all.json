@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "connectvalidate.com",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -112,6 +111,7 @@
     "connectmywallet.site",
     "connectswallet.live",
     "connectswallet.online",
+    "connectvalidate.com",
     "connectwallet.digital",
     "connectwallet.site",
     "connectwallet.tech",
