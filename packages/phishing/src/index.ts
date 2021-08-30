@@ -129,8 +129,7 @@ export async function checkIfDenied (host: string, allowCached = true): Promise<
 
     return checkHost(deny, host);
   } catch (error) {
-    console.error('Exception while checking host, assuming non-phishing');
-    console.error(error);
+    console.error(`Exception while checking ${host}, assuming non-phishing`, (error as Error).message);
 
     return false;
   }
