@@ -43,6 +43,12 @@ describe('checkIfDenied', (): void => {
       await checkIfDenied('https://polkawallets.site/something/index.html')
     ).toEqual(true);
   });
+
+  it('returns true in list (protocol + path + #)', async (): Promise<void> => {
+    expect(
+      await checkIfDenied('https://robonomics-network-xrt.cyberfi-tech-rewards-programs-claims-erc20-token.com/myetherwallet/access-my-wallet/#/input-privatekey-mnemonic-phrase-claim-bonus')
+    ).toEqual(true);
+  });
 });
 
 describe('checkAddress', (): void => {
