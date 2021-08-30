@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "moonbeam.presale.fund",
-    "presale.fund",
     "1sgexchange.com",
     "3xexchange.io",
     "4dot.net",
@@ -293,6 +291,7 @@
     "mobilewalletsconnect.org",
     "moon-beam.org",
     "moonbeam-sale.com",
+    "moonbeam.presale.fund",
     "moonstarter.medium.com.ru",
     "moonstarter.polkastarter.com.es",
     "mozik.medium.com.ru",
@@ -602,6 +601,7 @@
     "polkongres.live",
     "polowallet.xyz",
     "ppolkadot.js.org",
+    "presale.fund",
     "redirectwallet.online",
     "restartcoinwallet.com",
     "restore-walletconnect.online",
