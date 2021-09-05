@@ -1,8 +1,8 @@
 {
   "allow": [],
   "deny": [
-    "1sgexchange.com",
-    "3xexchange.io",
+    "https://1sgexchange.com",
+    "3xexchange.io/blah",
     "4dot.net",
     "5myetherwallet.com",
     "9bitcoin.xyz",
