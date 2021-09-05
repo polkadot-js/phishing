@@ -7,8 +7,8 @@ const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
 function sanitizeUrl (url) {
   return (
-    url.includes('//:')
-      ? url.split('//:')[1]
+    url.includes('://')
+      ? url.split('://')[1]
       : url
   ).split('/')[0];
 }
