@@ -5,8 +5,17 @@ import fs from 'fs';
 
 const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
+function sanitizeUrl (url) {
+  return (
+    url.includes('//:')
+      ? url.split('//:')[1]
+      : url
+  ).split('/')[0];
+}
+
 function sortSection (list) {
   return list
+    .map((entry) => sanitizeUrl(entry))
     .reduce((filtered, entry) => {
       !filtered.includes(entry) &&
         filtered.push(entry);
@@ -19,6 +28,7 @@ function sortSection (list) {
 function sortAddresses (values) {
   return Object
     .entries(values)
+    .map(([key, address]) => [sanitizeUrl(key), address])
     .sort(([a], [b]) => a.localeCompare(b))
     .reduce((all, [key, addresses]) => {
       if (!all[key]) {
