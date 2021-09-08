@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "moonbeam.ink",
-    "mainwalletdapps.com",
     "1sgexchange.com",
     "2xxbonuslive.site",
     "3xexchange.io",
@@ -273,6 +271,7 @@
     "livwalletconnect.com",
     "login-blockchaln.com.exploire-menu.com",
     "mainsale.co",
+    "mainwalletdapps.com",
     "metamask-node.com",
     "metamask-restore.online",
     "metamask-sync.com",
@@ -316,6 +315,7 @@
     "mobilewalletsconnect.org",
     "moon-beam.org",
     "moonbeam-sale.com",
+    "moonbeam.ink",
     "moonbeam.presale.fund",
     "moonstarter.medium.com.ru",
     "moonstarter.polkastarter.com.es",
