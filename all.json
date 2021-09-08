@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "teslax2.com",
     "1sgexchange.com",
     "2xxbonuslive.site",
     "3xexchange.io",
@@ -699,6 +698,7 @@
     "syncwalletlive.com",
     "tempuswallet.com",
     "tendieswap.info",
+    "teslax2.com",
     "the-trust-project.com",
     "thepolkadot.io",
     "thepolkadot.online",
