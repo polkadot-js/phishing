@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "moonbeamc.foundation",
     "1sgexchange.com",
     "2xxbonuslive.site",
     "3xexchange.io",
@@ -320,6 +319,7 @@
     "moonbeam-sale.com",
     "moonbeam.ink",
     "moonbeam.presale.fund",
+    "moonbeamc.foundation",
     "moonstarter.medium.com.ru",
     "moonstarter.polkastarter.com.es",
     "mozik.medium.com.ru",
