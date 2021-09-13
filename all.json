@@ -2,6 +2,7 @@
   "allow": [],
   "deny": [
     "1sgexchange.com",
+    "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xxbonuslive.site",
     "3xexchange.io",
     "4dot.net",
@@ -500,6 +501,7 @@
     "polkadot-network.com",
     "polkadot-network.info",
     "polkadot-network.live",
+    "polkadot-q86nz68f.js.org",
     "polkadot-online.com",
     "polkadot-online.live",
     "polkadot-pro.cyou",
@@ -1156,6 +1158,7 @@
     "wwwpolkadot.js.org",
     "xn--pancakeswp-95a.com",
     "xn--polkadot-q86nz68f.js.org",
+    "xn--polkadot-55a.js.org",
     "xn--wlletconnect-cbb.com",
     "yourpolkadot.js.org"
   ]
