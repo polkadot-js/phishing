@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "dappconnection.org",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
@@ -157,6 +156,7 @@
     "daplatform.one",
     "dapp-liquidity.site",
     "dappconnect.io",
+    "dappconnection.org",
     "dappintegrate.com",
     "dapps-protocol.net",
     "dapps-walletintegrator.app",
