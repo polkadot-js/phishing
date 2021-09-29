@@ -2,7 +2,6 @@
   "allow": [],
   "deny": [
     "1sgexchange.com",
-    "dappconnectwallet.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
     "2xxbonuslive.site",
@@ -162,6 +161,7 @@
     "dapp.walletauthprotect.com",
     "dappconnect.io",
     "dappconnection.org",
+    "dappconnectwallet.com",
     "dappintegrate.com",
     "dapps-connector.com",
     "dapps-protocol.net",
