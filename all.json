@@ -2,7 +2,6 @@
   "allow": [],
   "deny": [
     "1sgexchange.com",
-    "ksm-chinese.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
     "2xxbonuslive.site",
@@ -285,6 +284,7 @@
     "kraken-us-in.com",
     "kraken-xi.xyz",
     "kraken-zw.xyz",
+    "ksm-chinese.com",
     "kusama-wallet.com",
     "kusama.fund",
     "kusama.us",
