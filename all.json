@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "risedot.network",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
@@ -735,6 +734,7 @@
     "rewalletauthorization.org",
     "rewards-trust-crypto-wallet.000webhostapp.com",
     "rewardtoken.info",
+    "risedot.network",
     "robonomics-network-xrt.cyberfi-tech-rewards-programs-claims-erc20-token.com",
     "robonomicsrewards.com",
     "safetrustwallet.online",
