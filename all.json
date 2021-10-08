@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "polkadot.trade",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
@@ -301,7 +302,6 @@
     "kraken-xi.xyz",
     "kraken-zw.xyz",
     "ksm-chinese.com",
-    "ksmstarter.com",
     "kusama-wallet.com",
     "kusama.fund",
     "kusama.us",
