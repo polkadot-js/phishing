@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "fixlivewallet.com",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
@@ -246,6 +245,7 @@
     "finance-pancakeswap.go-to.in.net",
     "finance-swap-liquidity-v2.site",
     "finance-swap-v2-liquidity.site",
+    "fixlivewallet.com",
     "fx-cryptochain.io",
     "get-dot.me",
     "get-polkadot.net",
