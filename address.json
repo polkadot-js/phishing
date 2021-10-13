@@ -1,7 +1,4 @@
 {
-  "dot-event.live": [
-    "14ZWBoQugxP2i1pjYALrhEihJgKm8S33q63i8unxucooYMiC"
-  ],
   "airdropcampaign-polkadot.network": [
     "14FscqFT8S8W8emC5294cEpDctgAucJW7C99mpxS4cucpHoA"
   ],
@@ -23,6 +20,9 @@
   ],
   "claimpolkadot.network": [
     "15LmfYr1UwK9ghjn5cNYoBmApaiWGFNnhBdm6nQF87vY2AcV"
+  ],
+  "dot-event.live": [
+    "14ZWBoQugxP2i1pjYALrhEihJgKm8S33q63i8unxucooYMiC"
   ],
   "dot-promo.com": [
     "14VezybXdNSVoWLKN1HSae56WEV6AXrLY4HKEWjJ4Z7BegJd"
