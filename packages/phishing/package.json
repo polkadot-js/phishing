@@ -1,17 +1,21 @@
 {
   "name": "@polkadot/phishing",
   "version": "0.6.380",
+  "license": "Apache-2.0",
   "type": "module",
   "description": "Simple phishing scripts from a central source",
   "main": "index.js",
-  "sideEffects": false,
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "maintainers": [],
   "contributors": [],
-  "license": "Apache-2.0",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
-  "repository": "github.com:polkadot-js/phishing",
-  "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
+  "homepage": "https://github.com/polkadot-js/phishing#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polkadot-js/phishing.git",
+    "directory": "packages/phishing"
+  },
+  "sideEffects": false,
   "dependencies": {
     "@babel/runtime": "^7.15.4",
     "@polkadot/util": "^7.5.1",
