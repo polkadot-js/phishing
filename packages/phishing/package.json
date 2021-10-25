@@ -1,6 +1,6 @@
 {
   "name": "@polkadot/phishing",
-  "version": "0.6.380",
+  "version": "0.6.381",
   "license": "Apache-2.0",
   "type": "module",
   "description": "Simple phishing scripts from a central source",
