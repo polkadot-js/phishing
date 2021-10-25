@@ -1,12 +1,27 @@
 {
-  "name": "@polkadot/unused",
-  "version": "0.6.381",
-  "description": "Dummy",
-  "main": "index.js",
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "maintainers": [],
-  "contributors": [],
-  "license": "Apache-2.0",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
-  "homepage": "https://github.com/polkadot-js/phishing"
+  "contributors": [],
+  "description": "Dummy",
+  "engines": {},
+  "homepage": "https://github.com/polkadot-js/phishing/tree/master/packages/unused#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@polkadot/phishing-unused",
+  "private": true,
+  "repository": {
+    "directory": "packages/unused",
+    "type": "git",
+    "url": "https://github.com/polkadot-js/phishing.git"
+  },
+  "sideEffects": false,
+  "version": "0.6.381",
+  "main": "index.js",
+  "bin": {},
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "resolutions": {}
 }
