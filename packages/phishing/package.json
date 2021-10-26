@@ -16,7 +16,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.6.382",
+  "version": "0.6.383",
   "main": "index.js",
   "bin": {},
   "scripts": {},
