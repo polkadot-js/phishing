@@ -16,12 +16,5 @@
   },
   "sideEffects": false,
   "version": "0.6.385",
-  "main": "index.js",
-  "bin": {},
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {},
-  "peerDependencies": {},
-  "resolutions": {}
+  "main": "index.js"
 }

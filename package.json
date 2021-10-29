@@ -15,7 +15,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "bin": {},
   "scripts": {
     "build": "polkadot-dev-build-ts",
     "build:extra": "node scripts/sortAll.mjs",
@@ -35,11 +34,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
-    "@polkadot/dev": "^0.63.8",
+    "@polkadot/dev": "^0.63.10",
     "@types/jest": "^27.0.2"
   },
-  "optionalDependencies": {},
-  "peerDependencies": {},
   "resolutions": {
     "typescript": "^4.4.4"
   }

@@ -8,7 +8,6 @@
   "license": "Apache-2.0",
   "maintainers": [],
   "name": "@polkadot/phishing",
-  "private": false,
   "repository": {
     "directory": "packages/phishing",
     "type": "git",
@@ -18,8 +17,6 @@
   "type": "module",
   "version": "0.6.385",
   "main": "index.js",
-  "bin": {},
-  "scripts": {},
   "dependencies": {
     "@babel/runtime": "^7.15.4",
     "@polkadot/util": "^7.6.1",
@@ -29,8 +26,5 @@
   "devDependencies": {
     "@types/js-yaml": "^4.0.4",
     "js-yaml": "^4.1.0"
-  },
-  "optionalDependencies": {},
-  "peerDependencies": {},
-  "resolutions": {}
+  }
 }
