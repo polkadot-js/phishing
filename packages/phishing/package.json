@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.6.389",
+  "version": "0.6.390",
   "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.15.4",
