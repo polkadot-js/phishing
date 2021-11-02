@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "resolvewallet.co",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
@@ -871,6 +870,7 @@
     "ppolkadot.js.org",
     "presale.fund",
     "redirectwallet.online",
+    "resolvewallet.co",
     "restartcoinwallet.com",
     "restore-walletconnect.online",
     "restoremetamask.dev",
