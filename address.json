@@ -1,7 +1,4 @@
 {
-  "instantwalletconnect.org": [
-    "14Vm4o3uNZdEJvjGsoTGcWAac8pKETuCvThrv2toGRd5mqjd"
-  ],
   "3xpool.bid": [
     "155dDX3rWoNsY4aiJFbsu6wLB91c2J2Ws5BgMfJKyM1eGnkS"
   ],
@@ -58,6 +55,9 @@
   ],
   "getpolkadot.us": [
     "12rpYzbZHLmM83UcAuudQWr4cdb6xVCCe2brMQeno5isbSwK"
+  ],
+  "instantwalletconnect.org": [
+    "14Vm4o3uNZdEJvjGsoTGcWAac8pKETuCvThrv2toGRd5mqjd"
   ],
   "kusama-wallet.com": [
     "DfcWKx1P9hXGYFg3Wef1Shd2eXzEq2zbCxNDj3ensKBbpgy",
