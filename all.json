@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "instantwalletconnect.org",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
     "2xbinancelive.online",
@@ -312,6 +311,7 @@
     "import-erc20-myetherwallet.com",
     "import.metamask.com.ecdprojects.com.au",
     "ingreenwetrust.blog",
+    "instantwalletconnect.org",
     "instanwalletpay.com",
     "iuniswap.net",
     "karura-network.com",
@@ -699,11 +699,11 @@
     "polkadotapp.co",
     "polkadotbank.com",
     "polkadotbonus.com",
+    "polkadotceo.com",
     "polkadotchain.net",
     "polkadotclaim.live",
     "polkadotcngiveaway.network",
     "polkadotconnect.com",
-    "polkadotceo.com",
     "polkadote.js.org",
     "polkadotevent.com",
     "polkadotevent.live",
