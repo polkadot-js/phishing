@@ -1,7 +1,6 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
-  "engines": {},
   "homepage": "https://github.com/polkadot-js/phishing#readme",
   "license": "Apache-2",
   "packageManager": "yarn@3.0.1",
@@ -11,7 +10,7 @@
     "url": "https://github.com/polkadot-js/phishing.git"
   },
   "sideEffects": false,
-  "version": "0.6.398",
+  "version": "0.6.399",
   "workspaces": [
     "packages/*"
   ],
