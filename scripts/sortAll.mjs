@@ -85,5 +85,6 @@ writeJson('urlmeta.json',
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date, url }))
     )
+    .filter(({ url }) => deny.includes(url))
     .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
 );
