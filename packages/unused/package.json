@@ -14,6 +14,6 @@
     "url": "https://github.com/polkadot-js/phishing.git"
   },
   "sideEffects": false,
-  "version": "0.6.440",
+  "version": "0.6.441",
   "main": "index.js"
 }
