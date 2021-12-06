@@ -89,7 +89,7 @@
       let hue = Math.floor(Math.random() * 359);
       let counter = 0;
       let navTo = '';
-      let metaJson;
+      let metaJson = [];
       let addrJson;
       let urlStatus;
       let balances = [];
@@ -191,10 +191,10 @@
         });
       }
 
-      function fillSites () {
+      function fillSites (items = metaJson) {
         let prevMonth = '';
         let countIndex = -1;
-        const count = metaJson.reduce((count, { date }) => {
+        const count = items.reduce((count, { date }) => {
           const thisMonth = date.split('-').slice(0, 2).join('-');
 
           if (thisMonth !== prevMonth) {
@@ -209,7 +209,7 @@
 
         prevMonth = '';
 
-        metaJson.forEach(({ date, url }, index) => {
+        items.forEach(({ date, url }, index) => {
           const thisMonth = date.split('-').slice(0, 2).join('-');
 
           if (thisMonth !== prevMonth) {
@@ -223,6 +223,8 @@
 
           appendRow(date, url, urlStatus[index] ? 'active' : 'inactive');
         });
+
+        document.getElementById('btn-sites').innerText = `Sites (${metaJson.length})`;
       }
 
       function fillTable (newNav) {
@@ -291,9 +293,9 @@
         draw();
 
         const from = window.location.protocol === 'file:' ? 'https://polkadot.js.org/phishing/' : '';
-        const [addrBody, metaBody] = await Promise.all(['address', 'urlmeta'].map((j) => fetchTimeout(`${from}${j}.json`)));
+        const [addrBody, metaBody] = await Promise.all(['address', 'meta/index'].map((j) => fetchTimeout(`${from}${j}.json`)));
 
-        [addrJson, metaJson] = await Promise.all([addrBody.json(), metaBody.json()]);
+        [addrJson, metaMonths] = await Promise.all([addrBody.json(), metaBody.json()]);
 
         const addresses = Object
           .values(addrJson)
@@ -311,11 +313,21 @@
         search.addEventListener('input', onSearch);
         search.style.display = 'block';
 
-        document.getElementById('btn-sites').innerText = `Sites (${metaJson.length})`;
         document.getElementById('btn-addresses').innerText = `Addresses (${Object.values(addrJson).reduce((count, addrs) => count + addrs.length, 0)})`;
+        document.getElementById('btn-sites').innerText = `Sites (0)`;
         document.getElementById('buttons').style.display = 'block';
 
         fillTable('sites');
+
+        for (const month of metaMonths) {
+          const items = await fetchTimeout(`${from}meta/${month}.json`);
+
+          for (const item of items) {
+            metaJson.push(item);
+          }
+
+          fillSites(items);
+        }
       }
 
       main();
