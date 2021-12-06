@@ -63,9 +63,46 @@ function writeJson (file, contents) {
   fs.writeFileSync(file, `${JSON.stringify(contents, null, 2)}\n`);
 }
 
+function readMeta () {
+  const months = readJson('meta/index.json');
+  const meta = [];
+
+  for (const month of months) {
+    const items = readJson(`meta/${month}.json`);
+
+    for (const item of items) {
+      meta.push(item);
+    }
+  }
+
+  return meta;
+}
+
+export function writeMeta (meta) {
+  const months = {};
+  const index = [];
+
+  for (const item of meta) {
+    const month = item.date.split('-').slice(0, 2).join('-');
+
+    if (!index.includes(month)) {
+      index.push(month);
+      months[month] = [];
+    }
+
+    months[month].push(item);
+  }
+
+  for (const month of Object.keys(months)) {
+    writeJson(`meta/${month}.json`, months[month]);
+  }
+
+  writeJson('meta/index.json', index.sort((a, b) => b.localeCompare(a)));
+}
+
 const addr = readJson('address.json');
 const all = readJson('all.json');
-const meta = readJson('urlmeta.json');
+const meta = readMeta();
 const deny = sortSection(addSites(all.deny, addr));
 
 // rewrite with all our entries (newline included)
@@ -75,15 +112,16 @@ writeJson('all.json', { allow: sortSection(all.allow), deny });
 // find out what we don't have
 const urls = meta.map(({ url }) => url);
 const now = new Date();
-const date = `${now.getUTCFullYear()}-${`00${now.getUTCMonth() + 1}`.slice(-2)}-${`00${now.getUTCDate()}`.slice(-2)}`;
+const ym = `${now.getUTCFullYear()}-${`00${now.getUTCMonth() + 1}`.slice(-2)}`;
+const ymd = `${ym}-${`00${now.getUTCDate()}`.slice(-2)}`;
 
 // rewrite with all our entries (newline included)
-writeJson('urlmeta.json',
+writeMeta(
   meta
     .concat(
       deny
         .filter((url) => !urls.includes(url))
-        .map((url) => ({ date, url }))
+        .map((url) => ({ date: ymd, url }))
     )
     .filter(({ url }) => deny.includes(url))
     .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
