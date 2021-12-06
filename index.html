@@ -320,7 +320,8 @@
         fillTable('sites');
 
         for (const month of metaMonths) {
-          const items = await fetchTimeout(`${from}meta/${month}.json`);
+          const response = await fetchTimeout(`${from}meta/${month}.json`);
+          const items = await response.json();
 
           for (const item of items) {
             metaJson.push(item);
