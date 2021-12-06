@@ -192,37 +192,39 @@
       }
 
       function fillSites (items = metaJson) {
-        let prevMonth = '';
-        let countIndex = -1;
-        const count = items.reduce((count, { date }) => {
-          const thisMonth = date.split('-').slice(0, 2).join('-');
+        if (navTo === 'sites') {
+          let prevMonth = '';
+          let countIndex = -1;
+          const count = items.reduce((count, { date }) => {
+            const thisMonth = date.split('-').slice(0, 2).join('-');
 
-          if (thisMonth !== prevMonth) {
-            count.push(0);
-            prevMonth = thisMonth;
-          }
+            if (thisMonth !== prevMonth) {
+              count.push(0);
+              prevMonth = thisMonth;
+            }
 
-          count[count.length - 1] += 1;
+            count[count.length - 1] += 1;
 
-          return count;
-        }, []);
+            return count;
+          }, []);
 
-        prevMonth = '';
+          prevMonth = '';
 
-        items.forEach(({ date, url }, index) => {
-          const thisMonth = date.split('-').slice(0, 2).join('-');
+          items.forEach(({ date, url }, index) => {
+            const thisMonth = date.split('-').slice(0, 2).join('-');
 
-          if (thisMonth !== prevMonth) {
-            const c = document.createElement('h3');
+            if (thisMonth !== prevMonth) {
+              const c = document.createElement('h3');
 
-            countIndex++;
-            c.appendChild(document.createTextNode(`${thisMonth} (${count[countIndex]})`));
-            appendHeader(c);
-            prevMonth = thisMonth;
-          }
+              countIndex++;
+              c.appendChild(document.createTextNode(`${thisMonth} (${count[countIndex]})`));
+              appendHeader(c);
+              prevMonth = thisMonth;
+            }
 
-          appendRow(date, url, urlStatus[index] ? 'active' : 'inactive');
-        });
+            appendRow(date, url, urlStatus[index] ? 'active' : 'inactive');
+          });
+        }
 
         document.getElementById('btn-sites').innerText = `Sites (${metaJson.length})`;
       }
@@ -294,6 +296,7 @@
 
         const from = window.location.protocol === 'file:' ? 'https://polkadot.js.org/phishing/' : '';
         const [addrBody, metaBody] = await Promise.all(['address', 'meta/index'].map((j) => fetchTimeout(`${from}${j}.json`)));
+        let metaMonths;
 
         [addrJson, metaMonths] = await Promise.all([addrBody.json(), metaBody.json()]);
 
