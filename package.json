@@ -1,36 +1,42 @@
 {
-  "repository": "https://github.com/polkadot-js/phishing",
   "author": "Jaco Greeff <jacogr@gmail.com>",
+  "bugs": "https://github.com/polkadot-js/phishing/issues",
+  "homepage": "https://github.com/polkadot-js/phishing#readme",
   "license": "Apache-2",
+  "packageManager": "yarn@3.0.1",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polkadot-js/phishing.git"
+  },
+  "sideEffects": false,
+  "version": "0.6.521",
   "workspaces": [
     "packages/*"
   ],
-  "resolutions": {
-    "typescript": "^4.4.3"
-  },
   "scripts": {
     "build": "polkadot-dev-build-ts",
     "build:extra": "node scripts/sortAll.mjs",
     "build:release": "polkadot-ci-ghact-build --skip-beta",
     "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "build:rollup": "polkadot-exec-rollup --config",
-    "lint": "polkadot-dev-run-lint",
     "clean": "polkadot-dev-clean-build",
+    "lint": "polkadot-dev-run-lint",
     "phishing:addrcheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
     "phishing:crosscheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
     "postinstall": "polkadot-dev-yarn-only",
     "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
-  "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@polkadot/dev": "^0.62.67",
-    "@types/jest": "^27.0.1"
-  },
-  "version": "0.6.338",
   "dependencies": {
     "@pinata/sdk": "^1.1.23",
     "dnslink-cloudflare": "^3.0.0"
   },
-  "packageManager": "yarn@3.0.1"
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@polkadot/dev": "^0.63.35",
+    "@types/jest": "^27.0.2"
+  },
+  "resolutions": {
+    "typescript": "^4.5.2"
+  }
 }

@@ -1,25 +1,29 @@
 {
-  "name": "@polkadot/phishing",
-  "version": "0.6.338",
-  "type": "module",
-  "description": "Simple phishing scripts from a central source",
-  "main": "index.js",
-  "sideEffects": false,
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "maintainers": [],
-  "contributors": [],
-  "license": "Apache-2.0",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
-  "repository": "github.com:polkadot-js/phishing",
-  "homepage": "https://github.com/polkadot-js/common/tree/master/packages/phishing#readme",
+  "contributors": [],
+  "description": "Simple phishing scripts from a central source",
+  "homepage": "https://github.com/polkadot-js/phishing/tree/master/packages/phishing#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@polkadot/phishing",
+  "repository": {
+    "directory": "packages/phishing",
+    "type": "git",
+    "url": "https://github.com/polkadot-js/phishing.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.6.521",
+  "main": "index.js",
   "dependencies": {
-    "@babel/runtime": "^7.15.4",
-    "@polkadot/util": "^7.4.1",
-    "@polkadot/util-crypto": "^7.4.1",
-    "@polkadot/x-fetch": "^7.4.1"
+    "@babel/runtime": "^7.16.3",
+    "@polkadot/util": "^8.1.2",
+    "@polkadot/util-crypto": "^8.1.2",
+    "@polkadot/x-fetch": "^8.1.2"
   },
   "devDependencies": {
-    "@types/js-yaml": "^4.0.3",
+    "@types/js-yaml": "^4.0.4",
     "js-yaml": "^4.1.0"
   }
 }
