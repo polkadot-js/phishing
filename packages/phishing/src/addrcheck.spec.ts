@@ -5,10 +5,11 @@ import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
-import ourAddrList from '../../../address.json';
 import { fetchWithTimeout } from './fetch';
 
 const TICKS = '```';
+
+const ourAddrList = JSON.parse(fs.readFileSync('address.json', 'utf-8')) as Record<string, string[]>;
 
 function fetch (url: string): Promise<Response> {
   return fetchWithTimeout(url, 5000);
