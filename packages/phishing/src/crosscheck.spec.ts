@@ -6,8 +6,6 @@ import { load as yamlParse } from 'js-yaml';
 
 import { fetch } from '@polkadot/x-fetch';
 
-import ourSiteList from '../../../all.json';
-
 interface CryptoScamEntry {
   addresses: Record<string, string[]>;
   category: string;
@@ -23,6 +21,8 @@ interface EthPhishing {
 }
 
 const TICKS = '```';
+
+const ourSiteList = JSON.parse(fs.readFileSync('all.json', 'utf-8')) as { allow: string[]; deny: string[] };
 
 function assertAndLog (check: boolean, site: string, missing: unknown): void {
   if (!check) {

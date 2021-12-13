@@ -1967,12 +1967,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/phishing-unused@workspace:packages/unused":
-  version: 0.0.0-use.local
-  resolution: "@polkadot/phishing-unused@workspace:packages/unused"
-  languageName: unknown
-  linkType: soft
-
 "@polkadot/phishing@workspace:packages/phishing":
   version: 0.0.0-use.local
   resolution: "@polkadot/phishing@workspace:packages/phishing"
