@@ -23,6 +23,7 @@ lerna-debug.log*
 npm-debug.log*
 package-lock.json
 report.*.json
+tsconfig.*buildinfo
 yarn-debug.log*
 yarn-error.log*
 NOTES.md

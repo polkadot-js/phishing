@@ -1,20 +1,10 @@
 {
-  "extends": "@polkadot/dev/config/tsconfig.json",
+  "extends": "./tsconfig.base.json",
   "exclude": [
     "build/**/*",
     "**/build/**/*"
   ],
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths":
-    {
-      "@polkadot/phishing": ["packages/phishing/src"],
-      "@polkadot/phishing/*": ["packages/phishing/src/*"]
-    },
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "baseUrl": "./packages"
   }
 }
