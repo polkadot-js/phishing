@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "mobilesyncvalidation.live",
     "1metamask.com",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
@@ -646,6 +645,7 @@
     "mobileconnectvalidation.online",
     "mobiledappsvalidation.com",
     "mobiledappsvalidations.com",
+    "mobilesyncvalidation.live",
     "mobilewalletconnect.online",
     "mobilewalletconnector.live",
     "mobilewalletsconnect.org",
