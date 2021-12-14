@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "polkadot-event.org",
     "1metamask.com",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
@@ -1044,6 +1043,7 @@
     "polkadot-dot.com",
     "polkadot-dot.info",
     "polkadot-event.com",
+    "polkadot-event.org",
     "polkadot-events.live",
     "polkadot-get.com",
     "polkadot-get.org",
