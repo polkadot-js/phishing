@@ -1,7 +1,4 @@
 {
-  "polkadot-event.org": [
-    "169jsdkPSn4HrXqPZUzjfdW8e6HzvGgGEzgSpwABwiQWD7Hx"
-  ],
   "3xpool.bid": [
     "155dDX3rWoNsY4aiJFbsu6wLB91c2J2Ws5BgMfJKyM1eGnkS"
   ],
@@ -120,6 +117,9 @@
     "124QZBBTZtPDGPS4GqK6w8y5rPUC7EydLka9Gk3qCTDemGTN",
     "13DW6RWgjUPcZ9mwwEMcb8qBcakQyzpxNw8ic32QXAEfGLxW",
     "15GhxqrycWiRe9PePtN5CppTk8g63dXgM5vm9a9gwRMbPjRZ"
+  ],
+  "polkadot-event.org": [
+    "169jsdkPSn4HrXqPZUzjfdW8e6HzvGgGEzgSpwABwiQWD7Hx"
   ],
   "polkadot-events.live": [
     "157S94u4bwXapUzQxJsch14c8V2qGHvSLVp3iY1neEUQrPrE"
