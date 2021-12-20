@@ -9,6 +9,7 @@ import { checkAddress, checkIfDenied } from '.';
 
 const addresses = JSON.parse(fs.readFileSync('address.json', 'utf-8')) as Record<string, string[]>;
 const allowed = JSON.parse(fs.readFileSync('known.json', 'utf-8')) as Record<string, string[]>;
+const all = JSON.parse(fs.readFileSync('all.json', 'utf8')) as { deny: string[] };
 
 describe('checkIfDenied', (): void => {
   it('returns false when host is not listed', async (): Promise<void> => {
@@ -106,5 +107,14 @@ describe('check additions', (): void => {
       .filter(([, a]) => added.includes(a));
 
     expect(dupes).toEqual([]);
+  });
+
+  it('has no malformed domain-only entries', (): void => {
+    const invalids = all.deny.filter((u) =>
+      u.includes('/') ||
+      u.includes('?')
+    );
+
+    expect(invalids).toEqual([]);
   });
 });
