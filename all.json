@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "dappschecker.com",
     "1metamask.com",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
@@ -343,6 +342,7 @@
     "dappsauthenticator.tech",
     "dappsbridge.io",
     "dappsbridgedefi.com",
+    "dappschecker.com",
     "dappsconnect-integrator.com",
     "dappsconnect.io",
     "dappsconnect.website",
