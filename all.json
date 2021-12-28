@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "polkagive.com",
     "1metamask.com",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
@@ -1388,6 +1387,7 @@
     "polkadut.js.org",
     "polkaeco-airdrops.org",
     "polkafree.com",
+    "polkagive.com",
     "polkagiveaway.com",
     "polkalstarter.com",
     "polkamon.co",
