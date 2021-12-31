@@ -13,7 +13,7 @@ export { packageInfo } from './packageInfo';
 // Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/{address,all}.json
 const ADDRESS_JSON = 'https://polkadot.js.org/phishing/address.json';
 const ALL_JSON = 'https://polkadot.js.org/phishing/all.json';
-// 1 hour cache refresh
+// 45 minutes cache refresh
 const CACHE_TIMEOUT = 45 * 60 * 1000;
 
 let cacheAddrEnd = 0;
