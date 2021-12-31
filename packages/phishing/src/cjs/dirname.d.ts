@@ -1,6 +1,6 @@
 // Copyright 2020-2021 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import './detectPackage';
+declare const __dirname: string | undefined;
 
-export * from './bundle';
+export default __dirname;

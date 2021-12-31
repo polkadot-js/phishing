@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 0.7.1 Dec 31, 2021
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Add `detectPackage` to check for duplicate instances
+- Adjust consistency tests
+- Split metadata into months
+
+
 ## 0.6.1 Feb 28, 2021
 
 Contributed:
