@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "tesladrop.us",
     "1metamask.com",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
