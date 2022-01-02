@@ -117,4 +117,28 @@ describe('check additions', (): void => {
 
     expect(invalids).toEqual([]);
   });
+
+  it('has no urls starting with www. (domain-only inclusions)', (): void => {
+    const invalids = all.deny.filter((u) =>
+      u.startsWith('www.')
+    );
+
+    expect(invalids).toEqual([]);
+  });
+
+  it('has no duplicate entries', (): void => {
+    const checks: string[] = [];
+
+    const dupes = all.deny.reduce<string[]>((dupes, url) => {
+      if (!checks.includes(url)) {
+        checks.push(url);
+      } else {
+        dupes.push(url);
+      }
+
+      return dupes;
+    }, []);
+
+    expect(dupes).toEqual([]);
+  });
 });
