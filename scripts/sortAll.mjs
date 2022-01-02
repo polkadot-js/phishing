@@ -48,7 +48,7 @@ function addSites ({ allow, deny }, values) {
   return Object
     .keys(values)
     .reduce((filtered, url) => {
-      url.includes('.') && !url.includes(' ') && !allow.includes(url) && !filtered.includes(url) && !KNOWN_URLS.includes(url) &&
+      url.includes('.') && !url.includes(' ') && !url.includes('/') && !allow.includes(url) && !filtered.includes(url) && !KNOWN_URLS.includes(url) &&
         filtered.push(url);
 
       return filtered;
