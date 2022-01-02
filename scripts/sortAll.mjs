@@ -44,11 +44,11 @@ function sortAddresses (values) {
     }, {});
 }
 
-function addSites (deny, values) {
+function addSites ({ allow, deny }, values) {
   return Object
     .keys(values)
     .reduce((filtered, url) => {
-      !filtered.includes(url) && !KNOWN_URLS.includes(url) &&
+      url.includes('.') && !url.includes(' ') && !url.includes('/') && !allow.includes(url) && !filtered.includes(url) && !KNOWN_URLS.includes(url) &&
         filtered.push(url);
 
       return filtered;
@@ -103,7 +103,7 @@ export function writeMeta (meta) {
 const addr = readJson('address.json');
 const all = readJson('all.json');
 const meta = readMeta();
-const deny = sortSection(addSites(all.deny, addr));
+const deny = sortSection(addSites(all, addr));
 
 // rewrite with all our entries (newline included)
 writeJson('address.json', sortAddresses(addr));
