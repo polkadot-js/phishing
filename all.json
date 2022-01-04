@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "dotpadio.live",
-    "polkastarter-z.com",
     "1metamask.com",
     "1sgexchange.com",
     "1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
@@ -627,6 +625,7 @@
     "dotmoovs.polkastarter.com.es",
     "dotmoovs.polkastarter.com.pl",
     "dotn.finance",
+    "dotpadio.live",
     "download-metamask.net",
     "dxdy-finance.dapp-connectwallet.com",
     "dxdy-finance.dapp-links.com",
@@ -1606,6 +1605,7 @@
     "polkastarter-activator.com",
     "polkastarter-sale.com",
     "polkastarter-synchronize.com",
+    "polkastarter-z.com",
     "polkastarter.ai",
     "polkastarter.app",
     "polkastarter.art",
