@@ -17,7 +17,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.7.22",
+  "version": "0.7.23",
   "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.16.7",
