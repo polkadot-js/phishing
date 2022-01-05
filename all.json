@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "importfix.net",
     "1inch-wallet.org",
     "1metamask.com",
     "1sgexchange.com",
