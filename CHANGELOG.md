@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.8.1 Jan 9, 2021
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Update to `@polkadot/util` 8.3.1
+
+
 ## 0.7.1 Dec 31, 2021
 
 Contributed:
