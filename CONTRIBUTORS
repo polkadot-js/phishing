@@ -1,27 +1,27 @@
-     317	Jaco
-     300	Mich
-      74	mhusnirizal
-      72	michalisFr
-      24	Bill Laboon
-      22	frankywild
-       9	Dan Shields
-       8	grizzly375
-       6	ccris02
-       6	Florian Franzen
-       4	NYMETVA
-       3	brettkolodny
-       3	Samuel MC
-       2	paradoxxx-tt
-       2	SimonKraus
-       1	Christina-Marie A Miyar
-       1	Danny Salman
-       1	Dudley
-       1	Graham Dixon
-       1	hhanson4
-       1	Idi Eradiri
-       1	Justin Pham
-       1	Keegan | W3F
-       1	Mark Crince
-       1	Nathan Quarles
-       1	Nikhil Ranjan
-       1	Thibaut Sardan
+     318	Jaco                          	Bump dev (w/ contrib update) (#933)
+     300	Mich                          	Update all.json (#930)
+      74	mhusnirizal                   	update all.json (#932)
+      72	michalisFr                    	Update all.json (#904)
+      24	Bill Laboon                   	"tripple your DOT" scam (#838)
+      22	frankywild                    	Update all.json (#931)
+       9	Dan Shields                   	add multipe reported scams (#297)
+       8	grizzly375                    	Update all.json (#575)
+       6	ccris02                       	Adding few newly registered phishing sites (#344)
+       6	Florian Franzen               	Add "polkadot-bonus.network" (#105)
+       4	NYMETVA                       	Update all.json (#147)
+       3	brettkolodny                  	Update all.json (#335)
+       3	Samuel MC                     	Update address.json (#96)
+       2	paradoxxx-tt                  	Update address.json (#306)
+       2	SimonKraus                    	add polkadotgiveaway dot com to the list (#114)
+       1	Christina-Marie A Miyar       	Update all.json (#855)
+       1	Danny Salman                  	Add scam site (#461)
+       1	Dudley                        	remove simpleswap.io address from youtube scams (#94)
+       1	Graham Dixon                  	Adds polkadot.com.se phishing site (#27)
+       1	hhanson4                      	Update all.json (#454)
+       1	Idi Eradiri                   	#671 zeitgeist public sale scam (#672)
+       1	Justin Pham                   	This is a scam phishing site bitz.country. There is no association with bit.country (#689)
+       1	Keegan | W3F                  	Update all.json (#718)
+       1	Mark Crince                   	add site (#174)
+       1	Nathan Quarles                	add "linkupaffix.co" (#866)
+       1	Nikhil Ranjan                 	Removing polkassembly.network (#304)
+       1	Thibaut Sardan                	Update README.md (#2)
