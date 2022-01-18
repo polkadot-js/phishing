@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "okexevent.live",
     "16-b.it",
     "1inch-wallet.org",
     "1metamask.com",
