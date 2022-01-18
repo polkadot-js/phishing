@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "okexevent.live",
     "16-b.it",
     "1inch-wallet.org",
     "1metamask.com",
@@ -1542,6 +1541,7 @@
     "officialtoken.com",
     "officialwalletconnect.dev",
     "officialwalletconnect.tech",
+    "okexevent.live",
     "onchainwalletdaps.com",
     "oneledgerlive.com",
     "onewallet.network",
