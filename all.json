@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "dappsrectifier.com",
+    "dappsrectifier.io",
     "16-b.it",
     "1inch-wallet.org",
     "1metamask.com",
