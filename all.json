@@ -1,11 +1,11 @@
 {
   "allow": [],
   "deny": [
+    "16-b.it",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
-    "16-b.it",
     "1inch-wallet.org",
     "1metamask.com",
     "1polkadot-5x1e.js.org",
