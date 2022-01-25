@@ -1,6 +1,12 @@
 {
   "allow": [],
   "deny": [
+    "apinodevalidation.com",
+    "linko-smartrectify.com",
+    "mail.multiwallet-resolve.net",
+    "multiwallet-resolve.net",
+    "nodevalidate.live",
+    "validatingnodes.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
