@@ -5,15 +5,12 @@ import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
-import { fetchWithTimeout } from './fetch';
+import { fetchJson, fetchText } from './fetch';
 
 const TICKS = '```';
+const TIMEOUT = 5000;
 
 const ourAddrList = JSON.parse(fs.readFileSync('address.json', 'utf-8')) as Record<string, string[]>;
-
-function fetch (url: string): Promise<Response> {
-  return fetchWithTimeout(url, 5000);
-}
 
 // loop through each site for a number of times, applying the transform
 async function loopSome (site: string, matcher: () => Promise<string[] | null>): Promise<[string, string[]]> {
@@ -46,7 +43,7 @@ async function loopSome (site: string, matcher: () => Promise<string[] | null>):
 // shared between polkadot.center & polkadot-event.com (addresses are also the same on first run)
 function checkGetWallet (site: string): Promise<[string, string[]]> {
   return loopSome(site, async (): Promise<string[] | null> => {
-    const result = await (await fetch(`https://${site}/get_wallet.php`)).json() as Record<string, string>;
+    const result = await fetchJson<Record<string, string>>(`https://${site}/get_wallet.php`, TIMEOUT);
 
     return (result && result.wallet)
       ? [result.wallet.replace('\r', '').trim()]
@@ -59,7 +56,7 @@ function checkTag (url: string, tag: string, attr?: string): Promise<[string, st
   const site = url.split('/')[2];
 
   return loopSome(site, async (): Promise<string[] | null> => {
-    const result = await (await fetch(url)).text();
+    const result = await fetchText(url, TIMEOUT);
 
     // /<p id="trnsctin">(.*?)<\/p>/g
     const match = new RegExp(`<${tag}${attr ? ` ${attr}` : ''}>(.*?)</${tag}>`, 'g').exec(result);
@@ -82,7 +79,7 @@ function checkAttr (url: string, attr: string): Promise<[string, string[]]> {
   const site = url.split('/')[2];
 
   return loopSome(site, async (): Promise<string[] | null> => {
-    const result = await (await fetch(url)).text();
+    const result = await fetchText(url, TIMEOUT);
     const match = new RegExp(`${attr}"[a-zA-Z0-9]+"`, 'g').exec(result);
 
     return match && match.length

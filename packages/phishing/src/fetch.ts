@@ -3,10 +3,8 @@
 
 import { fetch } from '@polkadot/x-fetch';
 
-const TIMEOUT = 2000;
-
 // a fetch with a 2s timeout
-export async function fetchJson <T> (url: string): Promise<T> {
+async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
   const controller = new AbortController();
   let isAborted = false;
   const id = setTimeout((): void => {
@@ -14,10 +12,10 @@ export async function fetchJson <T> (url: string): Promise<T> {
 
     isAborted = true;
     controller.abort();
-  }, TIMEOUT);
+  }, timeout);
 
   try {
-    const response = await fetch(url, { signal: controller.signal }).then<T>((r) => r.json());
+    const response = await fetch(url, { signal: controller.signal });
 
     clearTimeout(id);
 
@@ -29,4 +27,12 @@ export async function fetchJson <T> (url: string): Promise<T> {
 
     throw error;
   }
+}
+
+export async function fetchJson <T> (url: string, timeout = 2000): Promise<T> {
+  return fetchWithTimeout(url, timeout).then<T>((r) => r.json());
+}
+
+export async function fetchText (url: string, timeout = 2000): Promise<string> {
+  return fetchWithTimeout(url, timeout).then((r) => r.text());
 }
