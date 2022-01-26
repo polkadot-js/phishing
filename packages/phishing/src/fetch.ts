@@ -29,10 +29,10 @@ async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response>
   }
 }
 
-export async function fetchJson <T> (url: string, timeout = 2000): Promise<T> {
+export function fetchJson <T> (url: string, timeout = 2000): Promise<T> {
   return fetchWithTimeout(url, timeout).then<T>((r) => r.json());
 }
 
-export async function fetchText (url: string, timeout = 2000): Promise<string> {
+export function fetchText (url: string, timeout = 2000): Promise<string> {
   return fetchWithTimeout(url, timeout).then((r) => r.text());
 }
