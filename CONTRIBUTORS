@@ -1,4 +1,4 @@
-     330	Jaco                          	Bump to latest @polkadot/util (#994)
+     331	Jaco                          	Adjust/DRY-up JS retrieval process (#1006)
      328	Mich                          	Update all.json (#1003)
       93	mhusnirizal                   	update all.json (#1005)
       74	michalisFr                    	Update address.json (#966)
