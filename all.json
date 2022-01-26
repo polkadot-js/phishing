@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "walletdapps.webflow.io",
+    "getairdropbonus.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
