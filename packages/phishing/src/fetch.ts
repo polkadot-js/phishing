@@ -4,7 +4,7 @@
 import { fetch } from '@polkadot/x-fetch';
 
 // a fetch with a 2s timeout
-export async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
+async function fetchWithTimeout (url: string, timeout = 2000): Promise<Response> {
   const controller = new AbortController();
   let isAborted = false;
   const id = setTimeout((): void => {
@@ -27,4 +27,12 @@ export async function fetchWithTimeout (url: string, timeout = 2000): Promise<Re
 
     throw error;
   }
+}
+
+export function fetchJson <T> (url: string, timeout = 2000): Promise<T> {
+  return fetchWithTimeout(url, timeout).then<T>((r) => r.json());
+}
+
+export function fetchText (url: string, timeout = 2000): Promise<string> {
+  return fetchWithTimeout(url, timeout).then((r) => r.text());
 }
