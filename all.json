@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "walletdapps.webflow.io",
-    "getairdropbonus.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -1065,6 +1063,7 @@
     "get-dot.me",
     "get-polkadot.net",
     "getacryptowallet.com",
+    "getairdropbonus.com",
     "getblockchain.digital",
     "getcoinwallet.com",
     "getconnectdapp.live",
@@ -3227,6 +3226,7 @@
     "walletdapps.icu",
     "walletdapps.me",
     "walletdapps.sbs",
+    "walletdapps.webflow.io",
     "walletdappsapi.com",
     "walletdappsapi.org",
     "walletdappsconnectives.com",
