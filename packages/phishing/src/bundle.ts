@@ -6,7 +6,7 @@ import type { AddressList, HostList } from './types';
 import { u8aEq } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/util-crypto';
 
-import { fetchWithTimeout } from './fetch';
+import { fetchJson } from './fetch';
 
 export { packageInfo } from './packageInfo';
 
@@ -29,39 +29,44 @@ function extractHost (path: string): string {
     .split('/')[0];
 }
 
+// logs an error in a consistent format
+function log (error: unknown, check: string): void {
+  console.warn(`Error checking ${check}, assuming non-phishing`, (error as Error).message);
+}
+
 /**
  * Retrieve a list of known phishing addresses
  */
 export async function retrieveAddrList (allowCached = true): Promise<AddressList> {
   const now = Date.now();
 
-  if (allowCached && cacheAddrList && (now < cacheAddrEnd)) {
-    return cacheAddrList;
-  }
+  return (allowCached && cacheAddrList && (now < cacheAddrEnd))
+    ? cacheAddrList
+    : fetchJson<AddressList>(ADDRESS_JSON).then((list) => {
+      cacheAddrEnd = now + CACHE_TIMEOUT;
+      cacheAddrList = list;
 
-  const response = await fetchWithTimeout(ADDRESS_JSON);
-  const list = (await response.json()) as AddressList;
-
-  cacheAddrEnd = now + CACHE_TIMEOUT;
-  cacheAddrList = list;
-
-  return list;
+      return list;
+    });
 }
 
+/**
+ * Retrieve a list of known phishing addresses in raw Uint8Array format
+ */
 async function retrieveAddrU8a (allowCached = true): Promise<[string, Uint8Array[]][]> {
   const now = Date.now();
 
-  if (allowCached && cacheAddrU8a && (now < cacheAddrEnd)) {
-    return cacheAddrU8a;
-  }
+  return (allowCached && cacheAddrU8a && (now < cacheAddrEnd))
+    ? cacheAddrU8a
+    : retrieveAddrList(allowCached).then((all) => {
+      cacheAddrU8a = Object
+        .entries(all)
+        .map(([key, addresses]): [string, Uint8Array[]] =>
+          [key, addresses.map((a) => decodeAddress(a))]
+        );
 
-  const all = await retrieveAddrList(allowCached);
-
-  cacheAddrU8a = Object
-    .entries(all)
-    .map(([key, addresses]): [string, Uint8Array[]] => [key, addresses.map((a) => decodeAddress(a))]);
-
-  return cacheAddrU8a;
+      return cacheAddrU8a;
+    });
 }
 
 /**
@@ -70,17 +75,14 @@ async function retrieveAddrU8a (allowCached = true): Promise<[string, Uint8Array
 export async function retrieveHostList (allowCached = true): Promise<HostList> {
   const now = Date.now();
 
-  if (allowCached && cacheHostList && (now < cacheHostEnd)) {
-    return cacheHostList;
-  }
+  return (allowCached && cacheHostList && (now < cacheHostEnd))
+    ? cacheHostList
+    : fetchJson<HostList>(ALL_JSON).then((list) => {
+      cacheHostEnd = now + CACHE_TIMEOUT;
+      cacheHostList = list;
 
-  const response = await fetchWithTimeout(ALL_JSON);
-  const list = (await response.json()) as HostList;
-
-  cacheHostEnd = now + CACHE_TIMEOUT;
-  cacheHostList = list;
-
-  return list;
+      return list;
+    });
 }
 
 /**
@@ -108,13 +110,13 @@ export function checkHost (items: string[], host: string): boolean {
  */
 export async function checkAddress (address: string | Uint8Array, allowCached = true): Promise<string | null> {
   try {
-    const all = await retrieveAddrU8a(allowCached);
     const u8a = decodeAddress(address);
+    const all = await retrieveAddrU8a(allowCached);
     const entry = all.find(([, all]) => all.some((a) => u8aEq(a, u8a))) || [null];
 
     return entry[0];
   } catch (error) {
-    console.error('Exception while checking address, assuming non-phishing', (error as Error).message);
+    log(error, 'address');
 
     return null;
   }
@@ -130,7 +132,7 @@ export async function checkIfDenied (host: string, allowCached = true): Promise<
 
     return checkHost(deny, host);
   } catch (error) {
-    console.error(`Exception while checking ${host}, assuming non-phishing`, (error as Error).message);
+    log(error, host);
 
     return false;
   }
