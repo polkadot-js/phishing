@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "blockchain-fix.net",
+    "blockchain-fix.org",
+    "blockchain-bugsrefix.io",
+    "fixmultichain.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
