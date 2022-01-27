@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "dapps-support.info",
+    "dappsupporttool.com",
+    "supportdapps.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
