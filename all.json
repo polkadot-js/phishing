@@ -1,9 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "dapps-support.info",
-    "dappsupporttool.com",
-    "supportdapps.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -657,6 +654,7 @@
     "dapps-seedify.online",
     "dapps-smartwallets.org",
     "dapps-solution.site",
+    "dapps-support.info",
     "dapps-sync-solutions.com",
     "dapps-sync-solutions.tech",
     "dapps-sync-wallet.com",
@@ -787,6 +785,7 @@
     "dappsunite.com",
     "dappsupport.io",
     "dappsupports.com",
+    "dappsupporttool.com",
     "dappsvalidate.site",
     "dappsvalidation.net",
     "dappsvalidation.online",
@@ -2556,6 +2555,7 @@
     "support-us2.com",
     "support-us983.com",
     "support.multi-daps.info",
+    "supportdapps.com",
     "supportfix.online",
     "supportfixs.online",
     "supportmetamask-netlify.app",
