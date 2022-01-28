@@ -1,6 +1,12 @@
 {
   "allow": [],
   "deny": [
+    "walletvalidationslive.com",
+    "walletvalidationsynchronize.org",
+    "chainnode-sync.online",
+    "chainnode-syncs.online",
+    "chainsync.netlify.app",
+    "chainsync.org",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
