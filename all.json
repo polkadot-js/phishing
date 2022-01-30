@@ -1,6 +1,12 @@
 {
   "allow": [],
   "deny": [
+    "binance-walletrestore-smartchain.ml",
+    "defiwalletrestore.live",
+    "restorerokensyncwalletconnect.com",
+    "walletrestores.xyz",
+    "thesimpleconnect.com",
+    "decentralizednetwork.co",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
