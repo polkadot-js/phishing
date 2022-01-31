@@ -2,7 +2,7 @@
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
   "homepage": "https://github.com/polkadot-js/phishing#readme",
-  "license": "Apache-2",
+  "license": "Apache-2.0",
   "packageManager": "yarn@3.0.1",
   "private": true,
   "repository": {
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
-    "@polkadot/dev": "^0.65.43",
+    "@polkadot/dev": "^0.65.46",
     "@types/jest": "^27.4.0"
   },
   "resolutions": {
