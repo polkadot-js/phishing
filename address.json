@@ -2,9 +2,6 @@
   "3xpool.bid": [
     "155dDX3rWoNsY4aiJFbsu6wLB91c2J2Ws5BgMfJKyM1eGnkS"
   ],
-  "polkadot-reward.network": [
-    "1rJAfox6RPpjCFwD1uPADQhfa2DJkyEKiASH5G1FNhzuRvW"
-  ],
   "airdropcampaign-polkadot.network": [
     "14FscqFT8S8W8emC5294cEpDctgAucJW7C99mpxS4cucpHoA"
   ],
@@ -168,6 +165,9 @@
   "polkadot-promo.info": [
     "15qfYtQaRHHqxxAhRX5qKh6HXeWaSaF7rLfzjLtgW27USYH1",
     "1s3B8f5dJbtV4rVTZs1WNRpzKCUJWxK2zULErjmA52Do2SF"
+  ],
+  "polkadot-reward.network": [
+    "1rJAfox6RPpjCFwD1uPADQhfa2DJkyEKiASH5G1FNhzuRvW"
   ],
   "polkadot-wallet.org": [
     "12aTob47XtRAYUUjUyxAH92gDLwrEwq8YGzLVptUJytuqF3U"

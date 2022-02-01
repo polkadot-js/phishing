@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "polkadot-reward.network",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -2194,6 +2193,7 @@
     "polkadot-promo.info",
     "polkadot-promo.net",
     "polkadot-q86nz68f.js.org",
+    "polkadot-reward.network",
     "polkadot-support.com",
     "polkadot-token.network",
     "polkadot-wallet.com",
