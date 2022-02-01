@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "tokenconnects.com",
     "tokensconnects.com",
     "authwalletdapps.com",
     "dappswalletsauthentication.com",
