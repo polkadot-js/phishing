@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "dot2x.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -997,6 +996,7 @@
     "dot-giveaway.com",
     "dot-promo.com",
     "dot21.net",
+    "dot2x.com",
     "dot4.org",
     "dot4.tech",
     "dot4.top",
