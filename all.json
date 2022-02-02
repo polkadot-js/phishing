@@ -1,6 +1,11 @@
 {
   "allow": [],
   "deny": [
+    "nodeauthenticate.org",
+    "tokencoinconnect.com",
+    "smartnodefix.org",
+    "launchpad.dapps-seedify.com",
+    "dapps-seedify.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
