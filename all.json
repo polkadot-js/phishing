@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "chainlinkpads.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -282,6 +281,7 @@
     "cex-crypto.com",
     "chainbridge.live",
     "chainconnectwallet.com",
+    "chainlinkpads.com",
     "chainlinkvalidation.com",
     "chainnode-sync.online",
     "chainnode-syncs.online",
