@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "synchronizewalletnode.net",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -2745,6 +2744,7 @@
     "synchronizecoin.link",
     "synchronizetrustwallet.com",
     "synchronizevalidation.net",
+    "synchronizewalletnode.net",
     "synchronzes.com",
     "synchwebconnection.com",
     "syncingcryptovalidator.com",
