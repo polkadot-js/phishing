@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "synchronizewalletnode.net",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
