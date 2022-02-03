@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "chainlinkpads.com",
     "synchronizewalletnode.net",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
