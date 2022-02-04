@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "securedappsbrowser.net",
+    "secureddapps.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
