@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "securedappsbrowser.net",
-    "secureddapps.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -2582,7 +2580,9 @@
     "secured03-coinbase.ns01.us",
     "securedaccess.io",
     "securedapps.space",
+    "securedappsbrowser.net",
     "securedappsystem.com",
+    "secureddapps.com",
     "securedwalletdapps.com",
     "securedwalletsconnect.net",
     "securedwalletsprotocol.com",
