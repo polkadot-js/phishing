@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "synchronizewallet.org",
+    "wallet-connectsyncs.com",
+    "wallet-synchronization.net",
+    "syncserver-wallet.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
