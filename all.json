@@ -1,6 +1,13 @@
 {
   "allow": [],
   "deny": [
+    "connect.polkadot-js.com",
+    "fixupwallet.org",
+    "multiwallet-refix.net",
+    "livewalletafix.com",
+    "collabs-helpdesk.com",
+    "collablandhelpdesk.com",
+    "collab-landhelpdesk.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
