@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "walletverifyapp.com",
+    "dapp-walletverify.com",
+    "dappconnectwallet.web.app",
+    "walletdappverify.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
