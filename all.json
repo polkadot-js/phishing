@@ -1,6 +1,16 @@
 {
   "allow": [],
   "deny": [
+    "walletdappstreauthentication.com",
+    "tokenerrorsfix.com",
+    "walleterrorsupport.com",
+    "web3reauth.net",
+    "livewebsync.net",
+    "securedauthlink.com",
+    "wallet-conects.live",
+    "smartdappconnect.com",
+    "connectsmartdapps.net",
+    "smartdappfix.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
