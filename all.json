@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "walletdappstreauthentication.com",
     "tokenerrorsfix.com",
     "walleterrorsupport.com",
     "web3reauth.net",
