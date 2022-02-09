@@ -1,6 +1,11 @@
 {
   "allow": [],
   "deny": [
+    "securechainsync.com",
+    "swiftsyncsecure.com",
+    "walletsync-dapps.com",
+    "securesync.live",
+    "connect-dapps.org",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
