@@ -1,6 +1,13 @@
 {
   "allow": [],
   "deny": [
+    "dappsvalidations.com",
+    "smartdappsvalidation.com",
+    "dappsmartvalidation.com",
+    "dappsvalidation.info",
+    "bridgeprotocol.link",
+    "cloud.appsvalidation.com",
+    "appsvalidation.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
