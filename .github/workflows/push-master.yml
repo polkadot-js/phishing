@@ -12,16 +12,17 @@ jobs:
         step: ['build:release']
     name: ${{ matrix.step }}
     runs-on: ubuntu-latest
+    env:
+      YARN_ENABLE_SCRIPTS: false
+      GH_PAT: ${{ secrets.GH_PAT }}
+      GH_RELEASE_GITHUB_API_TOKEN: ${{ secrets.GH_PAT }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
         token: ${{ secrets.GH_PAT }}
     - name: ${{ matrix.step }}
-      env:
-        GH_PAT: ${{ secrets.GH_PAT }}
-        GH_RELEASE_GITHUB_API_TOKEN: ${{ secrets.GH_PAT }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
         yarn install --immutable | grep -v 'YN0013'
         yarn ${{ matrix.step }}
@@ -34,13 +35,14 @@ jobs:
         step: ['build:release:ipfs']
     name: ${{ matrix.step }}
     runs-on: ubuntu-latest
+    env:
+      YARN_ENABLE_SCRIPTS: false
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      PINATA_API_KEY: ${{ secrets.PINATA_API_KEY }}
+      PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_KEY }}
     steps:
     - uses: actions/checkout@v2
     - name: ${{ matrix.step }}
-      env:
-        CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        PINATA_API_KEY: ${{ secrets.PINATA_API_KEY }}
-        PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_KEY }}
       run: |
         yarn install --immutable | grep -v 'YN0013'
         ./scripts/ipfsPrep.sh
