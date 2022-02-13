@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "exosama.cc",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -1314,6 +1313,7 @@
     "exoduswallet.site",
     "exoduswalletlink.com",
     "exoduswalletweb.org",
+    "exosama.cc",
     "extension-metamask.com.goboardup.com",
     "extension-metamask.com.homehubstudy.com",
     "extension-metamask.com.hustlernation254.com",
