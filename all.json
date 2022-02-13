@@ -1,6 +1,17 @@
 {
   "allow": [],
   "deny": [
+    "smartappconnect.com",
+    "nodesmartconnect.com",
+    "smartconnectwallet.net",
+    "smartdappvalidationsconnect.com",
+    "smartdappsconnect.com",
+    "protocoldapp.net",
+    "dappvalidationprotocol.com",
+    "defiprotocolrestore.com",
+    "sync.rectifydefiprotocol.com",
+    "rectifydefiprotocol.com",
+    "acalaprotocol.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
