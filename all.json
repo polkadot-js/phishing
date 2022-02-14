@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "blockfixresolvepro.com",
-    "fixresolvepro.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -301,6 +299,7 @@
     "blockchainwebnode.com",
     "blockdapconnect.net",
     "blockfipro.com",
+    "blockfixresolvepro.com",
     "blockvalidator.net",
     "blockwalletsync.com",
     "bnb-give.com",
@@ -1365,6 +1364,7 @@
     "fixlivewallet.com",
     "fixmultichain.com",
     "fixnodes.online",
+    "fixresolvepro.com",
     "fixsdefi.com",
     "fixtoksuptodate.live",
     "fixuptoken.net",
