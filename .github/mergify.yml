@@ -27,7 +27,7 @@ pull_request_rules:
   - name: auto approval
     conditions:
       - author~=^jacogr$
-      - label=automarge
+      - label=automerge
     actions:
       review:
         type: APPROVE
