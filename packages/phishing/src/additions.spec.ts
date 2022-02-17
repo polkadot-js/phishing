@@ -13,7 +13,13 @@ const TOP_LEVEL = [
   'pages.dev',
   'servehttp.com',
   'vercel.app',
-  'web.app'
+  'web.app',
+  'hopto.org',
+  'zapto.org',
+  'sytes.net',
+  'ddns.net',
+  'webflow.io',
+  'plesk.page'
 ];
 
 describe('added addresses', (): void => {
