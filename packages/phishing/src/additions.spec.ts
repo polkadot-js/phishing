@@ -7,7 +7,14 @@ import { decodeAddress } from '@polkadot/util-crypto';
 
 const addresses = JSON.parse(fs.readFileSync('address.json', 'utf-8')) as Record<string, string[]>;
 const allowed = JSON.parse(fs.readFileSync('known.json', 'utf-8')) as Record<string, string[]>;
-const all = JSON.parse(fs.readFileSync('all.json', 'utf8')) as { deny: string[] };
+const all = JSON.parse(fs.readFileSync('all.json', 'utf8')) as { allow: string[]; deny: string[] };
+
+const TOP_LEVEL = [
+  'pages.dev',
+  'servehttp.com',
+  'vercel.app',
+  'web.app'
+];
 
 describe('added addresses', (): void => {
   it('has no malformed addresses', (): void => {
@@ -45,6 +52,12 @@ describe('added addresses', (): void => {
 });
 
 describe('added urls', (): void => {
+  it('has no entries for allowed top-level domains', (): void => {
+    const invalids = all.deny.filter((u) => TOP_LEVEL.includes(u));
+
+    expect(invalids).toEqual([]);
+  });
+
   it('has no malformed domain-only entries', (): void => {
     const invalids = all.deny.filter((u) =>
       u.includes('/') || // don't allow paths
