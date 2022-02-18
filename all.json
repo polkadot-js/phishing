@@ -2,7 +2,6 @@
   "allow": [],
   "deny": [
     "dappsauth.ddns.net",
-    "bittsett.com",
     "whitelist-slot.com",
     "thewalletconnects.net",
     "walletfixedconnects.com",
