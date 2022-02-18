@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "walletvalidation-support.cc",
+    "wcacoinswap.com",
+    "accessactivation.live",
+    "easydappsfix.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
