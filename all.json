@@ -1,6 +1,18 @@
 {
   "allow": [],
   "deny": [
+    "dappsauth.ddns.net",
+    "bittsett.com",
+    "whitelist-slot.com",
+    "thewalletconnects.net",
+    "walletfixedconnects.com",
+    "dappsmobilerestore.net",
+    "dappsrestore.org",
+    "webs-nodelinks.com",
+    "web3nodenetwork.com",
+    "officialdappsreauthentication.com",
+    "authwalletsync.com",
+    "openedappsauthen.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
