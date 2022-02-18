@@ -1,6 +1,15 @@
 {
   "allow": [],
   "deny": [
+    "univgen.buzz",
+    "dapplivesync.org",
+    "walletdapps-ext.org",
+    "walpanauthnet.com",
+    "dappvalidation.org",
+    "dappvalidations.net",
+    "kleverauthorization.com",
+    "dappswalletrectifier.org",
+    "klever-restores.org",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
