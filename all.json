@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "useauth.net",
     "swapsafemoonv2.net",
     "safemoonv2migration.org",
     "safemoonmigratev2.com",
