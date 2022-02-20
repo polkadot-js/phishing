@@ -1,6 +1,11 @@
 {
   "allow": [],
   "deny": [
+    "hex-air.com",
+    "integratedprotocal.net",
+    "noderefresh.com",
+    "dapp.accessactivationbot.com",
+    "accessactivationbot.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
