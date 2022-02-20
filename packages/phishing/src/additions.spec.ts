@@ -10,16 +10,17 @@ const allowed = JSON.parse(fs.readFileSync('known.json', 'utf-8')) as Record<str
 const all = JSON.parse(fs.readFileSync('all.json', 'utf8')) as { allow: string[]; deny: string[] };
 
 const TOP_LEVEL = [
+  'ddns.net',
+  'hopto.org',
+  'js.org',
   'pages.dev',
+  'plesk.page',
   'servehttp.com',
+  'sytes.net',
   'vercel.app',
   'web.app',
-  'hopto.org',
-  'zapto.org',
-  'sytes.net',
-  'ddns.net',
   'webflow.io',
-  'plesk.page'
+  'zapto.org'
 ];
 
 describe('added addresses', (): void => {
