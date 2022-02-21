@@ -1,6 +1,15 @@
 {
   "allow": [],
   "deny": [
+    "app.polygon2bridge.com",
+    "polygon2bridge.com",
+    "wallets-syn.live",
+    "dapps-nodes.io",
+    "wallet.connectted.org",
+    "connectted.org",
+    "encryptednode.online",
+    "walletsaid.com",
+    "correction-service.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
