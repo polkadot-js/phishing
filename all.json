@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "safenft-sync.com",
+    "conextension.com",
+    "bombcrypto.space",
+    "walletconnect.se",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
