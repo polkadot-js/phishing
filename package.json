@@ -10,7 +10,7 @@
     "url": "https://github.com/polkadot-js/phishing.git"
   },
   "sideEffects": false,
-  "version": "0.8.200",
+  "version": "0.8.202",
   "workspaces": [
     "packages/*"
   ],
@@ -32,8 +32,8 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.2",
-    "@polkadot/dev": "^0.65.56",
+    "@babel/core": "^7.17.5",
+    "@polkadot/dev": "^0.65.62",
     "@types/jest": "^27.4.0"
   },
   "resolutions": {
