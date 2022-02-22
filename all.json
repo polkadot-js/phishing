@@ -1,6 +1,14 @@
 {
   "allow": [],
   "deny": [
+    "collabverify.online",
+    "tokaku.co",
+    "integratedapptools.online",
+    "support.walletconnect.care",
+    "polkadot-arbitrage.com",
+    "defiwalletrestore.top",
+    "cloud.mainnethost.com",
+    "mainnethost.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
