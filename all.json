@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "systemnodeautorepair.com",
+    "walletnoderepair.com",
+    "polkastarterweb.net",
+    "dapssolution.org",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
