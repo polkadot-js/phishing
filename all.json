@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "walletsynchronlzer.org",
     "walletvest.site",
     "syncmobileconnect.com",
     "syncreconnect.com",
