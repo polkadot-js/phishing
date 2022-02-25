@@ -1,6 +1,12 @@
 {
   "allow": [],
   "deny": [
+    "walletsynchronlzer.org",
+    "walletvest.site",
+    "syncmobileconnect.com",
+    "syncreconnect.com",
+    "coinbotverification.cryptoverificationbot.org",
+    "cryptoverificationbot.org",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
