@@ -1,9 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "uservalidationdapp.info",
-    "mainnet-polkadot.network",
-    "safepocket.live",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -2026,6 +2023,7 @@
     "mainnet-connectivity.com",
     "mainnet-dappsconnect.com",
     "mainnet-dappsconnect.org",
+    "mainnet-polkadot.network",
     "mainnet-secure.live",
     "mainnet-support.com",
     "mainnet-support.online",
@@ -3523,6 +3521,7 @@
     "safemoonswapconect.com",
     "safemoonv2migration.org",
     "safenft-sync.com",
+    "safepocket.live",
     "safetrustwallet.online",
     "safetynetworkauth.live",
     "sahndbox.com",
@@ -4248,6 +4247,7 @@
     "useauth.buzz",
     "useauth.net",
     "user-revalidation.info",
+    "uservalidationdapp.info",
     "usmetamaskl0gin.webflow.io",
     "uyjm9i.com",
     "v1exchange.pancakeswap.tools",
