@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "uservalidationdapp.info",
+    "mainnet-polkadot.network",
+    "safepocket.live",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
