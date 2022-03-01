@@ -1,6 +1,11 @@
 {
   "allow": [],
   "deny": [
+    "walletvalidationnodes.com",
+    "walletvalidationnode.com",
+    "walletbridges.com",
+    "walletsbridge.com",
+    "bridgewallets.xyz",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
