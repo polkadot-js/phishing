@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "dapp.fixallmytokenwallet.org",
+    "fixallmytokenwallet.org",
+    "internationalgemologicalcenter.com",
+    "walletconnecttbot.com",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
