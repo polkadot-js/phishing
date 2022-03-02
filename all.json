@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "bitnationvalidate.online",
+    "validatemycrypt.online",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
