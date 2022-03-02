@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "bitnationvalidate.online",
-    "validatemycrypt.online",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
@@ -327,6 +325,7 @@
     "bitfrost-private.com",
     "bitinsuremainnet.com",
     "bitnadglobal.com",
+    "bitnationvalidate.online",
     "bitprofitinvest.com",
     "bitswapme.com",
     "bittsett.com",
@@ -4301,6 +4300,7 @@
     "validateeasily.wallectconnectonline.com",
     "validatelive.com",
     "validatemintingtab.online",
+    "validatemycrypt.online",
     "validatemywallet.live",
     "validatemywallet.online",
     "validateonline.net",
