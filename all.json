@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "chainsdapp.org",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -439,6 +438,7 @@
     "chainprotocol.tools",
     "chainscansystem.com",
     "chainsconnectors.com",
+    "chainsdapp.org",
     "chainstoken.com",
     "chainswalletconnect.com",
     "chainswalletsdapp.com",
