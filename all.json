@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "encryptwalletbsc.online",
+    "collabsyncwallet.com",
+    "launchmainnet-sync.com",
+    "cidappwa.org",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
