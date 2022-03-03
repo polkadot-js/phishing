@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "nftsynchronisation.com",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -2683,6 +2682,7 @@
     "nftrader.dev",
     "nftremix.ru",
     "nftserverpad.com",
+    "nftsynchronisation.com",
     "nfttokenofficial.space",
     "nftverification.space",
     "nftveriifications.com",
