@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "myauthnetwork.com",
+    "main-errorfix.live",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
