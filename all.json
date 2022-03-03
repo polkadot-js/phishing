@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "securedweb3wallet.com",
+    "deoxanaut.com",
+    "decentralizedchain.co",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
