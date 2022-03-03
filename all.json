@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "blockchain-box.com",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -348,6 +347,7 @@
     "blockch-secure.center",
     "blockchaibitcoin.online",
     "blockchain-auths-token.com",
+    "blockchain-box.com",
     "blockchain-bugsrefix.io",
     "blockchain-care.com",
     "blockchain-consulting.tokenminds.xyz",
