@@ -1,11 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "equityzenchainlink.com",
-    "encryptwalletbsc.online",
-    "collabsyncwallet.com",
-    "launchmainnet-sync.com",
-    "cidappwa.org",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -459,6 +454,7 @@
     "checkdapp.online",
     "childsupporttoken.net",
     "cidappsweb.com",
+    "cidappwa.org",
     "cititoken.io",
     "claim-airdrop-bep20-tokens.com",
     "claim-reward-erc20-token.com",
@@ -1598,6 +1594,7 @@
     "encryptwalletbsc.online",
     "eosuniswap.org",
     "epolkadot.com",
+    "equityzenchainlink.com",
     "erc-20-airdrop-rewards.site",
     "erc20balance.com",
     "erc20rescue.tools",
