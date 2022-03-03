@@ -1,5 +1,5 @@
-     398	Mich                          	Update all.json (#1194)
-     355	Jaco                          	Replace mergify with action (#1190)
+     399	Mich                          	Update all.json (#1195)
+     356	Jaco                          	Remove checkout from auto-{approve, merge} actions (#1197)
      135	mhusnirizal                   	update all.json (#1192)
       77	michalisFr                    	Update all.json (#1036)
       54	frankywild                    	Update all.json (#1187)
