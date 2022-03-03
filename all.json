@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "walletconct.co",
+    "polikadot.com",
     "myauthnetwork.com",
     "main-errorfix.live",
     "02auth-mtb.myz.info",
