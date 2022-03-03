@@ -1,10 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "mymainnetactivation.com",
-    "securedweb3wallet.com",
-    "deoxanaut.com",
-    "decentralizedchain.co",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -1408,6 +1404,7 @@
     "decentralized-chains.com",
     "decentralized-connect.com",
     "decentralized-dapps.info",
+    "decentralizedchain.co",
     "decentralizedconnect.co",
     "decentralizedcryptotoken.com",
     "decentralizedintegration.com",
@@ -2602,6 +2599,7 @@
     "myetherwallet.us",
     "mykeplrapp.site",
     "mylivewalletsync.com",
+    "mymainnetactivation.com",
     "mymainnetconnect.com",
     "mymedicalwishwallet.com",
     "mymetamask-onlinesecure.185-81-114-144.plesk.page",
