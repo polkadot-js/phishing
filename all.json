@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "chainsdapp.org",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
