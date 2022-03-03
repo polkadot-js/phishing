@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "equityzenchainlink.com",
     "encryptwalletbsc.online",
     "collabsyncwallet.com",
     "launchmainnet-sync.com",
