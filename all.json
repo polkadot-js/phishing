@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "mymainnetactivation.com",
     "securedweb3wallet.com",
     "deoxanaut.com",
     "decentralizedchain.co",
