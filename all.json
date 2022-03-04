@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "walletconnectl.diskstation.eu",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
