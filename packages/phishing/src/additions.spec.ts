@@ -17,9 +17,11 @@ const TOP_LEVEL = [
   'plesk.page',
   'servehttp.com',
   'sytes.net',
+  'timeweb.ru',
   'vercel.app',
   'web.app',
   'webflow.io',
+  'wixsite.com',
   'zapto.org'
 ];
 
