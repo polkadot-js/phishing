@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "walletconnect-web3.com",
     "walletconnecting.co",
     "nodechain.me",
     "thetrolllerart.dvrlists.com",
