@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "distribution.acalastaking.network",
     "walletconnectl.diskstation.eu",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
