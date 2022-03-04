@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "distribution.acalastaking.network",
-    "walletconnectl.diskstation.eu",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -1517,6 +1515,7 @@
     "disapprove-login.com",
     "discord-nitro-best.com",
     "diskstation.eu",
+    "distribution.acalastaking.network",
     "diversyfundcrypto.com",
     "dnodeloop.online",
     "docenrtelond.com",
@@ -4781,6 +4780,7 @@
     "walletconnectivity.site",
     "walletconnectivity.space",
     "walletconnectivity.tech",
+    "walletconnectl.diskstation.eu",
     "walletconnectlink.co",
     "walletconnectlink.net",
     "walletconnectlive.vip",
