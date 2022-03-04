@@ -1,6 +1,16 @@
 {
   "allow": [],
   "deny": [
+    "walletconnect-web3.com",
+    "walletconnecting.co",
+    "nodechain.me",
+    "thetrolllerart.dvrlists.com",
+    "web3connector.com",
+    "cn59409.tmweb.ru",
+    "walletconct.co",
+    "polikadot.com",
+    "myauthnetwork.com",
+    "main-errorfix.live",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
