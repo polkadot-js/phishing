@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "defisyncauth.com",
+    "quilling.xii.jp",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
