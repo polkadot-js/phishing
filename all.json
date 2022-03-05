@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "activatedrepair.com",
+    "ukraine-save.com",
     "defisyncauth.com",
     "quilling.xii.jp",
     "xii.jp",
