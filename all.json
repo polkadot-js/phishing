@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "walletfix.weebly.com",
     "nftswaps.live",
     "swappynfts.online",
     "natural-farm-bonus.online",
