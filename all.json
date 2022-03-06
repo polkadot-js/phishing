@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "natural-farm-bonus.online",
     "outerring-bonus.online",
     "sinceredoge-bonus.online",
     "naturalfarm-bonus.online",
