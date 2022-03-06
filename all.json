@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "blockschainexplorer.com",
     "blockschainssuppt.site",
     "syncvalidatedapps.com",
     "walletfix.weebly.com",
