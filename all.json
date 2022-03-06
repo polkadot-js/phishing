@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "blockschainssuppt.site",
     "syncvalidatedapps.com",
     "walletfix.weebly.com",
     "nftswaps.live",
