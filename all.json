@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "nftswaps.live",
+    "swappynfts.online",
     "natural-farm-bonus.online",
     "outerring-bonus.online",
     "sinceredoge-bonus.online",
