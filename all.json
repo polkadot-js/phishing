@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "cryptosaveukraine.org",
-    "restorelink.online",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -838,6 +836,7 @@
     "cryptoplonic.com",
     "cryptopunks-token.com",
     "cryptorewards.site",
+    "cryptosaveukraine.org",
     "cryptoslivechats.com",
     "cryptosyncwallet.link",
     "cryptosyncwallet.org",
@@ -3634,6 +3633,7 @@
     "restoreaid.co",
     "restoreassets.online",
     "restoredappapp.com",
+    "restorelink.online",
     "restoremainnets.xyz",
     "restoremetamask.dev",
     "restoremetamask.net",
