@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "syncrepair.live",
+    "manualrestore.online",
     "manualsafefix.com",
     "walletbridge.cc",
     "02auth-mtb.myz.info",
