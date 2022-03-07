@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "cryptosaveukraine.org",
+    "restorelink.online",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
