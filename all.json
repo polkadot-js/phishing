@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "walletconnectpage.com",
+    "walletconnectmobile.com",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
