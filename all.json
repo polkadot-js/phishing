@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "walletconnectpage.com",
-    "walletconnectmobile.com",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -4876,6 +4874,7 @@
     "walletconnectmainnet.com",
     "walletconnectmainnet.online",
     "walletconnectme.co",
+    "walletconnectmobile.com",
     "walletconnectnode.live",
     "walletconnectnodes.live",
     "walletconnectnow.org",
@@ -4887,6 +4886,7 @@
     "walletconnector.net",
     "walletconnectorg.xyz",
     "walletconnectors.com",
+    "walletconnectpage.com",
     "walletconnectpass.online",
     "walletconnectrepair.com",
     "walletconnects.com",
