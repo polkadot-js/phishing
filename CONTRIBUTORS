@@ -1,5 +1,5 @@
      408	Mich                          	Update all.json (#1224)
-     360	Jaco                          	Remove false positive (#1218)
+     361	Jaco                          	Support bundlers where import.meta.url is undefined (#1228)
      148	mhusnirizal                   	added nuked domains (#1227)
       77	michalisFr                    	Update all.json (#1036)
       58	frankywild                    	Update all.json (#1222)
