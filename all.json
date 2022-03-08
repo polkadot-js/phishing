@@ -1,15 +1,7 @@
 {
   "allow": [],
   "deny": [
-    "encryptwalletnode.online",
-    "dappvalidationsync.online",
-    "dappvalidation.online",
-    "dappfixen.online",
     "defisyncauth.online",
-    "wallet-solutions.info",
-    "dappfixing.com",
-    "walletdapps-interface.org",
-    "nftcollabpads-wallet.com",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
