@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "connect.online-dapps.com",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
     "0vvwvuniswap.top",
@@ -657,6 +656,7 @@
     "connect.dapp-links.net",
     "connect.dapplinks.net",
     "connect.dapps-link.org",
+    "connect.online-dapps.com",
     "connect.opensyncs.com",
     "connect.polkadot-js.com",
     "connect.shibainutoken.us",
