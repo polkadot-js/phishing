@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "hypebearclob.com",
+    "hypebearclubgiveaway.com",
+    "linkchain-wallet.com",
     "defisyncauth.online",
     "02auth-mtb.myz.info",
     "0vvvvuniswap.top",
