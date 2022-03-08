@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "coinxpaddrop.com",
+    "ceekdrops.com",
+    "guildfidrop.com",
+    "neardrop.org",
     "1chaincrypto.com",
     "2chainencrypt.com",
     "dip1linker.com",
