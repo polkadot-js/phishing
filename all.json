@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "1chaincrypto.com",
+    "2chainencrypt.com",
+    "dip1linker.com",
+    "hybebear3sclub.com",
     "hypebearclob.com",
     "hypebearclubgiveaway.com",
     "linkchain-wallet.com",
