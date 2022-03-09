@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "wallet-link-dapps.com",
+    "dappreconnect.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
