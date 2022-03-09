@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "dapps-authinterface.org",
     "wallet-link-dapps.com",
     "dappreconnect.com",
     "0vvwvuniswap.top",
