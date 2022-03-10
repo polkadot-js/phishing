@@ -13,6 +13,7 @@ const TOP_LEVEL = [
   'ddns.net',
   'hopto.org',
   'js.org',
+  'netlify.app',
   'pages.dev',
   'plesk.page',
   'servehttp.com',
