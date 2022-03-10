@@ -11,6 +11,7 @@ const all = JSON.parse(fs.readFileSync('all.json', 'utf8')) as { allow: string[]
 
 const TOP_LEVEL = [
   'ddns.net',
+  'herokuapp.com',
   'hopto.org',
   'js.org',
   'netlify.app',
