@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "webwalletauthentication.net",
     "webwalletauthntication.com",
     "walletauthentication-online.com",
     "securedconnect.ga",
