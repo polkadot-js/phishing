@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "instant-integration.io",
+    "dnodeapp.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
