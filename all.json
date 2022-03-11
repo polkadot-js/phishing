@@ -2,7 +2,6 @@
   "allow": [],
   "deny": [
     "0vvwvuniswap.top",
-    "node-resolve-all-defi-setup.com",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
     "123-informatica.com",
@@ -2925,6 +2924,7 @@
     "nocovid19.finance",
     "node-authrepair.online",
     "node-modal-validation.com",
+    "node-resolve-all-defi-setup.com",
     "node-revalidation.online",
     "node-uptodate.live",
     "node-validation.online",
