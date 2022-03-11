@@ -1,5 +1,5 @@
      421	Mich                          	Update all.json (#1258)
-     364	Jaco                          	Bump deps (& yarn 3.2.0) (#1253)
+     365	Jaco                          	Revert incorrectly listed Snowbank (normal walletconnect integration) (#1261)
      155	mhusnirizal                   	update all.json (#1259)
       77	michalisFr                    	Update all.json (#1036)
       66	frankywild                    	Update all.json (#1256)
