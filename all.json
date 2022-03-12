@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "defichainnetwork.org",
+    "defichainnetwork.com",
     "livewallverification.com",
     "realwallcon.com",
     "securewalletsolutions.com",
