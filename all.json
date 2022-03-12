@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "dappsmultichainauth.com",
+    "dappsauthe.live",
+    "dappstokenauthenticator.com",
     "instant-integration.io",
     "dnodeapp.com",
     "0vvwvuniswap.top",
