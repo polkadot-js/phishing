@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "datachainconnect.com",
     "defichainnetwork.org",
     "defichainnetwork.com",
     "livewallverification.com",
