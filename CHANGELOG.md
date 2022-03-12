@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.9.1 Mar 12, 2021
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Adjust for bundlers where `import.meta.url` is undefined
+- Update to `@polkadot/util` 8.5.1
+
+
 ## 0.8.1 Jan 9, 2021
 
 Contributed:
