@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "realwallcon.com",
+    "securewalletsolutions.com",
+    "walletsolutions.net",
     "dappsmultichainauth.com",
     "dappsauthe.live",
     "dappstokenauthenticator.com",
