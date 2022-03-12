@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "livewallverification.com",
     "realwallcon.com",
     "securewalletsolutions.com",
     "walletsolutions.net",
