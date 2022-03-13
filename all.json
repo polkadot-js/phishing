@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "authyuser.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
@@ -284,6 +283,7 @@
     "authwalletdapps.com",
     "authwalletsync.com",
     "authweb.live",
+    "authyuser.com",
     "auto-accessactivation.live",
     "autoconectoken.com",
     "autoconfig.metamask.pcsupport24-7.com",
