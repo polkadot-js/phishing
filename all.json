@@ -1,8 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "defi-cronos.net",
-    "defiblockauth.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
@@ -1567,6 +1565,7 @@
     "defi-conects.com",
     "defi-connects.com",
     "defi-cronos.com",
+    "defi-cronos.net",
     "defi-dapp-resolution.org",
     "defi-dapps-resolution.org",
     "defi-function.app",
@@ -1577,6 +1576,7 @@
     "defi-wallet.support",
     "defiaidvalidator.com",
     "defiauthenticator.com",
+    "defiblockauth.com",
     "defichainalert.net",
     "defichainnetwork.com",
     "defichainnetwork.org",
