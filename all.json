@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "cloud-walletconnect.com",
     "chainpermit.org",
     "chainpermit.top",
     "0vvwvuniswap.top",
