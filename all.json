@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "ip-net.org",
     "cloud-walletconnect.com",
     "chainpermit.org",
     "chainpermit.top",
