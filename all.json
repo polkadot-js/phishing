@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "chainpermit.top",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
