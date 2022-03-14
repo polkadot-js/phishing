@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "162.222.226.37",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
