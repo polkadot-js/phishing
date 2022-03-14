@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "crypto-safeauth.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
@@ -846,6 +845,7 @@
     "crypto-more.com",
     "crypto-platformes.com",
     "crypto-polkadot.com",
+    "crypto-safeauth.com",
     "crypto-token.info",
     "crypto-token.tech",
     "crypto-trustexchange.com",
