@@ -1,6 +1,8 @@
 {
   "allow": [],
   "deny": [
+    "servicecylce.online",
+    "loopfixchains.site",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
