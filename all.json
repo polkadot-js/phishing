@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "webwallet-authntication.us",
+    "defi-cronos.com",
+    "dappsyncbridge.com",
+    "multimintbridge.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
