@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "webconnectdapp.com",
     "connectactivation.net",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
