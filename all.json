@@ -1,9 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "interloadingdapps.online",
-    "webconnectdapp.com",
-    "connectactivation.net",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
@@ -697,6 +694,7 @@
     "connect.tokenslink.live",
     "connect2chain.com",
     "connectaccess.online",
+    "connectactivation.net",
     "connectactivation.site",
     "connectapps.online",
     "connectassists.online",
@@ -2108,6 +2106,7 @@
     "interdapps.com",
     "interdapps.tech",
     "interfaceconnect.co",
+    "interloadingdapps.online",
     "internationalgemologicalcenter.com",
     "intrappsprojects.netlify.app",
     "investcryptofy.com",
@@ -5786,6 +5785,7 @@
     "web3walletsecureprotocols.com",
     "webappconnection.com",
     "webbaseretek-supportadmen.coinbase.com.re-joene.men",
+    "webconnectdapp.com",
     "webconnectingwallets.net",
     "webconns.com",
     "webdappassistance.com",
