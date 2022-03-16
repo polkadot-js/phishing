@@ -1,6 +1,11 @@
 {
   "allow": [],
   "deny": [
+    "mainnetsync.com",
+    "main-net.live",
+    "walletsvalidationbots.org",
+    "manualchainsychnorize.site",
+    "kjellsblog.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
