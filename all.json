@@ -1,6 +1,9 @@
 {
   "allow": [],
   "deny": [
+    "mainnetonline.info",
+    "mainnetprotocol.co",
+    "mainnetsupport.online",
     "mainnetsync.com",
     "main-net.live",
     "walletsvalidationbots.org",
