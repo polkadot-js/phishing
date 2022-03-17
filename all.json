@@ -1,7 +1,6 @@
 {
   "allow": [],
   "deny": [
-    "weblink-bsc.com",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
@@ -5869,6 +5868,7 @@
     "webdappsconnection.com",
     "webdappsquery.online",
     "webdappsvalidate.com",
+    "weblink-bsc.com",
     "webliverevallidates.com",
     "webmetamask-connect.com",
     "webnodefix.com",
