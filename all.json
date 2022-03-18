@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "apps.dappwebservice.com",
+    "walletconnect.educationfranchisee.com",
+    "chain-interlink.com",
+    "lnvsiblefriends.io",
     "walletmend.com",
     "initiialize.000webhostapp.com",
     "0vvwvuniswap.top",
