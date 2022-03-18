@@ -1,6 +1,7 @@
 {
   "allow": [],
   "deny": [
+    "reauthenticator.tech",
     "apps.dappwebservice.com",
     "walletconnect.educationfranchisee.com",
     "chain-interlink.com",
