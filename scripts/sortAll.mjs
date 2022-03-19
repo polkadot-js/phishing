@@ -60,7 +60,7 @@ function readJson (file) {
 }
 
 function writeJson (file, contents) {
-  fs.writeFileSync(file, `${JSON.stringify(contents, null, 2)}\n`);
+  fs.writeFileSync(file, `${JSON.stringify(contents, null, '\t')}\n`);
 }
 
 function readMeta () {
