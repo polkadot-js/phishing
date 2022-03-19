@@ -20,7 +20,7 @@
   "version": "0.9.33",
   "main": "index.js",
   "dependencies": {
-    "@babel/runtime": "^7.17.7",
+    "@babel/runtime": "^7.17.8",
     "@polkadot/util": "^8.5.1",
     "@polkadot/util-crypto": "^8.5.1",
     "@polkadot/x-fetch": "^8.5.1"
