@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.10.1 Mar 19, 2021
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Additional workaround for Vite bundling
+- Update to `@polkadot/util` 8.6.1
+
+
 ## 0.9.1 Mar 12, 2021
 
 Contributed:
