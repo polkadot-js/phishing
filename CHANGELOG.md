@@ -8,7 +8,7 @@ Contributed:
 
 Changes:
 
-- - Additional workaround for Vite bundling
+- Additional workaround for Vite bundling
 - Update to `@polkadot/util` 8.6.1
 
 
