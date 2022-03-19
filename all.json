@@ -1,6 +1,10 @@
 {
   "allow": [],
   "deny": [
+    "datawalletconnect.com",
+    "fast-walletconnect.com",
+    "smartsystem-rectify.live",
+    "dappsconnectvalidate.org",
     "0vvwvuniswap.top",
     "0vvwwuniswap.top",
     "0vwwuniswap.top",
