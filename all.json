@@ -1,7 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"wallets-dappsinterface.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -5533,6 +5532,7 @@
 		"wallets-connects.link",
 		"wallets-dapp.netlify.app",
 		"wallets-dapp.online",
+		"wallets-dappsinterface.org",
 		"wallets-dappsvalidate.com",
 		"wallets-dappsvalidate.weebly.com",
 		"wallets-pancakeswap.finance",
