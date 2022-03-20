@@ -1,8 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"apinodeverification.com",
-		"bestoffertokn.online",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -164,6 +162,7 @@
 		"api-pancakeswap.com",
 		"apiauthenticate-sync.com",
 		"apinodevalidation.com",
+		"apinodeverification.com",
 		"apisconnect.online",
 		"apivalidate.com",
 		"app-meta-mask-live.com",
@@ -335,6 +334,7 @@
 		"beets-fi.com",
 		"bestcryptofxtrading.com",
 		"bestcryptowallet.info",
+		"bestoffertokn.online",
 		"bestofferupdefi.online",
 		"beta-appchains.org",
 		"beta-chainwallet.com",
