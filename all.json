@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+    	"proultranft.com",
+    	"app.dappfixedconnect.net",
+    	"connectwalet.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
