@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"syncalldapp.com",
+		"syncalldapps.net",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
