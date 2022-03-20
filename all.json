@@ -1,8 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"syncalldapp.com",
-		"syncalldapps.net",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -4326,6 +4324,8 @@
 		"syncaccess.tech",
 		"syncaccessfix.com",
 		"syncaccessfix.net",
+		"syncalldapp.com",
+		"syncalldapps.net",
 		"syncappencryptconnect.ru",
 		"syncboot.online",
 		"syncconnectorbot.co",
