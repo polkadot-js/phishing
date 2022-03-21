@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"oracle.multi-entityprotocol.tools",
+		"auth.rewalletsyn.net",
+		"allsolution-resolve.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
