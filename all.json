@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"multichainprotocol.com",
+		"multientitychainprotocol.com",
 		"oracle.multi-entityprotocol.tools",
 		"auth.rewalletsyn.net",
 		"allsolution-resolve.com",
