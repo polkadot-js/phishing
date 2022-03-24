@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"dapp-sync.herokuapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
