@@ -1,8 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"authenticatelinkapps.org",
-		"wappsautosync.net",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -289,6 +287,7 @@
 		"authenticate.lukasgill.xyz",
 		"authenticateall.com",
 		"authenticateddappssync.netlify.app",
+		"authenticatelinkapps.org",
 		"authenticatewallet.co",
 		"authenticatewalletlive.com",
 		"authenticator.iq-bitcointrade.com",
@@ -6012,6 +6011,7 @@
 		"walsdappauth.com",
 		"walsyncdapps.info",
 		"wandupdate.live",
+		"wappsautosync.net",
 		"watchonlywallet.com",
 		"wbsbinan.com",
 		"wc-connect.site",
