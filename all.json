@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"authenticatelinkapps.org",
 		"wappsautosync.net",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
