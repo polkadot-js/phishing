@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"validatedefi.surge.sh",
+		"secured-dapps.com",
+		"alquebyhotel.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
