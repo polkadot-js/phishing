@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"wallets-connections.net",
+		"wallets-connecting.org",
+		"dapps.kiev.ua",
 		"auth.rewebsyn.net",
 		"validatordpps.kiev.ua",
 		"discordrectify.com",
