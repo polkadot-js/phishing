@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"auth.rewebsyn.net",
+		"validatordpps.kiev.ua",
+		"discordrectify.com",
 		"allsolutionrectify.com",
 		"wallatconnects.us",
 		"validatedefi.surge.sh",
