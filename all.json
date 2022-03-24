@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"allsolutionrectify.com",
+		"wallatconnects.us",
 		"validatedefi.surge.sh",
 		"secured-dapps.com",
 		"alquebyhotel.com",
