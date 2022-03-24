@@ -1,7 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"dapp-sync.herokuapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -1058,6 +1057,7 @@
 		"dapp-solutions.net",
 		"dapp-support.com",
 		"dapp-sync-validate.com",
+		"dapp-sync.herokuapp.com",
 		"dapp-syncconnet.site",
 		"dapp-synchronize.com",
 		"dapp-vadilate.tools",
