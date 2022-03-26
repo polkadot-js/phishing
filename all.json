@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"nftdappssystems.com",
 		"coindap-navigation.com",
 		"link.conect-access.com",
 		"connectlinkplus.com",
