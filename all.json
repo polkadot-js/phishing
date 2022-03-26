@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"webdappslink.com",
+		"walletconnectdappslink.com",
 		"polygonprotocolvalidations.com",
 		"mnemonicsprotocol.online",
 		"metaglobalresolve.center",
