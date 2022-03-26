@@ -1,6 +1,18 @@
 {
 	"allow": [],
 	"deny": [
+		"polygonprotocolvalidations.com",
+		"mnemonicsprotocol.online",
+		"metaglobalresolve.center",
+		"sifchaindrop.org",
+		"mainblocksync.com",
+		"jasmydrops.com",
+		"dappsblocksync.com",
+		"activatedefisync.com",
+		"lockedentrance.com",
+		"wallauthenticator.org",
+		"veriwalllive.com",
+		"walletencrypt.net",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
