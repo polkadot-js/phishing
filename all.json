@@ -1,7 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"blockwallet.netlify.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -444,6 +443,7 @@
 		"blockschainexplorer.com",
 		"blockschainssuppt.site",
 		"blockvalidator.net",
+		"blockwallet.netlify.app",
 		"blockwalletsync.com",
 		"bloctroubleshot.online",
 		"blog.beta.pancakeswasap.one",
