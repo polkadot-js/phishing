@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"activatorsupport.tech",
+		"walletssupport.tech",
 		"webdappslink.com",
 		"walletconnectdappslink.com",
 		"polygonprotocolvalidations.com",
