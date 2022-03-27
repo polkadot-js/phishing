@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"phuongvietct.thanhnhanct.com",
 		"reinstatewallet.com",
 		"test2.itsallaboutdigital.com",
 		"autoconnectsapp.com",
