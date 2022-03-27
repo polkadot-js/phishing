@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"test2.itsallaboutdigital.com",
 		"autoconnectsapp.com",
 		"sale-ico.com",
 		"solvewalletconectsproblems.com",
