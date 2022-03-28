@@ -1,6 +1,12 @@
 {
 	"allow": [],
 	"deny": [
+		"officialwebb.site",
+		"monea-scn.web.app",
+		"walletconnect.appspots.net",
+		"awalletconnect.com",
+		"auth.bridgexplorer.icu",
+		"botnoderectify.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
