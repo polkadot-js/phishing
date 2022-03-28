@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"officialwebb.site",
 		"monea-scn.web.app",
 		"walletconnect.appspots.net",
 		"awalletconnect.com",
