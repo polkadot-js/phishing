@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"dappslivesystem.com",
+		"cross-chainbot.org",
 		"integratedwebappsvalidation.com",
 		"blokcloud.online",
 		"claim.validations.online",
