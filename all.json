@@ -1,8 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"dappslivesystem.com",
-		"cross-chainbot.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -925,6 +923,7 @@
 		"crazy-lamport.203-25-119-115.plesk.page",
 		"create-cryptocurrency-wallet.com",
 		"crochedivertido.com",
+		"cross-chainbot.org",
 		"cross-chaindefi.org",
 		"cryptgrowx.com",
 		"crypto-coin-airdrop.online",
@@ -1420,6 +1419,7 @@
 		"dappslinkvalidate.live",
 		"dappsliveintegrate.com",
 		"dappsliveinterface.org",
+		"dappslivesystem.com",
 		"dappslivevalidator.xyz",
 		"dappsmainnet-interface.net",
 		"dappsmainnet-liveinterface.com",
