@@ -1,6 +1,15 @@
 {
 	"allow": [],
 	"deny": [
+		"integratedwebappsvalidation.com",
+		"blokcloud.online",
+		"claim.validations.online",
+		"certifyingdapps.com",
+		"dappscertify-official.com",
+		"webconnectroute.com",
+		"claims.validations.cf",
+		"team-away.xyz",
+		"cross-chaindefi.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
