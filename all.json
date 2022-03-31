@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"dappslivesystem.com",
+		"cross-chainbot.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
