@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"interwalletaid.com",
 		"appscryptconnect.com",
 		"mainnetcryptoinsurance.com",
 		"uniswapwsbridge.com",
