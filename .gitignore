@@ -1,5 +1,7 @@
 binaryen*
 build/
+build-cjs/
+build-esm/
 build-docs/
 coverage/
 docs/.vuepress/dist/
