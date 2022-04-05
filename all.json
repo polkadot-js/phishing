@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"blockschaintool.live",
+		"coinsynchronization.live",
 		"connect.walletmultilink.click",
 		"allconnectsolve.xyz",
 		"claims.validations.ga",
