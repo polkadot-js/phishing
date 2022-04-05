@@ -1,6 +1,16 @@
 {
 	"allow": [],
 	"deny": [
+		"claims.validations.ga",
+		"onetimesecure.com",
+		"support-defi.org",
+		"beverlyintegrate.live",
+		"waletco.cloudns.ph",
+		"coinnavigationapp.com",
+		"dappsactivate.fefiteck.com",
+		"verify.rectify.link",
+		"collablandwallets.xyz",
+		"w-appconnector.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
