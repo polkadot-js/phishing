@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"connect.walletmultilink.click",
+		"allconnectsolve.xyz",
 		"claims.validations.ga",
 		"onetimesecure.com",
 		"support-defi.org",
