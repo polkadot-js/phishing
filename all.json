@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"networkchainapi.com",
+		"walletbridgesdapp.com",
 		"w3c-validation.live",
 		"app.yourcryptocare.xyz",
 		"validatebridge.xyz",
