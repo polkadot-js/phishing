@@ -1,6 +1,12 @@
 {
 	"allow": [],
 	"deny": [
+		"w3c-validation.live",
+		"app.yourcryptocare.xyz",
+		"validatebridge.xyz",
+		"dapp-live.herokuapp.com",
+		"cryptosdapp.webflow.io",
+		"dapps.secured-wallets.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
