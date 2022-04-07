@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"decentralizedcryptoconnects.com",
+		"decentralizedcryptoconnect.com",
 		"fixmytoken.live",
 		"invisiblefrnds.com",
 		"koinsolutions.info",
