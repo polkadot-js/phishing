@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"walletlinkapp.net",
 		"walletlinkapp-dex-bridge.com",
 		"walletsbridge-dapps.com",
 		"walletnode.webflow.io",
