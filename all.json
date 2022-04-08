@@ -3,6 +3,12 @@
 	"deny": [
 		"walletauthentication-sync.com",
 		"web.syncappwallet.site",
+		"mainnetchainsync.com",
+		"node-syncs.com",
+		"syncapp.online",
+		"syncchnbonuz.online",
+		"sync-dappsconnect.com",
+		"syncnodes.live",
 		"syncappwallet.site",
 		"infinitygame.site",
 		"app.webrestore.site",
