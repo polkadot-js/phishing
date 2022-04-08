@@ -1,6 +1,11 @@
 {
 	"allow": [],
 	"deny": [
+		"dexconnectpost.net",
+		"connectverification.com",
+		"wlfastsadaps.fastminnetafix.com",
+		"fastminnetafix.com",
+		"awe-scan.web.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
