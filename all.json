@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"connectverification.com",
+		"wlfastsadaps.fastminnetafix.com",
+		"awe-scan.web.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
