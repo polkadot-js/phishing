@@ -1,6 +1,10 @@
 {
 	"allow": [],
 	"deny": [
+		"vaultbypass.com",
+		"bombcoin.space",
+		"securetoken.appsync.ga",
+		"bscanetwork.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
