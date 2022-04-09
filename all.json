@@ -1,6 +1,12 @@
 {
 	"allow": [],
 	"deny": [
+		"defisupport.live",
+		"dappintegrates.live",
+		"resync4block.com",
+		"blocksynchronizer.com",
+		"block-sync.live",
+		"app.dapptokenvalidator.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
