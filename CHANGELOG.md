@@ -1,6 +1,18 @@
 # CHANGELOG
 
-## 0.10.1 Mar 19, 2021
+## 0.11.1 Apr 9, 2022
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Output commonjs files under the `cjs/**` root
+- Update to `@polkadot/util` 9.0.1
+
+
+## 0.10.1 Mar 19, 2022
 
 Contributed:
 
@@ -12,7 +24,7 @@ Changes:
 - Update to `@polkadot/util` 8.6.1
 
 
-## 0.9.1 Mar 12, 2021
+## 0.9.1 Mar 12, 2022
 
 Contributed:
 
@@ -24,7 +36,7 @@ Changes:
 - Update to `@polkadot/util` 8.5.1
 
 
-## 0.8.1 Jan 9, 2021
+## 0.8.1 Jan 9, 2022
 
 Contributed:
 
