@@ -1,6 +1,10 @@
 {
 	"allow": [],
 	"deny": [
+		"solidity-cbridge.tools",
+		"dapp.smartokenapps.com",
+		"dapp.accessactivate.com",
+		"onlinesmartverify.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
