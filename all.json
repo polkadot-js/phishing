@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"defichainfix.surge.sh",
 		"allnoderpc.org",
 		"wacondauto.com",
 		"walletconnectsonline.com",
