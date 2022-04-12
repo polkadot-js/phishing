@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"connectwalletv3.web.app",
 		"cheemsinufinance.com",
 		"mainnetaccess.net",
 		"multichainwfixer.us",
