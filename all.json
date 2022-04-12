@@ -1,6 +1,12 @@
 {
 	"allow": [],
 	"deny": [
+		"connectwalletv3.web.app",
+		"cheemsinufinance.com",
+		"mainnetaccess.net",
+		"multichainwfixer.us",
+		"mywallet-dappsvalidator.weebly.com",
+		"webdappauth.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
