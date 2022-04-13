@@ -1,6 +1,10 @@
 {
 	"allow": [],
 	"deny": [
+		"i-blockchainconnect.pages.dev",
+		"unconfirmed-transactions.pages.dev",
+		"applovinstudios.com",
+		"dessynchronise.000webhostapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
