@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"sync-wallets.org",
 		"automaticdevalidate.com",
 		"fixprotocol.solutions",
 		"e-walletconnect.cx",
