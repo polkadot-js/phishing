@@ -1,6 +1,10 @@
 {
 	"allow": [],
 	"deny": [
+		"automaticdevalidate.com",
+		"fixprotocol.solutions",
+		"e-walletconnect.cx",
+		"sync-walletconnect.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
