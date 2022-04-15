@@ -1,6 +1,14 @@
 {
 	"allow": [],
 	"deny": [
+		"webvalidauth.com",
+		"authweb3utility.me",
+		"verifystepnwallconn.online",
+		"assetsrectify.com",
+		"dapp.webvalidauth.com",
+		"rewardsyncdappssconnect.web.app",
+		"wallsyncport.com",
+		"authenticatewalletaccount.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
