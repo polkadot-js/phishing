@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"webvalidauth.com",
 		"authweb3utility.me",
 		"verifystepnwallconn.online",
 		"assetsrectify.com",
