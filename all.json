@@ -1,9 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"moonbeam.link",
-		"app.moonbeam.link",
-		"artauthenticateonnft.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -235,6 +232,7 @@
 		"app.dapptokenvalidator.com",
 		"app.dexprotocolserver.com",
 		"app.linkcryptotoken.com",
+		"app.moonbeam.link",
 		"app.multiversepad.net",
 		"app.myauthaccess.com",
 		"app.mysyncrectification.online",
@@ -291,6 +289,7 @@
 		"arkinvest-musk.com",
 		"arkinvest.info",
 		"arkmusk.net",
+		"artauthenticateonnft.org",
 		"assetcollab.me",
 		"assetcrypto.uk",
 		"assets.coinbase.secure.acount.ca",
@@ -3443,6 +3442,7 @@
 		"moonbeam-network.net",
 		"moonbeam-sale.com",
 		"moonbeam.ink",
+		"moonbeam.link",
 		"moonbeam.presale.fund",
 		"moonbeamc.foundation",
 		"moonbeamstaking.com",
