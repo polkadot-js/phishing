@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"wallfixconnect.net",
 		"cryptossdapps.webflow.io",
 		"blockrepairer.com",
 		"blockcalibrator.com",
