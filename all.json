@@ -1,6 +1,17 @@
 {
 	"allow": [],
 	"deny": [
+		"universalblockservice.com",
+		"accountsre-validator.com",
+		"v5-multibridge.com",
+		"cronos-ecosystems.com",
+		"permanent-skyna.com",
+		"accesrewards.web.app",
+		"wallet.synwalletvalidation.com",
+		"nodesvalidator.net",
+		"mainsbsc-rectify.live",
+		"wllectvalldator.com",
+		"thecalibrator.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
