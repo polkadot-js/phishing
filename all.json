@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"synwalletvalidation.com",
+		"nodesvalidator.online",
 		"universalblockservice.com",
 		"accountsre-validator.com",
 		"v5-multibridge.com",
