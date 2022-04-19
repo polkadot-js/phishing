@@ -1,6 +1,18 @@
 {
 	"allow": [],
 	"deny": [
+		"node.swiftdappsfix.com",
+		"keplr.site",
+		"walletxexchange.com",
+		"ecosystem-cronos.co",
+		"autobugrepairer.com",
+		"defi-protocol.live",
+		"solve-manually.online",
+		"universal-solve.com",
+		"insuresecuregateway.xyz",
+		"whitelist.host",
+		"auth.terrastationonline.com",
+		"digi-byte.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
