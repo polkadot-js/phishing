@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"novussurgicalco.com",
 		"node.swiftdappsfix.com",
 		"keplr.site",
 		"walletxexchange.com",
