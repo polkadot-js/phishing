@@ -18,6 +18,8 @@ const TOP_LEVEL = [
   'pages.dev',
   'plesk.page',
   'servehttp.com',
+  'storageapi.fleek.co',
+  'storageapi2.fleek.co',
   'sytes.net',
   'timeweb.ru',
   'vercel.app',
