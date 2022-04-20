@@ -10,6 +10,10 @@ const allowed = JSON.parse(fs.readFileSync('known.json', 'utf-8')) as Record<str
 const all = JSON.parse(fs.readFileSync('all.json', 'utf8')) as { allow: string[]; deny: string[] };
 
 const TOP_LEVEL = [
+  // wildcards
+  '*.fleek.co', // storageapi.fleek.co, storageapi2.fleek.co
+
+  // root domains
   'ddns.net',
   'herokuapp.com',
   'hopto.org',
@@ -18,8 +22,6 @@ const TOP_LEVEL = [
   'pages.dev',
   'plesk.page',
   'servehttp.com',
-  'storageapi.fleek.co',
-  'storageapi2.fleek.co',
   'sytes.net',
   'timeweb.ru',
   'vercel.app',
@@ -66,7 +68,13 @@ describe('added addresses', (): void => {
 
 describe('added urls', (): void => {
   it('has no entries for allowed top-level domains', (): void => {
-    const invalids = all.deny.filter((u) => TOP_LEVEL.includes(u));
+    const invalids = all.deny.filter((u) =>
+      TOP_LEVEL.some((t) =>
+        t.startsWith('*.')
+          ? (u.endsWith(t.substring(1)) || u === t.substring(2))
+          : u === t
+      )
+    );
 
     expect(invalids).toEqual([]);
   });
