@@ -1,7 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"smartlaunchapp.org",
 		"web3host.tech",
 		"launchdapps.netlify.app",
 		"wallet-dappsintegration.uk",
@@ -13,7 +12,6 @@
 		"little-cronos.com",
 		"dappsconnection.net",
 		"sourcevalidations.net",
-		"app.smartlaunchapp.org",
 		"dnodeapp.netlify.app",
 		"syncwallet.tk",
 		"webresolve.live",
