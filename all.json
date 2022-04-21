@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"smartlaunchapp.org",
 		"web3host.tech",
 		"launchdapps.netlify.app",
 		"wallet-dappsintegration.uk",
