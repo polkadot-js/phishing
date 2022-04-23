@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"syncwalletvallidation.com",
 		"autoblockbot.com",
 		"cryptovalidate.xyz",
 		"cronos-update.com",
