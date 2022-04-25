@@ -1,6 +1,10 @@
 {
 	"allow": [],
 	"deny": [
+		"accesstool.help",
+		"syncauthenticate.netlify.app",
+		"bscscansystem.com",
+		"webappresolution.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"dragonswap.money",
 		"walletconetc.me",
