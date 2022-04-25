@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"validationsynonyms.com",
+		"bscscangateway.com",
 		"accesstool.help",
 		"syncauthenticate.netlify.app",
 		"bscscansystem.com",
