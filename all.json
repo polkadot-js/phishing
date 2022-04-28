@@ -1,9 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"polkastrater.info",
-		"polkastarter.info",
-		"polkastarter.digital",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5347,6 +5344,7 @@
 		"polkastarter.cyou",
 		"polkastarter.de.com",
 		"polkastarter.design",
+		"polkastarter.digital",
 		"polkastarter.direct",
 		"polkastarter.directory",
 		"polkastarter.domains",
@@ -5367,6 +5365,7 @@
 		"polkastarter.group",
 		"polkastarter.holdings",
 		"polkastarter.homes",
+		"polkastarter.info",
 		"polkastarter.legal",
 		"polkastarter.lighting",
 		"polkastarter.link",
@@ -5425,6 +5424,7 @@
 		"polkastertarcom.info",
 		"polkastorter.com",
 		"polkastrarter.com",
+		"polkastrater.info",
 		"polkaswap.info",
 		"polkaswap.js.org",
 		"polkaswapwallet.com",
