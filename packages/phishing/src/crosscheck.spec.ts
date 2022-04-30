@@ -56,7 +56,7 @@ describe('crosscheck', (): void => {
   });
 
   it('has all the relevant entries from CryptoScamDb', async (): Promise<void> => {
-    const raw = await (await fetch(CRYPTODB)).text();
+    const raw = await fetch(CRYPTODB).then((r) => r.text());
 
     // this is a hack, the text slipped in upstream
     const scamDb = yamlParse(raw.replace('∂ç', '')) as CryptoScamEntry[];
@@ -72,7 +72,7 @@ describe('crosscheck', (): void => {
   });
 
   it('has polkadot/kusama entries from eth-phishing-detect', async (): Promise<void> => {
-    const ethDb = await (await fetch(ETHPHISH)).json() as EthPhishing;
+    const ethDb = await fetch(ETHPHISH).then<EthPhishing>((r) => r.json());
     const filtered = ethDb.blacklist.filter((url) => matchName(url));
     const missing = filtered.filter((url) => !ours.includes(url));
 
