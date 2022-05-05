@@ -1,7 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"defilauncher.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -2458,6 +2457,7 @@
 		"defifixprotocol.com",
 		"defifixprotocols.com",
 		"defikingdoms-com.xyz",
+		"defilauncher.org",
 		"defimaiinnetworkconnect.com",
 		"defimainnetconnect.co",
 		"defimainnetworkconnect.com",
