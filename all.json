@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"dappsconnection.firebaseapp.com",
 		"authodapps.co",
 		"activeappsfix.com",
 		"activeaccessapp.com",
