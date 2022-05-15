@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"dev-wcerrorfix.pantheonsite.io",
 		"host-node.net",
 		"reloaddefibsc.com",
 		"quickvalidatewallet.netlify.app",
