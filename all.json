@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"bestdappfixes.com",
 		"dev-wcerrorfix.pantheonsite.io",
 		"host-node.net",
 		"reloaddefibsc.com",
