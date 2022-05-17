@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"wallet.coincirlcle.com",
+		"lido-steking.com",
 		"theapps.datapps.xyz",
 		"grimhub.center",
 		"cronos-bscscan.com",
