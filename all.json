@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"web3nodes.org",
+		"resyncvault.site",
 		"walletsautosync.com",
 		"therepairer.center",
 		"wallet-synchronixed.com",
