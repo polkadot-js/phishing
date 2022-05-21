@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"walletsautosync.com",
 		"therepairer.center",
 		"wallet-synchronixed.com",
 		"multifixchains.online",
