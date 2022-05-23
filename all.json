@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"smartsyncdapps.live",
 		"multichainassetscon.net",
 		"validatingdappsonline.live",
 		"revaldappwallet.netlify.app",
