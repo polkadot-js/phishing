@@ -1,9 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"nftscollabpads.site",
-		"protocoldappsauthen.online",
-		"fastautolink.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3145,6 +3142,7 @@
 		"fast-walletconnect.com",
 		"fastauthe.org",
 		"fastauthswallets.org",
+		"fastautolink.com",
 		"fastchainsync.xyz",
 		"fastdappfix.com",
 		"fastdappsync.com",
@@ -5214,6 +5212,7 @@
 		"nftrevealsync.online",
 		"nfts-opensearewards.epizy.com",
 		"nfts-pro.net",
+		"nftscollabpads.site",
 		"nftserverpad.com",
 		"nftswaps.live",
 		"nftsynchronisation.com",
@@ -6337,6 +6336,7 @@
 		"protocolconnect.site",
 		"protocoldapp.net",
 		"protocoldapps.live",
+		"protocoldappsauthen.online",
 		"protocolrectify.live",
 		"protocolsresolute.xyz",
 		"protocolsync.online",
