@@ -1,6 +1,12 @@
 {
 	"allow": [],
 	"deny": [
+		"walletstationx.io",
+		"appsdevonline.live",
+		"webtokenaccess.com",
+		"netrestore.site",
+		"resyncweb.online",
+		"fidalix.com",
 		"smartsyncdapps.live",
 		"multichainassetscon.net",
 		"validatingdappsonline.live",
