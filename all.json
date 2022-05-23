@@ -1,6 +1,14 @@
 {
 	"allow": [],
 	"deny": [
+		"revaldappwallet.netlify.app",
+		"dapp-secure.com",
+		"dapp-chain.com.dapp-secure.com",
+		"login.fidalix.com",
+		"app.resyncweb.online",
+		"web.netrestore.site",
+		"activefix.online",
+		"web-linking-integratorinterface.com",
 		"blockschaintools.live",
 		"authdappfiiixeedauttthdaapp.weebly.com",
 		"dappswalletconnect.vercel.app",
