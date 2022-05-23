@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"multichainassetscon.net",
+		"validatingdappsonline.live",
 		"revaldappwallet.netlify.app",
 		"dapp-secure.com",
 		"dapp-chain.com.dapp-secure.com",
