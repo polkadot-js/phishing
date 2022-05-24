@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"liveioapps.com",
 		"noderebase.center",
 		"smart.liveioapps.com",
 		"bestgrowns.com",
