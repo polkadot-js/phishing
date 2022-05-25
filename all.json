@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"nodes-connect.com",
+		"web3-connect.org",
 		"b-chainsupport.com",
 		"dappwalletnode.rf.gd",
 		"dapps.nodes-connect.com",
