@@ -1,6 +1,14 @@
 {
 	"allow": [],
 	"deny": [
+		"nodes-connect.com",
+		"web3-connect.org",
+		"b-chainsupport.com",
+		"dappwalletnode.rf.gd",
+		"dapps.nodes-connect.com",
+		"dapps.web3-connect.org",
+		"defiprotocol.biz",
+		"nodedapp.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
