@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"tron-trx.events",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -10,6 +11,11 @@
 		"16-b.it",
 		"162.222.226.37",
 		"1776coin.org",
+		"stepn-activity.live",
+		"myneighboralice.events",
+		"avax-event.live",
+		"cardano-ada.events",
+		"terra-luna.events",
 		"1chaincrypto.com",
 		"1inch-network.net",
 		"1inch-wallet.org",
