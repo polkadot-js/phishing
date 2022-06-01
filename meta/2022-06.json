@@ -1,7 +1,15 @@
 [
 	{
 		"date": "2022-06-01",
+		"url": "assetrectify.network"
+	},
+	{
+		"date": "2022-06-01",
 		"url": "autosyncpermit.online"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "blockdappsence.live"
 	},
 	{
 		"date": "2022-06-01",
@@ -10,6 +18,26 @@
 	{
 		"date": "2022-06-01",
 		"url": "blocksyncc.live"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "chain-repository.com"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "crypto-connect.live"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "decentralizedwalletprotocol.com"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "defichainsupport.net"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "encryptswallets.com"
 	},
 	{
 		"date": "2022-06-01",
@@ -22,6 +50,10 @@
 	{
 		"date": "2022-06-01",
 		"url": "mainnet-node.net"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "nodetooldev.online"
 	},
 	{
 		"date": "2022-06-01",
@@ -50,5 +82,13 @@
 	{
 		"date": "2022-06-01",
 		"url": "web-restore.com"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "webchainnode.com"
+	},
+	{
+		"date": "2022-06-01",
+		"url": "webwalletdapp.com"
 	}
 ]
