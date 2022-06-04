@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"chaincodperm.com",
 		"connect-en.link",
 		"solutn.chaincodperm.com",
 		"syncvalid.netlify.app",
