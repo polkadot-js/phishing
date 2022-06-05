@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"securewalletconnect.comassets.xyz",
+		"activatedappserver.live",
+		"trustwalletsupport.ml",
 		"smartcointechsolution.xyz",
 		"bridge.smartblockprotocol.com",
 		"app.webauthsaccess.com",
