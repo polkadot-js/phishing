@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"webauthsaccess.com",
+		"smartblockprotocol.com",
+		"comassets.xyz",
 		"securewalletconnect.comassets.xyz",
 		"activatedappserver.live",
 		"trustwalletsupport.ml",
