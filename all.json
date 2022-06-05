@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"apprestore.site",
+		"dappweblink.site",
 		"multibridgemints.pages.dev",
 		"serverintegrators.com",
 		"collablnad.cc",
