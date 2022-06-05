@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"eheroapp.feibanana.com.br",
 		"webauthsaccess.com",
 		"smartblockprotocol.com",
 		"comassets.xyz",
