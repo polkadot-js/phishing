@@ -1,6 +1,17 @@
 {
 	"allow": [],
 	"deny": [
+		"apprestore.site",
+		"dappweblink.site",
+		"multibridgemints.pages.dev",
+		"serverintegrators.com",
+		"collablnad.cc",
+		"walletsconect.pages.dev",
+		"ndexdeibotz.xyz",
+		"myauthspace.com",
+		"multialignfix.site",
+		"m.dappweblink.site",
+		"m.apprestore.site",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
