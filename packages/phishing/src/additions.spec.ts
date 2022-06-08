@@ -27,6 +27,7 @@ const TOP_LEVEL = [
   'vercel.app',
   'web.app',
   'webflow.io',
+  'weebly.com',
   'wixsite.com',
   'zapto.org'
 ];
