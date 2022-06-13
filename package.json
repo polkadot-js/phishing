@@ -28,13 +28,13 @@
     "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "dependencies": {
-    "@pinata/sdk": "^1.1.25",
+    "@pinata/sdk": "^1.1.26",
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
-    "@polkadot/dev": "^0.66.34",
-    "@types/jest": "^28.1.0"
+    "@polkadot/dev": "^0.66.37",
+    "@types/jest": "^28.1.1"
   },
   "resolutions": {
     "typescript": "^4.7.3"

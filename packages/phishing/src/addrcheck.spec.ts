@@ -1,7 +1,7 @@
 // Copyright 2020-2022 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import fs from 'fs';
+import * as fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
