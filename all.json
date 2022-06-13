@@ -1,7 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"test1.consultando.eu",
 		"terra-supports.com",
 		"connect-wallet-recovery.annelouisekrogh.dk",
 		"mainsync.net",
