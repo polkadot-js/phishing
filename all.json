@@ -2,7 +2,6 @@
 	"allow": [],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"validationfixlivewallet.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -8636,6 +8635,7 @@
 		"validationdapplaunch.com",
 		"validationfield.com",
 		"validationfields.com",
+		"validationfixlivewallet.org",
 		"validationfixwallet.org",
 		"validationnodes.com",
 		"validationportals.online",
