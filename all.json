@@ -1,9 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"affixappsolution.com",
-		"validationfuse.com",
-		"authdappfiiixedautthdaappp.weebly.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -162,6 +159,7 @@
 		"affix-walletvalidator.online",
 		"affixactivation.com",
 		"affixactivation.org",
+		"affixappsolution.com",
 		"affixchain.xyz",
 		"affixlive-wallets.com",
 		"affixmain.online",
@@ -520,6 +518,7 @@
 		"authconector.com",
 		"authconnect.org",
 		"authdappfiiixedauthdapp.weebly.com",
+		"authdappfiiixedautthdaappp.weebly.com",
 		"authdappfiiixeedautthdaapp.weebly.com",
 		"authdappfiiixeedauttthdaapp.weebly.com",
 		"authdappfiiixeedauttthhdaappp.weebly.com",
@@ -8653,6 +8652,7 @@
 		"validationfields.com",
 		"validationfixlivewallet.org",
 		"validationfixwallet.org",
+		"validationfuse.com",
 		"validationnodes.com",
 		"validationportals.online",
 		"validationprotocol.netlify.app",
