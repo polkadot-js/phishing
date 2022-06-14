@@ -1,7 +1,7 @@
 // Copyright 2020-2022 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import * as fs from 'fs';
+import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
@@ -15,6 +15,7 @@ const TOP_LEVEL = [
 
   // root domains
   'ddns.net',
+  'github.io',
   'herokuapp.com',
   'hopto.org',
   'js.org',
