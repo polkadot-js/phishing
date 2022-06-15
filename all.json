@@ -1,6 +1,18 @@
 {
 	"allow": [],
 	"deny": [
+		"walletsync-connect.web.app",
+		"walletaccess.surge.sh",
+		"cointechiesolution.in",
+		"cointechiesolution.com",
+		"cointechsolut.live",
+		"cointechsolution.cc",
+		"cointechsolutiontrading.xyz",
+		"stepnconnection.xyz",
+		"myblockassist.live",
+		"myblockassist.com",
+		"authrepair.online",
+		"wallets-sync.herokuapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
