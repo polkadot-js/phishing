@@ -1,6 +1,16 @@
 {
 	"allow": [],
 	"deny": [
+		"ws-unicollab.land",
+		"mywallet-collab.land",
+		"connectcollabland.cc",
+		"activate-collab.land",
+		"dexcollablands.com",
+		"collablands.ga",
+		"mainchainprotocol.com",
+		"intergatewayip.com",
+		"vaultdefi-nodes.net",
+		"pro-nft.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
