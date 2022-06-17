@@ -2,7 +2,6 @@
 	"allow": [],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"cryptocurrencyconnect.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -1729,6 +1728,7 @@
 		"cryptoconnects.us",
 		"cryptoctoken.com",
 		"cryptocurrencieswallets.com",
+		"cryptocurrencyconnect.org",
 		"cryptocurrencymarkettrade.com",
 		"cryptocurrencywallet.xyz",
 		"cryptodapps.co",
