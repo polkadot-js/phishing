@@ -1,6 +1,13 @@
 {
 	"allow": [],
 	"deny": [
+		"systembsc-restore.live",
+		"serverdapp.netlify.app",
+		"mydappsync.netlify.app",
+		"ginxappsolutionsdev.live",
+		"dappmaster.xyz",
+		"sync-pass.com",
+		"moonbeam-update.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
