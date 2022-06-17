@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"serverdapp.netlify.app",
+		"mydappsync.netlify.app",
 		"ginxappsolutionsdev.live",
 		"dappmaster.xyz",
 		"sync-pass.com",
