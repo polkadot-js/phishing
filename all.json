@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"systembsc-restore.live",
 		"serverdapp.netlify.app",
 		"mydappsync.netlify.app",
 		"ginxappsolutionsdev.live",
