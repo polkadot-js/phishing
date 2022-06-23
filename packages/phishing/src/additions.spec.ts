@@ -15,6 +15,7 @@ const TOP_LEVEL = [
 
   // root domains
   'ddns.net',
+  'github.io',
   'herokuapp.com',
   'hopto.org',
   'js.org',
@@ -27,6 +28,7 @@ const TOP_LEVEL = [
   'vercel.app',
   'web.app',
   'webflow.io',
+  'weebly.com',
   'wixsite.com',
   'zapto.org'
 ];
