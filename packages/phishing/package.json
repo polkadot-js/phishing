@@ -21,9 +21,9 @@
   "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.18.3",
-    "@polkadot/util": "^9.5.1",
-    "@polkadot/util-crypto": "^9.5.1",
-    "@polkadot/x-fetch": "^9.5.1"
+    "@polkadot/util": "^9.6.1",
+    "@polkadot/util-crypto": "^9.6.1",
+    "@polkadot/x-fetch": "^9.6.1"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
