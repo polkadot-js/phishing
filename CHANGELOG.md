@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.15.1 Jun 23, 2022
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Don't publish to npm on each commit
+- Update to `@polkadot/util` 9.6.1
+
+
 ## 0.14.1 Jun 19, 2022
 
 Contributed:
