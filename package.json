@@ -10,14 +10,14 @@
     "url": "https://github.com/polkadot-js/phishing.git"
   },
   "sideEffects": false,
-  "version": "0.14.15",
+  "version": "0.15.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "build": "polkadot-dev-build-ts",
     "build:extra": "node scripts/sortAll.mjs",
-    "build:release": "polkadot-ci-ghact-build --skip-beta",
+    "build:release": "polkadot-ci-ghact-build",
     "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "build:rollup": "polkadot-exec-rollup --config",
     "clean": "polkadot-dev-clean-build",
