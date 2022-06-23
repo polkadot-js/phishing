@@ -1,6 +1,9 @@
 {
 	"allow": [],
 	"deny": [
+		"liveupdatewalletsolve.com",
+		"syncconnect.xyz",
+		"tidstock.com",
 		"data.syncconnect.xyz",
 		"authdsappsfixed.000webhostapp.com",
 		"walletsupport.tidstock.com",
