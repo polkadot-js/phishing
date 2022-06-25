@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.15.2 Jun 25, 2022
+
+Changes:
+
+- Update to `@polkadot/util` 9.6.2
+
+
 ## 0.15.1 Jun 23, 2022
 
 Contributed:
