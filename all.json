@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"neutralprotocol.org",
 		"mainetwebapp.com",
 		"luna-claim.com",
 		"wcdappconnect.com",
