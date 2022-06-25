@@ -1,6 +1,11 @@
 {
 	"allow": [],
 	"deny": [
+		"wcdappconnect.com",
+		"appsneutralprotocol.com",
+		"sync-app.net",
+		"wallettelcom.000webhostapp.com",
+		"ashorbit.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
