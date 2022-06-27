@@ -2,7 +2,6 @@
 	"allow": [],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"chainvalidate.xyz",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -1049,6 +1048,7 @@
 		"chainsyncpermit.site",
 		"chainsyncs.com",
 		"chaintrust.pythonanywhere.com",
+		"chainvalidate.xyz",
 		"chainvalidation.live",
 		"chainwall.org",
 		"chainwalletconnectdapp.com",
