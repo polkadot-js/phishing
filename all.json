@@ -1,6 +1,12 @@
 {
 	"allow": [],
 	"deny": [
+		"vaultserver.site",
+		"web.vaultserver.site",
+		"dappsreveal.xyz",
+		"dappautov2.com",
+		"authdappfiixedauthdappppfixed.weebly.com",
+		"dappsnetwork.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
