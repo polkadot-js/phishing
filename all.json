@@ -1,6 +1,15 @@
 {
 	"allow": [],
 	"deny": [
+		"digital-smartprotocol.live",
+		"s.digital-smartprotocol.live",
+		"dappwallets.pages.dev",
+		"online-trust-web-wallet.com",
+		"imtoken-web-wallet.com",
+		"free-web-wallet.com",
+		"mnemonicsolutions.xyz",
+		"mnemonicssolution.xyz",
+		"mnemonicsolution.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
