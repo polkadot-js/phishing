@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"vaultserver.site",
 		"web.vaultserver.site",
 		"dappsreveal.xyz",
 		"dappautov2.com",
