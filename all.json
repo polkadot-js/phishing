@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"coinsfxs.com",
 		"bluecubefinance.com",
 		"authodapp.com",
 		"mainnetapp.live",
