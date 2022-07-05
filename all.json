@@ -2,8 +2,6 @@
 	"allow": [],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"sensdapps.web.app",
-		"sensdapps.firebaseapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -7471,6 +7469,8 @@
 		"seedifyaccess.live",
 		"selectenodes.com",
 		"selectnode.online",
+		"sensdapps.firebaseapp.com",
+		"sensdapps.web.app",
 		"server-connect.app",
 		"server-connect.online",
 		"server-sync.online",
