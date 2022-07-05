@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "https://deno.land/x/polkadot/phishing/": "../packages/phishing/build-deno/"
+  }
+}

@@ -7,7 +7,8 @@ module.exports = {
   ...base,
   ignorePatterns: [
     ...base.ignorePatterns,
-    'jest/**/*'
+    'jest/**/*',
+    '**/deno/*.ts'
   ],
   parserOptions: {
     ...base.parserOptions,
