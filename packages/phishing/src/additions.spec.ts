@@ -1,7 +1,6 @@
 // Copyright 2020-2022 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import test from 'ava';
 import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
@@ -34,81 +33,90 @@ const TOP_LEVEL = [
   'zapto.org'
 ];
 
-test('has no malformed addresses', (t): void => {
-  const invalids = Object
-    .entries(addresses)
-    .map(([url, addrs]): [string, string[]] => {
-      return [url, addrs.filter((a) => {
-        try {
-          return decodeAddress(a).length !== 32;
-        } catch (error) {
-          console.error(url, (error as Error).message);
+describe('added addresses', (): void => {
+  it('has no malformed addresses', (): void => {
+    const invalids = Object
+      .entries(addresses)
+      .map(([url, addrs]): [string, string[]] => {
+        return [url, addrs.filter((a) => {
+          try {
+            return decodeAddress(a).length !== 32;
+          } catch (error) {
+            console.error(url, (error as Error).message);
 
-          return true;
-        }
-      })];
-    })
-    .filter(([, addrs]) => addrs.length)
-    .map(([url, addrs]) => `${url}: ${addrs.join(', ')}`);
+            return true;
+          }
+        })];
+      })
+      .filter(([, addrs]) => addrs.length);
 
-  t.deepEqual(invalids, []);
-});
-
-test('has no entries on the known addresses list', (t): void => {
-  const added = Object
-    .values(addresses)
-    .reduce<string[]>((all, addrs) => all.concat(addrs), []);
-  const dupes = Object
-    .entries(allowed)
-    .reduce<[string, string][]>((all, [site, addrs]) => all.concat(addrs.map((a) => [site, a])), [])
-    .filter(([, a]) => added.includes(a));
-
-  t.deepEqual(dupes, []);
-});
-
-test('has no entries for allowed top-level domains', (t): void => {
-  const invalids = all.deny.filter((u) =>
-    TOP_LEVEL.some((t) =>
-      t.startsWith('*.')
-        ? (u.endsWith(t.substring(1)) || u === t.substring(2))
-        : u === t
-    )
-  );
-
-  t.deepEqual(invalids, []);
-});
-
-test('has no malformed domain-only entries', (t): void => {
-  const invalids = all.deny.filter((u) =>
-    u.includes('/') || // don't allow paths
-    u.includes('?') || // don't allow query params
-    u.includes(' ') || // no spaces
-    !u.includes('.') // need at least a domain
-  );
-
-  t.deepEqual(invalids, []);
-});
-
-test('has no urls starting with www. (domain-only inclusions)', (t): void => {
-  const invalids = all.deny.filter((u) =>
-    u.startsWith('www.')
-  );
-
-  t.deepEqual(invalids, []);
-});
-
-test('has no duplicate entries', (t): void => {
-  const checks: string[] = [];
-
-  const dupes = all.deny.reduce<string[]>((dupes, url) => {
-    if (!checks.includes(url)) {
-      checks.push(url);
-    } else {
-      dupes.push(url);
+    if (invalids.length) {
+      throw new Error(`Invalid ss58 checksum addresses found: ${invalids.map(([url, addrs]) => `\n\t${url}: ${addrs.join(', ')}`).join('')}`);
     }
+  });
 
-    return dupes;
-  }, []);
+  it('has no entries on the known addresses list', (): void => {
+    const added = Object
+      .values(addresses)
+      .reduce<string[]>((all, addrs) => all.concat(addrs), []);
+    const dupes = Object
+      .entries(allowed)
+      .reduce<[string, string][]>((all, [site, addrs]) => all.concat(addrs.map((a) => [site, a])), [])
+      .filter(([, a]) => added.includes(a));
 
-  t.deepEqual(process.env.CI_LOG ? dupes : [], []);
+    expect(dupes).toEqual([]);
+  });
+});
+
+describe('added urls', (): void => {
+  it('has no entries for allowed top-level domains', (): void => {
+    const invalids = all.deny.filter((u) =>
+      TOP_LEVEL.some((t) =>
+        t.startsWith('*.')
+          ? (u.endsWith(t.substring(1)) || u === t.substring(2))
+          : u === t
+      )
+    );
+
+    expect(invalids).toEqual([]);
+  });
+
+  it('has no malformed domain-only entries', (): void => {
+    const invalids = all.deny.filter((u) =>
+      u.includes('/') || // don't allow paths
+      u.includes('?') || // don't allow query params
+      u.includes(' ') || // no spaces
+      !u.includes('.') // need at least a domain
+    );
+
+    expect(invalids).toEqual([]);
+  });
+
+  it('has no urls starting with www. (domain-only inclusions)', (): void => {
+    const invalids = all.deny.filter((u) =>
+      u.startsWith('www.')
+    );
+
+    expect(invalids).toEqual([]);
+  });
+
+  it('has no duplicate entries', (): void => {
+    const checks: string[] = [];
+
+    const dupes = all.deny.reduce<string[]>((dupes, url) => {
+      if (!checks.includes(url)) {
+        checks.push(url);
+      } else {
+        dupes.push(url);
+      }
+
+      return dupes;
+    }, []);
+
+    expect(
+      process.env.CI_LOG
+        ? []
+        : dupes
+    ).toEqual([]);
+  });
 });

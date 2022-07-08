@@ -32,11 +32,10 @@
     "clean": "polkadot-dev-clean-build",
     "deno": "yarn polkadot-dev-deno-map && yarn build && deno check --import-map=import_map.json mod.ts",
     "lint": "polkadot-dev-run-lint",
-    "phishing:addrcheck": "ava packages/phishing/src/addrcheck.spec.ts",
-    "phishing:crosscheck": "ava packages/phishing/src/crosscheck.spec.ts",
+    "phishing:addrcheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
+    "phishing:crosscheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "ava --match '!CI*'",
-    "test:one": "yarn test"
+    "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "dependencies": {
     "@pinata/sdk": "^1.1.26",
@@ -45,8 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@polkadot/dev": "^0.67.63",
-    "ava": "^4.3.0",
-    "ts-node": "^10.8.2"
+    "@types/jest": "^28.1.4"
   },
   "resolutions": {
     "typescript": "^4.7.4"
