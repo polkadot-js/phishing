@@ -1,7 +1,6 @@
 // Copyright 2020-2022 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import test from 'ava';
 import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
@@ -158,42 +157,46 @@ function checkAll (): Promise<[string, string[]][]> {
   ]);
 }
 
-test('CI: has all known addresses', async (t): Promise<void> => {
-  t.timeout(2 * 60 * 1000);
-
-  const _results = await checkAll();
-  const results = _results.map(([url, addrs]): [string, string[]] => {
-    return [url, addrs.filter((a) => {
-      try {
-        return decodeAddress(a).length === 32;
-      } catch (error) {
-        console.error(url, (error as Error).message);
-
-        return false;
-      }
-    })];
+describe('addrcheck', (): void => {
+  beforeAll((): void => {
+    jest.setTimeout(2 * 60 * 1000);
   });
-  const all = Object.values(ourAddrList).reduce((all: string[], addrs: string[]): string[] => {
-    all.push(...addrs);
 
-    return all;
-  }, []);
-  const listEmpty = results.filter(([, found]) => !found.length).map(([site]) => site);
-  const mapFound = results.filter(([, found]) => found.length).reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
-  const mapMiss = results
-    .map(([site, found]): [string, string[]] => [site, found.filter((a) => !all.includes(a))])
-    .filter(([, found]) => found.length)
-    .reduce((all: Record<string, string[]>, [site, found]) => ({
-      ...all,
-      [site]: (all[site] || []).concat(found)
-    }), {});
-  const sites = Object.keys(mapMiss);
+  it('has all known addresses', async (): Promise<void> => {
+    const _results = await checkAll();
+    const results = _results.map(([url, addrs]): [string, string[]] => {
+      return [url, addrs.filter((a) => {
+        try {
+          return decodeAddress(a).length === 32;
+        } catch (error) {
+          console.error(url, (error as Error).message);
 
-  console.log('Sites with no results\n', JSON.stringify(listEmpty, null, 2));
-  console.log('Addresses found\n', JSON.stringify(mapFound, null, 2));
-  console.log('Addresses missing\n', JSON.stringify(mapMiss, null, 2));
+          return false;
+        }
+      })];
+    });
+    const all = Object.values(ourAddrList).reduce((all: string[], addrs: string[]): string[] => {
+      all.push(...addrs);
 
-  sites.length && process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `\n\n${sites.length} urls with missing entries found at ${new Date().toUTCString()}:\n\n${TICKS}\n${JSON.stringify(mapMiss, null, 2)}\n${TICKS}\n`);
+      return all;
+    }, []);
+    const listEmpty = results.filter(([, found]) => !found.length).map(([site]) => site);
+    const mapFound = results.filter(([, found]) => found.length).reduce((all, [site, found]) => ({ ...all, [site]: found }), {});
+    const mapMiss = results
+      .map(([site, found]): [string, string[]] => [site, found.filter((a) => !all.includes(a))])
+      .filter(([, found]) => found.length)
+      .reduce((all: Record<string, string[]>, [site, found]) => ({
+        ...all,
+        [site]: (all[site] || []).concat(found)
+      }), {});
+    const sites = Object.keys(mapMiss);
 
-  t.deepEqual(sites, []);
+    console.log('Sites with no results\n', JSON.stringify(listEmpty, null, 2));
+    console.log('Addresses found\n', JSON.stringify(mapFound, null, 2));
+    console.log('Addresses missing\n', JSON.stringify(mapMiss, null, 2));
+
+    sites.length && process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `\n\n${sites.length} urls with missing entries found at ${new Date().toUTCString()}:\n\n${TICKS}\n${JSON.stringify(mapMiss, null, 2)}\n${TICKS}\n`);
+
+    expect(sites).toEqual([]);
+  });
 });
