@@ -1,6 +1,10 @@
 {
 	"allow": [],
 	"deny": [
+		"s.centralized-protocol.live",
+		"smartsystemresolve.live",
+		"smarttokentools.com",
+		"mainappnet.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
