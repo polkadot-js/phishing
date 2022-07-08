@@ -10,6 +10,7 @@
     "url": "https://github.com/polkadot-js/phishing.git"
   },
   "sideEffects": false,
+  "type": "module",
   "version": "0.17.1",
   "workspaces": [
     "packages/*"
@@ -23,10 +24,10 @@
     "clean": "polkadot-dev-clean-build",
     "deno": "yarn polkadot-dev-deno-map && yarn build && deno check --import-map=import_map.json mod.ts",
     "lint": "polkadot-dev-run-lint",
-    "phishing:addrcheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
-    "phishing:crosscheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
+    "phishing:addrcheck": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
+    "phishing:crosscheck": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
+    "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "dependencies": {
     "@pinata/sdk": "^1.1.26",
