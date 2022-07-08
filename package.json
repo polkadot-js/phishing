@@ -1,5 +1,14 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm",
+      "--experimental-specifier-resolution=node"
+    ]
+  },
   "bugs": "https://github.com/polkadot-js/phishing/issues",
   "homepage": "https://github.com/polkadot-js/phishing#readme",
   "license": "Apache-2.0",
@@ -10,8 +19,7 @@
     "url": "https://github.com/polkadot-js/phishing.git"
   },
   "sideEffects": false,
-  "type": "module",
-  "version": "0.17.1",
+  "version": "0.17.2-0-x",
   "workspaces": [
     "packages/*"
   ],
