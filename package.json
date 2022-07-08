@@ -26,7 +26,8 @@
     "phishing:addrcheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
     "phishing:crosscheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
+    "test": "ava --metch '!*crosscheck*' --match '!*addrcheck*' --match '!*additions*'",
+    "test:one": "polkadot-dev-run-test --detectOpenHandles --runInBand"
   },
   "dependencies": {
     "@pinata/sdk": "^1.1.26",
@@ -35,9 +36,20 @@
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@polkadot/dev": "^0.67.63",
-    "@types/jest": "^28.1.4"
+    "@types/jest": "^28.1.4",
+    "ava": "^4.3.0",
+    "ts-node": "^10.8.2"
   },
   "resolutions": {
     "typescript": "^4.7.4"
+  },
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm",
+			"--experimental-specifier-resolution=node"
+    ]
   }
 }
