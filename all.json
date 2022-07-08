@@ -1,6 +1,7 @@
 {
 	"allow": [],
 	"deny": [
+		"centralized-protocol.live",
 		"s.centralized-protocol.live",
 		"smartsystemresolve.live",
 		"smarttokentools.com",
