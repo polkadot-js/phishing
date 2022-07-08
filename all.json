@@ -1,6 +1,12 @@
 {
 	"allow": [],
 	"deny": [
+		"bridgepad.net",
+		"kryptoconnect.live",
+		"epuny-crypto.surge.sh",
+		"raderdefi.live",
+		"allchainaccess.com",
+		"launnchh.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
