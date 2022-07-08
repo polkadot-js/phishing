@@ -11,7 +11,7 @@ pkg/
 target/
 tmp/
 /mod.ts
-/import_map.ts
+/import_map.json
 .DS_Store
 .env.local
 .env.development.local
