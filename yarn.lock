@@ -2102,6 +2102,7 @@ __metadata:
     "@polkadot/util-crypto": ^10.0.1
     "@polkadot/x-fetch": ^10.0.1
     "@types/js-yaml": ^4.0.5
+    ava: ^4.3.0
     js-yaml: ^4.1.0
   languageName: unknown
   linkType: soft
