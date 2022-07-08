@@ -1,5 +1,5 @@
      566	Mich                          	Update all.json (#1732)
-     411	Jaco                          	Switch to ava as a test runner (#1778)
+     412	Jaco                          	Re-add Jest, revert ava (#1779)
      252	mhusnirizal                   	update all.json (#1777)
      173	Frank                         	Update all.json (#1766)
       79	michalisFr                    	Update all.json (#1540)
