@@ -23,11 +23,11 @@
     "clean": "polkadot-dev-clean-build",
     "deno": "yarn polkadot-dev-deno-map && yarn build && deno check --import-map=import_map.json mod.ts",
     "lint": "polkadot-dev-run-lint",
-    "phishing:addrcheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/addrcheck",
-    "phishing:crosscheck": "polkadot-dev-run-test --runInBand --detectOpenHandles packages/phishing/src/crosscheck",
+    "phishing:addrcheck": "ava packages/phishing/src/addrcheck.spec.ts",
+    "phishing:crosscheck": "ava packages/phishing/src/crosscheck.spec.ts",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "ava --metch '!*crosscheck*' --match '!*addrcheck*' --match '!*additions*'",
-    "test:one": "polkadot-dev-run-test --detectOpenHandles --runInBand"
+    "test": "ava --match '!CI*'",
+    "test:one": "yarn test"
   },
   "dependencies": {
     "@pinata/sdk": "^1.1.26",
