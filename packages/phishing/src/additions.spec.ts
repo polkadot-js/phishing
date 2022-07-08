@@ -1,6 +1,7 @@
 // Copyright 2020-2022 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import test from 'ava';
 import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
@@ -33,90 +34,81 @@ const TOP_LEVEL = [
   'zapto.org'
 ];
 
-describe('added addresses', (): void => {
-  it('has no malformed addresses', (): void => {
-    const invalids = Object
-      .entries(addresses)
-      .map(([url, addrs]): [string, string[]] => {
-        return [url, addrs.filter((a) => {
-          try {
-            return decodeAddress(a).length !== 32;
-          } catch (error) {
-            console.error(url, (error as Error).message);
+test('has no malformed addresses', (t): void => {
+  const invalids = Object
+    .entries(addresses)
+    .map(([url, addrs]): [string, string[]] => {
+      return [url, addrs.filter((a) => {
+        try {
+          return decodeAddress(a).length !== 32;
+        } catch (error) {
+          console.error(url, (error as Error).message);
 
-            return true;
-          }
-        })];
-      })
-      .filter(([, addrs]) => addrs.length);
+          return true;
+        }
+      })];
+    })
+    .filter(([, addrs]) => addrs.length)
+    .map(([url, addrs]) => `${url}: ${addrs.join(', ')}`);
 
-    if (invalids.length) {
-      throw new Error(`Invalid ss58 checksum addresses found: ${invalids.map(([url, addrs]) => `\n\t${url}: ${addrs.join(', ')}`).join('')}`);
-    }
-  });
-
-  it('has no entries on the known addresses list', (): void => {
-    const added = Object
-      .values(addresses)
-      .reduce<string[]>((all, addrs) => all.concat(addrs), []);
-    const dupes = Object
-      .entries(allowed)
-      .reduce<[string, string][]>((all, [site, addrs]) => all.concat(addrs.map((a) => [site, a])), [])
-      .filter(([, a]) => added.includes(a));
-
-    expect(dupes).toEqual([]);
-  });
+  t.deepEqual(invalids, []);
 });
 
-describe('added urls', (): void => {
-  it('has no entries for allowed top-level domains', (): void => {
-    const invalids = all.deny.filter((u) =>
-      TOP_LEVEL.some((t) =>
-        t.startsWith('*.')
-          ? (u.endsWith(t.substring(1)) || u === t.substring(2))
-          : u === t
-      )
-    );
+test('has no entries on the known addresses list', (t): void => {
+  const added = Object
+    .values(addresses)
+    .reduce<string[]>((all, addrs) => all.concat(addrs), []);
+  const dupes = Object
+    .entries(allowed)
+    .reduce<[string, string][]>((all, [site, addrs]) => all.concat(addrs.map((a) => [site, a])), [])
+    .filter(([, a]) => added.includes(a));
 
-    expect(invalids).toEqual([]);
-  });
+  t.deepEqual(dupes, []);
+});
 
-  it('has no malformed domain-only entries', (): void => {
-    const invalids = all.deny.filter((u) =>
-      u.includes('/') || // don't allow paths
-      u.includes('?') || // don't allow query params
-      u.includes(' ') || // no spaces
-      !u.includes('.') // need at least a domain
-    );
+test('has no entries for allowed top-level domains', (t): void => {
+  const invalids = all.deny.filter((u) =>
+    TOP_LEVEL.some((t) =>
+      t.startsWith('*.')
+        ? (u.endsWith(t.substring(1)) || u === t.substring(2))
+        : u === t
+    )
+  );
 
-    expect(invalids).toEqual([]);
-  });
+  t.deepEqual(invalids, []);
+});
 
-  it('has no urls starting with www. (domain-only inclusions)', (): void => {
-    const invalids = all.deny.filter((u) =>
-      u.startsWith('www.')
-    );
+test('has no malformed domain-only entries', (t): void => {
+  const invalids = all.deny.filter((u) =>
+    u.includes('/') || // don't allow paths
+    u.includes('?') || // don't allow query params
+    u.includes(' ') || // no spaces
+    !u.includes('.') // need at least a domain
+  );
 
-    expect(invalids).toEqual([]);
-  });
+  t.deepEqual(invalids, []);
+});
 
-  it('has no duplicate entries', (): void => {
-    const checks: string[] = [];
+test('has no urls starting with www. (domain-only inclusions)', (t): void => {
+  const invalids = all.deny.filter((u) =>
+    u.startsWith('www.')
+  );
 
-    const dupes = all.deny.reduce<string[]>((dupes, url) => {
-      if (!checks.includes(url)) {
-        checks.push(url);
-      } else {
-        dupes.push(url);
-      }
+  t.deepEqual(invalids, []);
+});
 
-      return dupes;
-    }, []);
+test('has no duplicate entries', (t): void => {
+  const checks: string[] = [];
 
-    expect(
-      process.env.CI_LOG
-        ? []
-        : dupes
-    ).toEqual([]);
-  });
+  const dupes = all.deny.reduce<string[]>((dupes, url) => {
+    if (!checks.includes(url)) {
+      checks.push(url);
+    } else {
+      dupes.push(url);
+    }
+
+    return dupes;
+  }, []);
+
+  t.deepEqual(process.env.CI_LOG ? dupes : [], []);
 });
