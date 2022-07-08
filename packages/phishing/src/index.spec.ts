@@ -49,7 +49,7 @@ describe.skip('checkIfDenied', (): void => {
   });
 });
 
-describe('checkAddress', (): void => {
+describe.skip('checkAddress', (): void => {
   it('returns null if the address is not found', async (): Promise<void> => {
     expect(
       await checkAddress('5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY')
