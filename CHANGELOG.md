@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.17.1 Jul 8, 2022
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Update to `@polkadot/util-crypto` 10.0.1
+
+
 ## 0.16.2 Jul 4, 2022
 
 Changes:
