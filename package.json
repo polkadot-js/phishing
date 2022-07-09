@@ -20,7 +20,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.17.2-5-x",
+  "version": "0.17.2-6-x",
   "workspaces": [
     "packages/*"
   ],
