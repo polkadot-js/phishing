@@ -20,7 +20,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.17.2-10-x",
+  "version": "0.17.2",
   "workspaces": [
     "packages/*"
   ],
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
-    "@polkadot/dev": "^0.67.65",
+    "@polkadot/dev": "^0.67.67",
     "@types/jest": "^28.1.4"
   },
   "resolutions": {
