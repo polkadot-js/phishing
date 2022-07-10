@@ -4,7 +4,7 @@
 import fs from 'fs';
 import { load as yamlParse } from 'js-yaml';
 
-import { fetch } from '@polkadot/x-fetch';
+import { fetchJson, fetchText } from './fetch';
 
 interface CryptoScamEntry {
   addresses: Record<string, string[]>;
@@ -56,7 +56,7 @@ describe('crosscheck', (): void => {
   });
 
   it('has all the relevant entries from CryptoScamDb', async (): Promise<void> => {
-    const raw = await fetch(CRYPTODB).then((r) => r.text());
+    const raw = await fetchText(CRYPTODB);
 
     // this is a hack, the text slipped in upstream
     const scamDb = yamlParse(raw.replace('∂ç', '')) as CryptoScamEntry[];
@@ -72,7 +72,7 @@ describe('crosscheck', (): void => {
   });
 
   it('has polkadot/kusama entries from eth-phishing-detect', async (): Promise<void> => {
-    const ethDb = await fetch(ETHPHISH).then<EthPhishing>((r) => r.json());
+    const ethDb = await fetchJson<EthPhishing>(ETHPHISH);
     const filtered = ethDb.blacklist.filter((url) => matchName(url));
     const missing = filtered.filter((url) => !ours.includes(url));
 
