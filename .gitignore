@@ -1,11 +1,7 @@
 binaryen*
 build/
-build-cjs/
-build-esm/
-build-deno/
-build-docs/
+build-*/
 coverage/
-docs/.vuepress/dist/
 node_modules/
 pkg/
 target/
