@@ -26,11 +26,19 @@ function sortSection (list) {
 }
 
 function removeSubs (list) {
-  return list.filter((entry) =>
-    // ignore, we already have the second part of this included,
-    // this is a sub-domain of a doiman that alreeady exists
-    !list.includes(entry.split('.').slice(1).join('.'))
-  );
+  return list.filter((url) => {
+    const parts = url.split('.');
+
+    for (let i = 1; i < parts.length - 1; i++) {
+      if (list.includes(parts.slice(i).join('.'))) {
+        // ignore, we already have the last part of this included,
+        // this is a sub-domain of a domain that alreeady exists
+        return false;
+      }
+    }
+
+    return true;
+  });
 }
 
 function sortAddresses (values) {
@@ -131,11 +139,22 @@ writeMeta(
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date: ymd, url }))
     )
-    .filter(({ url }) =>
-      // direct inclusion
-      deny.includes(url) ||
-      // indirect, this is a sub-domain (doesn't appear directlt)
-      deny.includes(url.split('.').slice(1).join('.'))
-    )
+    .filter(({ url }) => {
+      if (deny.includes(url)) {
+        // direct inclusion
+        return true;
+      }
+
+      const parts = url.split('.');
+
+      for (let i = 1; i < parts.length - 1; i++) {
+        if (deny.includes(parts.slice(i).join('.'))) {
+          // indirect, this is a sub-domain (doesn't appear directly)
+          return true;
+        }
+      }
+
+      return false;
+    })
     .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
 );
