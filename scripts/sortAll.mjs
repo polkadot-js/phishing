@@ -25,20 +25,21 @@ function sortSection (list) {
     .sort((a, b) => a.localeCompare(b));
 }
 
-function removeSubs (list) {
-  return list.filter((url) => {
-    const parts = url.split('.');
+function isSubdomain (list, url) {
+  const parts = url.split('.');
 
-    for (let i = 1; i < parts.length - 1; i++) {
-      if (list.includes(parts.slice(i).join('.'))) {
-        // ignore, we already have the last part of this included,
-        // this is a sub-domain of a domain that alreeady exists
-        return false;
-      }
+  for (let i = 1; i < parts.length - 1; i++) {
+    if (list.includes(parts.slice(i).join('.'))) {
+      // this is a sub-domain of a domain that alreeady exists
+      return true;
     }
+  }
 
-    return true;
-  });
+  return false;
+}
+
+function removeSubs (list) {
+  return list.filter((url) => !isSubdomain(list, url));
 }
 
 function sortAddresses (values) {
@@ -139,22 +140,9 @@ writeMeta(
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date: ymd, url }))
     )
-    .filter(({ url }) => {
-      if (deny.includes(url)) {
-        // direct inclusion
-        return true;
-      }
-
-      const parts = url.split('.');
-
-      for (let i = 1; i < parts.length - 1; i++) {
-        if (deny.includes(parts.slice(i).join('.'))) {
-          // indirect, this is a sub-domain (doesn't appear directly)
-          return true;
-        }
-      }
-
-      return false;
-    })
+    .filter(({ url }) =>
+      deny.includes(url) ||
+      isSubdomain(deny, url)
+    )
     .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
 );
