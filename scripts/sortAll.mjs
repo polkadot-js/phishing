@@ -25,6 +25,23 @@ function sortSection (list) {
     .sort((a, b) => a.localeCompare(b));
 }
 
+function isSubdomain (list, url) {
+  const parts = url.split('.');
+
+  for (let i = 1; i < parts.length - 1; i++) {
+    if (list.includes(parts.slice(i).join('.'))) {
+      // this is a sub-domain of a domain that alreeady exists
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function removeSubs (list) {
+  return list.filter((url) => !isSubdomain(list, url));
+}
+
 function sortAddresses (values) {
   return Object
     .entries(values)
@@ -107,7 +124,7 @@ const deny = sortSection(addSites(all, addr));
 
 // rewrite with all our entries (newline included)
 writeJson('address.json', sortAddresses(addr));
-writeJson('all.json', { allow: sortSection(all.allow), deny });
+writeJson('all.json', { allow: sortSection(all.allow), deny: removeSubs(deny) });
 
 // find out what we don't have
 const urls = meta.map(({ url }) => url);
@@ -123,6 +140,9 @@ writeMeta(
         .filter((url) => !urls.includes(url))
         .map((url) => ({ date: ymd, url }))
     )
-    .filter(({ url }) => deny.includes(url))
+    .filter(({ url }) =>
+      deny.includes(url) ||
+      isSubdomain(deny, url)
+    )
     .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
 );
