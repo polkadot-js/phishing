@@ -1,6 +1,8 @@
 {
 	"allow": [],
 	"deny": [
+		"multilinks.live",
+		"allinone-connect.com",
 		"new-dapprectify.live",
 		"systemdapprectify.live",
 		"smartsystemrectify.com",
