@@ -14,9 +14,6 @@
 	"claimpolka.live": [
 		"12aCLUsyTCWn5Dzf5wxuuRm93dx9rkAF5rqw9zBDTV5NSY1E"
 	],
-	"polkadot-bonus-network.42web.io": [
-		"14mTh8hbaoSoa2r2EBCFYssRjW4KQEGhkyg5Zz7LAiRpg3zg"
-	],
 	"claimpolkadot.com": [
 		"16haZsnTpsAK3PaqRJJE16Zasq9WkpovgUCdQGStKHMskLdp",
 		"1SvcGb9f2gysJAqwox5sTQpyyKjtDUaz4q5RUYANB6uFkQw"
@@ -142,6 +139,9 @@
 	"polkadot-autopool.com": [
 		"1Ha5y2Kpc9KdJbtdXdvZoJebj3ZM8VgAZvkbjHtR4mxq7oQ",
 		"1qmaACn27JqK2hsg24n8AaptPtNqNMWKNXUvySnBuWzdQ8x"
+	],
+	"polkadot-bonus-network.42web.io": [
+		"14mTh8hbaoSoa2r2EBCFYssRjW4KQEGhkyg5Zz7LAiRpg3zg"
 	],
 	"polkadot-bonus.network": [
 		"12RGBMjuLkCX6TKUoG33Fm4SzpxNYjwjgqHZ9huk5Nk4NAPh",
