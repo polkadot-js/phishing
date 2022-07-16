@@ -1,6 +1,15 @@
 {
 	"allow": [],
 	"deny": [
+		"binancechain.help",
+		"cardanofoundation.blog",
+		"giveaway-darwinia.com",
+		"smartcoiresolved.com",
+		"stepnactivties.com",
+		"2xdoublercloud.space",
+		"herowars.site",
+		"coinprelaunch.site",
+		"securealliance.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
