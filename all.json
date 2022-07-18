@@ -1,8 +1,6 @@
 {
 	"allow": [],
 	"deny": [
-		"unicefyouthrelief.com",
-		"mywallets-dappsvalidation.weebly.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5692,6 +5690,7 @@
 		"mywallets-authentications.weebly.com",
 		"mywallets-connect.site",
 		"mywallets-connects.online",
+		"mywallets-dappsvalidation.weebly.com",
 		"mywalletsconnect.live",
 		"mywalletsdap.xyz",
 		"mywalletsecure.site",
@@ -8779,6 +8778,7 @@
 		"undpgrants.com",
 		"unhra.com",
 		"uniaward.org",
+		"unicefyouthrelief.com",
 		"uniconnect.live",
 		"unicswape.com",
 		"unicswop.com",
