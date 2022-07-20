@@ -15,6 +15,7 @@ const TOP_LEVEL = [
 
   // root domains
   'ddns.net',
+  'ddns.us',
   'github.io',
   'herokuapp.com',
   'hopto.org',
