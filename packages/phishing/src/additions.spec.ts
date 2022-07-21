@@ -48,7 +48,8 @@ describe('added urls', (): void => {
   it('has no entries for allowed top-level domains', (): void => {
     const invalids = all.deny.filter((u) =>
       all.allow.some((t) =>
-        t.startsWith('*.')
+        // for *. count the parts before the check
+        (t.startsWith('*.') && (u.split('.').length === t.split('.').length))
           ? (u.endsWith(t.substring(1)) || u === t.substring(2))
           : u === t
       )

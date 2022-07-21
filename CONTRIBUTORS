@@ -1,5 +1,5 @@
      574	Mich                          	Update all.json (#1851)
-     422	Jaco                          	Add ddns.us to known top-level (#1866)
+     423	Jaco                          	Adjust wildcard check & add problematic <url>.on.fleek.co (#1871)
      257	mhusnirizal                   	update all.json (#1835)
      185	Frank                         	Update all.json (#1860)
       82	michalisFr                    	Update all.json from Allure Security findings (#1865)
