@@ -15,11 +15,13 @@ const TOP_LEVEL = [
 
   // root domains
   'ddns.net',
+  'ddns.us',
   'github.io',
   'herokuapp.com',
   'hopto.org',
   'js.org',
   'netlify.app',
+  'pagekite.me',
   'pages.dev',
   'plesk.page',
   'servehttp.com',
