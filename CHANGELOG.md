@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 0.18.1 Jul 21, 2022
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Move allow list to `all.json`
+- Adjust wildcard check for top-level domains
+- Update to `@polkadot/util` 10.1.1
+
+
 ## 0.17.2 Jul 10, 2022
 
 Contributed:
