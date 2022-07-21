@@ -74,18 +74,12 @@ describe('added addresses', (): void => {
 describe('added urls', (): void => {
   it('has no entries for allowed top-level domains', (): void => {
     const invalids = all.deny.filter((u) =>
-      TOP_LEVEL.some((t) => {
-        if (t.startsWith('*.')) {
-          const up = u.split('.');
-          const tp = t.split('.');
-
-          if (up.length === tp.length) {
-            return (u.endsWith(t.substring(1)) || u === t.substring(2));
-          }
-        }
-
-        return u === t;
-      })
+      TOP_LEVEL.some((t) =>
+        // for *. count the parts before the check
+        (t.startsWith('*.') && (u.split('.').length === t.split('.').length))
+          ? (u.endsWith(t.substring(1)) || u === t.substring(2))
+          : u === t
+      )
     );
 
     expect(invalids).toEqual([]);
