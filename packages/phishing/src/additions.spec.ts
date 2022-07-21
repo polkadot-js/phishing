@@ -5,9 +5,23 @@ import fs from 'fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
-const addresses = JSON.parse(fs.readFileSync('address.json', 'utf-8')) as Record<string, string[]>;
-const allowed = JSON.parse(fs.readFileSync('known.json', 'utf-8')) as Record<string, string[]>;
-const all = JSON.parse(fs.readFileSync('all.json', 'utf8')) as { allow: string[]; deny: string[] };
+type JsonAddr = Record<string, string[]>;
+type JsonAll = { allow: string[]; deny: string[] };
+type JsonMetaIdx = string[];
+type JsonMeta = { date: string, url: string }[];
+
+function readJson <R> (name: string): R {
+  return JSON.parse(fs.readFileSync(name, 'utf-8')) as R;
+}
+
+const addresses = readJson<JsonAddr>('address.json');
+const allowed = readJson<JsonAddr>('known.json');
+const all = readJson<JsonAll>('all.json');
+const meta = readJson<JsonMetaIdx>('meta/index.json').reduce<JsonMeta>((all, name) => {
+  const meta = readJson<JsonMeta>(`meta/${name}.json`);
+
+  return all.concat(meta);
+}, []);
 
 const TOP_LEVEL = [
   // wildcards
@@ -104,18 +118,16 @@ describe('added urls', (): void => {
     expect(invalids).toEqual([]);
   });
 
-  it('has no duplicate entries', (): void => {
-    const checks: string[] = [];
+  it('has no entries previously added', (): void => {
+    const dupes = all.deny
+      .map((url) => {
+        const prev = meta.find((m) => m.url === url);
 
-    const dupes = all.deny.reduce<string[]>((dupes, url) => {
-      if (!checks.includes(url)) {
-        checks.push(url);
-      } else {
-        dupes.push(url);
-      }
-
-      return dupes;
-    }, []);
+        return prev
+          ? `${prev.url} added on ${prev.date}`
+          : null;
+      })
+      .filter((v) => !!v);
 
     expect(
       process.env.CI_LOG
