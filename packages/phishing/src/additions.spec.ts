@@ -45,7 +45,7 @@ describe('added addresses', (): void => {
 });
 
 describe('added urls', (): void => {
-  it('has no entries for allowed top-level domains', (): void => {
+  it('has no entries matching top-level domains in allow', (): void => {
     const invalids = all.deny.filter((u) =>
       all.allow.some((t) =>
         // for *. count the parts before the check
