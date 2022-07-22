@@ -24,7 +24,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"polkasltarter.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -6955,6 +6954,7 @@
 		"polkaslarter.com",
 		"polkaslarterlercom.info",
 		"polkaslarterlercom.live",
+		"polkasltarter.com",
 		"polkasot.js.org",
 		"polkasrtarter.com",
 		"polkasrtrarter.com",
