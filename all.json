@@ -24,8 +24,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"appmainnetservers.net",
-		"decentralizedchain-support.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -407,6 +405,7 @@
 		"applovinstudios.com",
 		"appmainnetexplorer.online",
 		"appmainnetserver.com",
+		"appmainnetservers.net",
 		"appnodecenter.com",
 		"appnoderectify.org",
 		"apponeconnect.com",
@@ -3127,6 +3126,7 @@
 		"decentralized-connect.com",
 		"decentralized-dapps.info",
 		"decentralized-launchpad.com",
+		"decentralizedchain-support.net",
 		"decentralizedchain.co",
 		"decentralizedconnect.co",
 		"decentralizedcryptoconnect.com",
