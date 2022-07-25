@@ -24,7 +24,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"pancaketransfer.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -6711,6 +6710,7 @@
 		"pancakeswqp-money.com",
 		"pancaketabetai.xyz",
 		"pancaketoken.com",
+		"pancaketransfer.com",
 		"pancaketransfer.finance",
 		"pancakewalletswap.finance",
 		"pancakexcahange.com",
