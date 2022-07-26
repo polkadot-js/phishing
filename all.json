@@ -26,6 +26,11 @@
 		"zapto.org"
 	],
 	"deny": [
+		"filink-protocol.com",
+		"nodesprotocolaffix.online",
+		"nodesaffixexplore.online",
+		"techappsdir.com",
+		"dappreauthv2.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
