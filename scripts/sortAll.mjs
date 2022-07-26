@@ -13,7 +13,7 @@ function sanitizeUrl (url) {
   ).split('/')[0];
 }
 
-function sortSection (list) {
+function filterSection (list) {
   return list
     .map((entry) => sanitizeUrl(entry))
     .reduce((filtered, entry) => {
@@ -21,8 +21,11 @@ function sortSection (list) {
         filtered.push(entry);
 
       return filtered;
-    }, [])
-    .sort((a, b) => a.localeCompare(b));
+    }, []);
+}
+
+function sortSection (list) {
+  return filterSection(list).sort((a, b) => a.localeCompare(b));
 }
 
 function isSubdomain (list, url) {
@@ -52,9 +55,11 @@ function flattenUrl (url) {
 }
 
 function rewriteSubs (list) {
-  return list
-    .filter((url) => !isSubdomain(list, url))
-    .map((url) => flattenUrl(url));
+  return filterSection(
+    list
+      .filter((url) => !isSubdomain(list, url))
+      .map((url) => flattenUrl(url))
+  );
 }
 
 function sortAddresses (values) {
