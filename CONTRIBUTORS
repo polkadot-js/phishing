@@ -1,6 +1,6 @@
      574	Mich                          	Update all.json (#1851)
-     430	Jaco                          	Collapse Google identified dangerous top-level (#1918)
-     267	mhusnirizal                   	update all.json (#1927)
+     431	Jaco                          	Flatten some domains into top-level (general subdomains) (#1930)
+     268	mhusnirizal                   	update all.json (#1932)
      190	Frank                         	Update all.json (#1925)
      106	thwjanssen89                  	Update all.json (#1928)
       86	michalisFr                    	Update all.json from Allure Security findings (#1907)
