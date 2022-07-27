@@ -13,7 +13,7 @@ function sanitizeUrl (url) {
   ).split('/')[0];
 }
 
-function sortSection (list) {
+function filterSection (list) {
   return list
     .map((entry) => sanitizeUrl(entry))
     .reduce((filtered, entry) => {
@@ -21,8 +21,11 @@ function sortSection (list) {
         filtered.push(entry);
 
       return filtered;
-    }, [])
-    .sort((a, b) => a.localeCompare(b));
+    }, []);
+}
+
+function sortSection (list) {
+  return filterSection(list).sort((a, b) => a.localeCompare(b));
 }
 
 function isSubdomain (list, url) {
@@ -30,7 +33,7 @@ function isSubdomain (list, url) {
 
   for (let i = 1; i < parts.length - 1; i++) {
     if (list.includes(parts.slice(i).join('.'))) {
-      // this is a sub-domain of a domain that alreeady exists
+      // this is a sub-domain of a domain that already exists
       return true;
     }
   }
@@ -38,8 +41,25 @@ function isSubdomain (list, url) {
   return false;
 }
 
-function removeSubs (list) {
-  return list.filter((url) => !isSubdomain(list, url));
+function flattenUrl (url) {
+  // currently we only check for plesk-page to flatten
+  if (!url.endsWith('plesk.page')) {
+    return url;
+  }
+
+  const parts = url.split('.');
+
+  return parts.length > 3
+    ? parts.slice(-3).join('.')
+    : url;
+}
+
+function rewriteSubs (list) {
+  return filterSection(
+    list
+      .filter((url) => !isSubdomain(list, url))
+      .map((url) => flattenUrl(url))
+  );
 }
 
 function sortAddresses (values) {
@@ -124,7 +144,7 @@ const deny = sortSection(addSites(all, addr));
 
 // rewrite with all our entries (newline included)
 writeJson('address.json', sortAddresses(addr));
-writeJson('all.json', { allow: sortSection(all.allow), deny: removeSubs(deny) });
+writeJson('all.json', { allow: sortSection(all.allow), deny: rewriteSubs(deny) });
 
 // find out what we don't have
 const urls = meta.map(({ url }) => url);
@@ -132,12 +152,26 @@ const now = new Date();
 const ym = `${now.getUTCFullYear()}-${`00${now.getUTCMonth() + 1}`.slice(-2)}`;
 const ymd = `${ym}-${`00${now.getUTCDate()}`.slice(-2)}`;
 
+// helper for parts
+const urlParts = urls.map((u) => u.split('.'));
+
 // rewrite with all our entries (newline included)
 writeMeta(
   meta
     .concat(
       deny
-        .filter((url) => !urls.includes(url))
+        .filter((url) => {
+          if (urls.includes(url)) {
+            return false;
+          }
+
+          const len = url.split('.').length;
+
+          return !urlParts.some((p) =>
+            len < p.length &&
+            url === p.slice(-len).join('.')
+          );
+        })
         .map((url) => ({ date: ymd, url }))
     )
     .filter(({ url }) =>
