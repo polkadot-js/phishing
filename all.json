@@ -26,9 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"dappshubonline.xyz",
-		"dapsconnects.online",
-		"nodechain.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -2703,6 +2700,7 @@
 		"dappsfork.com",
 		"dappshelp.com",
 		"dappshold.com",
+		"dappshubonline.xyz",
 		"dappsimportconnet.net",
 		"dappsin.live",
 		"dappsintegrate.cloud",
@@ -3082,6 +3080,7 @@
 		"dapscon.tech",
 		"dapsconect.com",
 		"dapsconnection.site",
+		"dapsconnects.online",
 		"dapsconswaps.com",
 		"dapsjoin.site",
 		"dapslinking.site",
@@ -6221,6 +6220,7 @@
 		"nodeblockchain-lab.com",
 		"nodebridge.xyz",
 		"nodebridges.com",
+		"nodechain.live",
 		"nodechain.me",
 		"nodeconnections.com",
 		"nodeconnectons.com",
