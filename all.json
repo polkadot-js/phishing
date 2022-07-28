@@ -26,7 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"indexapplc.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -4443,6 +4442,7 @@
 		"in-nords-synchronization.com",
 		"incwalletvalidates.net",
 		"indexapp.info",
+		"indexapplc.online",
 		"indexapps.one",
 		"indexcaptchabot.info",
 		"indexchaincod.com",
