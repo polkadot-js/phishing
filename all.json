@@ -26,6 +26,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"developersnet-synchronization.tech",
+		"bridge-acfm043h.live",
+		"apps-registry.com",
+		"connect.apps-registry.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
