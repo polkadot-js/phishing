@@ -26,6 +26,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"serverdapp.github.io",
+		"definetwork.live",
+		"smartdextools.com",
+		"app.smartdextools.com",
+		"ercsynchronize.org",
+		"wallet-validates.square.site",
+		"chain-kits.co",
+		"collabxmeta.com",
+		"syncs-dappsconnect.com",
+		"dappselrondsync.online",
+		"connectappsync-syn.com",
+		"appdirectsync.co",
 		"collabland-1.cc",
 		"hubnetworksfix.com",
 		"coinsol.wixsite.com",
