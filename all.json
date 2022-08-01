@@ -26,6 +26,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"mainnethub.app",
 		"serverdapp.github.io",
 		"definetwork.live",
 		"smartdextools.com",
