@@ -85,6 +85,10 @@
 	},
 	{
 		"date": "2022-08-01",
+		"url": "meta-clash.net"
+	},
+	{
+		"date": "2022-08-01",
 		"url": "migratemetov2web.xyz"
 	},
 	{
@@ -126,5 +130,9 @@
 	{
 		"date": "2022-08-01",
 		"url": "wallet-validates.square.site"
+	},
+	{
+		"date": "2022-08-01",
+		"url": "welldone.meta-clash.net"
 	}
 ]
