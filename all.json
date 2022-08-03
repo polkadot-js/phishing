@@ -27,7 +27,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"defivalidatornode.live",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -3454,6 +3453,7 @@
 		"defivalidate.com",
 		"defivalidatedapp.com",
 		"defivalidator.website",
+		"defivalidatornode.live",
 		"defivalidators.net",
 		"defivalidators.org",
 		"defiwallet.cloud",
