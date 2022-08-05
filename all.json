@@ -26,6 +26,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"allnodeupdate.com",
+		"teledapprestore.com",
+		"webdefiprotocol.com",
+		"ethcon.live",
+		"dev-wc-errorfix.pantheonsite.io",
+		"defimaintain.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
