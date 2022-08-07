@@ -26,6 +26,16 @@
 		"zapto.org"
 	],
 	"deny": [
+		"allrepair.info",
+		"decentralized-syncprotocol.live",
+		"s.decentralized-syncprotocol.live",
+		"migratetokens.online",
+		"migratestoken.online",
+		"migrateplanb.online",
+		"dapzmigrate.com",
+		"bloklaunchpads.com",
+		"launchpad.bloklaunchpads.com",
+		"zappedlaunchpads.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
