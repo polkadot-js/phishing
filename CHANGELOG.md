@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.18.2 Aug 7, 2022
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Update to `@polkadot/util` 10.1.3
+
+
 ## 0.18.2 Jul 30, 2022
 
 Contributed:
@@ -9,7 +20,7 @@ Contributed:
 Changes:
 
 - Collapse top-level domains
-- Update to `@polkadot/util` 10.1.1
+- Update to `@polkadot/util` 10.1.2
 
 
 ## 0.18.1 Jul 21, 2022
