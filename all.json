@@ -27,7 +27,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dapp-networks.netlify.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -2294,6 +2293,7 @@
 		"dapp-mainnetsync.com",
 		"dapp-minings.com",
 		"dapp-multichain.online",
+		"dapp-networks.netlify.app",
 		"dapp-node.com",
 		"dapp-pancake.sytes.net",
 		"dapp-pool.live",
