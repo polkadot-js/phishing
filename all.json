@@ -26,7 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"app-live.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -433,6 +432,7 @@
 		"app-dappsify.online",
 		"app-erty.online",
 		"app-lido.finance",
+		"app-live.org",
 		"app-magiceden-app.ml",
 		"app-mainnethub.ml",
 		"app-mainnetsys.ml",
