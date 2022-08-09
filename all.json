@@ -26,9 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"solveerror.org",
-		"wallet-dapp.surge.sh",
-		"accountresult.site",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -194,6 +191,7 @@
 		"account-authentication.us",
 		"account-servicesc.com",
 		"account-updatesc.com",
+		"accountresult.site",
 		"accountsre-validator.com",
 		"accountsresolvecenter.webflow.io",
 		"accountsvalidator.com",
@@ -8439,6 +8437,7 @@
 		"solve-manually.online",
 		"solveddaps.live",
 		"solveencrypt.live",
+		"solveerror.org",
 		"solvemydapps.org",
 		"solvetech.info",
 		"solvetechdapp.com",
@@ -10189,6 +10188,7 @@
 		"wallet-connectvalidation.com",
 		"wallet-connectx.com",
 		"wallet-control.com",
+		"wallet-dapp.surge.sh",
 		"wallet-dappauthorization.com",
 		"wallet-dapps.com",
 		"wallet-dapps.live",
