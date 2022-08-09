@@ -26,7 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"migratehokk.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5871,6 +5870,7 @@
 		"migratecointechsolution.biz",
 		"migratedapps.com",
 		"migratedapptoken.com",
+		"migratehokk.online",
 		"migratelive.org",
 		"migratemetov2web.xyz",
 		"migratemobileconnect.co",
