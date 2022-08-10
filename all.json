@@ -26,9 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"esyprodexauth.com",
-		"allwalletsresolution.com",
-		"intellsyncedapps.ml",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -355,6 +352,7 @@
 		"allwalletscrypto.com",
 		"allwalletsinc.com",
 		"allwalletsinc.online",
+		"allwalletsresolution.com",
 		"allwalletssolution.org",
 		"allwalletsystem.com",
 		"allwalletusa.com",
@@ -3895,6 +3893,7 @@
 		"esp-defiswap.com",
 		"espacev.sbs",
 		"esydexio.com",
+		"esyprodexauth.com",
 		"esystemsync.live",
 		"etamask.top",
 		"etamasks.top",
@@ -4719,6 +4718,7 @@
 		"integrationdapp.org",
 		"integrationprotocol.info",
 		"inteldigital.trade",
+		"intellsyncedapps.ml",
 		"intellsyncedapps.online",
 		"intelphasenet.com",
 		"intelphasesolution.com",
