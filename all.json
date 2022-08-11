@@ -26,7 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"decentralizeapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3341,6 +3340,7 @@
 		"decentralised-refitting.app",
 		"decentralisedcollab.land",
 		"decentralisedconnect.com",
+		"decentralizeapp.com",
 		"decentralized-chains.com",
 		"decentralized-connect.com",
 		"decentralized-dapps.info",
