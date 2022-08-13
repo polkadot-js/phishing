@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.18.5 Aug 13, 2022
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Update to `@polkadot/util` 10.1.4
+
+
 ## 0.18.4 Aug 7, 2022
 
 Contributed:
