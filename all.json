@@ -26,6 +26,13 @@
 		"zapto.org"
 	],
 	"deny": [
+		"w-rectify.com",
+		"fix-mysyncapp.netlify.app",
+		"dev-wcerrorfixertool.pantheonsite.io",
+		"wallet-launch.herokuapp.com",
+		"syncmercury.site",
+		"da.syncmercury.site",
+		"syncfix.surge.sh",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
