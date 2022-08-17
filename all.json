@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"miigrattetov2finalhere.xyz",
-		"migratingfromv1tov2livenow.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5960,8 +5958,10 @@
 		"migratetov2website.xyz",
 		"migratev2contract.live",
 		"migratev2walconnect.link",
+		"migratingfromv1tov2livenow.xyz",
 		"migration-saitamav2.com",
 		"miigratingtov2live.xyz",
+		"miigrattetov2finalhere.xyz",
 		"mina.limited",
 		"minaprotocols.limited",
 		"minaprotocols.tech",
