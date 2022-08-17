@@ -27,7 +27,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"wallet.connectsync.live",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -10486,6 +10485,7 @@
 		"wallet-walletconnect.com",
 		"wallet-websync.com",
 		"wallet-zhcn.com",
+		"wallet.connectsync.live",
 		"wallet.rent",
 		"wallet.samirtomb.com",
 		"walletaccess.surge.sh",
