@@ -26,6 +26,13 @@
 		"zapto.org"
 	],
 	"deny": [
+		"allinonesync.com",
+		"dev-web3dappscollabs.pantheonsite.io",
+		"automatedauth.com",
+		"terranodes.online",
+		"launchmywallet.netlify.app",
+		"syncrecovery.site",
+		"nodes.allinonesync.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
