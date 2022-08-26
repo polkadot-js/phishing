@@ -3421,6 +3421,7 @@
 		"debug-wallets.com",
 		"debugapp.net",
 		"debugconnect.com",
+		"debuginterface.com",
 		"debugresolve.co",
 		"decentalizedlead.live",
 		"decentdapp.com",
@@ -6743,6 +6744,7 @@
 		"nodestringfix.site",
 		"nodestringoracle.net",
 		"nodestringtool.live",
+		"nodesupdates.co",
 		"nodesupgrade.live",
 		"nodesvalidation.com",
 		"nodesvalidation.org",
@@ -8590,6 +8592,7 @@
 		"smartconnectdapp.com",
 		"smartconnectintegratedapp.com",
 		"smartconnectionapp.com",
+		"smartconnectorapp.com",
 		"smartconnects.org",
 		"smartconnectsdapp.com",
 		"smartconnectsdefi.com",
@@ -12224,9 +12227,6 @@
 		"zinotiger.com",
 		"zipwallet.net",
 		"zonefix.net",
-		"zwalletconnect.com",
-		"debuginterface.com",
-		"smartconnectorapp.com",
-		"nodesupdates.co"
+		"zwalletconnect.com"
 	]
 }
