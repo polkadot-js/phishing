@@ -6,11 +6,11 @@
 		"14FscqFT8S8W8emC5294cEpDctgAucJW7C99mpxS4cucpHoA"
 	],
 	"blockfipro.com": [
-		"15Z7MdMM71vHTL7jNmNhm5xCUG5szJuyccGr3p5uzZgkz6Lv",
 		"13Ld2R3YQg5ztyevreJbFxEWqYw55tFzrPwu1C5ucgpFWGiL",
 		"15JbkRjYVSg1vWEF9J1HLu6GGUvnhv1XacGPWosbg3AFNojh",
-		"16nC1MhdhJFqazSgZFWHBhKgrkk4qYvD1y5W3UuqxADcsEJ9",
-		"15ZTLVhKWpT7bkGFkqkdjA1Rci2Dtq7B6UyC4Dj11NWo2fgh"
+		"15Z7MdMM71vHTL7jNmNhm5xCUG5szJuyccGr3p5uzZgkz6Lv",
+		"15ZTLVhKWpT7bkGFkqkdjA1Rci2Dtq7B6UyC4Dj11NWo2fgh",
+		"16nC1MhdhJFqazSgZFWHBhKgrkk4qYvD1y5W3UuqxADcsEJ9"
 	],
 	"claimpolka.com": [
 		"12jo5dBMedbma3XcU6Grj7m6ckeupjg4aj9Q1oFyK3Z7oh3"
@@ -29,10 +29,10 @@
 		"15LmfYr1UwK9ghjn5cNYoBmApaiWGFNnhBdm6nQF87vY2AcV"
 	],
 	"clipboard hijacker": [
-		"15hXAH4wYrCKz3R2MVRTaY3y8yqMePHova2KCwvQGd2shLDz",
 		"144cEewJH4TCxr9LamDAuQRTaFkNmws5E8mEibyiTB5PKByi",
-		"1og4JNPFhfBYTyb3d9s1wUpbUfpjdKxj45UWTR7G2MGxbSs",
-		"14rw3S9GzUJKFkESsQs4qf3r7RPzxNsTMWH5Vi1v4sxaxZQG"
+		"14rw3S9GzUJKFkESsQs4qf3r7RPzxNsTMWH5Vi1v4sxaxZQG",
+		"15hXAH4wYrCKz3R2MVRTaY3y8yqMePHova2KCwvQGd2shLDz",
+		"1og4JNPFhfBYTyb3d9s1wUpbUfpjdKxj45UWTR7G2MGxbSs"
 	],
 	"crypto-magnat.org": [
 		"13YS1eHSV6f55GppnPRJZVoKPQ2TpAhUyhey1TPE6tE8yKHJ"
@@ -70,8 +70,8 @@
 		"12Dw5xe9FwBswd6v6QkbSg9oiNg9uVckSSPActL6Ut9nhqSe"
 	],
 	"get-dot.me": [
-		"15hwZjAVgAmEfH8LYCQEVVLQ7tHq2b5Ns6K6HwpuoCCEb4Mg",
-		"13NFtxWVvF7rZmUj5t89B2GowgGewkHBvpJEc6azVKpepjfa"
+		"13NFtxWVvF7rZmUj5t89B2GowgGewkHBvpJEc6azVKpepjfa",
+		"15hwZjAVgAmEfH8LYCQEVVLQ7tHq2b5Ns6K6HwpuoCCEb4Mg"
 	],
 	"getpolkadot.net": [
 		"14yHC3SsfvF6mDLG5co7hyX124hJmriUJA6oFHBVaqa8MUF5"
@@ -80,9 +80,9 @@
 		"12rpYzbZHLmM83UcAuudQWr4cdb6xVCCe2brMQeno5isbSwK"
 	],
 	"instantwalletconnect.org": [
+		"128qayNTm5mRgKoMtmwTzsi2EwbWwcWnTvXv1xmKiVonFk9T",
 		"14Vm4o3uNZdEJvjGsoTGcWAac8pKETuCvThrv2toGRd5mqjd",
 		"15aHionFg8vVU2JxshGq8YTwYKwgVwM4deAQ6SMHB9XdSXuR",
-		"128qayNTm5mRgKoMtmwTzsi2EwbWwcWnTvXv1xmKiVonFk9T",
 		"19miEm83FPKY9UtQk7eNjsRaoiw1UZcCawGhvA9uM4m8ak6"
 	],
 	"kusama-wallet.com": [
@@ -154,13 +154,13 @@
 		"15qeaJ252MdLNjiEfhb7aLrbDCekLT6MUtkVQPqKGa9P8r5J"
 	],
 	"polkadot-autopool.com": [
-		"1Ha5y2Kpc9KdJbtdXdvZoJebj3ZM8VgAZvkbjHtR4mxq7oQ",
-		"1qmaACn27JqK2hsg24n8AaptPtNqNMWKNXUvySnBuWzdQ8x",
 		"126NpgSzEYfqVTqQS98xHkCp5VtsKTQyHaAP2gjpfT31o7fn",
 		"138stjzW3YLzLD4JYLLMETD7EpngvPpjwEx9bpJtnHKjNyEG",
 		"13tHavsAyZwfQ4TjmJ3m4J21xDeoGMHSJbwxFYqgJmTPUqmS",
 		"15HebpddhHUfZZie7CqiqPAN6hqGDAGZJF1mySvuXAfuzkXV",
-		"1qexhTWaUtJLejP34EjCaT77nYZoEHNegphjFZhbK4aDpej"
+		"1Ha5y2Kpc9KdJbtdXdvZoJebj3ZM8VgAZvkbjHtR4mxq7oQ",
+		"1qexhTWaUtJLejP34EjCaT77nYZoEHNegphjFZhbK4aDpej",
+		"1qmaACn27JqK2hsg24n8AaptPtNqNMWKNXUvySnBuWzdQ8x"
 	],
 	"polkadot-bonus-network.42web.io": [
 		"14mTh8hbaoSoa2r2EBCFYssRjW4KQEGhkyg5Zz7LAiRpg3zg"
@@ -170,12 +170,12 @@
 	],
 	"polkadot-bonus.network": [
 		"12RGBMjuLkCX6TKUoG33Fm4SzpxNYjwjgqHZ9huk5Nk4NAPh",
-		"1DsARAWRSyMoy815SeZrFytb74Qvw7W2wsrsYWZxZmHcRC4",
-		"168wBzsuk6gdEASmULaMEiEsfuvvqaFeZhSL9zJmNWpP5orD",
+		"13QXwR7CMUHksNfMkZ1pHhSGhwsjRWNY6YGFeppJWpwoSjxy",
 		"14hE8Pht7NG5613URQ3sznQsNc2UZ4djFJtvvJ8TPCeTmyfZ",
 		"14NLZmts5kV15rkmMUVtWkycazK665fCVZvtv8nnxaYHiRTB",
 		"15ftXw6mqY4S3izajNjDrCuqjMjqmruW4mm4DbFZajKymf7h",
-		"13QXwR7CMUHksNfMkZ1pHhSGhwsjRWNY6YGFeppJWpwoSjxy"
+		"168wBzsuk6gdEASmULaMEiEsfuvvqaFeZhSL9zJmNWpP5orD",
+		"1DsARAWRSyMoy815SeZrFytb74Qvw7W2wsrsYWZxZmHcRC4"
 	],
 	"polkadot-bonusevent.network": [
 		"12fqbLtHefPtK5bN4t68J5aqci4XoWcQp9ZfZFMUZ7rceVg9"
