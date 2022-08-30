@@ -27,7 +27,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"connect.defisecure.site",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -1797,6 +1796,7 @@
 		"connect-wallets.biz",
 		"connect-wallets.com",
 		"connect-wallets.live",
+		"connect.defisecure.site",
 		"connect2chain.com",
 		"connectaccess.online",
 		"connectaccess.surge.sh",
