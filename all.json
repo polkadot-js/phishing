@@ -26,6 +26,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"blockchain-wallets.tk",
 		"blockchains-wallets.tk",
 		"blockchains-recovery.tk",
 		"blockchains-recovery.ml",
