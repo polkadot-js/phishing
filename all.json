@@ -27,8 +27,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"authsolutions.site",
-		"connect.authsolutions.site",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -724,6 +722,7 @@
 		"authresolve.com",
 		"authrestoreaccess.help",
 		"authsecure-coinbaseinfo.com",
+		"authsolutions.site",
 		"authstandby.com",
 		"authsynconnect.online",
 		"authtokenfix.com",
