@@ -26,6 +26,15 @@
 		"zapto.org"
 	],
 	"deny": [
+		"blockchain-wallets.tk",
+		"blockchains-wallets.tk",
+		"blockchains-recovery.tk",
+		"blockchains-recovery.ml",
+		"blockchain-recovery.tk",
+		"blockchain-recovery.ml",
+		"blockchain-phrase.ml",
+		"live-dapp.surge.sh",
+		"xintelli-syncapps.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
