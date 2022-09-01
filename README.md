@@ -17,6 +17,16 @@ Making additions to the list will be reflected on merge at [polkadot.js.org/phis
 The `{address, all}.json` files are also published to IPFS, via [ipns/phishing.dotapps.io](https://ipfs.io/ipns/phishing.dotapps.io/). Libraries can also consume from here for a decentralized approach.
 
 
+## Notable users
+
+The following wallets integrate either address or site blocking from these lists:
+
+- [polkadot{.js} extension](https://github.com/polkadot-js/extension)
+- [polkadot{.js} apps](https://polkadot.js.org/apps)
+- [Fearless Wallet](https://fearlesswallet.io/)
+- [SubWallet](https://subwallet.app/)
+
+
 ### Integration
 
 Since the lists are published as JSON, integration for any non-JS wallets (only a JS library that is provided) should be simple - retrieve the applicable list, parse the JSON and do the required checks either on host or address as per the requirements. The Javascript library does have some features that may be worth thinking about for other integrations -
