@@ -26,6 +26,11 @@
 		"zapto.org"
 	],
 	"deny": [
+		"fixapifirmwarez.com",
+		"metachain.support",
+		"microntek-services.xyz",
+		"smart-mainnetsync.online",
+		"s.smart-mainnetsync.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
