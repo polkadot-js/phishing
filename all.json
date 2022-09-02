@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"digital-smartsync.live",
-		"s.digital-smartsync.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3820,6 +3818,7 @@
 		"digital-proapp.com",
 		"digital-proapps.com",
 		"digital-smartprotocol.live",
+		"digital-smartsync.live",
 		"digital-synchub.com",
 		"digitalappsync.online",
 		"digitalassetssolution.com",
