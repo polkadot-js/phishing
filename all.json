@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"flowcoistring.com",
-		"en.flowcoistring.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -4376,6 +4374,7 @@
 		"flashbot.online",
 		"flashfixprotocol.site",
 		"flip-domrdt.tech",
+		"flowcoistring.com",
 		"flowdapp.net",
 		"flowdapp.space",
 		"flowdapp.website",
