@@ -26,9 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"smart-edged.com",
-		"insurenodeexplorer.co",
-		"indexappl.rf.gd",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -4875,6 +4872,7 @@
 		"in-nords-synchronization.com",
 		"incwalletvalidates.net",
 		"indexapp.info",
+		"indexappl.rf.gd",
 		"indexapplc.online",
 		"indexapplc.rf.gd",
 		"indexapps.one",
@@ -4915,6 +4913,7 @@
 		"instanwalletpay.com",
 		"insurance-world.in",
 		"insuredapplite.co",
+		"insurenodeexplorer.co",
 		"insuresecuregateway.xyz",
 		"intconwalls.space",
 		"intdwintrectifier.com",
@@ -8661,6 +8660,7 @@
 		"smart-connects.live",
 		"smart-dapps.com",
 		"smart-decentralizedprotocol.live",
+		"smart-edged.com",
 		"smart-fixchain.live",
 		"smart-fixhub.live",
 		"smart-handshake.com",
