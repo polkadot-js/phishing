@@ -26,7 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"verifychainsync.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -10541,6 +10540,7 @@
 		"verifyassets.net",
 		"verifyauthnet.com",
 		"verifychain.org",
+		"verifychainsync.netlify.app",
 		"verifycollab.io",
 		"verifyconnect.org",
 		"verifycryptowallet.com",
