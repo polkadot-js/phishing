@@ -26,6 +26,9 @@
 		"zapto.org"
 	],
 	"deny": [
+		"defierror-reauth.com",
+		"steptullnulink.site",
+		"defidapp-net.web.app",
 		"bestliveappfixes.com",
 		"fastresolves.com",
 		"openprotocol.xyz",
