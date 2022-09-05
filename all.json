@@ -26,9 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"defierror-reauth.com",
-		"steptullnulink.site",
-		"defidapp-net.web.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3629,6 +3626,7 @@
 		"deficryptoconnect.com",
 		"deficryptoconnects.com",
 		"deficryptowallet.com",
+		"defidapp-net.web.app",
 		"defidappprotocol.com",
 		"defidappsmainnet.com",
 		"defidappsprotocol.online",
@@ -3636,6 +3634,7 @@
 		"defiencrypt.com",
 		"defiencryptor.info",
 		"defienework.com",
+		"defierror-reauth.com",
 		"defifastsyncronized.com",
 		"defifixintegrate.com",
 		"defifixprotocol.com",
@@ -9013,6 +9012,7 @@
 		"stepncom.space",
 		"stepnconnection.xyz",
 		"stepns.pro",
+		"steptullnulink.site",
 		"sterkoption.com",
 		"stockmarketlabfx.net",
 		"stockmartinc.com",
