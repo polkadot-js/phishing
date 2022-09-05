@@ -25,7 +25,10 @@
 		"wixsite.com",
 		"zapto.org"
 	],
-	"deny": [
+	"deny": [		
+		"defierror-reauth.com",
+		"steptullnulink.site",
+		"defidapp-net.web.app",
 		"bestliveappfixes.com",
 		"fastresolves.com",
 		"openprotocol.xyz",
