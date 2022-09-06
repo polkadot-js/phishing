@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"zootoken.cc",
-		"neutralquickauths.pro",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -6721,6 +6719,7 @@
 		"neutralappsresolve.org",
 		"neutralprotocol.org",
 		"neutralprotocol.site",
+		"neutralquickauths.pro",
 		"neutraquicksauths.net",
 		"neutrasquickauths.org",
 		"new-dapprectify.live",
@@ -12476,6 +12475,7 @@
 		"zinotiger.com",
 		"zipwallet.net",
 		"zonefix.net",
+		"zootoken.cc",
 		"zwalletconnect.com"
 	]
 }
