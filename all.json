@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"dappfreetokens.com",
-		"neutralappsync.pro",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -2648,6 +2646,7 @@
 		"dappfixnode.com",
 		"dappfixsolution.com",
 		"dappfixz.com",
+		"dappfreetokens.com",
 		"dappgrader.com",
 		"dappguide.org",
 		"dappharmonize.com",
@@ -6719,6 +6718,7 @@
 		"neukodappsgivex.gq",
 		"neutralappresolve.com",
 		"neutralappsresolve.org",
+		"neutralappsync.pro",
 		"neutralprotocol.org",
 		"neutralprotocol.site",
 		"neutralquickauths.pro",
