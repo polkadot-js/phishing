@@ -21,10 +21,18 @@ The `{address, all}.json` files are also published to IPFS, via [ipns/phishing.d
 
 The following wallets integrate either address or site blocking from these lists:
 
+<!--
+
+Note to editors: Additions welcome. Keep it alphabetical after the
+org-specific projects, i.e. polkadot{.js} first, rest alphabetical
+following that
+
+-->
+
 - [polkadot{.js} extension](https://github.com/polkadot-js/extension)
 - [polkadot{.js} apps](https://polkadot.js.org/apps)
-- [polkadot js Plus](http://polkadotjs.plus)
 - [Fearless Wallet](https://fearlesswallet.io/)
+- [polkadot js Plus](http://polkadotjs.plus)
 - [SubWallet](https://subwallet.app/)
 
 
