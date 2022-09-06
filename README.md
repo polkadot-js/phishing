@@ -23,6 +23,7 @@ The following wallets integrate either address or site blocking from these lists
 
 - [polkadot{.js} extension](https://github.com/polkadot-js/extension)
 - [polkadot{.js} apps](https://polkadot.js.org/apps)
+- [polkadot js Plus](http://polkadotjs.plus)
 - [Fearless Wallet](https://fearlesswallet.io/)
 - [SubWallet](https://subwallet.app/)
 
