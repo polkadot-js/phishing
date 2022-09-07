@@ -26,6 +26,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"metabridge-connect.com",
+		"dappnodedebug.com",
 		"cosmosintegration.com",
 		"easyhelpbots-connect.com",
 		"miiggrraattiinngtov4hoopsite.me",
