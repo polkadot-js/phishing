@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"metadynamics.online",
-		"dev-apygate.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3845,6 +3843,7 @@
 		"dessynchronise.000webhostapp.com",
 		"details-paxful.dashboard-paxful.com",
 		"details-paxful.trade",
+		"dev-apygate.online",
 		"dev-walconnect.pantheonsite.io",
 		"dev-wall-ethconnect.pantheonsite.io",
 		"dev-walletconnect.com",
@@ -5874,6 +5873,7 @@
 		"metadataresolve.com",
 		"metadatavalidation.com",
 		"metadownload.site",
+		"metadynamics.online",
 		"metaextension.online",
 		"metaextension.org",
 		"metafixdapps.info",
