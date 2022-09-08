@@ -26,6 +26,9 @@
 		"zapto.org"
 	],
 	"deny": [
+		"syncwals-activation.cc",
+		"defidapps-net.web.app",
+		"jol0x59c5df466012a218727dbc6ba0bb75a239109c43.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"connectingcoin.best",
