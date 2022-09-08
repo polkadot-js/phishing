@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"telesystemupdate.com",
-		"nodesecurecy.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -7033,6 +7031,7 @@
 		"nodesdefiwnet.online",
 		"nodesdev.online",
 		"nodesea.app",
+		"nodesecurecy.com",
 		"nodesecurelayer.com",
 		"nodeseedify.online",
 		"nodesfixen.online",
@@ -9760,6 +9759,7 @@
 		"teleactivesupport.com",
 		"teledapprestore.com",
 		"telescanrestore.com",
+		"telesystemupdate.com",
 		"tellaswaps-funds.live",
 		"tempuswallet.com",
 		"tendieswap.info",
