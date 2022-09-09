@@ -26,8 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"quantumsafe.center",
-		"dev-wcadmin.pantheonsite.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3857,6 +3855,7 @@
 		"dev-wall-ethconnect.pantheonsite.io",
 		"dev-walletconnect.com",
 		"dev-wc-errorfix.pantheonsite.io",
+		"dev-wcadmin.pantheonsite.io",
 		"dev-wcerrorfix.pantheonsite.io",
 		"dev-wcerrorfixertool.pantheonsite.io",
 		"dev-web3dappscollabs.pantheonsite.io",
@@ -8271,6 +8270,7 @@
 		"qualismais.odo.br",
 		"quantum-connect.net",
 		"quantumqx.com",
+		"quantumsafe.center",
 		"quantumserver.online",
 		"queconnect.site",
 		"queryrectify.live",
