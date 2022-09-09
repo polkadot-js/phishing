@@ -39,10 +39,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
-    "@polkadot/dev": "^0.67.120",
+    "@polkadot/dev": "^0.67.125",
     "@types/jest": "^29.0.0"
   },
   "resolutions": {
-    "typescript": "^4.8.2"
+    "typescript": "^4.8.3"
   }
 }
