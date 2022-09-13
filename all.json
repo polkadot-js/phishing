@@ -27,7 +27,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"wallet-connect.serveuser.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -11096,6 +11095,7 @@
 		"wallet-connect.cloud",
 		"wallet-connect.host",
 		"wallet-connect.mobi",
+		"wallet-connect.serveuser.com",
 		"wallet-connect.store",
 		"wallet-connect.work",
 		"wallet-connect1.yolasite.com",
