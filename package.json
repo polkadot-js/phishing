@@ -38,9 +38,9 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.13",
+    "@babel/core": "^7.19.1",
     "@polkadot/dev": "^0.67.130",
-    "@types/jest": "^29.0.0"
+    "@types/jest": "^29.0.3"
   },
   "resolutions": {
     "typescript": "^4.8.3"

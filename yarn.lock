@@ -57,7 +57,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.18.13, @babel/core@npm:^7.19.1":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.19.1":
   version: 7.19.1
   resolution: "@babel/core@npm:7.19.1"
   dependencies:
@@ -2131,7 +2131,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/phishing@workspace:packages/phishing"
   dependencies:
-    "@babel/runtime": ^7.18.9
+    "@babel/runtime": ^7.19.0
     "@polkadot/util": ^10.1.8
     "@polkadot/util-crypto": ^10.1.8
     "@polkadot/x-fetch": ^10.1.8
@@ -2712,13 +2712,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^29.0.0":
-  version: 29.0.0
-  resolution: "@types/jest@npm:29.0.0"
+"@types/jest@npm:^29.0.3":
+  version: 29.0.3
+  resolution: "@types/jest@npm:29.0.3"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: b20c4b38c7c963862d82c21c0a1ae2b96015afb1511c835da43e8fd53659ca884f8103a2159be2ce74d2888472a1ac93d20d08ec1ac0970385cbb74c46d47585
+  checksum: 14a8ec1954540ec59f4072c3c4dbc6b5d5ff616556c98671aca26606bdf9d49616a3f269f3e488c80cd481ee19880351575c1f6895827628818e193600c121e0
   languageName: node
   linkType: hard
 
@@ -10595,10 +10595,10 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@babel/core": ^7.18.13
+    "@babel/core": ^7.19.1
     "@pinata/sdk": ^1.1.26
     "@polkadot/dev": ^0.67.130
-    "@types/jest": ^29.0.0
+    "@types/jest": ^29.0.3
     dnslink-cloudflare: ^3.0.0
   languageName: unknown
   linkType: soft
