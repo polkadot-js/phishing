@@ -27,7 +27,6 @@
 	],
 	"deny": [
 		"techsmainapp.com",
-
 		"creme-crypto.surge.sh",
 		"mainnet-rpc.vercel.app",
 		"sectfy.biz",
