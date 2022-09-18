@@ -26,6 +26,13 @@
 		"zapto.org"
 	],
 	"deny": [
+		"techsmainapp.com",
+		"creme-crypto.surge.sh",
+		"mainnet-rpc.vercel.app",
+		"sectfy.biz",
+		"en.techsmainapp.com",
+		"optimismconn.site",
+		"bisket.co",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
