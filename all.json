@@ -26,6 +26,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"fastnodes.org",
+		"app.fastnodes.org",
+		"collabconnect.surge.sh",
+		"defiprotocol.me",
+		"dev-dc-launchpad.pantheonsite.io",
+		"0xb7f72028d9b502dc871c444363a7ac5a52546608.pics",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
