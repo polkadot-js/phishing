@@ -26,9 +26,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"defiresolve.xyz",
-		"dappsync.surge.sh",
-		"waldappscon.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3430,6 +3427,7 @@
 		"dappsync.gq",
 		"dappsync.io",
 		"dappsync.nl",
+		"dappsync.surge.sh",
 		"dappsync.tk",
 		"dappsyncaffix.live",
 		"dappsyncapp.com",
@@ -3856,6 +3854,7 @@
 		"defipulse.sale",
 		"defirader.xyz",
 		"defirectifier.com",
+		"defiresolve.xyz",
 		"defirestore.com",
 		"defirevalid.com",
 		"defirobots.co",
@@ -11253,6 +11252,7 @@
 		"walcon.us",
 		"walconn-nams.com",
 		"walconsync.com",
+		"waldappscon.com",
 		"waldapssync.info",
 		"waldapsync.info",
 		"walectconnective.to",
