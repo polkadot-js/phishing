@@ -27,8 +27,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dapp-solution.firebaseapp.com",
-		"dapp-solution.web.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -2576,6 +2574,8 @@
 		"dapp-secure.com",
 		"dapp-smartdefitoken.online",
 		"dapp-smartrouter.tech",
+		"dapp-solution.firebaseapp.com",
+		"dapp-solution.web.app",
 		"dapp-solutions.net",
 		"dapp-support.com",
 		"dapp-supporteam.netlify.app",
