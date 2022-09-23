@@ -27,6 +27,7 @@
 	],
 	"deny": [
 		"heliumwallet-minersyncfix-247.square.site",
+		"defibug.buzz",
 		"indexval.online",
 		"consensus-poschain.live",
 		"s.consensus-poschain.live",
