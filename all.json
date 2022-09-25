@@ -27,6 +27,7 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"revalidatenodes.online",
 		"datasyncnet.org",
 		"wallet-authenticate.web.app",
 		"0vvwvuniswap.top",
