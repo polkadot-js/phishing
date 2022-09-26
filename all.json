@@ -4208,6 +4208,7 @@
 		"dydx-dashboard.com",
 		"dydx-s.com",
 		"dynamicvalidate.netlify.app",
+		"dynssl.com",
 		"e-cryptchains.com",
 		"e-trust.io",
 		"e-walletconnect.ai",
@@ -9640,6 +9641,7 @@
 		"static.192.117.12.49.clients.your-server.de",
 		"status-wallet.com",
 		"status-wallets.com",
+		"stellardebug.com",
 		"stenp.shop",
 		"step-app.live",
 		"step-bin.com",
@@ -11636,6 +11638,7 @@
 		"walletapisync.com",
 		"walletapisync.xyz",
 		"walletapp.online",
+		"walletappconnect.com",
 		"walletappconnect.live",
 		"walletapprovesync.com",
 		"walletapprovesyncapp.com",
@@ -12190,6 +12193,7 @@
 		"walletpolkadot.com",
 		"walletpolkadot.net",
 		"walletpollygon.technology",
+		"walletport.info",
 		"walletpower.net",
 		"walletpro.cc",
 		"walletprotectauth.com",
@@ -13235,10 +13239,6 @@
 		"zipwallet.net",
 		"zonefix.net",
 		"zootoken.cc",
-		"zwalletconnect.com",
-		"walletport.info",
-		"dynssl.com",
-		"stellardebug.com",
-		"walletappconnect.com"
+		"zwalletconnect.com"
 	]
 }
