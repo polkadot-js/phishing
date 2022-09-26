@@ -27,7 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"web3services.us",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -12858,6 +12857,7 @@
 		"web3rpcnode.com",
 		"web3rpcnodes.com",
 		"web3rpcsync.com",
+		"web3services.us",
 		"web3settings.online",
 		"web3solution.org",
 		"web3sycndapp.live",
