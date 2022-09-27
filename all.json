@@ -27,6 +27,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"wickvalidate.netlify.app",
 		"darpsupfix.com",
 		"app.darpsupfix.com",
 		"lido.fit",
