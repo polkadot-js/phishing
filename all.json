@@ -27,6 +27,9 @@
 		"zapto.org"
 	],
 	"deny": [
+		"0xb3d08c783ecebe7063b08b7f523a429e3c3547575731.xyz",
+		"stemcon.xyz",
+		"yellowsun-protocol.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
