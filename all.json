@@ -27,6 +27,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"lido.fit",
+		"polkadot.lido.fit",
 		"xpressalignfix.com",
 		"wcdapconnect.pages.dev",
 		"web3securedefi.com",
