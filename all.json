@@ -27,6 +27,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"darpsupfix.com",
+		"app.darpsupfix.com",
 		"lido.fit",
 		"polkadot.lido.fit",
 		"xpressalignfix.com",
