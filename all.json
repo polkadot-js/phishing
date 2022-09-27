@@ -27,7 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"accesssrewards.web.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -197,6 +196,7 @@
 		"accesslogin-pancakeswap.ml",
 		"accessnode.surge.sh",
 		"accessrewardnet.org",
+		"accesssrewards.web.app",
 		"accesstool.help",
 		"account-authentication.us",
 		"account-servicesc.com",
