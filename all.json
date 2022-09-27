@@ -27,6 +27,14 @@
 		"zapto.org"
 	],
 	"deny": [
+		"wickvalidate.netlify.app",
+		"darpsupfix.com",
+		"app.darpsupfix.com",
+		"lido.fit",
+		"polkadot.lido.fit",
+		"xpressalignfix.com",
+		"wcdapconnect.pages.dev",
+		"web3securedefi.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
