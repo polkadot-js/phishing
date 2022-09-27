@@ -27,6 +27,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"coinupgrade.best",
 		"contractbooost.best",
 		"cryptocontractextension.best",
 		"contractextension.best",
