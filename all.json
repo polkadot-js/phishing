@@ -27,7 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"walletconect.top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -2288,6 +2287,7 @@
 		"crypto-connect.live",
 		"crypto-connect.uk",
 		"crypto-defiwallet.org",
+		"crypto-delo.ru",
 		"crypto-fastmoney.org",
 		"crypto-grantltd.com",
 		"crypto-grantltd.net",
@@ -11762,6 +11762,7 @@
 		"walletconect.net",
 		"walletconect.ru",
 		"walletconect.site",
+		"walletconect.top",
 		"walletconectbot.com",
 		"walletconectrecovery.com",
 		"walletconectrestore.com",
