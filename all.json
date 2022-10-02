@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"app.flowstringapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -515,6 +514,7 @@
 		"app-walletsolutions.com",
 		"app-wasync.com",
 		"app.coinodeservice.com",
+		"app.flowstringapp.com",
 		"appauthes.in.net",
 		"appchainsauth.com",
 		"appconnectsync.org",
