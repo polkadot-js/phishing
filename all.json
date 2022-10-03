@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"dappkio.com",
-		"smartsolutiontech.pics",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -2834,6 +2832,7 @@
 		"dappintegrations.online",
 		"dappintegrator.cloud",
 		"dappintegrator.site",
+		"dappkio.com",
 		"dapplaunch.org",
 		"dapplaunchpads.com",
 		"dapplink.tech",
@@ -9560,6 +9559,7 @@
 		"smartsollutiontec.live",
 		"smartsolutioninterface.info",
 		"smartsolutiontech.live",
+		"smartsolutiontech.pics",
 		"smartsolutiontech.xyz",
 		"smartsolutiontov2.lol",
 		"smartswalletconnect.org",
