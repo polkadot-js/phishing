@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"resolution-mainnets.live",
-		"s.resolution-mainnets.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -8872,6 +8870,7 @@
 		"resetcnt.com",
 		"resetlaunchdapp.com",
 		"resolution-mainnet.live",
+		"resolution-mainnets.live",
 		"resolutionsync.link",
 		"resolutionvalidationet.link",
 		"resolvbinanreg.monster",
