@@ -27,7 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"dapptools.000webhostapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3533,6 +3532,7 @@
 		"dapptokenvalidator.com",
 		"dapptool.farm",
 		"dapptoollink.live",
+		"dapptools.000webhostapp.com",
 		"dapptools.in",
 		"dapptools.live",
 		"dapptools.mobi",
