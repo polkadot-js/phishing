@@ -27,9 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"integrateserver.com",
-		"integrateserver.online",
-		"syn.integrated-safeserver.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5334,6 +5331,8 @@
 		"integratedweb3mainnet.pro",
 		"integratedwebappsvalidation.com",
 		"integratemintdapps.online",
+		"integrateserver.com",
+		"integrateserver.online",
 		"integratinginterface.com",
 		"integration-link.link",
 		"integration-smartprotocol.live",
@@ -9935,6 +9934,7 @@
 		"syn-validationchain.com",
 		"syn-wallet.online",
 		"syn-walletbackups.com",
+		"syn.integrated-safeserver.com",
 		"sync-access.com",
 		"sync-app.net",
 		"sync-auth.netlify.app",
