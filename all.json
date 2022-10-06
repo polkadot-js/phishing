@@ -27,6 +27,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dappsremedy.live",
 		"importsnode.com",
 		"syncnodestrings.netlify.app",
 		"app.importsnode.com",
