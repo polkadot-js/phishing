@@ -28,8 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"syncdpp.firebaseapp.com",
-		"syncdpp.web.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -10062,6 +10060,8 @@
 		"syncdeftools.com",
 		"syncdev.online",
 		"syncdirect.info",
+		"syncdpp.firebaseapp.com",
+		"syncdpp.web.app",
 		"syncedwallets.live",
 		"syncerror.site",
 		"synceth.xyz",
