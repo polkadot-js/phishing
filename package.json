@@ -11,7 +11,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.18.10-61-x",
+  "version": "0.18.10",
   "versions": {
     "git": "0.18.10-61-x",
     "npm": "0.18.9"
@@ -38,9 +38,9 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.1",
-    "@polkadot/dev": "^0.67.134",
-    "@types/jest": "^29.0.3"
+    "@babel/core": "^7.19.3",
+    "@polkadot/dev": "^0.67.138",
+    "@types/jest": "^29.1.2"
   },
   "resolutions": {
     "typescript": "^4.8.4"
