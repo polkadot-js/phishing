@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"smartnodetech.com",
-		"blockchainaccountrestore.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -1106,6 +1104,7 @@
 		"blockchain-wallets.tk",
 		"blockchain-walletsync.com",
 		"blockchain1-wallet.com",
+		"blockchainaccountrestore.com",
 		"blockchainaccountrestore.io",
 		"blockchainapp.online",
 		"blockchainbridge.xyz",
@@ -9661,6 +9660,7 @@
 		"smartnoderesolve.com",
 		"smartnoderestore.live",
 		"smartnodes.org",
+		"smartnodetech.com",
 		"smartnord-synchronization.live",
 		"smartnordsynchronization.live",
 		"smartointechdappsolutiion.live",
