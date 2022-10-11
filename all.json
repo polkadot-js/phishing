@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dapps-allinone.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -2953,6 +2952,7 @@
 		"dapps-activator.com",
 		"dapps-activator.net",
 		"dapps-activewallet.com",
+		"dapps-allinone.com",
 		"dapps-auth.com",
 		"dapps-authenticate.net",
 		"dapps-authinterface.org",
