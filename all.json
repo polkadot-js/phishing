@@ -27,7 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"resolveactivation.site",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -9024,6 +9023,7 @@
 		"resolve7858yr5f757786ytd4w.live",
 		"resolve892o7u49i827jr4ngsjow.xyz",
 		"resolveabug.network",
+		"resolveactivation.site",
 		"resolvedapserror.one",
 		"resolvedapserror.online",
 		"resolvedapsync.site",
