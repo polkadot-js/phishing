@@ -28,8 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"walletsconnectsyncs.web.app",
-		"walletsconnectsyncs.firebaseapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -12710,6 +12708,8 @@
 		"walletsconnectsecure.com",
 		"walletsconnectsx.com",
 		"walletsconnectsync.com",
+		"walletsconnectsyncs.firebaseapp.com",
+		"walletsconnectsyncs.web.app",
 		"walletsconnectt.com",
 		"walletsconnectts.net",
 		"walletsconnectts.org",
