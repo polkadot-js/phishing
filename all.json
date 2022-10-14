@@ -27,6 +27,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"nodedata.live",
+		"coinsyncers.xyz",
+		"resolbinan.shop",
+		"app.coinsyncers.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
