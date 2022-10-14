@@ -27,6 +27,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"nodedata.live",
 		"coinsyncers.xyz",
 		"resolbinan.shop",
 		"app.coinsyncers.xyz",
