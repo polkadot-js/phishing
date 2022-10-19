@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"indexwallet.online",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -5356,6 +5355,7 @@
 		"indexrect.online",
 		"indexsync.online",
 		"indexval.online",
+		"indexwallet.online",
 		"indobridge.best",
 		"infinit3.com",
 		"infinitygame.site",
