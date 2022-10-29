@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"fixedmoment.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -4819,6 +4818,7 @@
 		"fixedlfoat.net",
 		"fixedlfoat.org",
 		"fixedmainnet.online",
+		"fixedmoment.com",
 		"fixemart.online",
 		"fixencrypt.online",
 		"fixerextension.info",
