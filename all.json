@@ -28,6 +28,8 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"blockchain-node.pages.dev",
+		"blockchain-dex.pages.dev",
 		"nodesdappnet.com",
 		"supporttickets.pages.dev",
 		"dappsecurity.pages.dev",
