@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dapps-securechainnode.pages.dev",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -3118,6 +3117,7 @@
 		"dapps-reservetool.com",
 		"dapps-resolves.tech",
 		"dapps-rewards.com",
+		"dapps-securechainnode.pages.dev",
 		"dapps-secured.com",
 		"dapps-seedify.com",
 		"dapps-seedify.live",
