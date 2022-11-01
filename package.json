@@ -34,13 +34,13 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --runInBand --detectOpenHandles --testPathIgnorePatterns addrcheck --testPathIgnorePatterns crosscheck"
   },
   "dependencies": {
-    "@pinata/sdk": "^1.1.26",
+    "@pinata/sdk": "^1.2.1",
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@polkadot/dev": "^0.67.138",
-    "@types/jest": "^29.1.2"
+    "@babel/core": "^7.19.6",
+    "@polkadot/dev": "^0.67.150",
+    "@types/jest": "^29.2.1"
   },
   "resolutions": {
     "typescript": "^4.8.4"
