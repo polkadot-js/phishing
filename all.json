@@ -28,6 +28,8 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"multichain-meta.org",
+		"multichain-meta.com",
 		"defiprotocol-dcd35.web.app",
 		"defiprotocol-dcd35.firebaseapp.com",
 		"cryptosync.app",
