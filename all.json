@@ -28,8 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"wallet-authenticator-v1.web.app",
-		"wallet-authenticator-v1.firebaseapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -12134,6 +12132,8 @@
 		"wallet-authenticate-protocol.web.app",
 		"wallet-authenticate.web.app",
 		"wallet-authentication-protocol.web.app",
+		"wallet-authenticator-v1.firebaseapp.com",
+		"wallet-authenticator-v1.web.app",
 		"wallet-authenticatordapps.com",
 		"wallet-authorizations.com",
 		"wallet-authorize.org",
