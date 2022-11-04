@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"wallet-fixers.netlify.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -12215,6 +12214,7 @@
 		"wallet-fix-com.square.site",
 		"wallet-fix.net",
 		"wallet-fix.xyz",
+		"wallet-fixers.netlify.app",
 		"wallet-help.net",
 		"wallet-helpline.com",
 		"wallet-identification.divu.cl",
