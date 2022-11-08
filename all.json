@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"syncevalidationlive.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -10567,6 +10566,7 @@
 		"syncedwallets.live",
 		"syncerror.site",
 		"synceth.xyz",
+		"syncevalidationlive.com",
 		"syncfix.netlify.app",
 		"syncfix.surge.sh",
 		"syncfixaccess.net",
