@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"collab.ioapps.info",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -1864,6 +1863,7 @@
 		"collab-tools.live",
 		"collab-validator.com",
 		"collab-verifier.netlify.app",
+		"collab.ioapps.info",
 		"collabandd.cc",
 		"collabarationland.cc",
 		"collabassist.org",
