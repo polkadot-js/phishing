@@ -27,7 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"zeriondapp.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -14102,6 +14101,7 @@
 		"zeitgeistsale.live",
 		"zellespay.com",
 		"zendeskauth.com",
+		"zeriondapp.netlify.app",
 		"zerionwallet.com",
 		"zero-swap.site",
 		"zilochain.com",
