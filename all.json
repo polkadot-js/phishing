@@ -27,9 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"canto.netlify.app",
-		"iccofixx.surge.sh",
-		"node-debug.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -1413,6 +1410,7 @@
 		"camelneedlesnft.com",
 		"cancel-txid-1bcgtqqythbkp2-wallet.com",
 		"cancel-txid-1bcgtqqythbkp2f-wallet.com",
+		"canto.netlify.app",
 		"capita1ltradeoption.com",
 		"capital-bittrade.online",
 		"captcha.ms",
@@ -5326,6 +5324,7 @@
 		"i-blockchainconnect.pages.dev",
 		"i-mtioken.club",
 		"ibarachoir.com",
+		"iccofixx.surge.sh",
 		"icedapeharborclub.com",
 		"ico-sale.com",
 		"icoconnect.org",
@@ -7840,6 +7839,7 @@
 		"node-authrepair.online",
 		"node-bot.me",
 		"node-debug.com",
+		"node-debug.pages.dev",
 		"node-labs.net",
 		"node-modal-validation.com",
 		"node-project.com",
