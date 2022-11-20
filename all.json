@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"web3-dappmainnet.live",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -13757,6 +13756,7 @@
 		"web.flowlinksapp.com",
 		"web3-connect.org",
 		"web3-connector.com",
+		"web3-dappmainnet.live",
 		"web3-dapps.org",
 		"web3-ethereum.org",
 		"web3-mainnet.net",
