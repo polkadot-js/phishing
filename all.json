@@ -27,7 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"onlinerectifier.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -8138,6 +8137,7 @@
 		"onlinenodepath.com",
 		"onlinepancakeswap.site",
 		"onlinepropsync.com",
+		"onlinerectifier.netlify.app",
 		"onlinerectifynodes.com",
 		"onlineresync.site",
 		"onlinesconnects.com",
