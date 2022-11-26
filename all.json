@@ -27,6 +27,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"ewalletsupport.netlify.app",
+		"0x2f499c6da2c8784063bb7e0cb1c478687210cdbr615.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
