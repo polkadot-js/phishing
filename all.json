@@ -27,6 +27,11 @@
 		"zapto.org"
 	],
 	"deny": [
+		"digitalannex.live",
+		"w.digitalannex.live",
+		"connectingweb3dev.cloud",
+		"app.connectingweb3dev.cloud",
+		"smartprotocols.co",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
