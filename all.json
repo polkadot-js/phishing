@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"webdappssynchronization.pages.dev",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -13969,6 +13968,7 @@
 		"webdappsconnection.com",
 		"webdappslink.com",
 		"webdappsquery.online",
+		"webdappssynchronization.pages.dev",
 		"webdappsvalidate.com",
 		"webdappsvalidate.us",
 		"webdefi.org",
