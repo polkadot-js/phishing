@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"decentralised-protocol.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -3973,6 +3972,7 @@
 		"decentralchainhost.website",
 		"decentralead.live",
 		"decentralead.netlify.app",
+		"decentralised-protocol.com",
 		"decentralised-protocols.live",
 		"decentralised-refitting.app",
 		"decentralisedcollab.land",
