@@ -1,4 +1,4 @@
-## @polkadot/phishing
+# @polkadot/phishing
 
 A curated list of potentially less-than-honest sites inclusive of a simple JS utility function to check any host against this list.
 
