@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"nodeappradar.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -8038,6 +8037,7 @@
 		"nodeactivations.com",
 		"nodeapend.online",
 		"nodeapp.netlify.app",
+		"nodeappradar.com",
 		"nodeappsbot.info",
 		"nodeauthenticate.org",
 		"nodeauthorization.online",
