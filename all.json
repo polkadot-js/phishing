@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"smartcointech.top",
-		"defiweb.web.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -4293,6 +4291,7 @@
 		"defiwalletswap.com",
 		"defiwalletsyn.com",
 		"defiweb-interface.org",
+		"defiweb.web.app",
 		"defiwebrectify.org",
 		"defiwebsupport.org",
 		"defixpro.website",
@@ -10247,6 +10246,7 @@
 		"smartcoinsstechsolution.live",
 		"smartcoinsstechsolution.online",
 		"smartcoinsstechsolution.xyz",
+		"smartcointech.top",
 		"smartcointech.xyz",
 		"smartcointechdappsolutiion.live",
 		"smartcointechdappsolutiion.online",
