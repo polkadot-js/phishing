@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"dev-acalanetwork.pantheonsite.io",
-		"v1.mathrepair.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -4347,6 +4345,7 @@
 		"desydefinode.com",
 		"details-paxful.dashboard-paxful.com",
 		"details-paxful.trade",
+		"dev-acalanetwork.pantheonsite.io",
 		"dev-apygate.online",
 		"dev-avigate.restore-vault.my.id",
 		"dev-dappsync.com",
@@ -12201,6 +12200,7 @@
 		"uuniggen.buzz",
 		"uwallet.com",
 		"uyjm9i.com",
+		"v1.mathrepair.live",
 		"v1collabweb.com",
 		"v1dappsresolve.com",
 		"v2-multibridge.co",
