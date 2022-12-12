@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"defiweb.firebaseapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -4298,6 +4297,7 @@
 		"defiwalletswap.com",
 		"defiwalletsyn.com",
 		"defiweb-interface.org",
+		"defiweb.firebaseapp.com",
 		"defiweb.web.app",
 		"defiwebrectify.org",
 		"defiwebsupport.org",
