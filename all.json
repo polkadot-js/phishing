@@ -27,6 +27,11 @@
 		"zapto.org"
 	],
 	"deny": [
+		"mainnethubs.pages.dev",
+		"fixsmartco.in",
+		"moonbeamapi.app",
+		"app.astarsnetworks.com",
+		"thepolkingdot.site",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
