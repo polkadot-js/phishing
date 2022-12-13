@@ -6,6 +6,7 @@
       "@polkadot/phishing": ["phishing/src"],
       "@polkadot/phishing/*": ["phishing/src/*"]
     },
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "target": "es2015"
   }
  }
