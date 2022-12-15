@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"solution-tool.info",
-		"altsupport.center",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -452,6 +450,7 @@
 		"altchains-beta.online",
 		"altdexbridge.live",
 		"alterdappasync.com",
+		"altsupport.center",
 		"altsupport.tools",
 		"alwaysnode.com",
 		"amara.finance",
@@ -10596,6 +10595,7 @@
 		"solution-fix.online",
 		"solution-fixhub.live",
 		"solution-servers.online",
+		"solution-tool.info",
 		"solutionandsync.org",
 		"solutionapp.online",
 		"solutionapp.org",
