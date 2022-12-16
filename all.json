@@ -27,6 +27,9 @@
 		"zapto.org"
 	],
 	"deny": [
+		"smartresolve-fix.live",
+		"airdropwalletapp.pages.dev",
+		"techsuportter.000webhostapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
