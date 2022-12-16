@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"auth.chainsolution.site",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -760,6 +759,7 @@
 		"auth-webconnect.net",
 		"auth-webs.com",
 		"auth.app-connect.io",
+		"auth.chainsolution.site",
 		"authappsolvedapps.com",
 		"authappsvault.com",
 		"authassets.icu",
