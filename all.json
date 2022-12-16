@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"staging-connect.collab.land",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -10670,6 +10669,7 @@
 		"stackkerapp.com",
 		"stackledgerchain.com",
 		"stacks-walletconnect.com",
+		"staging-connect.collab.land",
 		"stake-allnodes.network",
 		"stake-eth.org",
 		"stake-ether.org",
