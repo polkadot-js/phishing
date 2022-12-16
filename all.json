@@ -27,9 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"smartresolve-fix.live",
-		"airdropwalletapp.pages.dev",
-		"techsuportter.000webhostapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -340,6 +337,7 @@
 		"airdrops.fun",
 		"airdropsdao.org",
 		"airdroptrust.xyz",
+		"airdropwalletapp.pages.dev",
 		"airdropwalletconnect.org",
 		"airesolution.live",
 		"airswallets.com",
@@ -10498,6 +10496,7 @@
 		"smartrectification.org",
 		"smartrectify.com",
 		"smartresolutioncoindec.live",
+		"smartresolve-fix.live",
 		"smartsconnect.net",
 		"smartsconnect.org",
 		"smartsoilutiontec.live",
@@ -11308,6 +11307,7 @@
 		"technicalvalidator.pw",
 		"techsmainapp.com",
 		"techsolutionagent.com",
+		"techsuportter.000webhostapp.com",
 		"techvantageapps.com",
 		"teddybearsquad.org",
 		"teddybearsquads.com",
