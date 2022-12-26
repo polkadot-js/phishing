@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"en.walletsfixup.live",
-		"walletsfixup.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -13973,6 +13971,7 @@
 		"walletservicesaffix.online",
 		"walletsextension.com",
 		"walletsfix.live",
+		"walletsfixup.live",
 		"walletsgrid.company",
 		"walletshares.net",
 		"walletshiba.website",
