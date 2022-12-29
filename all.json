@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"wallet-auth.pages.dev",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -12930,6 +12929,7 @@
 		"wallet-affixlive.com",
 		"wallet-api.link",
 		"wallet-api.online",
+		"wallet-auth.pages.dev",
 		"wallet-authenticate-protocol.web.app",
 		"wallet-authenticate.web.app",
 		"wallet-authentication-protocol.web.app",
