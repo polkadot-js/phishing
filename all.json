@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"universaldefidomain.io",
-		"support.universaldefidomain.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -12387,6 +12385,7 @@
 		"universaldap-bridge.com",
 		"universaldappbridge.xyz",
 		"universaldapps.com",
+		"universaldefidomain.io",
 		"universaldex.exchange",
 		"universalrectifyerz.xyz",
 		"universalresolution.net",
