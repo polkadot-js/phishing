@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright 2020-2022 @polkadot/phishing authors & contributors
+# Copyright 2020-2023 @polkadot/phishing authors & contributors
 # SPDX-License-Identifier: Apache-2.0
 
 mkdir -p build
