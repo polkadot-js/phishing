@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"apichainz.online",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -519,6 +518,7 @@
 		"apiauthenticate-sync.com",
 		"apibridgenetwork.com",
 		"apibridgnetwork.org",
+		"apichainz.online",
 		"apicolab.land",
 		"apifirmwareswap.com",
 		"apikucoinconnect.com",
