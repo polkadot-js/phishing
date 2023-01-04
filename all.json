@@ -27,8 +27,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"support.omnidefi.io",
-		"omnidefi.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -8584,6 +8582,7 @@
 		"olympusdao.ca",
 		"olympusdaos.app",
 		"olympusdaos.net",
+		"omnidefi.io",
 		"on-dapps.com",
 		"onappswallsync.org",
 		"onbotzrectifyerz.xyz",
