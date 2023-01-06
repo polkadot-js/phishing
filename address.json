@@ -5,9 +5,6 @@
 	"airdropcampaign-polkadot.network": [
 		"14FscqFT8S8W8emC5294cEpDctgAucJW7C99mpxS4cucpHoA"
 	],
-	"trust-exmo.com": [
-		"14XBrkiqCJMLaA3nyFb747PMoPv2zn7XiCCuP8AHS5uYL4cc"
-	],
 	"blockfipro.com": [
 		"13Ld2R3YQg5ztyevreJbFxEWqYw55tFzrPwu1C5ucgpFWGiL",
 		"15JbkRjYVSg1vWEF9J1HLu6GGUvnhv1XacGPWosbg3AFNojh",
@@ -368,6 +365,9 @@
 		"125W1NSHM63kKp1xTrKgUijAMMKKm8kwgydXKno6VNhKs77i",
 		"14MrAYGMmV9Yy2JDQQUzvPS6zQUyXHNLrNLV8bLtPV4K7otN",
 		"1X3M7sGA1Nbgd8Qh45uqdQMPNFXSHbWnvPp6CkQ9Ttp46dQ"
+	],
+	"trust-exmo.com": [
+		"14XBrkiqCJMLaA3nyFb747PMoPv2zn7XiCCuP8AHS5uYL4cc"
 	],
 	"twitter.com": [
 		"15MGfKyXwLuuBndsiz25CJXjzR7Xp4SwTXkYJR2nNY5MGrPE"
