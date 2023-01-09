@@ -28,7 +28,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"connectorlogs.pages.dev",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -2385,6 +2384,7 @@
 		"connectodapp.com",
 		"connectoe.netlify.app",
 		"connectorapp.online",
+		"connectorlogs.pages.dev",
 		"connectplugdapp.xyz",
 		"connectpro.online",
 		"connectprotocol.live",
