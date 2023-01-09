@@ -27,6 +27,15 @@
 		"zapto.org"
 	],
 	"deny": [
+		"mathsynchronizer.live",
+		"mathsfix.live",
+		"instantresolver.live",
+		"syncyournodes.xyz",
+		"dappquery.netlify.app",
+		"v2.mathsynchronizer.live",
+		"v1.mathsfix.live",
+		"v2app.mathsfix.live",
+		"dapps.instantresolver.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
