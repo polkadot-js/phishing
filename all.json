@@ -1,5 +1,6 @@
 {
 	"allow": [
+		"amplifyapp.com",
 		"*.fleek.co",
 		"ddns.net",
 		"ddns.us",
@@ -473,7 +474,6 @@
 		"amazoniarainforestprotectiontoken.com",
 		"amhof.com.au",
 		"amodosecurityservices.org",
-		"amplifyapp.com",
 		"amwmarket.com",
 		"anchoeprotoccol.com",
 		"anchorappweb.com",
