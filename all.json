@@ -28,8 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"dappverifysolution.net",
-		"multi-kit.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -4014,6 +4012,7 @@
 		"dappvalidationsync.online",
 		"dappvalidator.net",
 		"dappvalidators.com",
+		"dappverifysolution.net",
 		"dappwallbinder.com",
 		"dappwallconnect.com",
 		"dappwallet-bridge.com",
@@ -7862,6 +7861,7 @@
 		"multi-entitychain.tools",
 		"multi-entitychainfix.com",
 		"multi-entitychains.com",
+		"multi-kit.online",
 		"multi-prodapps.com",
 		"multi-rectifier.com",
 		"multi-signates.com",
