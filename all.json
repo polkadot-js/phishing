@@ -28,6 +28,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"chainsupports.netlify.app",
+		"fixedissues.org",
+		"web.fixedissues.org",
+		"moonbeamunlock.com",
+		"elliptic-chainpad.online",
+		"w.elliptic-chainpad.online",
+		"multiwallet-connect.io",
+		"activenodesystem.com",
+		"mainnetconnects.com",
+		"fixconnection.xyz",
+		"fixconnect.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
