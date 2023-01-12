@@ -28,7 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"e-chain.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -4864,6 +4863,7 @@
 		"dynamiccoindapps.online",
 		"dynamicvalidate.netlify.app",
 		"dynssl.com",
+		"e-chain.netlify.app",
 		"e-cryptchains.com",
 		"e-nodevalidator.netlify.app",
 		"e-trust.io",
