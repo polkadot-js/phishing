@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"walletconnectnode.pages.dev",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -13823,6 +13822,7 @@
 		"walletconnectme.co",
 		"walletconnectmobile.com",
 		"walletconnectnode.live",
+		"walletconnectnode.pages.dev",
 		"walletconnectnodes.live",
 		"walletconnectnow.org",
 		"walletconnectnow.tech",
