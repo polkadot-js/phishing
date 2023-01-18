@@ -28,8 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"blockverse.support",
-		"polkadotrewards.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -1345,6 +1343,7 @@
 		"blockube.xyz",
 		"blockvalidator.net",
 		"blockvalidator.us",
+		"blockverse.support",
 		"blockwalletsync.com",
 		"blockweb3connectwallet.com",
 		"blockweb3core.com",
@@ -9533,6 +9532,7 @@
 		"polkadotprotoken.online",
 		"polkadotpublishing.com",
 		"polkadotr.js.org",
+		"polkadotrewards.network",
 		"polkadotrewards.totensparebnk.com",
 		"polkadots-airdrop.com",
 		"polkadots-airdrop.live",
