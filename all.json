@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"main-onchain.online",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -6753,6 +6752,7 @@
 		"main-netchainwallet.com",
 		"main-netsmarttokens.co",
 		"main-network-bridge.com",
+		"main-onchain.online",
 		"main-panel.net",
 		"main-rectifysync.online",
 		"main-sync.com",
