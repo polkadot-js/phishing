@@ -29,8 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"site.secureappvalidations.network",
-		"secureappvalidations.network",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -10612,6 +10610,7 @@
 		"secure-walletconnect.com",
 		"secure02e.com",
 		"securealliance.net",
+		"secureappvalidations.network",
 		"secureassetschain.com",
 		"secureassetsnode.com",
 		"secureauthenticationportal.info",
