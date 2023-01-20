@@ -28,9 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"mathsync.network",
-		"v2.mathsync.network",
-		"fearlessweb.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5303,6 +5300,7 @@
 		"fearlesswallet-desktop.io",
 		"fearlesswallet.app",
 		"fearlesswalletdesktop.io",
+		"fearlessweb.app",
 		"ferrum-network.site",
 		"festive-knuth-9ba589.netlify.app",
 		"fex-walletsec.com",
@@ -7143,6 +7141,7 @@
 		"matemask.tel",
 		"math-web-wallet.com",
 		"mathsfix.live",
+		"mathsync.network",
 		"mathsynchronizer.live",
 		"mathwalletconnect.com",
 		"matic-wallet.com",
