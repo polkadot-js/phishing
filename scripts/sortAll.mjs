@@ -2,6 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import fs from 'fs';
+import mkdirp from 'mkdirp';
+import rimraf from 'rimraf';
 
 const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
@@ -137,14 +139,37 @@ export function writeMeta (meta) {
   writeJson('meta/index.json', index.sort((a, b) => b.localeCompare(a)));
 }
 
+function writeAllList (deny) {
+  rimraf.sync('all');
+  mkdirp.sync('all');
+
+  const avail = deny.reduce((avail, url) => {
+    const firstChar = url[0];
+
+    if (!avail[firstChar]) {
+      avail[firstChar] = [url];
+    } else {
+      avail[firstChar].push(url);
+    }
+
+    return avail;
+  }, {});
+
+  Object.entries(avail).forEach(([key, urls]) => writeJson(`all/${key}.json`, urls));
+}
+
 const addr = readJson('address.json');
 const all = readJson('all.json');
 const meta = readMeta();
 const deny = sortSection(addSites(all, addr));
+const allJson = { allow: sortSection(all.allow), deny: rewriteSubs(deny) };
 
 // rewrite with all our entries (newline included)
 writeJson('address.json', sortAddresses(addr));
-writeJson('all.json', { allow: sortSection(all.allow), deny: rewriteSubs(deny) });
+writeJson('all.json', allJson);
+
+// add the specific alphabetical list
+writeAllList(allJson.deny);
 
 // find out what we don't have
 const urls = meta.map(({ url }) => url);
