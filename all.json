@@ -28,9 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"ledgersynch.netlify.app",
-		"synodes.xyz",
-		"dalledexlink.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3001,6 +2998,7 @@
 		"dailyincome247.com",
 		"dalledaapsbridge.online",
 		"dalledexbridge.tech",
+		"dalledexlink.live",
 		"damsbit.com",
 		"daoapprestore.com",
 		"daobridgescore.tech",
@@ -6556,6 +6554,7 @@
 		"ledger-sync.online",
 		"ledger22.com",
 		"ledgerlive-reconnect.com",
+		"ledgersynch.netlify.app",
 		"leedsdefinode.org",
 		"leedswalletsauthentication.com",
 		"leedswebrectification.com",
@@ -11946,6 +11945,7 @@
 		"synmultiwallet.com",
 		"synnex-network.xyz",
 		"synnwallconn.online",
+		"synodes.xyz",
 		"synslabs.firebaseapp.com",
 		"synslabs.web.app",
 		"synspad.firebaseapp.com",
