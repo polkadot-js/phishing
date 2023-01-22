@@ -11,9 +11,9 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.18.14-66-x",
+  "version": "0.18.14-68-x",
   "versions": {
-    "git": "0.18.14-66-x",
+    "git": "0.18.14-68-x",
     "npm": "0.18.13"
   },
   "workspaces": [
@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
-    "@polkadot/dev": "^0.67.181",
-    "@types/jest": "^29.2.5",
+    "@polkadot/dev": "^0.67.184",
+    "@types/jest": "^29.2.6",
     "mkdirp": "^2.1.3",
     "rimraf": "^4.1.1"
   },
