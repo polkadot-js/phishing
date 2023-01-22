@@ -10659,6 +10659,8 @@ __metadata:
     "@polkadot/dev": ^0.67.184
     "@types/jest": ^29.2.6
     dnslink-cloudflare: ^3.0.0
+    mkdirp: ^2.1.3
+    rimraf: ^4.1.1
   languageName: unknown
   linkType: soft
 
