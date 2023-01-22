@@ -1,5 +1,5 @@
      600	Mich                          	Update all.json (#2794)
-     480	Jaco                          	Bump dev dependencies (#2844)
+     481	Jaco                          	Allow all/*.json for alphabetical split (future use) (#2845)
      450	Tim Janssen                   	Update all.json (#2841)
      449	Frank                         	Update all.json (#2843)
      392	mhusnirizal                   	update all.json (#2831)
