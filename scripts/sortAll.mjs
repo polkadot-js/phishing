@@ -144,18 +144,21 @@ function writeAllList (deny) {
   mkdirp.sync('all');
 
   const avail = deny.reduce((avail, url) => {
-    const firstChar = url[0];
+    const [top] = url.split('.').reverse();
 
-    if (!avail[firstChar]) {
-      avail[firstChar] = [url];
+    if (!avail[top]) {
+      avail[top] = [url];
     } else {
-      avail[firstChar].push(url);
+      avail[top].push(url);
     }
 
     return avail;
   }, {});
 
-  Object.entries(avail).forEach(([key, urls]) => writeJson(`all/${key}.json`, urls));
+  Object.entries(avail).forEach(([top, urls]) => {
+    mkdirp.sync(`all/${top}`);
+    writeJson(`all/${top}/all.json`, urls);
+  });
 }
 
 const addr = readJson('address.json');
