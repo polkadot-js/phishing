@@ -1,0 +1,16 @@
+[
+	"apollovelo.sbs",
+	"authenticatordapp.sbs",
+	"bridge-terra-go.sbs",
+	"bridgeterra-go.sbs",
+	"cloudlesstoken.sbs",
+	"confileswall.sbs",
+	"cryptokens.sbs",
+	"espacev.sbs",
+	"mint-liquidity.sbs",
+	"mywallet.sbs",
+	"pool-liquidity.sbs",
+	"provide-mint.sbs",
+	"shibatokengo.sbs",
+	"walletdapps.sbs"
+]

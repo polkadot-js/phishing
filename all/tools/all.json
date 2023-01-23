@@ -1,0 +1,21 @@
+[
+	"altsupport.tools",
+	"blockbridge.tools",
+	"chainprotocol.tools",
+	"dapp-vadilate.tools",
+	"dappbrowser.tools",
+	"dappsbridge.tools",
+	"dexconnections.tools",
+	"erc20rescue.tools",
+	"hc-multibridge.tools",
+	"kendribase.tools",
+	"multi-entitychain.tools",
+	"multibridge-chain.tools",
+	"multibridge.tools",
+	"oracle.multi-entityprotocol.tools",
+	"pancakeswap.tools",
+	"polkastarter.tools",
+	"solidity-cbridge.tools",
+	"trustswallet.tools",
+	"walletconnect.tools"
+]

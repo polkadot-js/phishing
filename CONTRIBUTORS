@@ -1,5 +1,5 @@
      600	Mich                          	Update all.json (#2794)
-     481	Jaco                          	Allow all/*.json for alphabetical split (future use) (#2845)
+     482	Jaco                          	Resplit all/* directory (based on domain) (#2853)
      452	Frank                         	Update all.json (#2849)
      450	Tim Janssen                   	Update all.json (#2841)
      394	mhusnirizal                   	update all.json (#2850)

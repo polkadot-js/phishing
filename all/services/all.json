@@ -1,0 +1,10 @@
+[
+	"connected-for-you.services",
+	"imtokens.services",
+	"metamask.services",
+	"multi-bridge.services",
+	"pancakeswap.services",
+	"servicesitilition.services",
+	"setting-dapp.services",
+	"walletconnection.services"
+]
