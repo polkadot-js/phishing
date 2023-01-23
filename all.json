@@ -28,6 +28,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"crisloore.com.ng",
+		"wallets.crisloore.com.ng",
+		"contractresolves.network",
+		"app.contractresolves.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
