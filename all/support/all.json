@@ -16,6 +16,7 @@
 	"io-team.support",
 	"livesync.support",
 	"metachain.support",
+	"noderest.support",
 	"revokedapp.support",
 	"support-metamask.support",
 	"trust-setting.support",
