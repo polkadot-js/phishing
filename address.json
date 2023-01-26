@@ -22,6 +22,9 @@
 		"16haZsnTpsAK3PaqRJJE16Zasq9WkpovgUCdQGStKHMskLdp",
 		"1SvcGb9f2gysJAqwox5sTQpyyKjtDUaz4q5RUYANB6uFkQw"
 	],
+	"ultimative-bank.com": [
+		"13CAYfDb81EmMFCpwjVbPU5xTae9pR7jG9v2XNK7QVQrtbr"
+	],
 	"claimpolkadot.live": [
 		"14jjC4vmMS8QvbRKKkyyQaqkdWysqGUwhtwxoRV5WT71b1Ho"
 	],
@@ -41,7 +44,30 @@
 		"13jZ1JumyVCSj4zMMS63LbVAbkjtRiBS4TGr7cZLZdGB6cYJ"
 	],
 	"crypto-delo.ru": [
-		"1YHDevCkjexa3A6QCyEo2T6rcJFViWWt9Jh7ygEwyLgbYhu"
+		"1YHDevCkjexa3A6QCyEo2T6rcJFViWWt9Jh7ygEwyLgbYhu",
+		"15S794EQqBoyiLrrmczmuczMLRfzZBo5ZoJj8mgpg8V1CYF3",
+		"15Q6wxTbhJNscNH94uKTtCErkDx4Eq2JogVF5sT3dTqqR6Bb",
+		"13MpErWtaofUea9H6x3LGiv737Jgcwo9KBKkN86khj51G3XQ",
+		"15n1ZwX5EUQcMLAzNmusz3bxMSUVo1vWPhcq7zpo3ceT1HsY",
+		"1ghPrBFHo133Jtwf2PCZVzUpJCgN11U4frPE5Uo9Q1jBKd5",
+		"16QxTE178SmeRS1i2zypAZ4tkrQoQbs1BTPKmzawfkdPdD8j",
+		"19QW9baMqbNCPvG6Dpky4UHwtiMD16eMG4nLfwSmCQw61XH",
+		"15qzP6nYyGh6DRdygRh1WgoLhmrQudTFJrLQyRMoRVDWiLsp",
+		"15jxqSpFTt7HzfUq8b3LXCr59Xee6zg8bDgk2YEsN4QES4MT",
+		"1TzKarVNZusvukKh4qguZLiBmfiJFpFvcCXzXfM8vjVn76S",
+		"16eqE8MiVAdsxHKxmJzetCjGR7gkQxsDLZYvLPJM3QwirFKd",
+		"15mkxFPeKQsycxK6kMcqoTvNKeqTBCArrZrZWwqpRuP7o1ko",
+		"19GGJiHe2idDzcuKRHn8Tp1UEST8GoUowALBcPcgzY5ir5b",
+		"13M7xJenMKqgEGucYfBX9yprPP56zgwy9NMzwHyMCqS3cgHw",
+		"15oQiGX53zHj56WoW7buqVineErnfVJebrQUHCXrib9Mna2K",
+		"14obHV6K2Y9uea63y35ZnX2nHe2W5kWwZC2tdBM5mvAi1ywx",
+		"15jcdrZtPNYuJUyj3ySxteQh61AkXRiZvwQ9d4B2zYcBkZCB",
+		"12Gyy8Tk6qEvnFnqC8A672RKwxR5MmdJpJcs3Ui6ZVbMcADA",
+		"15k6TR4GKQKWZ6bTphNZxyC39dX1uG8WxaortwF6VTaS5DYc",
+		"121rFxeYv8Jh2oY8AKkLUYuAHfo6yU4HLHTP6UeyQTLGHiXK",
+		"15Ktwc9RxZsecTcRDfcnfC2LvXSjQofTj4kwBVV9fpP9FEs8",
+		"14Xm9UFYgFJzA8tPAuKwNKQsJG2vpSQb5c9NjYcqttLRGp6G",
+		"15obSZxbzrUgFPAGmBrPqepd11qmGJzHmkV9Q1JRg7eh5DX8"
 	],
 	"crypto-magnat.org": [
 		"13YS1eHSV6f55GppnPRJZVoKPQ2TpAhUyhey1TPE6tE8yKHJ"
@@ -378,7 +404,12 @@
 		"16LfnXqD8QUytp1t3PkZeuML2y3QJLCM9qANbqwUTSuaiwha",
 		"1MzTtCsg424kxC54PPLWajvGsXwkjyVN8n5EAszwbdJu5DD",
 		"1tCUSnrb7bPNKNvdfBhejKwK2r52pKN9MbReQAFyv6YTw6e",
-		"1Tv9SryHw1NhqKbuwWD2TCjV3mQ7h9qGuP5MJXVjnw8o7uU"
+		"1Tv9SryHw1NhqKbuwWD2TCjV3mQ7h9qGuP5MJXVjnw8o7uU",
+		"13BHmK34JBDGNzzhtPnNnEqDNqNkNPnkEAfrgQUosoPXqrLG",
+		"13zbPeSzHt52K14rXgtR5wzQyDo5pNyaBocw2qpyJ3CiMa4Z",
+		"123cGxYkVbL6sQg9LJNuQWDCSdbaTpNknhCxSZA4iSP4KoGf",
+		"12F4h3xxcSEiNCaAc8YbKUbwXf6EdE7vnurbQVtpQUh8Y7cf",
+		"13WrDtTn49pdAoAbA3ZkwF3RJUxdUdg99UF4JVXfhxxCrkFP"
 	],
 	"social engineering": [
 		"16JeATU8HazNbaMkpNW2niozWgNu1A6dx5u2kKs7pZaS4Vze"
