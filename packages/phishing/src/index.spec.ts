@@ -3,8 +3,6 @@
 
 import { checkAddress, checkIfDenied } from '.';
 
-// *sigh* Jest breaks yet again...
-
 describe('checkIfDenied', (): void => {
   it('returns false when host is not listed', async (): Promise<void> => {
     expect(
