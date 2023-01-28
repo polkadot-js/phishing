@@ -12,7 +12,15 @@ export { packageInfo } from './packageInfo';
 
 interface Cache<T> {
   end: number;
-  list: T | null;
+  list: T;
+}
+
+interface CacheAddrList extends Cache<AddressList> {
+  u8a: [string, Uint8Array[]][];
+}
+
+interface CacheHostList extends Cache<HostList> {
+  parts: string[][];
 }
 
 // Equivalent to https://raw.githubusercontent.com/polkadot-js/phishing/master/{address,all}.json
@@ -21,79 +29,57 @@ const ADDRESS_JSON = `${PHISHING}/address.json`;
 // 45 minutes cache refresh
 const CACHE_TIMEOUT = 45 * 60 * 1000;
 
-let cacheAddrU8a: [string, Uint8Array[]][] | null = null;
-const cacheAddr: Cache<AddressList> = {
+const cacheAddr: CacheAddrList = {
   end: 0,
-  list: null
+  list: {},
+  u8a: []
 };
-const cacheHost: Record<string, Cache<HostList>> = {
-  __: {
-    end: 0,
-    list: null
-  }
-};
+const cacheHost: Record<string, CacheHostList> = {};
 
-function extractHostParts (host: string): string[] {
+function splitHostParts (host: string): string[] {
   return host
-    // remove protocol
-    .replace(/https:\/\/|http:\/\/|wss:\/\/|ws:\/\//, '')
-    // get the domain-only part
-    .split('/')[0]
     // split domain
     .split('.')
     // reverse order
     .reverse();
 }
 
-/**
- * Retrieve a list of known phishing addresses
- */
-export async function retrieveAddrList (allowCached = true): Promise<AddressList> {
+function extractHostParts (host: string): string[] {
+  return splitHostParts(
+    host
+      // remove protocol
+      .replace(/https:\/\/|http:\/\/|wss:\/\/|ws:\/\//, '')
+      // get the domain-only part
+      .split('/')[0]
+  );
+}
+
+async function retrieveAddrCache (allowCached = true): Promise<CacheAddrList> {
   const now = Date.now();
 
-  if (allowCached && cacheAddr.list && (now < cacheAddr.end)) {
-    return cacheAddr.list;
+  if (allowCached && (now < cacheAddr.end)) {
+    return cacheAddr;
   }
 
   const list = await fetchJson<AddressList>(ADDRESS_JSON);
 
   cacheAddr.end = now + CACHE_TIMEOUT;
   cacheAddr.list = list;
+  cacheAddr.u8a = Object.entries(list).map(([key, addresses]): [string, Uint8Array[]] =>
+    [key, addresses.map((a) => decodeAddress(a))]
+  );
 
-  return list;
+  return cacheAddr;
 }
 
-/**
- * Retrieve a list of known phishing addresses in raw Uint8Array format
- */
-async function retrieveAddrU8a (allowCached = true): Promise<[string, Uint8Array[]][]> {
+async function retrieveHostCache (allowCached = true, root = '*'): Promise<CacheHostList> {
   const now = Date.now();
 
-  if (allowCached && cacheAddrU8a && (now < cacheAddr.end)) {
-    return cacheAddrU8a;
+  if (allowCached && cacheHost[root] && (now < cacheHost[root].end)) {
+    return cacheHost[root];
   }
 
-  const all = await retrieveAddrList(allowCached);
-
-  cacheAddrU8a = Object
-    .entries(all)
-    .map(([key, addresses]): [string, Uint8Array[]] =>
-      [key, addresses.map((a) => decodeAddress(a))]
-    );
-
-  return cacheAddrU8a;
-}
-
-/**
- * Retrieve allow/deny from our list provider
- */
-export async function retrieveHostList (allowCached = true, root = '*'): Promise<HostList> {
-  const now = Date.now();
-  let list = allowCached && cacheHost[root] && (now < cacheHost[root].end) && cacheHost[root].list;
-
-  if (list) {
-    return list;
-  }
+  let list: HostList;
 
   try {
     list = root === '*'
@@ -108,31 +94,54 @@ export async function retrieveHostList (allowCached = true, root = '*'): Promise
 
   cacheHost[root] = {
     end: now + CACHE_TIMEOUT,
-    list
+    list,
+    parts: list.deny.map((h) => splitHostParts(h))
   };
 
-  return list;
+  return cacheHost[root];
 }
 
-function checkHostParts (items: string[], hostParts: string[]): boolean {
-  return items.some((item): boolean => {
-    const checkParts = extractHostParts(item);
-
-    // first we need to ensure it has less or equal parts to our source
-    if (checkParts.length > hostParts.length) {
-      return false;
-    }
-
+function checkHostParts (items: CacheHostList['parts'], hostParts: string[]): boolean {
+  return items.some((parts) =>
+    // out list entry needs to have the same (or less) parts
+    (parts.length <= hostParts.length) &&
     // ensure each section matches
-    return checkParts.every((part, index) => hostParts[index] === part);
-  });
+    parts.every((part, index) => hostParts[index] === part)
+  );
+}
+
+/**
+ * Retrieve a list of known phishing addresses
+ *
+ * @deprecated While not due for removal, it is suggested to rather use the
+ * checkAddress function (which is more optimal overall)
+ */
+export async function retrieveAddrList (allowCached = true): Promise<AddressList> {
+  const cache = await retrieveAddrCache(allowCached);
+
+  return cache.list;
+}
+
+/**
+ * Retrieve allow/deny from our list provider
+ *
+ * @deprecated While not due for removal, it is suggested to rather use the
+ * checkIfDenied function (which is more optimal overall)
+ */
+export async function retrieveHostList (allowCached = true, root = '*'): Promise<HostList> {
+  const cache = await retrieveHostCache(allowCached, root);
+
+  return cache.list;
 }
 
 /**
  * Checks a host to see if it appears in the provided list
+ *
+ * @deprecated While not due for removal, it is suggested to rather use the
+ * checkIfDenied function (which is more optimal overall)
  */
-export function checkHost (items: string[], host: string): boolean {
-  return checkHostParts(items, extractHostParts(host));
+export function checkHost (list: string[], host: string): boolean {
+  return checkHostParts(list.map((h) => splitHostParts(h)), extractHostParts(host));
 }
 
 /**
@@ -142,10 +151,12 @@ export function checkHost (items: string[], host: string): boolean {
 export async function checkAddress (address: string | Uint8Array, allowCached = true): Promise<string | null> {
   try {
     const u8a = decodeAddress(address);
-    const all = await retrieveAddrU8a(allowCached);
-    const entry = all.find(([, all]) => all.some((a) => u8aEq(a, u8a))) || [null];
+    const cache = await retrieveAddrCache(allowCached);
+    const entry = cache.u8a.find(([, u8as]) =>
+      u8as.some((a) => u8aEq(a, u8a))
+    );
 
-    return entry[0];
+    return (entry && entry[0]) || null;
   } catch {
     return null;
   }
@@ -158,9 +169,9 @@ export async function checkAddress (address: string | Uint8Array, allowCached = 
 export async function checkIfDenied (host: string, allowCached = true): Promise<boolean> {
   try {
     const hostParts = extractHostParts(host);
-    const { deny } = await retrieveHostList(allowCached, hostParts[0]);
+    const cache = await retrieveHostCache(allowCached, hostParts[0]);
 
-    return checkHostParts(deny, hostParts);
+    return checkHostParts(cache.parts, hostParts);
   } catch {
     return false;
   }
