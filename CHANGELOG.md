@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.19.1 Jan 29, 2023
+
+Contributed:
+
+- Too many URLs to mention
+
+Changes:
+
+- Adjust host retrieval with a (smaller) per-TLD cache
+- Update to `@polkadot/util` 10.3.1
+
+
 ## 0.18.13 Jan 8, 2023
 
 Contributed:
