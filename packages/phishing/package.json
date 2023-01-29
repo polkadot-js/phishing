@@ -17,13 +17,13 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.18.14-95-x",
+  "version": "0.19.0",
   "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@polkadot/util": "^10.2.6",
-    "@polkadot/util-crypto": "^10.2.6",
-    "@polkadot/x-fetch": "^10.2.6"
+    "@polkadot/util": "^10.3.1",
+    "@polkadot/util-crypto": "^10.3.1",
+    "@polkadot/x-fetch": "^10.3.1"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
