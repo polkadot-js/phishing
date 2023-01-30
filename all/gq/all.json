@@ -10,6 +10,7 @@
 	"polkadot-event.gq",
 	"syncwallet.gq",
 	"taxclerenceo.gq",
+	"tokenunlock.gq",
 	"validations.gq",
 	"walletconnect-dapps.gq",
 	"walletconnect.gq",
