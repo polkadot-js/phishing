@@ -28,8 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"bakeryswap.live",
-		"regainaccess-to-dashboard.top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -1061,6 +1059,7 @@
 		"badapplesiphonerepair.com",
 		"bahamaslandnftmint.com",
 		"baiancer.fi",
+		"bakeryswap.live",
 		"bakeryswaper.com",
 		"bakeryswaps.com",
 		"balancer-fi.link",
@@ -10435,6 +10434,7 @@
 		"refund-coinbase.com",
 		"refund-othersidemeta.xyz",
 		"refund.mutanthapeprime.io",
+		"regainaccess-to-dashboard.top",
 		"registrybridge.com",
 		"registryconnector.com",
 		"reinstatewallet.com",
