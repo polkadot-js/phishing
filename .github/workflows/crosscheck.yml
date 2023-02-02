@@ -18,7 +18,7 @@ jobs:
         yarn phishing:crosscheck
     - name: issue
       if: ${{ failure() }}
-      uses: JasonEtco/create-an-issue@v2
+      uses: JasonEtco/create-an-issue@e27dddc79c92bc6e4562f268fffa5ed752639abd
       with:
         filename: .github/crosscheck.md
         update_existing: true
@@ -37,7 +37,7 @@ jobs:
         yarn phishing:addrcheck
     - name: issue
       if: ${{ failure() }}
-      uses: JasonEtco/create-an-issue@v2
+      uses: JasonEtco/create-an-issue@e27dddc79c92bc6e4562f268fffa5ed752639abd
       with:
         filename: .github/addrcheck.md
         update_existing: true
