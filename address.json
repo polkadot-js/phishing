@@ -2,11 +2,6 @@
 	"3xpool.bid": [
 		"155dDX3rWoNsY4aiJFbsu6wLB91c2J2Ws5BgMfJKyM1eGnkS"
 	],
-	"malware": [
-		"15DRsDdtTtrrZEgBEm4G9SSNV5anev4qTkCarHsZ6eLy2hhn",
-		"12zjCHjeTB9Qoj8tiUTGkRRyYNwXyAZbGvs8p1YZsy1t4vws",
-		"12PYb7mRTTKVwAqtdwp8tcvnq2Vwj8Xr47q1nPNPpXsKq8F7"
-	],
 	"airdropcampaign-polkadot.network": [
 		"14FscqFT8S8W8emC5294cEpDctgAucJW7C99mpxS4cucpHoA"
 	],
@@ -135,6 +130,11 @@
 		"GRy7LfBXoFaYadiCBGHS1gG4VHLeQPhXtzYmwpw3519Fsna",
 		"H4hHhuhs1zWm1jAjj42VAr7VTc99yV3J9x3tXLTtD2GnMvD",
 		"JLTc71gmpMB95GJSgXrp79Soijvqibg27uiQRkLEDHdRrqq"
+	],
+	"malware": [
+		"12PYb7mRTTKVwAqtdwp8tcvnq2Vwj8Xr47q1nPNPpXsKq8F7",
+		"12zjCHjeTB9Qoj8tiUTGkRRyYNwXyAZbGvs8p1YZsy1t4vws",
+		"15DRsDdtTtrrZEgBEm4G9SSNV5anev4qTkCarHsZ6eLy2hhn"
 	],
 	"moonwarpre-sale.live": [
 		"FsZ8HpXnrYrCPhYZRhc4coeyvTVVMVMXzqqhG4kgXYXB259"
