@@ -28,6 +28,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dappio.website",
+		"autosynchronize.net",
+		"annexappendw.net",
+		"w.annexappendw.net",
+		"app.autosynchronize.net",
+		"syncdatachain.dappio.website",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
