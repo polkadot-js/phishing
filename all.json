@@ -28,7 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"themainnetglobal.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -12311,6 +12310,7 @@
 		"thegoldasset.org",
 		"thehumaniod.com",
 		"themainnetconnect.online",
+		"themainnetglobal.com",
 		"themetalord.net",
 		"themetamask.io",
 		"thenear.net",
