@@ -28,6 +28,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"rapity.org",
+		"thenear.net",
+		"collebland.app",
+		"orionprotocol.org",
 		"wallet.thenear.net",
 		"chainprotocol.netlify.app",
 		"arweave-v3.com",
