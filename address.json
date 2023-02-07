@@ -5,9 +5,6 @@
 	"airdropcampaign-polkadot.network": [
 		"14FscqFT8S8W8emC5294cEpDctgAucJW7C99mpxS4cucpHoA"
 	],
-	"flyswap.pro": [
-		"137t4BHwu1HoAPpajzDVmUvJzcRSQWDfxH5znrE6iih3K3b2"
-	],
 	"blockfipro.com": [
 		"13Ld2R3YQg5ztyevreJbFxEWqYw55tFzrPwu1C5ucgpFWGiL",
 		"15JbkRjYVSg1vWEF9J1HLu6GGUvnhv1XacGPWosbg3AFNojh",
@@ -104,6 +101,9 @@
 	],
 	"fixed-change.com": [
 		"12Dw5xe9FwBswd6v6QkbSg9oiNg9uVckSSPActL6Ut9nhqSe"
+	],
+	"flyswap.pro": [
+		"137t4BHwu1HoAPpajzDVmUvJzcRSQWDfxH5znrE6iih3K3b2"
 	],
 	"get-dot.me": [
 		"13NFtxWVvF7rZmUj5t89B2GowgGewkHBvpJEc6azVKpepjfa",
