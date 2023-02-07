@@ -411,6 +411,7 @@
 	"fixencrypt.online",
 	"fixitwallets.online",
 	"fixnodes.online",
+	"fixnodesdappchainserver.online",
 	"fixprotocol.online",
 	"fixtokengiveaway.online",
 	"fixtrade.online",
