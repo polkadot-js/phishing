@@ -28,8 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"blockchainnew.com.cn",
-		"dev-acala-network.pantheonsite.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -1347,6 +1345,7 @@
 		"blockchainhub.online",
 		"blockchainlabs.digital",
 		"blockchainminingspace.com",
+		"blockchainnew.com.cn",
 		"blockchainnode.live",
 		"blockchainonlinehelp.com",
 		"blockchainresoverpanel.com",
@@ -4747,6 +4746,7 @@
 		"details-paxful.dashboard-paxful.com",
 		"details-paxful.trade",
 		"detailstechmigratteexvc.site",
+		"dev-acala-network.pantheonsite.io",
 		"dev-acalanetwork.pantheonsite.io",
 		"dev-algo.online",
 		"dev-apygate.online",
