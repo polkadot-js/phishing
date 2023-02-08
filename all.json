@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"walletconnect-avc.pages.dev",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -14118,6 +14117,7 @@
 		"walletconncetions.com",
 		"walletconnect-api.exchange",
 		"walletconnect-api.org",
+		"walletconnect-avc.pages.dev",
 		"walletconnect-beta.netlify.app",
 		"walletconnect-bot.org",
 		"walletconnect-bridge.buymeasmoothie.xyz",
