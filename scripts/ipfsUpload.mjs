@@ -22,6 +22,8 @@ async function pin () {
 
   console.log(`Pinned ${result.IpfsHash}`);
 
+  await wait();
+
   return result.IpfsHash;
 }
 
