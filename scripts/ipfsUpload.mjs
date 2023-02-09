@@ -30,6 +30,8 @@ async function pin () {
 async function unpin (exclude) {
   const result = await pinata.pinList({ metadata: PINMETA, status: 'pinned' });
 
+  await wait();
+
   if (result.count > 1) {
     const hashes = result.rows
       .map((r) => r.ipfs_pin_hash)
