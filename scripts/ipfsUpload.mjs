@@ -11,10 +11,18 @@ const PINMETA = { name: `${SUB_DOMAIN}.${DOMAIN}` };
 
 const pinata = pinataSDK(process.env.PINATA_API_KEY, process.env.PINATA_SECRET_KEY);
 
+async function wait (delay = 2500) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(), delay);
+  });
+}
+
 async function pin () {
   const result = await pinata.pinFromFS(DST, { pinataMetadata: PINMETA });
 
   console.log(`Pinned ${result.IpfsHash}`);
+
+  await wait();
 
   return result.IpfsHash;
 }
@@ -22,20 +30,25 @@ async function pin () {
 async function unpin (exclude) {
   const result = await pinata.pinList({ metadata: PINMETA, status: 'pinned' });
 
+  await wait();
+
   if (result.count > 1) {
-    const filtered = result.rows
+    const hashes = result.rows
       .map((r) => r.ipfs_pin_hash)
       .filter((hash) => hash !== exclude);
 
-    if (filtered.length) {
-      await Promise.all(
-        filtered.map((hash) =>
-          pinata
-            .unpin(hash)
-            .then(() => console.log(`Unpinned ${hash}`))
-            .catch(console.error)
-        )
-      );
+    for (let i = 0; i < hashes.length; i++) {
+      const hash = hashes[i];
+
+      try {
+        await pinata.unpin(hash);
+
+        console.log(`Unpinned ${hash}`);
+      } catch (error) {
+        console.error(`Failed unpinning ${hash}`, error);
+      }
+
+      await wait();
     }
   }
 }
@@ -43,12 +56,22 @@ async function unpin (exclude) {
 async function dnslink (hash) {
   const records = [`_dnslink.${SUB_DOMAIN}.${DOMAIN}`];
 
-  await Promise.all(records.map((record) =>
-    cloudflare(
-      { token: process.env.CF_API_TOKEN },
-      { link: `/ipfs/${hash}`, record, zone: DOMAIN }
-    )
-  ));
+  for (let i = 0; i < records.length; i++) {
+    const record = records[i];
+
+    try {
+      await cloudflare(
+        { token: process.env.CF_API_TOKEN },
+        { link: `/ipfs/${hash}`, record, zone: DOMAIN }
+      );
+
+      console.log(`Updated dnslink ${record}`);
+
+      await wait();
+    } catch (error) {
+      console.error(`Failed updating dnslink ${record}`, error);
+    }
+  }
 
   console.log(`Dnslink ${hash} for ${records.join(', ')}`);
 }
