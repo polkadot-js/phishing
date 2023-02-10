@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"w.metasploits.online",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -13723,6 +13722,7 @@
 		"w-validate.info",
 		"w-validation.com",
 		"w.centralized-securefix.live",
+		"w.metasploits.online",
 		"w.nftservers.repl.co",
 		"w3c-sync.live",
 		"w3c-validation.live",
