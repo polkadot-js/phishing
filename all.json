@@ -29,6 +29,9 @@
 	],
 	"deny": [
 		"servebeer.com",
+		"nodesaffix.net",
+		"w.nodesaffix.net",
+		"vault-affix.onrender.com",
 		"smartcointech.servebeer.com",
 		"dev-decentralizedlp.pantheonsite.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
