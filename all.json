@@ -28,8 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"thepolkabackend.live",
-		"unesconepal.org.np",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -12499,6 +12497,7 @@
 		"thenear.net",
 		"thenodeconfig.online",
 		"theopendao.app",
+		"thepolkabackend.live",
 		"thepolkadot.io",
 		"thepolkadot.online",
 		"thepolkadot.org",
@@ -13174,6 +13173,7 @@
 		"unconfirmed-transactions.pages.dev",
 		"uncorrect.xyz",
 		"undpgrants.com",
+		"unesconepal.org.np",
 		"ungiennx.buzz",
 		"unhra.com",
 		"uniaward.org",
