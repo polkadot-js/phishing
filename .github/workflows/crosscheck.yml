@@ -11,7 +11,10 @@ jobs:
       CI_LOG: 123
       GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
     steps:
-    - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 'lts/*'
     - name: check
       run: |
         yarn install --immutable | grep -v 'YN0013'
@@ -30,7 +33,10 @@ jobs:
       CI_LOG: 123
       GITHUB_TOKEN: ${{ secrets.GH_PAT_BOT }}
     steps:
-    - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 'lts/*'
     - name: check
       run: |
         yarn install --immutable | grep -v 'YN0013'
