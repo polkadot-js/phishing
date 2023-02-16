@@ -28,6 +28,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"ominidefi.io",
 		"support.ominidefi.io",
 		"airdrop-walletapp.pages.dev",
 		"multidefisapp.info",
