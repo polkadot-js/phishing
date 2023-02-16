@@ -28,6 +28,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"web3fixsite.com",
 		"dapps-connects.herokuapp.com",
 		"bigeyesapp.xyz",
 		"app-protocol.com",
