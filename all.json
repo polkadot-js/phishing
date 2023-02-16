@@ -28,6 +28,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dapps-connects.herokuapp.com",
 		"bigeyesapp.xyz",
 		"app-protocol.com",
 		"webtoolshub.netlify.app",
