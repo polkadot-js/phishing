@@ -28,6 +28,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"airdrop-walletapp.pages.dev",
 		"multidefisapp.info",
 		"web3fixsite.com",
 		"dapps-connects.herokuapp.com",
