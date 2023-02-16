@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dappreader.static.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -3542,6 +3541,7 @@
 		"dapppurchase.com",
 		"dappquery.netlify.app",
 		"dappradersync.com",
+		"dappreader.static.app",
 		"dappreauthv2.xyz",
 		"dapprecon.info",
 		"dappreconciliation.xyz",
