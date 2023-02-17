@@ -131,6 +131,7 @@
 	"centralized-protocol.online",
 	"centralpad.online",
 	"chain-nodesync.online",
+	"chainbridges.online",
 	"chainfixbridge.online",
 	"chainlinkdex.online",
 	"chainnode-sync.online",
