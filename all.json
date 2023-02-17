@@ -28,7 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"nodes3collection.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -9090,6 +9089,7 @@
 		"nodes-debug.com",
 		"nodes-mainnet.netlify.app",
 		"nodes2yieldrobot.app",
+		"nodes3collection.live",
 		"nodesaffix.net",
 		"nodesaffixexplore.online",
 		"nodesaffixx.online",
