@@ -551,6 +551,7 @@
 	"node-main.live",
 	"node-solidity.live",
 	"node-uptodate.live",
+	"nodeapps.live",
 	"nodechain.live",
 	"nodeconfig.live",
 	"nodedata.live",
