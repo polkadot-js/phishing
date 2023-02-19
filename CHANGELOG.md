@@ -1,10 +1,21 @@
 # CHANGELOG
 
+## 0.19.3 Feb 19, 2023
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Update to `@polkadot/util` 10.4.2
+
+
 ## 0.19.2 Feb 15, 2023
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -15,7 +26,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -27,7 +38,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -38,7 +49,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -49,7 +60,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -60,7 +71,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -71,7 +82,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -82,7 +93,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -93,7 +104,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -104,7 +115,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -115,7 +126,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -126,7 +137,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -137,7 +148,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -149,7 +160,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -162,7 +173,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -173,7 +184,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -191,7 +202,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -209,7 +220,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -221,7 +232,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -232,7 +243,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -243,7 +254,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -254,7 +265,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -266,7 +277,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -278,7 +289,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -290,7 +301,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
@@ -301,7 +312,7 @@ Changes:
 
 Contributed:
 
-- Too many URLs to mention (Thanks to all [https://github.com/polkadot-js/phishing/graphs/contributors](contributors))
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
 
 Changes:
 
