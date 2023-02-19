@@ -31,7 +31,7 @@
     "phishing:addrcheck": "polkadot-dev-run-test --env jest addrcheck -- --runInBand --detectOpenHandles",
     "phishing:crosscheck": "polkadot-dev-run-test --env jest crosscheck -- --runInBand --detectOpenHandles",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "polkadot-dev-run-test --env jest ^addrcheck ^crosscheck -- --coverage --runInBand --detectOpenHandles"
+    "test": "polkadot-dev-run-test --env jest ^addrcheck ^crosscheck -- --coverage"
   },
   "dependencies": {
     "@pinata/sdk": "^1.2.1",
