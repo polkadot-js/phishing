@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"decentralizedapp.github.io",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -4751,6 +4750,7 @@
 		"decentralized-protocol.live",
 		"decentralized-syncprotocol.live",
 		"decentralized-tools.org",
+		"decentralizedapp.github.io",
 		"decentralizedapp.pro",
 		"decentralizedapplications.site",
 		"decentralizedchain-support.net",
