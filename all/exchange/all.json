@@ -5,6 +5,7 @@
 	"convert.exchange",
 	"cowswap-token.exchange",
 	"cryptotoken.exchange",
+	"fixed-float.exchange",
 	"kcoins.exchange",
 	"polkadot.exchange",
 	"smartconnect.exchange",
