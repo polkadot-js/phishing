@@ -20,6 +20,7 @@
 	"noderest.support",
 	"revokedapp.support",
 	"support-metamask.support",
+	"syncwallet.support",
 	"trust-setting.support",
 	"trustbots.support",
 	"virtualwallet.support",
