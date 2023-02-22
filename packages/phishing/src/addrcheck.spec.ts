@@ -158,11 +158,18 @@ function checkAll (): Promise<[string, string[]][]> {
 }
 
 describe('addrcheck', (): void => {
-  beforeAll((): void => {
-    jest.setTimeout(2 * 60 * 1000);
+  let counter = 0;
+  let errors = 0;
+
+  afterEach((): void => {
+    if (++counter === 1) {
+      process.exit(errors);
+    }
   });
 
   it('has all known addresses', async (): Promise<void> => {
+    errors++;
+
     const _results = await checkAll();
     const results = _results.map(([url, addrs]): [string, string[]] => {
       return [url, addrs.filter((a) => {
@@ -198,5 +205,7 @@ describe('addrcheck', (): void => {
     sites.length && process.env.CI_LOG && fs.appendFileSync('./.github/addrcheck.md', `\n\n${sites.length} urls with missing entries found at ${new Date().toUTCString()}:\n\n${TICKS}\n${JSON.stringify(mapMiss, null, 2)}\n${TICKS}\n`);
 
     expect(sites).toEqual([]);
+
+    errors--;
   });
 });

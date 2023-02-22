@@ -3,6 +3,7 @@
 
 import fs from 'fs';
 import { load as yamlParse } from 'js-yaml';
+import process from 'process';
 
 import { fetchJson, fetchText } from './fetch';
 
@@ -50,12 +51,18 @@ const ETHPHISH = 'https://raw.githubusercontent.com/MetaMask/eth-phishing-detect
 
 describe('crosscheck', (): void => {
   const ours: string[] = ourSiteList.deny;
+  let counter = 0;
+  let errors = 0;
 
-  beforeAll((): void => {
-    jest.setTimeout(120000);
+  afterEach((): void => {
+    if (++counter === 2) {
+      process.exit(errors);
+    }
   });
 
   it('has all the relevant entries from CryptoScamDb', async (): Promise<void> => {
+    errors++;
+
     const raw = await fetchText(CRYPTODB);
 
     // this is a hack, the text slipped in upstream
@@ -69,9 +76,13 @@ describe('crosscheck', (): void => {
     console.log('CryptoScamDb missing\n', JSON.stringify(missing, null, 2));
 
     assertAndLog(missing.length === 0, 'CryptoScamDB', missing);
+
+    errors--;
   });
 
   it('has polkadot/kusama entries from eth-phishing-detect', async (): Promise<void> => {
+    errors++;
+
     const ethDb = await fetchJson<EthPhishing>(ETHPHISH);
     const filtered = ethDb.blacklist.filter((url) => matchName(url));
     const missing = filtered.filter((url) => !ours.includes(url));
@@ -80,5 +91,7 @@ describe('crosscheck', (): void => {
     console.log('eth-phishing-detect missing\n', JSON.stringify(missing, null, 2));
 
     assertAndLog(missing.length === 0, 'eth-phishing-detect', missing);
+
+    errors--;
   });
 });
