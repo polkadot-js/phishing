@@ -6,6 +6,7 @@
 	"cowswap-token.exchange",
 	"cryptotoken.exchange",
 	"fixed-float.exchange",
+	"flxedfloat.exchange",
 	"kcoins.exchange",
 	"polkadot.exchange",
 	"smartconnect.exchange",
