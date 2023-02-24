@@ -5,6 +5,7 @@
 	"connecttoken.support",
 	"crosschain-users.support",
 	"cryptoappsauthenticator.support",
+	"dapprecovery.support",
 	"dappsconnect.support",
 	"dappsopensea.support",
 	"dappwallet.support",
