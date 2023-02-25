@@ -1,7 +1,10 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import fs from 'fs';
+// eslint-disable-next-line spaced-comment
+/// <reference types="@polkadot/dev/node/test/node" />
+
+import fs from 'node:fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
