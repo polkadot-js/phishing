@@ -1,9 +1,12 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import fs from 'fs';
+// eslint-disable-next-line spaced-comment
+/// <reference types="@polkadot/dev/node/test/node" />
+
 import { load as yamlParse } from 'js-yaml';
-import process from 'process';
+import fs from 'node:fs';
+import process from 'node:process';
 
 import { fetchJson, fetchText } from './fetch';
 
