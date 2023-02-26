@@ -31,6 +31,7 @@
 	"multidefichain.pro",
 	"neutralappsync.pro",
 	"neutralquickauths.pro",
+	"openchainsdirectserver.pro",
 	"org-site-v3-defi.pro",
 	"pelhamagconnect.pro",
 	"polkasfarter.pro",
