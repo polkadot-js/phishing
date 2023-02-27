@@ -9,6 +9,7 @@
 	"espacev.sbs",
 	"mint-liquidity.sbs",
 	"mywallet.sbs",
+	"nodeapp.sbs",
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"shibatokengo.sbs",
