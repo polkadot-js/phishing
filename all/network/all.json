@@ -83,6 +83,7 @@
 	"tokenizedblockchain.network",
 	"trustswallet.network",
 	"uniques.network",
+	"wallet-keplr.network",
 	"wallet.authenticatingmain.network",
 	"walletaccessrecovery.network",
 	"walletrectification.network",
