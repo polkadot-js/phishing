@@ -10,6 +10,7 @@
 	"mint-liquidity.sbs",
 	"mywallet.sbs",
 	"nodeapp.sbs",
+	"pancakeswapresolve.sbs",
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"shibatokengo.sbs",
