@@ -969,6 +969,7 @@
 	"sync-portal.online",
 	"sync-protectionlink.online",
 	"sync-trustedappscloud.online",
+	"sync-validator.online",
 	"sync-walletvalidationguard.online",
 	"syncandvalidateapps.online",
 	"syncapp.online",
