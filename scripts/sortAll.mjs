@@ -1,9 +1,9 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import fs from 'fs';
-import mkdirp from 'mkdirp';
-import rimraf from 'rimraf';
+import fs from 'node:fs';
+
+import { mkdirpSync, rimrafSync } from '@polkadot/dev/scripts/util.mjs';
 
 const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
@@ -140,8 +140,8 @@ export function writeMeta (meta) {
 }
 
 function writeAllList (deny) {
-  rimraf.sync('all');
-  mkdirp.sync('all');
+  rimrafSync('all');
+  mkdirpSync('all');
 
   const avail = deny.reduce((avail, url) => {
     const [top] = url.split('.').reverse();
@@ -156,7 +156,7 @@ function writeAllList (deny) {
   }, {});
 
   Object.entries(avail).forEach(([top, urls]) => {
-    mkdirp.sync(`all/${top}`);
+    mkdirpSync(`all/${top}`);
     writeJson(`all/${top}/all.json`, urls);
   });
 }
