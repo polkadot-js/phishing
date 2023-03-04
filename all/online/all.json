@@ -265,6 +265,7 @@
 	"dappresolves.online",
 	"dappresynchronize.online",
 	"dapps-access.online",
+	"dapps-connectwallet.online",
 	"dapps-cycle.online",
 	"dapps-encrypted.online",
 	"dapps-links.online",

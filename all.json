@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dapps-connectwallet.online",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -3924,6 +3923,7 @@
 		"dapps-connects.herokuapp.com",
 		"dapps-connects.live",
 		"dapps-connectsync.com",
+		"dapps-connectwallet.online",
 		"dapps-connectwallets.com",
 		"dapps-crogecoin.com",
 		"dapps-cycle.online",
