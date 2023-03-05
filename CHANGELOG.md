@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 0.20.1 Mar 5, 2023
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Swap TS -> JS compiler to use tsc (from babel)
+- Adjust all tests to use `node:test` runner (ESM variants)
+- Update to `@polkadot/util` 11.0.1
+
+
 ## 0.19.3 Feb 19, 2023
 
 Contributed:
