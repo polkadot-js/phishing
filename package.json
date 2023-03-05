@@ -11,7 +11,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.19.4-61-x",
+  "version": "0.20.0",
   "versions": {
     "git": "0.19.4-61-x",
     "npm": "0.19.3"
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@polkadot/dev": "^0.69.27",
-    "@types/node": "^18.14.5"
+    "@types/node": "^18.14.6"
   },
   "resolutions": {
     "typescript": "^4.9.5"
