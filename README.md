@@ -34,6 +34,7 @@ following that
 - [Fearless Wallet](https://fearlesswallet.io/)
 - [polkadot js Plus](http://polkadotjs.plus)
 - [SubWallet](https://subwallet.app/)
+- [Talisman](https://talisman.xyz)
 
 
 ### Integration
