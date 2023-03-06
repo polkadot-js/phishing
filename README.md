@@ -29,12 +29,12 @@ following that
 
 -->
 
-- [Talisman](https://talisman.xyz)
 - [polkadot{.js} extension](https://github.com/polkadot-js/extension)
 - [polkadot{.js} apps](https://polkadot.js.org/apps)
 - [Fearless Wallet](https://fearlesswallet.io/)
 - [polkadot js Plus](http://polkadotjs.plus)
 - [SubWallet](https://subwallet.app/)
+- [Talisman](https://talisman.xyz)
 
 
 ### Integration
