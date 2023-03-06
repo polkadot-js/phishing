@@ -1,7 +1,6 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-// eslint-disable-next-line spaced-comment
 /// <reference types="@polkadot/dev/node/test/node" />
 
 import { load as yamlParse } from 'js-yaml';
