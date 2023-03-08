@@ -11,6 +11,7 @@
 	"mywallet.sbs",
 	"nodeapp.sbs",
 	"nodeconnect.sbs",
+	"nodelive.sbs",
 	"nodesapp.sbs",
 	"pancakeswapresolve.sbs",
 	"pool-liquidity.sbs",
