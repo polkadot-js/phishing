@@ -7,7 +7,7 @@ import fs from 'node:fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
-import { fetchJson, fetchText } from './fetch';
+import { fetchJson, fetchText } from './fetch.js';
 
 const TICKS = '```';
 const TIMEOUT = 5000;

@@ -7,7 +7,7 @@ import { load as yamlParse } from 'js-yaml';
 import fs from 'node:fs';
 import process from 'node:process';
 
-import { fetchJson, fetchText } from './fetch';
+import { fetchJson, fetchText } from './fetch.js';
 
 interface CryptoScamEntry {
   addresses: Record<string, string[]>;

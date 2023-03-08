@@ -3,7 +3,7 @@
 
 /// <reference types="@polkadot/dev/node/test/node" />
 
-import { checkAddress, checkIfDenied } from '.';
+import { checkAddress, checkIfDenied } from './index.js';
 
 describe('checkIfDenied', (): void => {
   it('returns false when host is not listed', async (): Promise<void> => {
