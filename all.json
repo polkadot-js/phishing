@@ -28,8 +28,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"polkatoken.network",
-		"claim.polkatoken.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -11262,6 +11260,7 @@
 		"polkaswep.io",
 		"polkaswitch.online",
 		"polkatake.space",
+		"polkatoken.network",
 		"polkatsarter.com",
 		"polkatslaters.com",
 		"polkatsrater.com",
