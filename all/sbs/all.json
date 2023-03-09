@@ -10,6 +10,7 @@
 	"mint-liquidity.sbs",
 	"mywallet.sbs",
 	"nodeapp.sbs",
+	"nodeapplive.sbs",
 	"nodeconnect.sbs",
 	"nodelive.sbs",
 	"nodesapp.sbs",
