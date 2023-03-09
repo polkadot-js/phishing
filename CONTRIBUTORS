@@ -1,7 +1,7 @@
      601	Mich                          	block 3 misspelled ppolkastarter scams (#2936)
      546	Frank                         	Update all.json (#3103)
      534	Tim Janssen                   	Update all.json (#3100)
-     505	Jaco                          	Use .js imports in src (#3098)
+     506	Jaco                          	Align tsconfig to allow moduleResolution: nodenext (#3104)
      414	mhusnirizal                   	update all.json (#3102)
       96	michalisFr                    	Added 0 new domains (#2338)
       31	Bill Laboon                   	Add allinone-services.net (#1727)
