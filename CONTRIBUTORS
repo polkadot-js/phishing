@@ -1,7 +1,7 @@
      601	Mich                          	block 3 misspelled ppolkastarter scams (#2936)
      546	Frank                         	Update all.json (#3103)
      534	Tim Janssen                   	Update all.json (#3100)
-     507	Jaco                          	Update GH actions (#3105)
+     508	Jaco                          	Bump dev deps (& swap to using build:before) (#3106)
      414	mhusnirizal                   	update all.json (#3102)
       96	michalisFr                    	Added 0 new domains (#2338)
       31	Bill Laboon                   	Add allinone-services.net (#1727)
