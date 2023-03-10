@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "build": "polkadot-dev-build-ts",
-    "build:extra": "node scripts/sortAll.mjs",
+    "build:before": "node scripts/sortAll.mjs",
     "build:release": "polkadot-ci-ghact-build",
     "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "build:rollup": "polkadot-exec-rollup --config",
@@ -38,8 +38,8 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@polkadot/dev": "^0.71.1",
-    "@types/node": "^18.14.6"
+    "@polkadot/dev": "^0.71.3",
+    "@types/node": "^18.15.0"
   },
   "resolutions": {
     "typescript": "^4.9.5"
