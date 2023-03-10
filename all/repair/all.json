@@ -1,5 +1,6 @@
 [
 	"dapprecovery.repair",
+	"dappsfix.repair",
 	"noderest.repair",
 	"walletconnect.repair"
 ]
