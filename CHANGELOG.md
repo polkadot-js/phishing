@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.20.2 Mar 11, 2023
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Use consistent `.js` imports in source files (TS moduleResolution)
+- Remove TS resolveJsonModule option
+
+
 ## 0.20.1 Mar 5, 2023
 
 Contributed:
