@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"fixbugsnow.netlify.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -6134,6 +6133,7 @@
 		"fixapp.site",
 		"fixauth-support.live",
 		"fixbase.net",
+		"fixbugsnow.netlify.app",
 		"fixcedfloat.org",
 		"fixchainmigrate.live",
 		"fixchainode.com",
