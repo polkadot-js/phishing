@@ -1,5 +1,6 @@
 [
 	"1yieldrobot.app",
+	"247dappconnect.netlify.app",
 	"247dappfix.netlify.app",
 	"accesrewards.web.app",
 	"accessauthorizedapps.netlify.app",
@@ -374,6 +375,7 @@
 	"walletapi.app",
 	"walletauthenticator.netlify.app",
 	"walletbridge.app",
+	"walletbugfix.app",
 	"walletconnect-beta.netlify.app",
 	"walletconnect-dapp.app",
 	"walletconnect-dapps.netlify.app",
