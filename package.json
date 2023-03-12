@@ -38,7 +38,7 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@polkadot/dev": "^0.71.4",
+    "@polkadot/dev": "^0.71.6",
     "@types/node": "^18.15.0"
   },
   "resolutions": {
