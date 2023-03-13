@@ -29,7 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dapp-resolver.netlify.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -3605,6 +3604,7 @@
 		"dapp-rectifier.online",
 		"dapp-rectify.netlify.app",
 		"dapp-rectify.vercel.app",
+		"dapp-resolver.netlify.app",
 		"dapp-secure.com",
 		"dapp-seedify.nl",
 		"dapp-seedify.org",
