@@ -1,7 +1,7 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import pinataSDK from '@pinata/sdk';
+import PinataSDK from '@pinata/sdk';
 import cloudflare from 'dnslink-cloudflare';
 
 const SUB_DOMAIN = 'phishing';
@@ -9,7 +9,10 @@ const DOMAIN = 'dotapps.io';
 const DST = 'build';
 const PINMETA = { name: `${SUB_DOMAIN}.${DOMAIN}` };
 
-const pinata = pinataSDK(process.env.PINATA_API_KEY, process.env.PINATA_SECRET_KEY);
+const pinata = new PinataSDK({
+  pinataApiKey: process.env.PINATA_API_KEY,
+  pinataSecretApiKey: process.env.PINATA_SECRET_KEY
+});
 
 async function wait (delay = 2500) {
   return new Promise((resolve) => {
