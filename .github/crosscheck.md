@@ -1,6 +1,6 @@
 ---
 title: Missing site entries
-labels: ['ci', '@all.json']
+labels: ['ci']
 ---
 
 cc @polkadot-js/notifications
