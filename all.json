@@ -29,8 +29,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"syncsubsupport.firebaseapp.com",
-		"syncsubsupport.web.app",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -13537,6 +13535,8 @@
 		"syncsonlinevalidates.com",
 		"syncsrectifydata.com",
 		"syncssecured.com",
+		"syncsubsupport.firebaseapp.com",
+		"syncsubsupport.web.app",
 		"syncsystem.org",
 		"synctechfix.com",
 		"syncterramoney.net",
