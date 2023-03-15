@@ -376,11 +376,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/dev@npm:^0.71.9":
-  version: 0.71.9
-  resolution: "@polkadot/dev@npm:0.71.9"
+"@polkadot/dev-test@npm:^0.72.1":
+  version: 0.72.1
+  resolution: "@polkadot/dev-test@npm:0.72.1"
+  dependencies:
+    tslib: ^2.5.0
+  checksum: ff0fbb8c082f9bdee3e5708287337cdc2f2c2ade92bdcc8ff5910a2d764c40b044e363de92e4079173927c2b15f4af9137e50e9f07b944d51c3fd3764dca84d2
+  languageName: node
+  linkType: hard
+
+"@polkadot/dev-ts@npm:^0.72.1":
+  version: 0.72.1
+  resolution: "@polkadot/dev-ts@npm:0.72.1"
+  dependencies:
+    tslib: ^2.5.0
+    typescript: ^4.9.5
+  checksum: 89d716117904072309fea9662c9e2f8bd0cb06becc2909b613a342141fc32f8ea64ff43ee6c35f8d6b39cf5e4f568cad449d41b491eec5602fd5b3aa58033e97
+  languageName: node
+  linkType: hard
+
+"@polkadot/dev@npm:^0.72.1":
+  version: 0.72.1
+  resolution: "@polkadot/dev@npm:0.72.1"
   dependencies:
     "@eslint/js": ^8.36.0
+    "@polkadot/dev-test": ^0.72.1
+    "@polkadot/dev-ts": ^0.72.1
     "@rollup/plugin-alias": ^4.0.3
     "@rollup/plugin-commonjs": ^24.0.1
     "@rollup/plugin-dynamic-import-vars": ^2.0.3
@@ -415,7 +436,7 @@ __metadata:
     typescript: ^4.9.5
     webpack: ^5.76.1
     webpack-cli: ^5.0.1
-    webpack-dev-server: ^4.11.1
+    webpack-dev-server: ^4.12.0
     webpack-merge: ^5.8.0
     webpack-subresource-integrity: ^5.2.0-rc.1
     yargs: ^17.7.1
@@ -443,7 +464,7 @@ __metadata:
     polkadot-exec-rollup: scripts/polkadot-exec-rollup.mjs
     polkadot-exec-tsc: scripts/polkadot-exec-tsc.mjs
     polkadot-exec-webpack: scripts/polkadot-exec-webpack.mjs
-  checksum: 59321ee3051dc070b03da2bc22c737e818eccd5551c7ca34cd3368a1ceff22c2f75651b3297c51622b3a2423f31e8bf7d9a987d89b1df9f35c86ada7c26a7699
+  checksum: 55a396d13dc032d8f77c41e2e3857266e364bad99567bed9d209c0f6563052925624326c36a771cbf32ccd6b315039fc318a54da2b932dbbe57034089c798422
   languageName: node
   linkType: hard
 
@@ -5706,6 +5727,16 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"launch-editor@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "launch-editor@npm:2.6.0"
+  dependencies:
+    picocolors: ^1.0.0
+    shell-quote: ^1.7.3
+  checksum: 48e4230643e8fdb5c14c11314706d58d9f3fbafe2606be3d6e37da1918ad8bfe39dd87875c726a1b59b9f4da99d87ec3e36d4c528464f0b820f9e91e5cb1c02d
+  languageName: node
+  linkType: hard
+
 "levn@npm:^0.4.1":
   version: 0.4.1
   resolution: "levn@npm:0.4.1"
@@ -7614,7 +7645,7 @@ fsevents@~2.3.2:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@pinata/sdk": ^2.1.0
-    "@polkadot/dev": ^0.71.9
+    "@polkadot/dev": ^0.72.1
     "@types/node": ^18.15.3
     dnslink-cloudflare: ^3.0.0
   languageName: unknown
@@ -7879,6 +7910,13 @@ fsevents@~2.3.2:
   version: 3.0.0
   resolution: "shebang-regex@npm:3.0.0"
   checksum: 1a2bcae50de99034fcd92ad4212d8e01eedf52c7ec7830eedcf886622804fe36884278f2be8be0ea5fde3fd1c23911643a4e0f726c8685b61871c8908af01222
+  languageName: node
+  linkType: hard
+
+"shell-quote@npm:^1.7.3":
+  version: 1.8.0
+  resolution: "shell-quote@npm:1.8.0"
+  checksum: 6ef7c5e308b9c77eedded882653a132214fa98b4a1512bb507588cf6cd2fc78bfee73e945d0c3211af028a1eabe09c6a19b96edd8977dc149810797e93809749
   languageName: node
   linkType: hard
 
@@ -9038,9 +9076,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.11.1":
-  version: 4.11.1
-  resolution: "webpack-dev-server@npm:4.11.1"
+"webpack-dev-server@npm:^4.12.0":
+  version: 4.12.0
+  resolution: "webpack-dev-server@npm:4.12.0"
   dependencies:
     "@types/bonjour": ^3.5.9
     "@types/connect-history-api-fallback": ^1.3.5
@@ -9061,6 +9099,7 @@ fsevents@~2.3.2:
     html-entities: ^2.3.2
     http-proxy-middleware: ^2.0.3
     ipaddr.js: ^2.0.1
+    launch-editor: ^2.6.0
     open: ^8.0.9
     p-retry: ^4.5.0
     rimraf: ^3.0.2
@@ -9070,7 +9109,7 @@ fsevents@~2.3.2:
     sockjs: ^0.3.24
     spdy: ^4.0.2
     webpack-dev-middleware: ^5.3.1
-    ws: ^8.4.2
+    ws: ^8.13.0
   peerDependencies:
     webpack: ^4.37.0 || ^5.0.0
   peerDependenciesMeta:
@@ -9078,7 +9117,7 @@ fsevents@~2.3.2:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: b7601a39ee0f413988259e29a36835b0a68522cfaa161de5b7ec99b3399acdd99d44189add4aaf4a5191258bb130f9cf3e68919324a1955c7557f5fe6ab0d96c
+  checksum: 3e33acb774457ee787038d66c12e04c3e4a9f91bbff7ca143083e4ac1937b1615a1b9e7387ec623df8ebc36f56b3c34742578c09f665fe811b6e38d2e8222a94
   languageName: node
   linkType: hard
 
@@ -9303,7 +9342,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"ws@npm:^8.13.0, ws@npm:^8.4.2":
+"ws@npm:^8.13.0":
   version: 8.13.0
   resolution: "ws@npm:8.13.0"
   peerDependencies:
