@@ -1,5 +1,6 @@
 [
 	"allnoderestore.cloud",
+	"allwallrestorer.cloud",
 	"assetretrivaldapps.cloud",
 	"astutevalidate.cloud",
 	"authenticapps.cloud",
@@ -24,6 +25,7 @@
 	"defiwallet.cloud",
 	"dexwalletconnect.cloud",
 	"fixtesfloat.cloud",
+	"mainetnest.cloud",
 	"manualsync.cloud",
 	"miningspa.cloud",
 	"network-blockchain.cloud",
