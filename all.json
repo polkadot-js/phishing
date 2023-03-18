@@ -28,6 +28,14 @@
 		"zapto.org"
 	],
 	"deny": [
+		"fasteresolve.live",
+		"appfixup.live",
+		"grovesapp.live",
+		"app.fasteresolve.live",
+		"tokens.appfixup.live",
+		"fixpaneldapp.com",
+		"webprotocol.net",
+		"moonbeamnetwork.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
