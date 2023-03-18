@@ -27,7 +27,7 @@ async function loopSome (site: string, matcher: () => Promise<string[] | null>):
           found.push(address);
         }
       });
-    } catch (error) {
+    } catch {
       // console.error(error);
     }
 
