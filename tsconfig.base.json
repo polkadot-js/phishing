@@ -4,7 +4,6 @@
     "composite": true,
     "paths": {
       "@polkadot/phishing": ["phishing/src/index.ts"]
-    },
-    "skipLibCheck": true
+    }
   }
  }
