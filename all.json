@@ -15,6 +15,7 @@
 		"pagekite.me",
 		"pages.dev",
 		"plesk.page",
+		"r2.dev",
 		"servehttp.com",
 		"square.site",
 		"surge.sh",
@@ -28,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"pub-a20a6ffa53d44d36bfcb7d7b8d99b956.r2.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -11767,7 +11769,6 @@
 		"quickvalidatewallet.netlify.app",
 		"quickwithdrawal.com",
 		"qwertasverify.ddnss.org",
-		"r2.dev",
 		"r5r6yt78u9i92jg.com",
 		"r5t8790i676tr5r.com",
 		"racifywebb-3daolunchpads.com",
