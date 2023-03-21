@@ -29,6 +29,13 @@
 		"zapto.org"
 	],
 	"deny": [
+    "vaultnet.site",
+    "problemsolver.live",
+    "lido.bio",
+    "maingatesync.co",
+    "repairvault.onrender.com",
+    "web.vaultnet.site",
+    "liveprotocols.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
