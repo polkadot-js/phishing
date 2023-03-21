@@ -30,6 +30,7 @@
 	],
 	"deny": [
     "vaultnet.site",
+    "problemsolver.live",
     "lido.bio",
     "maingatesync.co",
     "repairvault.onrender.com",
