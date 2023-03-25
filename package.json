@@ -1,8 +1,9 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
+  "engine-strict": true,
   "engines": {
-    "node": ">=14"
+    "node": ">=18.14"
   },
   "homepage": "https://github.com/polkadot-js/phishing#readme",
   "license": "Apache-2.0",
@@ -41,7 +42,7 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@polkadot/dev": "^0.72.22",
+    "@polkadot/dev": "^0.72.25",
     "@types/node": "^18.15.9"
   },
   "resolutions": {
