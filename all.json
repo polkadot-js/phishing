@@ -28,7 +28,6 @@
 		"wixsite.com",
 		"zapto.org"
 	],
-	
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
@@ -824,8 +823,8 @@
 		"apytechcore.online",
 		"apytechlink.online",
 		"aqt15rvrenr47nepncmgpzivae79polkadot.js.org",
-		"aquasync.pages.dev",
 		"aquabitpowercoin-yui.finance",
+		"aquasync.pages.dev",
 		"aquilaoption.com",
 		"aranbulur.site",
 		"arbitrum-ecosystems.com",
