@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "dappfixess.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -3920,6 +3919,7 @@
 		"dappfixedconnect.net",
 		"dappfixen.online",
 		"dappfixerror.com",
+		"dappfixess.netlify.app",
 		"dappfixing.app",
 		"dappfixing.com",
 		"dappfixings.app",
