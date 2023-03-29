@@ -111,6 +111,7 @@
 	"dapps-integrate.app",
 	"dapps-secure.netlify.app",
 	"dapps-syncc.netlify.app",
+	"dapps-synccs.netlify.app",
 	"dapps-wallet-connect.netlify.app",
 	"dapps-walletintegrator.app",
 	"dapps-walletsync.web.app",

@@ -458,6 +458,7 @@
 	"firstreplycus.online",
 	"fix-encrypt.online",
 	"fixaccessrestore.online",
+	"fixalltoken.online",
 	"fixalltokens.online",
 	"fixconnecthub.online",
 	"fixdapps.online",
