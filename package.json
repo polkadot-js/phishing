@@ -1,7 +1,6 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
-  "engine-strict": true,
   "engines": {
     "node": ">=18.14"
   },
@@ -17,8 +16,8 @@
   "type": "module",
   "version": "0.20.5",
   "versions": {
-    "git": "0.20.5-26-x",
-    "npm": "0.20.4"
+    "git": "0.20.5",
+    "npm": "0.20.5"
   },
   "workspaces": [
     "packages/*"
