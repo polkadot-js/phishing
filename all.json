@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "multiscreensite.com",
-    "novaconnect.multiscreensite.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -9722,6 +9720,7 @@
 		"multipad-pro.org",
 		"multipad-x.com",
 		"multipledapps.com",
+		"multiscreensite.com",
 		"multiserverfix.net",
 		"multistalk.online",
 		"multistalkexecute.tech",
