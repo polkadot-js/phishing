@@ -31,6 +31,7 @@
 	"connectionsynchroniztion.pages.dev",
 	"connectorlogs.pages.dev",
 	"connectresolve.pages.dev",
+	"dap-fix.pages.dev",
 	"dapp-connect.pages.dev",
 	"dapp-web-synchronize.pages.dev",
 	"dappbridge.dev",
