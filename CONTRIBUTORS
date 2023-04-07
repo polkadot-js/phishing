@@ -1,7 +1,7 @@
      607	Frank                         	Update all.json (#3228)
      602	Mich                          	Block polkastarted-home.com and whitelist-web3.com (#3180)
      570	Tim Janssen                   	Update all.json (#3231)
-     523	Jaco                          	Remove web3modal.com (#3226)
+     524	Jaco                          	Add missing polka*/kusa* cross-check entries (#3234)
      420	mhusnirizal                   	update all.json (#3213)
       96	michalisFr                    	Added 0 new domains (#2338)
       31	Bill Laboon                   	Add allinone-services.net (#1727)
