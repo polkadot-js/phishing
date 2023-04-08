@@ -41,10 +41,10 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@polkadot/dev": "^0.72.29",
+    "@polkadot/dev": "^0.72.36",
     "@types/node": "^18.15.11"
   },
   "resolutions": {
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.4"
   }
 }
