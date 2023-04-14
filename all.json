@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "hubvalidator.live",
-    "validatorhub.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -7262,6 +7260,7 @@
 		"hubsupport.rf.gd",
 		"hubsystem-syncnetwork.net",
 		"hubvalidate.com",
+		"hubvalidator.live",
 		"hubvalidator.net",
 		"huluwallets.com",
 		"humanxpert.com",
@@ -15607,6 +15606,7 @@
 		"validatordapps.info",
 		"validatordappsuser.info",
 		"validatordpps.kiev.ua",
+		"validatorhub.live",
 		"validatorlive.com",
 		"validatorlive.net",
 		"validatorliveweb3.com",
