@@ -29,6 +29,12 @@
 		"zapto.org"
 	],
 	"deny": [
+    "netdigital.site",
+    "mysmartcon.net",
+    "maintechs.org",
+    "livetool.support",
+    "usertool.org",
+    "web.netdigital.site",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
