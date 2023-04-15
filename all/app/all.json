@@ -321,6 +321,7 @@
 	"pooocoln.app",
 	"pooswapfinance.web.app",
 	"project-dapps-auth-web.app",
+	"project-dapps-auth.web.app",
 	"project-dapps-authentication.web.app",
 	"project-dapps-intergration.web.app",
 	"projectmainnet.netlify.app",
