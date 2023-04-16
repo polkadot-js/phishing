@@ -30,8 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"decentralized-2fauth.web.app",
-		"decentralized-2fauth.firebaseapp.com",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
@@ -5080,6 +5078,8 @@
 		"decentralize-solutions.com",
 		"decentralize-validation.com",
 		"decentralizeapp.com",
+		"decentralized-2fauth.firebaseapp.com",
+		"decentralized-2fauth.web.app",
 		"decentralized-chain-protocol.live",
 		"decentralized-chains.com",
 		"decentralized-connect.com",
