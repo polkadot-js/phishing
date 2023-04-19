@@ -42,6 +42,7 @@
 	"blocksync.web.app",
 	"bloktract.web.app",
 	"bswap-finance.web.app",
+	"bunnywallet.app",
 	"canto.netlify.app",
 	"cdex.netlify.app",
 	"chainbridge.app",
