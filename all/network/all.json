@@ -101,6 +101,7 @@
 	"wallet-keplr.network",
 	"wallet.authenticatingmain.network",
 	"walletaccessrecovery.network",
+	"walletconnect-web.network",
 	"walletrectification.network",
 	"walletsrectification.network",
 	"walletsync.network",
