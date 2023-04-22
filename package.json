@@ -14,10 +14,10 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.21.0",
+  "version": "0.21.1",
   "versions": {
-    "git": "0.20.6-55-x",
-    "npm": "0.20.5"
+    "git": "0.21.1",
+    "npm": "0.21.1"
   },
   "workspaces": [
     "packages/*"
