@@ -14,7 +14,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.20.6-55-x",
+  "version": "0.21.0",
   "versions": {
     "git": "0.20.6-55-x",
     "npm": "0.20.5"
@@ -41,7 +41,7 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@polkadot/dev": "^0.72.36",
+    "@polkadot/dev": "^0.73.2",
     "@types/node": "^18.15.11"
   },
   "resolutions": {
