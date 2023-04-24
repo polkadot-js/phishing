@@ -1079,6 +1079,7 @@
 	"synclink.online",
 	"synclivewallets.online",
 	"syncmainnet-defi.online",
+	"syncmainnet-validator.online",
 	"syncmobilemigrate.online",
 	"syncmywallets.online",
 	"syncnet.online",
