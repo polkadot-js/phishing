@@ -29,6 +29,12 @@
 		"zapto.org"
 	],
 	"deny": [
+    "walletdappssync.web.app",
+    "247maindapp.pages.dev",
+    "apierrorvalidator.onrender.com",
+    "fast-tool.net",
+    "walletfix-pro.web.app",
+    "app.multiservicechain.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
