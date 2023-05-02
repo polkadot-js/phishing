@@ -356,6 +356,7 @@
 	"protocoldapps.web.app",
 	"protocolsfix.app",
 	"quick-network.app",
+	"quickrectifier.vercel.app",
 	"quickvalidatewallet.netlify.app",
 	"quickwalletconnect.netlify.app",
 	"radiocacaconnect.netlify.app",
