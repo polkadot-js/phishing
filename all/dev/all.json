@@ -17,6 +17,7 @@
 	"auth-config.pages.dev",
 	"authconnect.dev",
 	"authconnect.pages.dev",
+	"authfixnow.pages.dev",
 	"authwebnets.pages.dev",
 	"bbsync.pages.dev",
 	"blockchain-dex.pages.dev",

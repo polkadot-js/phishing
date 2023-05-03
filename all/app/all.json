@@ -140,6 +140,7 @@
 	"dapps-walletintegrator.app",
 	"dapps-walletsync.web.app",
 	"dapps-walletvalidate.netlify.app",
+	"dapps-website.web.app",
 	"dappsconnection.web.app",
 	"dappsconnectonline.app",
 	"dappsfortune.netlify.app",
