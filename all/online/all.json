@@ -951,6 +951,7 @@
 	"resolveprotocols.online",
 	"resolvesit.online",
 	"resolvewebapperrors.online",
+	"resolvewebappnet.online",
 	"restore-walletconnect.online",
 	"restoreassets.online",
 	"restoreerrors.online",
