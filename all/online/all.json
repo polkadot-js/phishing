@@ -162,6 +162,7 @@
 	"chainresolve.online",
 	"chainsbridges.online",
 	"chainsync.online",
+	"chainvanguard.online",
 	"chechwallet.online",
 	"checkdapp.online",
 	"claimnft.online",
