@@ -29,6 +29,7 @@
 	"apps-multichain-portals-html.netlify.app",
 	"apps-multichain-portals-html3.netlify.app",
 	"assetfix.vercel.app",
+	"auth-rectify.netlify.app",
 	"auth-syncs.netlify.app",
 	"auth-wallets.netlify.app",
 	"authenticateddappssync.netlify.app",
