@@ -185,6 +185,7 @@
 	"defiprotocolsync.web.app",
 	"defiserver.netlify.app",
 	"defisyncauto.netlify.app",
+	"defisyncautofix.netlify.app",
 	"defiwallet-decentralized-recovery.netlify.app",
 	"defiwalletvalidator.netlify.app",
 	"defiweb.web.app",
