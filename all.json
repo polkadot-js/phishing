@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dex-finances.netlify.app",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5621,6 +5620,7 @@
 		"dex-appnetwork.com",
 		"dex-carlivechain.web.app",
 		"dex-connect.online",
+		"dex-finances.netlify.app",
 		"dex-migrationlaunchpad.com",
 		"dex-platform.net",
 		"dex-rewards.online",
