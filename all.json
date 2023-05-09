@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "multichain-mainnetprotocol.netlify.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -9920,6 +9919,7 @@
 		"multichain-defi.net",
 		"multichain-event.net",
 		"multichain-event.org",
+		"multichain-mainnetprotocol.netlify.app",
 		"multichain-meta.com",
 		"multichain-meta.org",
 		"multichain-next.com",
@@ -18439,4 +18439,3 @@
 		"zwalletconnect.com"
 	]
 }
-
