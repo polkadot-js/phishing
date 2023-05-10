@@ -30,8 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"nodescontractapp.com",
-		"sync.nodescontractapp.com",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -10707,6 +10705,7 @@
 		"nodescan.info",
 		"nodesconnection.com",
 		"nodesconnectserver.com",
+		"nodescontractapp.com",
 		"nodesdapp.online",
 		"nodesdapp247.com",
 		"nodesdapp247.net",
