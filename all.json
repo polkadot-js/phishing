@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "synconnect.org",
-    "websync34.org",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -14405,6 +14403,7 @@
 		"synconection.com",
 		"synconline.line.pm",
 		"synconnect.link",
+		"synconnect.org",
 		"synconnectall.com",
 		"synconnects.com",
 		"synconnectwallet.com",
@@ -18080,6 +18079,7 @@
 		"websychronizer.com",
 		"websync-keybaseverify.org",
 		"websync.site",
+		"websync34.org",
 		"websyncextension.net",
 		"websynchelp.com",
 		"websynchronizationvalidator.pages.dev",
