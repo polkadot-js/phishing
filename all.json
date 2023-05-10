@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "digitalweb.live",
-    "net.digitalweb.live",
-    "walletsynkzzzzx-net.web.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -5808,6 +5805,7 @@
 		"digitalwalletchain.com",
 		"digitalwalletconnect.xyz",
 		"digitalweb-sync.site",
+		"digitalweb.live",
 		"digitalweblink.live",
 		"digitalwebsync.buzz",
 		"digitrecovery.com",
@@ -17595,6 +17593,7 @@
 		"walletsynkzz-net.web.app",
 		"walletsynkzzx-net.firebaseapp.com",
 		"walletsynkzzx-net.web.app",
+		"walletsynkzzzzx-net.web.app",
 		"walletsystemsconnect.com",
 		"walletsystemsupport.com",
 		"wallettaccess.co",
