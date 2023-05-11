@@ -4,6 +4,7 @@
 	"coinvault.exchange",
 	"convert.exchange",
 	"cowswap-token.exchange",
+	"crypto-box.exchange",
 	"cryptotoken.exchange",
 	"fixcrypto.exchange",
 	"fixed-float.exchange",
