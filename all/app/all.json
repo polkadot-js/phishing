@@ -418,6 +418,7 @@
 	"syn-dapp.web.app",
 	"syn-dpps.web.app",
 	"sync-auth.netlify.app",
+	"sync-validator.vercel.app",
 	"syncauthenticate.netlify.app",
 	"syncchain.netlify.app",
 	"syncdapps.netlify.app",
