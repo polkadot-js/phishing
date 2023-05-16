@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"webwalletbond.pages.dev",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -18220,6 +18219,7 @@
 		"webwalletauthenticate.com",
 		"webwalletauthentication.net",
 		"webwalletauthntication.com",
+		"webwalletbond.pages.dev",
 		"webwalletconnect.com",
 		"webwalletconnect.net",
 		"webwalletconnect.org",
