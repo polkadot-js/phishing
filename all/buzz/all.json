@@ -45,6 +45,7 @@
 	"smartindex-pad.buzz",
 	"smartpad-index.buzz",
 	"smartprotocol-hubs.buzz",
+	"smartsync-protocolpad.buzz",
 	"stable-algorithm.buzz",
 	"theuninqgen.buzz",
 	"transitionv2-syncs.buzz",

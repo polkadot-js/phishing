@@ -84,6 +84,7 @@
 	"resolver.network",
 	"restore-allnodes.network",
 	"restoreallnodes.network",
+	"reward-gari.network",
 	"risedot.network",
 	"sconnect.network",
 	"secureappvalidations.network",
