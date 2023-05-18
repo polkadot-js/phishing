@@ -29,6 +29,16 @@
 		"zapto.org"
 	],
 	"deny": [
+    "walletinstantfix.org",
+    "web.walletinstantfix.org",
+    "myweb3-dapp-pages-dev.netlify.app",
+    "chainsync.pages.dev",
+    "sushiswap-server.netlify.app",
+    "onlinedappschain.rf.gd",
+    "optimalsmartprotocol.buzz",
+    "w.optimalsmartprotocol.buzz",
+    "autovalidateblockchain.pages.dev",
+    "wallets-dapps.webflow.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
