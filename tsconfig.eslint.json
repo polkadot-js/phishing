@@ -4,6 +4,11 @@
     "baseUrl": "./packages",
     "composite": false
   },
-  "include": ["packages/**/src/**/*", "scripts/*"],
-  "exclue": ["**/node_modules/**/*"]
+  "include": [
+		"packages/**/src/**/*",
+		"scripts/*"
+	],
+  "exclue": [
+		"**/node_modules/**/*"
+	]
 }

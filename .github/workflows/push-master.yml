@@ -27,7 +27,7 @@ jobs:
         node-version: 'lts/*'
     - name: ${{ matrix.step }}
       run: |
-        yarn install --immutable | grep -v 'YN0013'
+        yarn install --immutable
         yarn ${{ matrix.step }}
 
   # publish to ipfs when a release is detected
@@ -50,6 +50,6 @@ jobs:
         node-version: 'lts/*'
     - name: ${{ matrix.step }}
       run: |
-        yarn install --immutable | grep -v 'YN0013'
+        yarn install --immutable
         ./scripts/ipfsPrep.sh
         yarn ${{ matrix.step }}

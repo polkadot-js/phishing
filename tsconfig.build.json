@@ -4,6 +4,7 @@
   },
   "files": [],
   "references": [
-    { "path": "./packages/phishing/tsconfig.build.json" }
+    { "path": "./packages/phishing/tsconfig.build.json" },
+		{ "path": "./packages/phishing/tsconfig.spec.json" }
   ]
 }

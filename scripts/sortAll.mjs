@@ -3,10 +3,17 @@
 
 import fs from 'node:fs';
 
+// @ts-expect-error @polkadot/dev scripts don't have .d.ts files
 import { mkdirpSync, rimrafSync } from '@polkadot/dev/scripts/util.mjs';
+
+/** @typedef {{ allow: string[]; deny: string[]; }} AllList */
 
 const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
 
+/**
+ * @param {string} url
+ * @returns {string}
+ */
 function sanitizeUrl (url) {
   return (
     url.includes('://')
@@ -15,10 +22,14 @@ function sanitizeUrl (url) {
   ).split('/')[0];
 }
 
+/**
+ * @param {string[]} list
+ * @returns {string[]}
+ */
 function filterSection (list) {
   return list
     .map((entry) => sanitizeUrl(entry))
-    .reduce((filtered, entry) => {
+    .reduce((/** @type {string[]} */ filtered, entry) => {
       !filtered.includes(entry) &&
         filtered.push(entry);
 
@@ -26,10 +37,19 @@ function filterSection (list) {
     }, []);
 }
 
+/**
+ * @param {string[]} list
+ * @returns {string[]}
+ */
 function sortSection (list) {
   return filterSection(list).sort((a, b) => a.localeCompare(b));
 }
 
+/**
+ * @param {string[]} list
+ * @param {string} url
+ * @returns {boolean}
+ */
 function isSubdomain (list, url) {
   const parts = url.split('.');
 
@@ -43,6 +63,10 @@ function isSubdomain (list, url) {
   return false;
 }
 
+/**
+ * @param {string} url
+ * @returns {string}
+ */
 function flattenUrl (url) {
   // currently we only check for plesk-page to flatten
   if (!url.endsWith('plesk.page')) {
@@ -56,6 +80,10 @@ function flattenUrl (url) {
     : url;
 }
 
+/**
+ * @param {string[]} list
+ * @returns {string[]}
+ */
 function rewriteSubs (list) {
   return filterSection(
     list
@@ -64,12 +92,19 @@ function rewriteSubs (list) {
   );
 }
 
+/**
+ * @param {Record<string, string[]>} values
+ * @returns {Record<string, string[]>}
+ */
 function sortAddresses (values) {
   return Object
     .entries(values)
-    .map(([key, address]) => [sanitizeUrl(key), address])
+    .map(
+      /** @returns {[string, string[]]} */
+      ([key, addresses]) => [sanitizeUrl(key), addresses]
+    )
     .sort(([a], [b]) => a.localeCompare(b))
-    .reduce((all, [key, addresses]) => {
+    .reduce((/** @type {Record<string, string[]>} */ all, [key, addresses]) => {
       if (!all[key]) {
         all[key] = [];
       }
@@ -83,6 +118,11 @@ function sortAddresses (values) {
     }, {});
 }
 
+/**
+ * @param {AllList} param0
+ * @param {Record<string, string>} values
+ * @returns
+ */
 function addSites ({ allow, deny }, values) {
   return Object
     .keys(values)
@@ -94,10 +134,18 @@ function addSites ({ allow, deny }, values) {
     }, deny);
 }
 
+/**
+ * @param {string} file
+ * @returns {any}
+ */
 function readJson (file) {
   return JSON.parse(fs.readFileSync(file, 'utf-8'));
 }
 
+/**
+ * @param {string} file
+ * @param {unknown} contents
+ */
 function writeJson (file, contents) {
   fs.writeFileSync(file, `${JSON.stringify(contents, null, '\t')}\n`);
 }
@@ -117,8 +165,14 @@ function readMeta () {
   return meta;
 }
 
+/**
+ * @param {{ date: string; url: string; }[]} meta
+ */
 export function writeMeta (meta) {
+  /** @type {Record<string, { date: string; url: string; }[]>} */
   const months = {};
+
+  /** @type {string[]} */
   const index = [];
 
   for (const item of meta) {
@@ -139,11 +193,14 @@ export function writeMeta (meta) {
   writeJson('meta/index.json', index.sort((a, b) => b.localeCompare(a)));
 }
 
+/**
+ * @param {string[]} deny
+ */
 function writeAllList (deny) {
   rimrafSync('all');
   mkdirpSync('all');
 
-  const avail = deny.reduce((avail, url) => {
+  const avail = deny.reduce((/** @type {Record<String, string[]>} */ avail, url) => {
     const [top] = url.split('.').reverse();
 
     if (!avail[top]) {

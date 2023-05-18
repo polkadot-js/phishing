@@ -2,13 +2,20 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import PinataSDK from '@pinata/sdk';
+// @ts-expect-error We are not defining our own types for this
 import cloudflare from 'dnslink-cloudflare';
+
+/** @typedef {import('@pinata/sdk').default} PinataClient */
 
 const SUB_DOMAIN = 'phishing';
 const DOMAIN = 'dotapps.io';
 const DST = 'build';
-const PINMETA = { name: `${SUB_DOMAIN}.${DOMAIN}` };
+const PINMETA = {
+  name: `${SUB_DOMAIN}.${DOMAIN}`
+};
 
+/** @type {PinataClient} */
+// @ts-expect-error For some reason we have issues here...
 const pinata = new PinataSDK({
   pinataApiKey: process.env.PINATA_API_KEY,
   pinataSecretApiKey: process.env.PINATA_SECRET_KEY
@@ -16,10 +23,13 @@ const pinata = new PinataSDK({
 
 async function wait (delay = 2500) {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(), delay);
+    setTimeout(() => resolve(undefined), delay);
   });
 }
 
+/**
+ * @returns {Promise<string>}
+ */
 async function pin () {
   const result = await pinata.pinFromFS(DST, { pinataMetadata: PINMETA });
 
@@ -30,32 +40,37 @@ async function pin () {
   return result.IpfsHash;
 }
 
+/**
+ * @param {string} exclude
+ */
 async function unpin (exclude) {
+  // @ts-expect-error We can forgo the keyvalues field
   const result = await pinata.pinList({ metadata: PINMETA, status: 'pinned' });
 
   await wait();
 
-  if (result.count > 1) {
-    const hashes = result.rows
-      .map((r) => r.ipfs_pin_hash)
-      .filter((hash) => hash !== exclude);
+  const hashes = result.rows
+    .map((r) => r.ipfs_pin_hash)
+    .filter((/** @type { string} */ hash) => hash !== exclude);
 
-    for (let i = 0; i < hashes.length; i++) {
-      const hash = hashes[i];
+  for (let i = 0; i < hashes.length; i++) {
+    const hash = hashes[i];
 
-      try {
-        await pinata.unpin(hash);
+    try {
+      await pinata.unpin(hash);
 
-        console.log(`Unpinned ${hash}`);
-      } catch (error) {
-        console.error(`Failed unpinning ${hash}`, error);
-      }
-
-      await wait();
+      console.log(`Unpinned ${hash}`);
+    } catch (error) {
+      console.error(`Failed unpinning ${hash}`, error);
     }
+
+    await wait();
   }
 }
 
+/**
+ * @param {string} hash
+ */
 async function dnslink (hash) {
   const records = [`_dnslink.${SUB_DOMAIN}.${DOMAIN}`];
 
