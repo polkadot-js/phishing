@@ -17,7 +17,7 @@ jobs:
         node-version: 'lts/*'
     - name: check
       run: |
-        yarn install --immutable | grep -v 'YN0013'
+        yarn install --immutable
         yarn phishing:crosscheck
     - name: issue
       if: ${{ failure() }}
@@ -39,7 +39,7 @@ jobs:
         node-version: 'lts/*'
     - name: check
       run: |
-        yarn install --immutable | grep -v 'YN0013'
+        yarn install --immutable
         yarn phishing:addrcheck
     - name: issue
       if: ${{ failure() }}

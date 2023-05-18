@@ -3,6 +3,8 @@
 
 import fs from 'node:fs';
 
+/** @typedef {{ allow: string[]; deny: string[]; }} AllList */
+
 // muli-part domain codes and (hopefully) valid top-levels (all manual from list)
 const DOMS = [
   // county stuff
@@ -15,6 +17,7 @@ const DOMS = [
 const MEDS = DOMS.map((d) => `medium.${d}`);
 
 // get allow/deny lists
+/** @type {AllList} */
 const all = JSON.parse(fs.readFileSync('all.json', 'utf-8'));
 
 // break the allow list into usable parts

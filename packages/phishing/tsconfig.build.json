@@ -5,5 +5,9 @@
     "outDir": "./build",
     "rootDir": "./src"
   },
+	"exclude": [
+		"**/*.spec.ts",
+		"**/mod.ts"
+	],
   "references": []
 }
