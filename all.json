@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"collabland-wallet-ui-temp.pages.dev",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -2775,6 +2774,7 @@
 		"collabland-sync.net",
 		"collabland-verif.xyz",
 		"collabland-verify.cc",
+		"collabland-wallet-ui-temp.pages.dev",
 		"collabland-wallet-ui.pages.dev",
 		"collabland-walletsync.online",
 		"collabland.in",
