@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"bscsmartfix.live",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -1958,6 +1957,7 @@
 		"bscpad.in",
 		"bscscangateway.com",
 		"bscscansystem.com",
+		"bscsmartfix.live",
 		"bscsystemrestore.com",
 		"bscwalletconnect.com",
 		"bsmartconnect.net",
