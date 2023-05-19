@@ -280,6 +280,7 @@
 	"mainnet-pulsechain.app",
 	"mainnet-rpc.vercel.app",
 	"mainnetdapp.app",
+	"mainnetdapp.web.app",
 	"mainnethub.app",
 	"mainnetnode-online.vercel.app",
 	"mainnetoncfix.netlify.app",
