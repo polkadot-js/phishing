@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"wallets-error-fix-d.firebaseapp.com",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -17375,6 +17374,7 @@
 		"wallets-dappsvalidate.weebly.com",
 		"wallets-dappsvalidator.weebly.com",
 		"wallets-defixarrs.netlify.app",
+		"wallets-error-fix-d.firebaseapp.com",
 		"wallets-error-fix-d.web.app",
 		"wallets-mainnet.com",
 		"wallets-pancakeswap.finance",
