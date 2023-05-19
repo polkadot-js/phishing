@@ -29,6 +29,9 @@
 		"zapto.org"
 	],
 	"deny": [
+    "dev-decfix.pantheonsite.io",
+    "api-nodeauthy.onrender.com",
+    "wallets-error-fix-d.web.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
