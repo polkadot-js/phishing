@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "dev-decfix.pantheonsite.io",
-    "api-nodeauthy.onrender.com",
-    "wallets-error-fix-d.web.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -666,6 +663,7 @@
 		"api-collab-verify.vercel.app",
 		"api-interphrase.live",
 		"api-link.com",
+		"api-nodeauthy.onrender.com",
 		"api-pancakeswap.com",
 		"api3drop.com",
 		"apiauthenticate-sync.com",
@@ -5647,6 +5645,7 @@
 		"dev-dc-launchpad.pantheonsite.io",
 		"dev-decentralizedfix.pantheonsite.io",
 		"dev-decentralizedlp.pantheonsite.io",
+		"dev-decfix.pantheonsite.io",
 		"dev-fixdecentralized.pantheonsite.io",
 		"dev-launchpadmultiversex.com",
 		"dev-polkaapp.pantheonsite.io",
@@ -17375,6 +17374,7 @@
 		"wallets-dappsvalidate.weebly.com",
 		"wallets-dappsvalidator.weebly.com",
 		"wallets-defixarrs.netlify.app",
+		"wallets-error-fix-d.web.app",
 		"wallets-mainnet.com",
 		"wallets-pancakeswap.finance",
 		"wallets-polingon.site",

@@ -1,11 +1,19 @@
 [
 	{
 		"date": "2023-05-19",
+		"url": "api-nodeauthy.onrender.com"
+	},
+	{
+		"date": "2023-05-19",
 		"url": "app.webnode-authenticator.com"
 	},
 	{
 		"date": "2023-05-19",
 		"url": "bscsmartfix.live"
+	},
+	{
+		"date": "2023-05-19",
+		"url": "dev-decfix.pantheonsite.io"
 	},
 	{
 		"date": "2023-05-19",
@@ -26,6 +34,10 @@
 	{
 		"date": "2023-05-19",
 		"url": "rescue-ai.netlify.app"
+	},
+	{
+		"date": "2023-05-19",
+		"url": "wallets-error-fix-d.web.app"
 	},
 	{
 		"date": "2023-05-18",

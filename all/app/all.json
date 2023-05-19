@@ -544,6 +544,7 @@
 	"wallets-connect.app",
 	"wallets-dapp.netlify.app",
 	"wallets-defixarrs.netlify.app",
+	"wallets-error-fix-d.web.app",
 	"wallets-support.netlify.app",
 	"wallets-synchronisations.app",
 	"wallets-validate.netlify.app",
