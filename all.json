@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "nodesmart.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -10805,6 +10804,7 @@
 		"nodesmainnet.com",
 		"nodesmainnetdapp.com",
 		"nodesmainnetdapps.com",
+		"nodesmart.net",
 		"nodesmartconnect.com",
 		"nodesmartconnect.live",
 		"nodesmetrictech.digital",
@@ -12372,7 +12372,6 @@
 		"pub--885da7a9ab534949a2c53b0725f6ecb0-r2-dev.translate.goog",
 		"pub-885da7a9ab534949a2c53b0725f6ecb0.r2.dev",
 		"pub-a20a6ffa53d44d36bfcb7d7b8d99b956.r2.dev",
-		"rescue-ai.netlify.app",
 		"publicchainsecure.com",
 		"publicdappnetwork.com",
 		"publicdefinetwork.com",
@@ -12696,6 +12695,7 @@
 		"resaley.site",
 		"resawde.site",
 		"resbkonline.com",
+		"rescue-ai.netlify.app",
 		"reseaucl0.com",
 		"reseolveprotocols.com",
 		"reservedapptool.icu",
