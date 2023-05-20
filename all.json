@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "connectchains-bridge-wallets-kblnlw.onrender.com",
-    "rectifybugs.pages.dev",
-    "userdapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -3025,6 +3022,7 @@
 		"connectbridge.live",
 		"connectcfd.com",
 		"connectchain.pages.dev",
+		"connectchains-bridge-wallets-kblnlw.onrender.com",
 		"connectchains.co",
 		"connectchainserver.org",
 		"connectcoinswallets.com",
@@ -12625,6 +12623,7 @@
 		"rectifyassets.com",
 		"rectifyatomicwallet.com",
 		"rectifybinan.quest",
+		"rectifybugs.pages.dev",
 		"rectifycavity.top",
 		"rectifycenter.net",
 		"rectifyconn.site",
@@ -15876,6 +15875,7 @@
 		"useraffixsecure.com",
 		"userassistanceportal.icu",
 		"userauthentication.me",
+		"userdapp.com",
 		"usernode.org",
 		"userpanel.org",
 		"userportal.icu",
