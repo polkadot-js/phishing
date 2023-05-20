@@ -101,6 +101,7 @@ async function main () {
   await unpin(hash);
 }
 
+// eslint-disable-next-line promise/catch-or-return
 main()
   .catch(console.error)
   .finally(() => process.exit());

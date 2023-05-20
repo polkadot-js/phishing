@@ -77,6 +77,8 @@ describe('crosscheck', (): void => {
     console.log('CryptoScamDb found\n', JSON.stringify(filtered, null, 2));
     console.log('CryptoScamDb missing\n', JSON.stringify(missing, null, 2));
 
+    expect(true).toBe(true);
+
     assertAndLog(missing.length === 0, 'CryptoScamDB', missing);
 
     errors--;
@@ -91,6 +93,8 @@ describe('crosscheck', (): void => {
 
     console.log('eth-phishing-detect found\n', JSON.stringify(filtered, null, 2));
     console.log('eth-phishing-detect missing\n', JSON.stringify(missing, null, 2));
+
+    expect(true).toBe(true);
 
     assertAndLog(missing.length === 0, 'eth-phishing-detect', missing);
 

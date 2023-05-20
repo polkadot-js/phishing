@@ -28,6 +28,8 @@ describe('added addresses', (): void => {
       })
       .filter(([, addrs]) => addrs.length);
 
+    expect(true).toBe(true);
+
     if (invalids.length) {
       throw new Error(`Invalid ss58 checksum addresses found: ${invalids.map(([url, addrs]) => `\n\t${url}: ${addrs.join(', ')}`).join('')}`);
     }
