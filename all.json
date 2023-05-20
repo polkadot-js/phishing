@@ -29,6 +29,9 @@
 		"zapto.org"
 	],
 	"deny": [
+    "connectchains-bridge-wallets-kblnlw.onrender.com",
+    "rectifybugs.pages.dev",
+    "userdapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
