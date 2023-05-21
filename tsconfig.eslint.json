@@ -9,7 +9,7 @@
 		"scripts/*",
     ".prettierrc.cjs",
     "eslint.config.js",
-		"rollup.config.mjs"
+		"rollup.config.js"
 	],
   "exclue": [
 		"**/node_modules/**/*"
