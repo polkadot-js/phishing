@@ -18,6 +18,7 @@
 	"auth-config.pages.dev",
 	"authconnect.dev",
 	"authconnect.pages.dev",
+	"authfix.pages.dev",
 	"authfixnow.pages.dev",
 	"authwebnets.pages.dev",
 	"autovalidateblockchain.pages.dev",
