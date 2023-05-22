@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "cryptodroptoken.com",
-    "nodedecentralizedapp.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -3565,6 +3563,7 @@
 		"cryptodappsync.com",
 		"cryptodatachain.com",
 		"cryptodoubling.live",
+		"cryptodroptoken.com",
 		"cryptoecosystem.info",
 		"cryptoesolutions.com",
 		"cryptoextension-dapp.best",
@@ -10754,6 +10753,7 @@
 		"nodedatasync.com",
 		"nodeddapp.com",
 		"nodedebug.live",
+		"nodedecentralizedapp.com",
 		"nodedefi.net",
 		"nodedefis.site",
 		"nodedelegations.digital",
