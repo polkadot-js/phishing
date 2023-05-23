@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"auth-fix.pages.dev",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -1046,6 +1045,7 @@
 		"auth-connector.com",
 		"auth-dapps.net",
 		"auth-defi.live",
+		"auth-fix.pages.dev",
 		"auth-jog.com",
 		"auth-metamask.com",
 		"auth-rectify.netlify.app",
