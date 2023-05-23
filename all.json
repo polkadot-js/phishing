@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "infinitydomain.io",
-    "support.infinitydomain.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -7767,6 +7765,7 @@
 		"indixsollad.000webhostapp.com",
 		"indobridge.best",
 		"infinit3.com",
+		"infinitydomain.io",
 		"infinitygame.site",
 		"infinitypadvault.vip",
 		"infinitytokenswap.com",
