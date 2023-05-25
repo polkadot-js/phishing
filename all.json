@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"polkaclassic.finance",
+		"ethereumkusama.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"authrectify.pages.dev",
 		"09sync00.duckdns.org",
