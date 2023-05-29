@@ -25,6 +25,7 @@
 	"index-smartpad.buzz",
 	"integrationsyn-pad.buzz",
 	"launcpad-protocol.buzz",
+	"mainetsmart-interface.buzz",
 	"mainnetserver.buzz",
 	"metamaskcn.buzz",
 	"migrate-v2sync.buzz",
