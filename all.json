@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "aismartfix.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -442,6 +441,7 @@
 		"airplop.link",
 		"airswallets.com",
 		"airswaps.finance",
+		"aismartfix.com",
 		"aitradingcrypto.xyz",
 		"ajudacef.com",
 		"ak-traders.com",
