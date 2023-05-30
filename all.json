@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"nodecorrects.kwaratech.com",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -10835,6 +10834,7 @@
 		"nodeconnectons.com",
 		"nodeconnectschain.herokuapp.com",
 		"nodecore.app",
+		"nodecorrects.kwaratech.com",
 		"nodedapp.netlify.app",
 		"nodedapps.online",
 		"nodedappsnet.com",
