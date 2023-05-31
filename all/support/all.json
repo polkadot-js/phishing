@@ -25,6 +25,7 @@
 	"metachain.support",
 	"mywallet.support",
 	"noderest.support",
+	"polkadot.support",
 	"revokedapp.support",
 	"support-metamask.support",
 	"syncwallet.support",
