@@ -30,8 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"decentralized-mainnet.web.app",
-		"decentralized-mainnet.firebaseapp.com",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -5295,6 +5293,8 @@
 		"decentralized-firmwareprotocol.live",
 		"decentralized-launchpad.com",
 		"decentralized-mainnet.com",
+		"decentralized-mainnet.firebaseapp.com",
+		"decentralized-mainnet.web.app",
 		"decentralized-multichains.com",
 		"decentralized-network.site",
 		"decentralized-protocol.art",
