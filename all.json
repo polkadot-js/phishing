@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "vrsetnuvetordora.website",
-    "stormexchange.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -14270,6 +14268,7 @@
 		"stockmartinc.com",
 		"stockportfxtrade.com",
 		"stokholfixxer.com",
+		"stormexchange.io",
 		"stprohor.org.au",
 		"stratos.medium.cn.com",
 		"stratos.medium.com.ru",
@@ -16519,6 +16518,7 @@
 		"vps91141.hostwindsdns.com",
 		"vpvalidationprocess.com",
 		"vrgwallet.digital",
+		"vrsetnuvetordora.website",
 		"vstex.pro",
 		"vstex.top",
 		"vv2ii.live",
