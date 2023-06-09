@@ -29,7 +29,7 @@ const ourSiteList = JSON.parse(fs.readFileSync('all.json', 'utf-8')) as { allow:
 
 function assertAndLog (check: boolean, site: string, missing: unknown): void {
   if (!check) {
-    process.env.CI_LOG && fs.appendFileSync('./.github/crosscheck.md', `
+    process.env['CI_LOG'] && fs.appendFileSync('./.github/crosscheck.md', `
 
 Missing entries found from ${site}:
 

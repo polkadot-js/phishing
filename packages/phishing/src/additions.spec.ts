@@ -95,7 +95,7 @@ describe('added urls', (): void => {
     }, []);
 
     expect(
-      process.env.CI_LOG
+      process.env['CI_LOG']
         ? []
         : dupes
     ).toEqual([]);
