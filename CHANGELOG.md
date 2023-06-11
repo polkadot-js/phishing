@@ -2,6 +2,10 @@
 
 ## 0.21.5 Jun 11, 2023
 
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
 Changes:
 
 - Adjust object index access for stricter tsconfig settings
