@@ -85,6 +85,7 @@
 	"polkastarter.cc",
 	"securecoin.cc",
 	"solidfix.cc",
+	"spxmap.cc",
 	"synctoday.cc",
 	"syncwals-activation.cc",
 	"token-im.cc",
