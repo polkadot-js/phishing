@@ -25,10 +25,39 @@ interface EthPhishing {
 
 const TICKS = '```';
 
-const ourSiteList = JSON.parse(fs.readFileSync('all.json', 'utf-8')) as { allow: string[]; deny: string[] };
+const ours = (
+  JSON.parse(fs.readFileSync('all.json', 'utf-8')) as { allow: string[]; deny: string[] }
+).deny;
 
-function assertAndLog (check: boolean, site: string, missing: unknown): void {
-  if (!check) {
+function matchName (_url: string): boolean {
+  const url = (_url || '').toLowerCase();
+
+  return !!url && (url.includes('polka') || url.includes('kusa'));
+}
+
+function isSubdomain (ours: string[], url: string) {
+  const parts = url.split('.');
+
+  for (let i = 1; i < parts.length - 1; i++) {
+    if (ours.includes(parts.slice(i).join('.'))) {
+      // this is a sub-domain of a domain that already exists
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function assertDetails (site: string, list: string[]): void {
+  const missing = list.filter((url) =>
+    !ours.includes(url) &&
+    !isSubdomain(ours, url)
+  );
+
+  console.log(`${site} found\n`, JSON.stringify(list, null, 2));
+  console.log(`${site} missing\n`, JSON.stringify(missing, null, 2));
+
+  if (missing.length) {
     process.env['CI_LOG'] && fs.appendFileSync('./.github/crosscheck.md', `
 
 Missing entries found from ${site}:
@@ -42,17 +71,10 @@ ${TICKS}
   }
 }
 
-function matchName (_url: string): boolean {
-  const url = (_url || '').toLowerCase();
-
-  return !!url && (url.includes('polka') || url.includes('kusa'));
-}
-
 const CRYPTODB = 'https://raw.githubusercontent.com/CryptoScamDB/blacklist/master/data/urls.yaml';
 const ETHPHISH = 'https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json';
 
 describe('crosscheck', (): void => {
-  const ours: string[] = ourSiteList.deny;
   let counter = 0;
   let errors = 0;
 
@@ -69,17 +91,20 @@ describe('crosscheck', (): void => {
 
     // this is a hack, the text slipped in upstream
     const scamDb = yamlParse(raw.replace('∂ç', '')) as CryptoScamEntry[];
-    const filtered = scamDb.filter(({ name, subcategory }) => matchName(subcategory) || matchName(name));
-    const missing = filtered.filter(({ url }) =>
-      !ours.includes(url.replace(/https:\/\/|http:\/\//, '').split('/')[0])
+
+    assertDetails(
+      'CryptoScamDb',
+      scamDb
+        .filter(({ name, subcategory, url }) =>
+          matchName(subcategory) ||
+          matchName(name) ||
+          matchName(url)
+        )
+        .map(({ url }) =>
+          url.replace(/https:\/\/|http:\/\//, '').split('/')[0]
+        )
     );
-
-    console.log('CryptoScamDb found\n', JSON.stringify(filtered, null, 2));
-    console.log('CryptoScamDb missing\n', JSON.stringify(missing, null, 2));
-
     expect(true).toBe(true);
-
-    assertAndLog(missing.length === 0, 'CryptoScamDB', missing);
 
     errors--;
   });
@@ -88,15 +113,16 @@ describe('crosscheck', (): void => {
     errors++;
 
     const ethDb = await fetchJson<EthPhishing>(ETHPHISH);
-    const filtered = ethDb.blacklist.filter((url) => matchName(url));
-    const missing = filtered.filter((url) => !ours.includes(url));
 
-    console.log('eth-phishing-detect found\n', JSON.stringify(filtered, null, 2));
-    console.log('eth-phishing-detect missing\n', JSON.stringify(missing, null, 2));
-
+    assertDetails(
+      'eth-phishing-detect',
+      ethDb
+        .blacklist
+        .filter((url) =>
+          matchName(url)
+        )
+    );
     expect(true).toBe(true);
-
-    assertAndLog(missing.length === 0, 'eth-phishing-detect', missing);
 
     errors--;
   });
