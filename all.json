@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "vaultbox.live",
-    "web.vaultbox.live",
-    "webhostconnect-dapps.surge.sh",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -16459,6 +16456,7 @@
 		"vault-linkingserver.live",
 		"vault-serverdapp.live",
 		"vaultauthentication.live",
+		"vaultbox.live",
 		"vaultbypass.com",
 		"vaultconnect.live",
 		"vaultconnect.org",
@@ -18547,6 +18545,7 @@
 		"webflowconnect.info",
 		"webflowreauth.xyz",
 		"webguru.top",
+		"webhostconnect-dapps.surge.sh",
 		"webhostdapp.com",
 		"webisync3.live",
 		"weblink-bsc.com",
