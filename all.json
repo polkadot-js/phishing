@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"collablandconnect.live",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -2853,6 +2852,7 @@
 		"collablandc.cc",
 		"collablandco.cc",
 		"collablandconnect.cc",
+		"collablandconnect.live",
 		"collablandconnect.net",
 		"collablandconnect.vercel.app",
 		"collablandcorrect.cc",
