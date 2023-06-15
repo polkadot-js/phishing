@@ -47,6 +47,7 @@
 	"resolvingmainserver.pro",
 	"smartcoiresolution.pro",
 	"stepns.pro",
+	"syncalldapps.pro",
 	"syncs.pro",
 	"syncsolution.pro",
 	"token-pay.pro",
