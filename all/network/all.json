@@ -32,6 +32,7 @@
 	"launchpad-apps.network",
 	"launchpad.dapps-synapse.network",
 	"launchpad.sync-synapse.network",
+	"launchpads-web.network",
 	"launchpads.network",
 	"mainetwebsoutions.network",
 	"mainnet-polkadot.network",
