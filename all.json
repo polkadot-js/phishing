@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-    "manualresolve.io",
-    "manualfixresolve.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -9163,12 +9161,14 @@
 		"manualcoonectsysnode.com",
 		"manualdappsync.com",
 		"manualfix.xyz",
+		"manualfixresolve.io",
 		"manuallfixsyncc.netlify.app",
 		"manuallsync.xyz",
 		"manualonline-sync.com",
 		"manualrectifying.com",
 		"manualrepair.site",
 		"manualresolve.com",
+		"manualresolve.io",
 		"manualresolve.xyz",
 		"manualresolve247.com",
 		"manualresolvefixnode.tech",
