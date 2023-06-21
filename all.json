@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+    "coreumm.com",
     "contractresolver.com",
     "app.contractresolver.com",
     "avouchsync.net",
