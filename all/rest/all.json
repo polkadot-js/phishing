@@ -1,5 +1,6 @@
 [
 	"balancer.rest",
+	"collab.rest",
 	"tokenpocketn.rest",
 	"wallet.socially.rest"
 ]
