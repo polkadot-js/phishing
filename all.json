@@ -30,8 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"nominex-dex.firebaseapp.com",
-		"nominex-dex.web.app",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
@@ -11278,6 +11276,8 @@
 		"nofeka.net",
 		"noidkillnsmacsbirddye.ru",
 		"noilehtnoil.com",
+		"nominex-dex.firebaseapp.com",
+		"nominex-dex.web.app",
 		"nominexauth.firebaseapp.com",
 		"nominexauth.web.app",
 		"noncenode.live",
