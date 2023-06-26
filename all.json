@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"node-fix.onrender.com",
 		"decentralizeddomain.io",
 		"support.decentralizeddomain.io",
 		"b3pool.xyz",
