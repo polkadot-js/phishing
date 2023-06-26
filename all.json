@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"decentralizeddomain.io",
+		"support.decentralizeddomain.io",
 		"b3pool.xyz",
 		"dexrpc.net",
 		"apygate.dexrpc.net",
