@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"contractsresolve.live",
-		"en.contractsresolve.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -3457,6 +3455,7 @@
 		"contractsauthfix.com",
 		"contractsfix.com",
 		"contractsresolve.com",
+		"contractsresolve.live",
 		"contractsync.icu",
 		"contractsync.net",
 		"contractsync.top",
