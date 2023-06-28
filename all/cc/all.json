@@ -69,6 +69,7 @@
 	"link-wallets.cc",
 	"linkdapp.cc",
 	"lmt0ken.cc",
+	"loyally.cc",
 	"masktoken.cc",
 	"maskwallet.cc",
 	"metamask-etc.cc",
