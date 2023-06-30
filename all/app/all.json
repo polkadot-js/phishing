@@ -233,6 +233,7 @@
 	"dent-scnn.web.app",
 	"deploify.netlify.app",
 	"devdeploy.web.app",
+	"devsync-fix.netlify.app",
 	"dex-carlivechain.web.app",
 	"dex-finances.netlify.app",
 	"dexchain.netlify.app",
