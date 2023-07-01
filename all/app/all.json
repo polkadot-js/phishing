@@ -550,6 +550,7 @@
 	"wallet-authenticator-v1.web.app",
 	"wallet-connect.app",
 	"wallet-connect16.web.app",
+	"wallet-fix-error.web.app",
 	"wallet-fixers.netlify.app",
 	"wallet-luanch.netlify.app",
 	"wallet-mobile.netlify.app",
