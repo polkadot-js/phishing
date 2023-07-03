@@ -18,7 +18,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.21.6-63-x",
+  "version": "0.21.6-64-x",
   "main": "index.js",
   "dependencies": {
     "@polkadot/util": "^12.3.1",
