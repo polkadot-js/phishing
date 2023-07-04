@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"abnodexyz.net",
+		"web.abnodexyz.net",
 		"chainlinkrpcerrrors.buzz",
 		"w.chainlinkrpcerrrors.buzz",
 		"tclh.cryptorally.org",
