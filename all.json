@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"projectmains.netlify.app",
 		"abnodexyz.net",
 		"web.abnodexyz.net",
 		"chainlinkrpcerrrors.buzz",
