@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"wallstmeme.live",
+		"claim.wallstmeme.live",
 		"walletconnectweb3.pages.dev",
 		"bittrexcryptohub.com",
 		"bitturkcui.com",
