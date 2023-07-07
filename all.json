@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"betadigital.site",
 		"dapp-security.netlify.app",
 		"webdappsconnectprotocol.pages.dev",
 		"dappnodes.net",
