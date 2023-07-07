@@ -220,6 +220,7 @@
 	"dappmodule.net",
 	"dappnetworkactivation.net",
 	"dappnodeconnect.net",
+	"dappnodes.net",
 	"dappresolve.net",
 	"dapps-access.net",
 	"dapps-activate.net",
