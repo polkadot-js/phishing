@@ -29,6 +29,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"coinbase-dex.com",
+		"bitsw.io",
+		"claimpsyop.app",
+		"coinbase-protocol.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
