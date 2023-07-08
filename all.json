@@ -29,6 +29,9 @@
 		"zapto.org"
 	],
 	"deny": [
+		"ait.financial",
+		"shibcoin.claims",
+		"verasity.land",
 		"minipepe.one",
 		"pepe2.in",
 		"apply-compound.finance",
