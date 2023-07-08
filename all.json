@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"zksyncapps.com",
 		"airdrop-zksync.ws",
 		"etherclaims.com",
 		"claim-ether.net",
