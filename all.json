@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"memecoin.promo",
 		"memecoin.land",
 		"memecoin.finance",
 		"memecoin.claims",
