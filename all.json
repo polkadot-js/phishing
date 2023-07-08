@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"dappsnodaltor.netlify.app",
-		"psyop-airdrop.org",
-		"pepe2-0.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -5018,6 +5015,7 @@
 		"dappsnetwork.online",
 		"dappsnetwork.org",
 		"dappsnod.com",
+		"dappsnodaltor.netlify.app",
 		"dappsnode-fix.com",
 		"dappsnode-sync.online",
 		"dappsnode-walletsync.com",
@@ -12225,6 +12223,7 @@
 		"pelisgoogledrive.net",
 		"pemyomy.site",
 		"penaber.site",
+		"pepe2-0.com",
 		"pepe2claim.com",
 		"pepebonus.org",
 		"pepeclaimsapp.com",
@@ -13090,6 +13089,7 @@
 		"proultranft.com",
 		"provide-mint.sbs",
 		"prspoi.org",
+		"psyop-airdrop.org",
 		"psyopdex.gg",
 		"psyopdexclaims.com",
 		"psyoptoken.top",
