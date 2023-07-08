@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"node-tool.net",
-		"1st4exchange.online",
-		"garantexchange.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -95,6 +92,7 @@
 		"1nch.webflow.io",
 		"1polkadot-5x1e.js.org",
 		"1sgexchange.com",
+		"1st4exchange.online",
 		"1token-im.com",
 		"1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
 		"1vsoumsoosby8aazwusucqrysh7lakimcneijp8shsj8x6bpolkadot.js.org",
@@ -7527,6 +7525,7 @@
 		"gamini-wallet.com",
 		"gammadex.net",
 		"gammaswap.net",
+		"garantexchange.com",
 		"gasrefund-otherside.com",
 		"gate-site.xyz",
 		"gatea.me",
@@ -11291,6 +11290,7 @@
 		"node-syncs.com",
 		"node-testapi.org",
 		"node-tool.info",
+		"node-tool.net",
 		"node-uptodate.live",
 		"node-validation.online",
 		"node-weblinks.com",
