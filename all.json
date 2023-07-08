@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dappsnodaltor.netlify.app",
 		"psyop-airdrop.org",
 		"pepe2-0.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
