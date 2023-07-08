@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"psyopclaims.vip",
 		"psyopclaim.vip",
 		"claimorbeonprotocol.online",
 		"claimether.site",
