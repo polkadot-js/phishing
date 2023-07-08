@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"memecoin.finance",
 		"memecoin.claims",
 		"pepecoin20.com",
 		"pepe2coineth.vip",
