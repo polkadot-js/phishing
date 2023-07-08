@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"claimverasity.net",
 		"coinbase-dex.com",
 		"bitsw.io",
 		"claimpsyop.app",
