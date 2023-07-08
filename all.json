@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"memecoin.claims",
 		"pepecoin20.com",
 		"pepe2coineth.vip",
 		"psyopdrop.space",
