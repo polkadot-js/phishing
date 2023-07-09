@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"portal-zksync.pro",
 		"claimlayerzero.net",
 		"ens-registration-wl.com",
 		"migrate-radiant-capital.netlify.app",
