@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"claims-shibatoken.com",
 		"loyaltys.online",
 		"laxesrectify.netlify.app",
 		"optimisim.org",
