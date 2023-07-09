@@ -30,6 +30,7 @@
 	],
 	"deny": [
 		"uualletconnect.web.app",
+		"uualletconnect.firebaseapp.com",
 		"azukielement.com",
 		"elementalazuki.com",
 		"azuki-elemental.com",
