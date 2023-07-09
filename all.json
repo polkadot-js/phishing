@@ -29,6 +29,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"lido.gift",
+		"lido.fyi",
+		"lido-us.site",
+		"shibcoin.claims",
 		"lido-stakes.xyz",
 		"lido.army",
 		"zksyncid.xyz",
