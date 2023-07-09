@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"syncswap.portal-zksync.pro",
+		"psyopdrop.space",
 		"zkstacks.in",
 		"pancakswaps.in",
 		"apecoin.agency",
