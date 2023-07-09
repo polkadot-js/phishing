@@ -1,10 +1,12 @@
 [
 	"appweb3.win",
+	"claim-zksync.win",
 	"coinbasewallet.win",
 	"dappssynch.win",
 	"imtokenwallet.win",
 	"metamask-cn.win",
 	"metamaskio.win",
 	"metatoken.win",
+	"metausdt.win",
 	"xtoken.win"
 ]

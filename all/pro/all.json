@@ -1,6 +1,8 @@
 [
+	"1inch-info.pro",
 	"5kmapp.pro",
 	"aave-ethereum.pro",
+	"aidrop.pro",
 	"autodappsolution.pro",
 	"autovalidatebot.pro",
 	"bitexcoin.pro",
@@ -79,6 +81,7 @@
 	"vstex.pro",
 	"walletconnect-support.pro",
 	"wallvalidator.pro",
+	"web3-request-bounty.pro",
 	"web3integrateddapp.pro",
 	"webberland.pro",
 	"wed3.pro",
