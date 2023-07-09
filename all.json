@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"ens-registration-wl.com",
+		"migrate-radiant-capital.netlify.app",
 		"claims-shibatoken.com",
 		"loyaltys.online",
 		"laxesrectify.netlify.app",
