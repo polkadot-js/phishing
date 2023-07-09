@@ -29,6 +29,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"lido.army",
+		"zksyncid.xyz",
+		"zksyncera.world",
+		"zksync-eth.xyz",
 		"syncswap.portal-zksync.pro",
 		"psyopdrop.space",
 		"zkstacks.in",
