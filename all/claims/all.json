@@ -1,5 +1,7 @@
 [
+	"memecoin.claims",
 	"ondo.claims",
+	"shibcoin.claims",
 	"tokens.claims",
 	"trust-wallet.claims"
 ]
