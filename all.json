@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"claimlayerzero.net",
 		"ens-registration-wl.com",
 		"migrate-radiant-capital.netlify.app",
 		"claims-shibatoken.com",
