@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"lido-stakes.xyz",
 		"lido.army",
 		"zksyncid.xyz",
 		"zksyncera.world",
