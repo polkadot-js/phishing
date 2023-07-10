@@ -5,6 +5,7 @@
 	"app-uniswap.cc",
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
+	"claim-scroll.cc",
 	"coin-solutions.cc",
 	"coinloan.cc",
 	"coinsolution.cc",
