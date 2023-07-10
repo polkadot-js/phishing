@@ -1,13 +1,16 @@
 [
+	"apecoins.claims",
 	"arbdoges.claims",
 	"azero.claims",
 	"babydoges.claims",
 	"bigeyes.claims",
 	"claimpepe.claims",
+	"hellocoin.claims",
 	"memecoin.claims",
 	"ondo.claims",
 	"pepe2.claims",
 	"shibcoin.claims",
 	"tokens.claims",
-	"trust-wallet.claims"
+	"trust-wallet.claims",
+	"wrappedpepe.claims"
 ]
