@@ -29,6 +29,16 @@
 		"zapto.org"
 	],
 	"deny": [
+		"azero.claims",
+		"apecoindao.club",
+		"dao-inch.net",
+		"floki-join.xyz",
+		"apecoin.fm",
+		"claims-cyberkongz.com",
+		"apecoindao.plus",
+		"refundmultichain.org",
+		"refundsmultichain.org",
+		"ait-finance.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
