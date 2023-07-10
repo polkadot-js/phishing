@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"azero.claims",
 		"apecoindao.club",
 		"dao-inch.net",
 		"floki-join.xyz",
