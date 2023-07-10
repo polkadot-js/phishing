@@ -137,6 +137,7 @@
 	"blockchainhub.online",
 	"blockchainserver.online",
 	"blockmigration.online",
+	"blocknode-rpc.online",
 	"blocksaffinity.online",
 	"bloctroubleshot.online",
 	"blokcloud.online",
