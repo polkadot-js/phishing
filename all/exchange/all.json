@@ -21,5 +21,6 @@
 	"tokenlaunchpad.exchange",
 	"universaldex.exchange",
 	"wagyuswap.exchange",
-	"walletconnect-api.exchange"
+	"walletconnect-api.exchange",
+	"wl-vela.exchange"
 ]

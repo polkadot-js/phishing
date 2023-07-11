@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"claim-neotokyo.xyz",
-		"wl-vela.exchange",
-		"earnpsyops.site",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0vvwvuniswap.top",
@@ -2576,6 +2573,7 @@
 		"claim-mask.net",
 		"claim-mnlth.com",
 		"claim-murakami.com",
+		"claim-neotokyo.xyz",
 		"claim-nets.netlify.app",
 		"claim-nouns.wtf",
 		"claim-octavia.net",
@@ -6612,6 +6610,7 @@
 		"e-walletconnect.online",
 		"e-walletconnects.live",
 		"earn-crypto-trustapp.online",
+		"earnpsyops.site",
 		"easelivecon.com",
 		"eassecon.com",
 		"easy-connect.xyz",
@@ -19684,6 +19683,7 @@
 		"wisextension.com",
 		"withdrawalverification.com",
 		"withsupportaids.com",
+		"wl-vela.exchange",
 		"wlctknvalidatorlivedesk.online",
 		"wllcsyncmain.one",
 		"wllectvalldator.com",
