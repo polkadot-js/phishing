@@ -83,6 +83,7 @@
 	"mobilenet.cc",
 	"multichainverifiers.cc",
 	"musk2xr.cc",
+	"myasset-collab.cc",
 	"network-tech.cc",
 	"polkadot.cc",
 	"polkastarter.cc",
