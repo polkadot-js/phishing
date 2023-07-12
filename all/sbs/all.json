@@ -17,6 +17,7 @@
 	"nodelive.sbs",
 	"nodesapp.sbs",
 	"pancakeswapresolve.sbs",
+	"pepetoken.sbs",
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"shibatokengo.sbs",
