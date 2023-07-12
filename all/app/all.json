@@ -78,6 +78,7 @@
 	"chainsyncapi.netlify.app",
 	"chargebackbridge.app",
 	"claim-arbitrum.app",
+	"claim-circle.app",
 	"claim-dapp.netlify.app",
 	"claim-nets.netlify.app",
 	"claim-rewards.netlify.app",
