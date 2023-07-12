@@ -97,6 +97,7 @@
 	"coinsupport.app",
 	"cointral.netlify.app",
 	"coinwalletsolution.vercel.app",
+	"coiresolver.vercel.app",
 	"collab-land-api-verify.vercel.app",
 	"collab-verifier.netlify.app",
 	"collabconnection.vercel.app",
@@ -698,5 +699,6 @@
 	"zealous-multi.netlify.app",
 	"zeriondapp.netlify.app",
 	"zinumigration.netlify.app",
-	"zk-alt-sync.vercel.app"
+	"zk-alt-sync.vercel.app",
+	"zksnyc.app"
 ]
