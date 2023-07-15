@@ -44,6 +44,7 @@
 	"authenticateddappssync.netlify.app",
 	"authorize-link.netlify.app",
 	"autndapps.netlify.app",
+	"ava-launch.app",
 	"avalaunches.app",
 	"avaslaunch.app",
 	"awe-scan.web.app",
@@ -707,5 +708,6 @@
 	"zeriondapp.netlify.app",
 	"zinumigration.netlify.app",
 	"zk-alt-sync.vercel.app",
-	"zksnyc.app"
+	"zksnyc.app",
+	"zksync-era.app"
 ]
