@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"ait-finances.com",
-		"zksync.technology",
-		"psyopsclaim.site",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
@@ -483,6 +480,7 @@
 		"aismartfix.com",
 		"ait-finance.net",
 		"ait-finance.xyz",
+		"ait-finances.com",
 		"ait-finances.net",
 		"ait.financial",
 		"aitfinance.net",
@@ -13592,6 +13590,7 @@
 		"psyopfun.xyz",
 		"psyoplabs.org",
 		"psyopreward.xyz",
+		"psyopsclaim.site",
 		"psyopsgift.xyz",
 		"psyoptoken.cc",
 		"psyoptoken.top",
@@ -20254,6 +20253,7 @@
 		"zksync-eth.xyz",
 		"zksync.exchange",
 		"zksync.link",
+		"zksync.technology",
 		"zksync20.cash",
 		"zksyncair.space",
 		"zksyncapps.com",
