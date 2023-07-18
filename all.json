@@ -29,6 +29,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"tapio.netlify.app",
+		"defi-lido.fi",
+		"chainlayerzero.com",
+		"thelayerzero.network",
+		"redistributions-ftm.net",
+		"zksync-claim.io",
+		"pepe20vip.info",
+		"resolvemytoken.online",
+		"boxnft.airdrops-lives.com",
+		"airdrops-lives.com",
+		"sunflowerlans.fun",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"zapper-main.com",
 		"thelayerzero.network",
