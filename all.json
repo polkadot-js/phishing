@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"arkahaminteligence.com",
-		"bitinauts.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
@@ -1032,6 +1030,7 @@
 		"arcoprotocol.net",
 		"ardomant.site",
 		"arhamsoft.org",
+		"arkahaminteligence.com",
 		"arkfree.org",
 		"arkhami-ai.tech",
 		"arkhamiintelligence.com",
@@ -1839,6 +1838,7 @@
 		"bitforex-gains.co.uk",
 		"bitfrost-private.com",
 		"bitgert.online",
+		"bitinauts.app",
 		"bitinsuremainnet.com",
 		"bitinvestsolution.com",
 		"bitkeep-sync.com",
