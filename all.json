@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"elseverse.claims",
-		"full-nakas.com",
-		"avalaunch-apps.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
@@ -1439,6 +1436,7 @@
 		"avadoconnect.net",
 		"avalanchesync.com",
 		"avalaunch-app.live",
+		"avalaunch-apps.com",
 		"avalaunch.top",
 		"avalaunchapp.me",
 		"avalaunches.app",
@@ -6920,6 +6918,7 @@
 		"elrond-2022.com",
 		"elrond22.org",
 		"elsalvadorairdrop.com",
+		"elseverse.claims",
 		"embertokencrypto.com",
 		"emetamasks.com",
 		"eminencebridge.net",
@@ -7901,6 +7900,7 @@
 		"fuktlamp.site",
 		"fulckmanyun.site",
 		"fulkmanas.site",
+		"full-nakas.com",
 		"fuluklant.site",
 		"fuluktuab.site",
 		"fumbetops.site",
