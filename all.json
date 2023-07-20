@@ -29,6 +29,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"drop-sei.io",
+		"revike.cash",
+		"claim-ether.site",
+		"airdrop-ether.app",
+		"airdrop-venoms.network",
+		"airdrops-sei.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
