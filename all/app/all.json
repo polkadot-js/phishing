@@ -278,6 +278,7 @@
 	"dpp-solution.web.app",
 	"dppbridge.web.app",
 	"dppwallet.web.app",
+	"drop-zksync.app",
 	"dualcentralconnect.netlify.app",
 	"dwallets.netlify.app",
 	"dynamicvalidate.netlify.app",
