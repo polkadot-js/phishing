@@ -30,6 +30,7 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"app.postdapp.site",
 		"stargate-fi.live",
 		"fflxedfloat.com",
 		"web3-resolverfix.com",
