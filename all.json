@@ -29,6 +29,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"claims-scroll.cc",
+		"elementalsazuki.xyz",
+		"join-pudgypenguins.xyz",
+		"whitelists-lido.fi",
+		"ripple-give.com",
+		"airdrops-zetachain.co",
+		"arbitrumfoundation.bond",
+		"arbitrumfoundation.ltd",
+		"events-apecoin.com",
+		"enter-worldcoin.org",
+		"distribution-worldcoin.com",
+		"worldcoin.si",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
