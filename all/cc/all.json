@@ -6,6 +6,7 @@
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
 	"claim-scroll.cc",
+	"claims-scroll.cc",
 	"coin-solutions.cc",
 	"coinloan.cc",
 	"coinsolution.cc",
