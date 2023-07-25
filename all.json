@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"chainbugsfix.pages.dev",
 		"09sync00.duckdns.org",
 		"0therside.com",
 		"0vvwvuniswap.top",
@@ -2536,6 +2535,7 @@
 		"chainbridgefactory.xyz",
 		"chainbridgeinfo.xyz",
 		"chainbridges.online",
+		"chainbugsfix.pages.dev",
 		"chaincloudconnect.live",
 		"chaincodperm.com",
 		"chaincoin.epizy.com",
