@@ -29,6 +29,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"eralend-zksync.io",
+		"distrlbution-ripple.com",
+		"luminex.software",
+		"join-1inch.io",
+		"claimarkham.com",
+		"apecoin.help",
+		"join-lidofinance.com",
+		"arbitrumpro.foundation",
+		"reimburse-multichain.com",
+		"web3-memecoin.com",
+		"web3-pepe.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
