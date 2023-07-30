@@ -23,6 +23,7 @@
 	"livesync.support",
 	"livetool.support",
 	"metachain.support",
+	"myfixsecured.support",
 	"mywallet.support",
 	"noderest.support",
 	"polkadot.support",

@@ -17,6 +17,7 @@
 	"oracle.multi-entityprotocol.tools",
 	"pancakeswap.tools",
 	"polkastarter.tools",
+	"protocolapps.tools",
 	"solidity-cbridge.tools",
 	"trustswallet.tools",
 	"walletconnect.tools"
