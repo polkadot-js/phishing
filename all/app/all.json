@@ -166,6 +166,7 @@
 	"dapp-brdg.web.app",
 	"dapp-brdge.web.app",
 	"dapp-chain.web.app",
+	"dapp-connect.vercel.app",
 	"dapp-connects.web.app",
 	"dapp-fixtrade.netlify.app",
 	"dapp-networks.netlify.app",
