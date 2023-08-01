@@ -21,6 +21,7 @@
 	"hellocoin.claims",
 	"hoppytoken.claims",
 	"injective.claims",
+	"mai.claims",
 	"memecoin.claims",
 	"ondo.claims",
 	"pepe2.claims",
@@ -36,5 +37,6 @@
 	"tapio.claims",
 	"tokens.claims",
 	"trust-wallet.claims",
-	"wrappedpepe.claims"
+	"wrappedpepe.claims",
+	"yuga.claims"
 ]
