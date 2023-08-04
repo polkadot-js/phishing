@@ -376,6 +376,7 @@
 	"mainnet-connect.vercel.app",
 	"mainnet-pulsechain.app",
 	"mainnet-rpc.vercel.app",
+	"mainnetconnect.app",
 	"mainnetdapp.app",
 	"mainnetdapp.web.app",
 	"mainnethub.app",
