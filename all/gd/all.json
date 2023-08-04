@@ -5,6 +5,7 @@
 	"dappwallet.rf.gd",
 	"dappwalletnode.rf.gd",
 	"dappwallets.rf.gd",
+	"extensionsapp.rf.gd",
 	"extensionsrect.rf.gd",
 	"fixerrors-dapp.rf.gd",
 	"get-ethereumrewards.rf.gd",
