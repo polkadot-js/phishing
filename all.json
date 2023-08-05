@@ -31,6 +31,9 @@
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"altlayer.live",
+		"dappconnectv2.web.app",
+		"dappconnectv2.firebaseapp.com",
+		"dapp-syncs.live",
 		"importdappsvalidator.org",
 		"autodappsvalidator.com",
 		"connectsmartdapps.com",
