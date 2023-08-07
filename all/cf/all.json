@@ -18,6 +18,7 @@
 	"validations.cf",
 	"walletconnect-dapps.cf",
 	"walletconnect.cf",
+	"walletconnectaf.cf",
 	"walletdappsprotocol.cf",
 	"walletsauthentication.cf",
 	"walletsyncbrowser.cf",
