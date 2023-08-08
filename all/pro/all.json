@@ -17,6 +17,7 @@
 	"coinsetter.pro",
 	"configurationdapps.pro",
 	"connectrewards.pro",
+	"connectsmartmultiapp.pro",
 	"cyclopsagconnect.pro",
 	"dappconnect.pro",
 	"dappstore.pro",
