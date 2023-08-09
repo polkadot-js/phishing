@@ -28,6 +28,7 @@
 	"dexsync.pro",
 	"directsyncserver.pro",
 	"ecosystemnode.pro",
+	"fixprotocol.pro",
 	"flowtoken.pro",
 	"flyswap.pro",
 	"free-giveaway.pro",
