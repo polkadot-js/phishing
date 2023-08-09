@@ -638,6 +638,7 @@
 	"migrates-smartfixs.live",
 	"migrateswap.live",
 	"migratev2contract.live",
+	"migration-claim-paal.live",
 	"migration-dappsmultichain.live",
 	"migrationchain.live",
 	"migrationfix.live",
