@@ -3,6 +3,7 @@
 	"acala.cc",
 	"adainvest.cc",
 	"airdrop-linea.cc",
+	"airdrop-zksyncs.cc",
 	"app-uniswap.cc",
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
