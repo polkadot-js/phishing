@@ -458,6 +458,7 @@
 	"nodeapp.netlify.app",
 	"nodecore.app",
 	"nodedapp.netlify.app",
+	"nodelive.web.app",
 	"nodemint.app",
 	"nodepad-shm.netlify.app",
 	"nodes-mainnet.netlify.app",
