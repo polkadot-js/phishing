@@ -245,6 +245,7 @@
 	"chainsyncs.site",
 	"chainvalidators.site",
 	"checkchain.site",
+	"claim-azuki.site",
 	"claim-ether.site",
 	"claimether.site",
 	"claimpunk.site",
