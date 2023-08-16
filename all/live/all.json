@@ -462,6 +462,7 @@
 	"eth-network.live",
 	"ethcon.live",
 	"eurotoken.live",
+	"evm-tools.live",
 	"ewalletretrieval.live",
 	"explorerprotocol.live",
 	"explorerrprotocol.live",
