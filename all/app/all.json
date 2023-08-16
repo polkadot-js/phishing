@@ -258,6 +258,7 @@
 	"decentralised-refitting.app",
 	"decentralized-2fauth.web.app",
 	"decentralized-mainnet.web.app",
+	"decentralized-node.web.app",
 	"decentralized-protocol.netlify.app",
 	"decentralizedplatform.app",
 	"decentralizedsync.netlify.app",
