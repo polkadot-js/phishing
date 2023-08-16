@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"polkadonetwork.com",
-		"polkastarters-home.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
@@ -13795,6 +13793,7 @@
 		"polkadok.js.org",
 		"polkadomain.com",
 		"polkadon.js.org",
+		"polkadonetwork.com",
 		"polkadoot.com",
 		"polkadootnetwork.online",
 		"polkador.js.org",
@@ -14226,6 +14225,7 @@
 		"polkastartergo.com",
 		"polkastarterkyc.com",
 		"polkastarterrs.com",
+		"polkastarters-home.com",
 		"polkastarters-spot.com",
 		"polkastarters.com",
 		"polkastarters.live",
