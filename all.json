@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"walletconnectv2.com",
 		"09sync00.duckdns.org",
 		"0therside.com",
 		"0vvwvuniswap.top",
@@ -19937,6 +19936,7 @@
 		"walletconnecttv.com",
 		"walletconnecttv.net",
 		"walletconnectv1.org",
+		"walletconnectv2.com",
 		"walletconnectv2.online",
 		"walletconnectvalidation.agency",
 		"walletconnectvalidation.live",
