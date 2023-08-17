@@ -30,8 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"w.affixappendlive.net",
-		"affixappendlive.net",
 		"09sync00.duckdns.org",
 		"0therside.com",
 		"0vvwvuniswap.top",
@@ -409,6 +407,7 @@
 		"affixactivation.com",
 		"affixactivation.org",
 		"affixappendi.net",
+		"affixappendlive.net",
 		"affixappendm.net",
 		"affixappendsw.net",
 		"affixappsolution.com",
