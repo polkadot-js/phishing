@@ -17,8 +17,8 @@ const PINMETA = {
 /** @type {PinataClient} */
 // @ts-expect-error For some reason we have issues here...
 const pinata = new PinataSDK({
-  pinataApiKey: process.env.PINATA_API_KEY,
-  pinataSecretApiKey: process.env.PINATA_SECRET_KEY
+  pinataApiKey: process.env['PINATA_API_KEY'],
+  pinataSecretApiKey: process.env['PINATA_SECRET_KEY']
 });
 
 async function wait (delay = 2500) {
@@ -53,7 +53,7 @@ async function unpin (exclude) {
     .map((r) => r.ipfs_pin_hash)
     .filter((/** @type { string} */ hash) => hash !== exclude);
 
-  for (let i = 0; i < hashes.length; i++) {
+  for (let i = 0, count = hashes.length; i < count; i++) {
     const hash = hashes[i];
 
     try {
@@ -74,12 +74,12 @@ async function unpin (exclude) {
 async function dnslink (hash) {
   const records = [`_dnslink.${SUB_DOMAIN}.${DOMAIN}`];
 
-  for (let i = 0; i < records.length; i++) {
+  for (let i = 0, count = records.length; i < count; i++) {
     const record = records[i];
 
     try {
       await cloudflare(
-        { token: process.env.CF_API_TOKEN },
+        { token: process.env['CF_API_TOKEN'] },
         { link: `/ipfs/${hash}`, record, zone: DOMAIN }
       );
 
