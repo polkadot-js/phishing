@@ -156,7 +156,7 @@ export async function checkAddress (address: string | Uint8Array, allowCached = 
       u8as.some((a) => u8aEq(a, u8a))
     );
 
-    return (entry && entry[0]) || null;
+    return entry?.[0] || null;
   } catch {
     return null;
   }

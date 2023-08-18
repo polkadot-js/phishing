@@ -64,7 +64,7 @@ function checkTag (url: string, tag: string, attr?: string): Promise<[string, st
     const match = new RegExp(`<${tag}${attr ? ` ${attr}` : ''}>(.*?)</${tag}>`, 'g').exec(result);
 
     // /<\/?p( id="trnsctin")?>/g
-    return match && match.length
+    return match?.length
       ? match.map((v) =>
         v
           .replace(new RegExp(`</?${tag}${attr ? `( ${attr})?` : ''}>`, 'g'), '')
@@ -84,7 +84,7 @@ function checkAttr (url: string, attr: string): Promise<[string, string[]]> {
     const result = await fetchText(url, TIMEOUT);
     const match = new RegExp(`${attr}"[a-zA-Z0-9]+"`, 'g').exec(result);
 
-    return match && match.length
+    return match?.length
       ? [match[0].replace(new RegExp(attr, 'g'), '').replace(/"/g, '').trim()]
       : null;
   });
