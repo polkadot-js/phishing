@@ -48,6 +48,7 @@
 	"collabland-wallet-ui-temp.pages.dev",
 	"collabland-wallet-ui.pages.dev",
 	"connect-protocol.pages.dev",
+	"connect-web3.pages.dev",
 	"connectchain.pages.dev",
 	"connectdapp.dev",
 	"connectdappssync.pages.dev",
