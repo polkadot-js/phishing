@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"attestationalize.com",
 		"09sync00.duckdns.org",
 		"0therside.com",
 		"0vvwvuniswap.top",
@@ -1297,6 +1296,7 @@
 		"atomiwallet.com",
 		"atowalletconnect.tax",
 		"attach-bridge.com",
+		"attestationalize.com",
 		"audiusconnectsync.org",
 		"aulconn.com",
 		"auracludefix.website",
