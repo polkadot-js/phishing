@@ -468,6 +468,7 @@
 	"nodeapp.netlify.app",
 	"nodecore.app",
 	"nodedapp.netlify.app",
+	"nodedebug.web.app",
 	"nodelive.web.app",
 	"nodemint.app",
 	"nodepad-shm.netlify.app",
