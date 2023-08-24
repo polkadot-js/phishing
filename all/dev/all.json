@@ -214,6 +214,7 @@
 	"waletauthenticate.pages.dev",
 	"wallet-auth.pages.dev",
 	"wallet-avn.pages.dev",
+	"wallet-chainsconnect.pages.dev",
 	"wallet-connect-clone.pages.dev",
 	"wallet-connect-edu.pages.dev",
 	"wallet-integrate.dev",
