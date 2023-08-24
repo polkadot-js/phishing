@@ -220,6 +220,7 @@
 	"dapps-secure.netlify.app",
 	"dapps-server.netlify.app",
 	"dapps-server.vercel.app",
+	"dapps-support.vercel.app",
 	"dapps-syncc.netlify.app",
 	"dapps-synccs.netlify.app",
 	"dapps-wallet-connect.netlify.app",
