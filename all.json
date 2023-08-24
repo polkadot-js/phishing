@@ -31,6 +31,7 @@
 	"deny": [
 		"claims-requests-web3.xyz",
 		"request-web3-claimings.live",
+		"web3-services-claims.online",
 		"polkadot-app.claims-requests-web3.xyz",
 		"polkadot-app.request-web3-claimings.live",
 		"polkadot-app.web3-services-claims.online",
