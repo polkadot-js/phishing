@@ -29,8 +29,11 @@
 		"zapto.org"
 	],
 	"deny": [
-		"polkadot-app.claims-requests-web3.xyz",
 		"claims-requests-web3.xyz",
+		"request-web3-claimings.live",
+		"polkadot-app.claims-requests-web3.xyz",
+		"polkadot-app.request-web3-claimings.live",
+		"polkadot-app.web3-services-claims.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
