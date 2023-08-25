@@ -465,6 +465,7 @@
 	"nftvalidation.app",
 	"nftwalletvalidate.netlify.app",
 	"node-connect-kyc-trade.netlify.app",
+	"node-multiverse-chain.app",
 	"node1yieldrobot.app",
 	"nodeapp.netlify.app",
 	"nodecore.app",
