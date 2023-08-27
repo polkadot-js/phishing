@@ -44,6 +44,7 @@
 	"deficontracts.network",
 	"defysync.network",
 	"dexchain.network",
+	"dexinteract.network",
 	"dexportal.network",
 	"dexswap.network",
 	"distribution-layer-zero.network",
