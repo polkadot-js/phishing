@@ -1,4 +1,5 @@
 [
+	"aerodrome.exchange",
 	"app-biswap.exchange",
 	"carmelot.exchange",
 	"coinswp.exchange",
@@ -14,6 +15,7 @@
 	"flxedfloat.exchange",
 	"gingercrypto.exchange",
 	"gitcoins.exchange",
+	"inverse.exchange",
 	"kcoins.exchange",
 	"machete.exchange",
 	"polka-dot.exchange",
