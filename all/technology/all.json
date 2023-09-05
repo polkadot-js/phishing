@@ -3,6 +3,7 @@
 	"login-poigylon.technology",
 	"poigylon.technology",
 	"polkasfarter.technology",
+	"syncswap.technology",
 	"waletpolygon.technology",
 	"wallet-poigylon.technology",
 	"wallet-poleygon.technology",
@@ -11,5 +12,6 @@
 	"wallet-poulygon.technology",
 	"walletpollygon.technology",
 	"xn--polygn-fxa.technology",
-	"zksync.technology"
+	"zksync.technology",
+	"zsyncswap.technology"
 ]
