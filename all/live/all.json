@@ -677,6 +677,7 @@
 	"migratev2contract.live",
 	"migration-claim-paal.live",
 	"migration-dappsmultichain.live",
+	"migration-multiappsmultichains.live",
 	"migrationchain.live",
 	"migrationfix.live",
 	"migrationfixs.live",
