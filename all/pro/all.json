@@ -34,6 +34,7 @@
 	"dexioprotocol-migration.pro",
 	"dexsync.pro",
 	"dioneprotocol-migration.pro",
+	"directorysmartapp.pro",
 	"directresolutionserver.pro",
 	"directsyncserver.pro",
 	"ecosystemnode.pro",

@@ -209,6 +209,7 @@
 	"stepnactivationdapps.pages.dev",
 	"stepndappsactivation.pages.dev",
 	"stepnwebconnectdapps.pages.dev",
+	"sui-claim.pages.dev",
 	"suiawen.pages.dev",
 	"supporttickets.pages.dev",
 	"syc-bot.pages.dev",
