@@ -32,6 +32,9 @@
 	"biogrowth.website",
 	"bitcoin-cover.website",
 	"bjcoin.website",
+	"bkcoin.website",
+	"blcoin.website",
+	"bmcoin.website",
 	"bolyun.website",
 	"boomv2xnode.website",
 	"bridge-sync.website",
@@ -208,6 +211,7 @@
 	"webwalletpolygon.website",
 	"wellcoin.website",
 	"xtremeliquidex.website",
+	"xzyrodexc.website",
 	"yabarielbridge.website",
 	"zkittlevest.website"
 ]
