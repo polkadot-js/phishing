@@ -257,6 +257,7 @@
 	"dappstations.web.app",
 	"dappsvalidator.netlify.app",
 	"dappswallet.app",
+	"dappswalletcon.netlify.app",
 	"dappswalletconnect.vercel.app",
 	"dappsyncedd.netlify.app",
 	"dappsyncfix.netlify.app",
