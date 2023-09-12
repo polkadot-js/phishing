@@ -37,6 +37,7 @@
 	"directorysmartapp.pro",
 	"directresolutionserver.pro",
 	"directsyncserver.pro",
+	"discordantibot.pro",
 	"ecosystemnode.pro",
 	"fixprotocol.pro",
 	"flowtoken.pro",
