@@ -683,6 +683,7 @@
 	"livenodeauth.site",
 	"livenodeauthorization.site",
 	"livesync.site",
+	"livevault.site",
 	"loginwalletconect.square.site",
 	"loktenst.site",
 	"loopfixchains.site",
@@ -1271,5 +1272,6 @@
 	"zamsanken.site",
 	"zashfix.site",
 	"zaxerthan.site",
-	"zero-swap.site"
+	"zero-swap.site",
+	"zksyncoi.site"
 ]
