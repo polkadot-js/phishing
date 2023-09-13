@@ -48,6 +48,7 @@
 	"dexchain.network",
 	"dexinteract.network",
 	"dexportal.network",
+	"dexrpc.network",
 	"dexswap.network",
 	"distribution-layer-zero.network",
 	"distribution-layerzero.network",
