@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"polkadot-app.bridge-claims.vip",
-		"bridge-claims.vip",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
@@ -2555,6 +2553,7 @@
 		"bridge-acfm043h.live",
 		"bridge-app.co",
 		"bridge-chainlink.com",
+		"bridge-claims.vip",
 		"bridge-coinbase.com",
 		"bridge-daps.com",
 		"bridge-l.ink",
