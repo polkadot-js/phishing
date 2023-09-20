@@ -1,6 +1,7 @@
 [
 	"altsupport.tools",
 	"blockbridge.tools",
+	"cfddapp.tools",
 	"chainprotocol.tools",
 	"dapp-vadilate.tools",
 	"dappbrowser.tools",
