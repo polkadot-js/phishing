@@ -131,6 +131,7 @@
 	"node2bind.tech",
 	"nodevalidate.tech",
 	"officialwalletconnect.tech",
+	"okxcoin.tech",
 	"online-uniswap.tech",
 	"optimaffix.tech",
 	"pancakeswap-casto.tech",
@@ -218,5 +219,6 @@
 	"webextensionsfix.tech",
 	"webnodeserver.tech",
 	"whizzbridge.tech",
-	"xchainprotocol.tech"
+	"xchainprotocol.tech",
+	"zksyns.tech"
 ]
