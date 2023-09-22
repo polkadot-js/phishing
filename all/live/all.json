@@ -689,6 +689,7 @@
 	"migration-dappsmultichain.live",
 	"migration-multapschan.live",
 	"migration-multiappsmultichains.live",
+	"migration-multisynlinkes.live",
 	"migrationchain.live",
 	"migrationfix.live",
 	"migrationfixs.live",
