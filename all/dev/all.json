@@ -236,6 +236,7 @@
 	"trustpad.dev",
 	"trxnvalid.pages.dev",
 	"unconfirmed-transactions.pages.dev",
+	"unlock-server.dev",
 	"validaccessauth.pages.dev",
 	"validationbugs.dev",
 	"waletauthenticate.pages.dev",
