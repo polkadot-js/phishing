@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"metamask-snap-polkadot.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0therside.com",
@@ -12085,6 +12084,7 @@
 		"metamask-restore.online",
 		"metamask-secure.com",
 		"metamask-secure.online",
+		"metamask-snap-polkadot.pages.dev",
 		"metamask-support.serveirc.com",
 		"metamask-supportdesk.com",
 		"metamask-sync.com",
