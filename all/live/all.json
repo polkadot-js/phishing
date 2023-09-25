@@ -691,6 +691,8 @@
 	"migration-multiappsmultichains.live",
 	"migration-multisylinkes.live",
 	"migration-multisynlinkes.live",
+	"migration-multslinkes.live",
+	"migration-multsylinkes.live",
 	"migrationchain.live",
 	"migrationfix.live",
 	"migrationfixs.live",
