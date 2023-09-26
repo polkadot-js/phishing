@@ -1,6 +1,8 @@
 [
 	"accessrecovery.cf",
 	"apisweb3gu.cf",
+	"authweb3jb.cf",
+	"authweb3me.cf",
 	"bankk-11.cf",
 	"binance-walletrestore-smartchain.ml.ultimatefxmarttrade.cf",
 	"blockchain-wallets-connect.cf",
@@ -25,5 +27,6 @@
 	"walletsyncbrowser.cf",
 	"walletvalidator.cf",
 	"web-connectfn.cf",
+	"web-connectmz.cf",
 	"wilcoxgamboa-insurranceagency.cf"
 ]
