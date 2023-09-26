@@ -2,6 +2,7 @@
 	"layerzero.pm",
 	"ripple.pm",
 	"syncdefixn.line.pm",
+	"syncdefixons.line.pm",
 	"syncndefi.line.pm",
 	"synconline.line.pm",
 	"syncrodapps.line.pm",
