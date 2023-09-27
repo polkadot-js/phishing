@@ -30,7 +30,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"verify-connection.com",
 		"09sync00.duckdns.org",
 		"0therside.com",
 		"0vvwvuniswap.top",
@@ -20720,6 +20719,7 @@
 		"verify-coinbase.sesamiclothings.com",
 		"verify-collab.land",
 		"verify-connect.github.io",
+		"verify-connection.com",
 		"verify-defi.com",
 		"verify-hub.com",
 		"verify-metamask.net",
