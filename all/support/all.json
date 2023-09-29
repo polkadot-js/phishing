@@ -1,6 +1,7 @@
 [
 	"blockchainweb.support",
 	"blockverse.support",
+	"conectdappfix.support",
 	"connectintegrate.support",
 	"connecttoken.support",
 	"crosschain-users.support",
