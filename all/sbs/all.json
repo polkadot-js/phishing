@@ -1,5 +1,6 @@
 [
 	"apollovelo.sbs",
+	"apptrust-fixed.sbs",
 	"authenticatordapp.sbs",
 	"bridge-terra-go.sbs",
 	"bridgeterra-go.sbs",

@@ -71,6 +71,7 @@
 	"mutualcommutationapp.pro",
 	"neutralappsync.pro",
 	"neutralquickauths.pro",
+	"node-app-multiverse.pro",
 	"openchainsdirectserver.pro",
 	"org-site-v3-defi.pro",
 	"pancakeswapp.pro",
