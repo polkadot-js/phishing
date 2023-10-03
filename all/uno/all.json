@@ -1,6 +1,7 @@
 [
 	"coinchange.uno",
 	"dappsvalidation.uno",
+	"dappsync-zone.uno",
 	"dappwallletsync.uno",
 	"importdappsvalidator.uno",
 	"layerzero.uno",
