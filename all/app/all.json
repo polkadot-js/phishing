@@ -230,6 +230,7 @@
 	"dapp2022connect.web.app",
 	"dappauths.web.app",
 	"dappauthsync.vercel.app",
+	"dappchainlinks.vercel.app",
 	"dappconect.netlify.app",
 	"dappconnectregistry.web.app",
 	"dappconnectv2.web.app",
