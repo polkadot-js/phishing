@@ -875,6 +875,7 @@
 	"web3service.netlify.app",
 	"web3synchronize.netlify.app",
 	"web3validate.netlify.app",
+	"web3wallet-sync.web.app",
 	"webconnects.netlify.app",
 	"webdappconnect.app",
 	"webdappsconnect.app",
