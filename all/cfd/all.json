@@ -1,4 +1,5 @@
 [
+	"appendmainet.cfd",
 	"apptrustresolve.cfd",
 	"batch-dollar.cfd",
 	"cakeconnect.cfd",
@@ -7,6 +8,7 @@
 	"cr38.domaintest.cfd",
 	"dapp-connect.cfd",
 	"dappcfd-cbw.cfd",
+	"dappzone-sync.cfd",
 	"deskcom.cfd",
 	"fixedfloat.cfd",
 	"flare.cfd",
