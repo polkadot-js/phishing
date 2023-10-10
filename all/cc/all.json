@@ -5,6 +5,7 @@
 	"ai-trade.cc",
 	"airdrop-linea.cc",
 	"airdrop-zksyncs.cc",
+	"allbridge.cc",
 	"app-uniswap.cc",
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
