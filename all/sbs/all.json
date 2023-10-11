@@ -11,6 +11,7 @@
 	"cryptokens.sbs",
 	"dappsync-zone.sbs",
 	"espacev.sbs",
+	"fixdapps-zone.sbs",
 	"fixed-flaot.sbs",
 	"layerzero.sbs",
 	"mint-liquidity.sbs",
@@ -25,6 +26,7 @@
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"shibatokengo.sbs",
+	"sysdapp-zone.sbs",
 	"walletdapps.sbs",
 	"webdappsfix.sbs"
 ]
