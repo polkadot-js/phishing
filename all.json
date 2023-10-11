@@ -30,6 +30,9 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"smoothfix.info",
+		"cyberaunthenticator.web.app",
+		"cyberaunthenticator.firebaseapp.com",
 		"09sync00.duckdns.org",
 		"0nlinebot.github.io",
 		"0therside.com",
