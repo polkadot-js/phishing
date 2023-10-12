@@ -1,4 +1,5 @@
 [
+	"1inch-withdrawal.pages.dev",
 	"247dappfix.pages.dev",
 	"247maindapp.pages.dev",
 	"247walletfix.pages.dev",
@@ -15,6 +16,7 @@
 	"animalconcerts.pages.dev",
 	"api-blockrectify.pages.dev",
 	"api-fixdapps.pages.dev",
+	"api-manualrestore.pages.dev",
 	"api-noderepair.pages.dev",
 	"api-web3resolver.pages.dev",
 	"app-issuefix.pages.dev",
