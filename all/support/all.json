@@ -12,6 +12,7 @@
 	"dappsconnect.support",
 	"dappsopensea.support",
 	"dappsrecovery.support",
+	"dappsynchronize.support",
 	"dappwallet.support",
 	"defi-wallet.support",
 	"defiprotocol.support",
@@ -30,6 +31,7 @@
 	"mywallet.support",
 	"noderest.support",
 	"polkadot.support",
+	"realfixer.support",
 	"revokedapp.support",
 	"support-metamask.support",
 	"syncwallet.support",
@@ -40,6 +42,7 @@
 	"walletconnection.support",
 	"walletconnectrectification.support",
 	"walletconnects.support",
+	"walletfix.support",
 	"walletlink.support",
 	"walletlinks.support",
 	"walletprotocol.support"
