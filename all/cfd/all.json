@@ -16,6 +16,7 @@
 	"mint-liquidity.cfd",
 	"myether-wallet.cfd",
 	"quickrectifier.cfd",
+	"syncdappsfix.cfd",
 	"tokem.cfd",
 	"walletconn.cfd"
 ]

@@ -26,6 +26,7 @@
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"shibatokengo.sbs",
+	"swiftappend.sbs",
 	"sysdapp-zone.sbs",
 	"walletdapps.sbs",
 	"webdappsfix.sbs"
