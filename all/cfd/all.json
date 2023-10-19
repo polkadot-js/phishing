@@ -12,6 +12,8 @@
 	"deskcom.cfd",
 	"fixedfloat.cfd",
 	"flare.cfd",
+	"mainetdapps.cfd",
+	"mainetdappsync.cfd",
 	"mainetlinked.cfd",
 	"mint-liquidity.cfd",
 	"myether-wallet.cfd",
