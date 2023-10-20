@@ -840,6 +840,7 @@
 	"walletdappconnect.app",
 	"walletdappnetwork.app",
 	"walletdappsconnects.netlify.app",
+	"walletdappscontrol.web.app",
 	"walletdappsrectifier.netlify.app",
 	"walletdappssync.web.app",
 	"walleterrorfixing.netlify.app",
