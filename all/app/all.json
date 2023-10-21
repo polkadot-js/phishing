@@ -97,6 +97,7 @@
 	"blockchains.web.app",
 	"blocksdapps.web.app",
 	"blocksync.web.app",
+	"blocktools.app",
 	"blockverse-server.vercel.app",
 	"bloknonc.web.app",
 	"bloktract.web.app",
