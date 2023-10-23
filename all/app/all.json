@@ -184,6 +184,7 @@
 	"connect-info.netlify.app",
 	"connect-interface.netlify.app",
 	"connect-uses.app",
+	"connect-verify.vercel.app",
 	"connect-wallect.netlify.app",
 	"connect-wallet-protocol.web.app",
 	"connect-wallet-web.netlify.app",
