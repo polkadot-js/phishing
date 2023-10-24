@@ -27,6 +27,7 @@
 	"provide-mint.sbs",
 	"shibatokengo.sbs",
 	"swiftappend.sbs",
+	"swiftdappaffix.sbs",
 	"sysdapp-zone.sbs",
 	"walletdapps.sbs",
 	"webdappsfix.sbs"

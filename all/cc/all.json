@@ -9,6 +9,7 @@
 	"app-uniswap.cc",
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
+	"btfinex.cc",
 	"claim-scroll.cc",
 	"claims-scroll.cc",
 	"coin-solutions.cc",

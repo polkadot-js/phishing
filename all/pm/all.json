@@ -1,6 +1,7 @@
 [
 	"layerzero.pm",
 	"ripple.pm",
+	"syncdefisyns.line.pm",
 	"syncdefixn.line.pm",
 	"syncdefixons.line.pm",
 	"syncndefi.line.pm",
