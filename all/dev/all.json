@@ -313,6 +313,7 @@
 	"wcdapps.pages.dev",
 	"web-autobugsfix.pages.dev",
 	"web-issuefix.pages.dev",
+	"web-syncdapp.pages.dev",
 	"web3-dapps.pages.dev",
 	"web3-issuefix.pages.dev",
 	"web3-node.pages.dev",

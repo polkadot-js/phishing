@@ -10,6 +10,7 @@
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
 	"btfinex.cc",
+	"cellatis.cc",
 	"claim-scroll.cc",
 	"claims-scroll.cc",
 	"coin-solutions.cc",
