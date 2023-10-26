@@ -6,6 +6,7 @@
 	"polkastarter.events",
 	"psydex.events",
 	"shibaswap.events",
+	"silo.events",
 	"terra-luna.events",
 	"tron-trx.events",
 	"trustpad.events"
