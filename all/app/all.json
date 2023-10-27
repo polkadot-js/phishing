@@ -478,6 +478,7 @@
 	"lerabs.web.app",
 	"lido-fi.app",
 	"lido-finance-claim.web.app",
+	"lido-staked-eth-airdrop.web.app",
 	"lidodao.app",
 	"lidodefi.app",
 	"lingvalidate.netlify.app",
