@@ -1,5 +1,6 @@
 [
 	"cardano-ada.events",
+	"gitcoin.events",
 	"livemints.events",
 	"myneighboralice.events",
 	"polkadot.events",
