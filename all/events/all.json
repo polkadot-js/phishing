@@ -3,11 +3,13 @@
 	"gitcoin.events",
 	"livemints.events",
 	"myneighboralice.events",
+	"pendle.events",
 	"polkadot.events",
 	"polkastarter.events",
 	"psydex.events",
 	"shibaswap.events",
 	"silo.events",
+	"syncswap.events",
 	"terra-luna.events",
 	"tron-trx.events",
 	"trustpad.events"
