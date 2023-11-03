@@ -11,6 +11,7 @@
 	"extensionsapp.rf.gd",
 	"extensionsrect.rf.gd",
 	"fixerrors-dapp.rf.gd",
+	"fixnode.rf.gd",
 	"get-ethereumrewards.rf.gd",
 	"hodlit.rf.gd",
 	"hubfix.rf.gd",
