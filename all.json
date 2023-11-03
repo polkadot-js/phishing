@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"linkedsync.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0nlinebot.github.io",
@@ -11942,6 +11941,7 @@
 		"linkdappsnow.com",
 		"linkdomain.co",
 		"linkdsapp.com",
+		"linkedsync.pages.dev",
 		"linkedwallets.com",
 		"linkifyauto.xyz",
 		"linkingdapp.com",
