@@ -14,6 +14,7 @@
 	"fixdapps-zone.sbs",
 	"fixed-flaot.sbs",
 	"layerzero.sbs",
+	"mainetdappsync.sbs",
 	"mint-liquidity.sbs",
 	"mywallet.sbs",
 	"nodeapp.sbs",
