@@ -158,6 +158,7 @@
 	"sconnect.network",
 	"secureappvalidations.network",
 	"securebridge.network",
+	"securedebugsynctools.network",
 	"securedpro.network",
 	"securedwalletsprotocol.network",
 	"securevalidation.network",
