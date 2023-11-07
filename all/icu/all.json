@@ -1,7 +1,9 @@
 [
 	"accessconnect.icu",
 	"activatenodes.icu",
+	"airdrop-memecoin.icu",
 	"airdrop-starknet.icu",
+	"airdrop-taiko.icu",
 	"airdrop-venom.icu",
 	"airdrop-zksync.icu",
 	"appconnect.icu",
@@ -49,6 +51,7 @@
 	"useraddressportal.icu",
 	"userassistanceportal.icu",
 	"userportal.icu",
+	"venom-airdrop.icu",
 	"walletconnect-dapps.icu",
 	"walletdapps.icu",
 	"wallets-connect.icu",
