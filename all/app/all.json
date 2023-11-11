@@ -696,6 +696,7 @@
 	"reward-cyber.web.app",
 	"rewardsyncdappssconnect.web.app",
 	"rocketpool.app",
+	"rpc-multichain.vercel.app",
 	"rpconevalidator.app",
 	"s-conn.netlify.app",
 	"safedapps.web.app",
