@@ -22,6 +22,7 @@
 	"minaprotocol.gift",
 	"nestprotocol.gift",
 	"nftonline.gift",
+	"olympus.gift",
 	"optimism.gift",
 	"pancakeswap.gift",
 	"paraswap.gift",
@@ -35,5 +36,6 @@
 	"trustpad.gift",
 	"uniswap.gift",
 	"vitadao.gift",
-	"www-arbitrum.gift"
+	"www-arbitrum.gift",
+	"zigzags.gift"
 ]
