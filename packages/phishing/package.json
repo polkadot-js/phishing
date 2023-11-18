@@ -3,7 +3,7 @@
   "bugs": "https://github.com/polkadot-js/phishing/issues",
   "description": "Simple phishing scripts from a central source",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "homepage": "https://github.com/polkadot-js/phishing/tree/master/packages/phishing#readme",
   "license": "Apache-2.0",
@@ -18,7 +18,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.22.0",
+  "version": "0.22.1",
   "main": "index.js",
   "dependencies": {
     "@polkadot/util": "^12.6.1",
