@@ -1,4 +1,5 @@
 [
+	"blur-io.events",
 	"cardano-ada.events",
 	"gitcoin.events",
 	"livemints.events",
