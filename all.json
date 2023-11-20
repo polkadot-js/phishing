@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"blocksystem.network",
+		"rewardcenter.site",
 		"layerai.rewardcenter.site",
 		"oneinchex.us",
 		"pass-metis.com",
