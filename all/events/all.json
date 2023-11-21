@@ -1,6 +1,8 @@
 [
+	"ator-io.events",
 	"blur-io.events",
 	"cardano-ada.events",
+	"efinity.events",
 	"gitcoin.events",
 	"livemints.events",
 	"myneighboralice.events",

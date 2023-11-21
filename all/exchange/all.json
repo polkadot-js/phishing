@@ -31,8 +31,10 @@
 	"tokenlaunchpad.exchange",
 	"tornado.exchange",
 	"universaldex.exchange",
+	"vera.exchange",
 	"wagyuswap.exchange",
 	"walletconnect-api.exchange",
 	"wl-vela.exchange",
+	"zigszag.exchange",
 	"zksync.exchange"
 ]
