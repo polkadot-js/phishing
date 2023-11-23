@@ -21,6 +21,7 @@
 	"polkastarter.tools",
 	"protocolapps.tools",
 	"solidity-cbridge.tools",
+	"stargatesfinance.tools",
 	"trustswallet.tools",
 	"walletconnect.tools"
 ]
