@@ -20,5 +20,6 @@
 	"tron-trx.events",
 	"trustpad.events",
 	"unibot-app.events",
-	"unibot.events"
+	"unibot.events",
+	"worldcoin.events"
 ]
