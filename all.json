@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"smainchain.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -19600,6 +19599,7 @@
 		"slunatoken.online",
 		"sluquiddecv.work.gd",
 		"slvkhrakein.com",
+		"smainchain.pages.dev",
 		"smardex.live",
 		"smarr.pics",
 		"smarrfixssync.homes",
