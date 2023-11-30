@@ -280,6 +280,7 @@
 	"dappfixings.app",
 	"dapplink.web.app",
 	"dappneutralprotocol.app",
+	"dapponsync.web.app",
 	"dappquery.netlify.app",
 	"dappreader.static.app",
 	"dappresolveconnect.netlify.app",
