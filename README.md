@@ -31,6 +31,7 @@ following that
 
 - [polkadot{.js} extension](https://github.com/polkadot-js/extension)
 - [polkadot{.js} apps](https://polkadot.js.org/apps)
+- [Nova Wallet](https://novawallet.io/)
 - [Fearless Wallet](https://fearlesswallet.io/)
 - [polkadot js Plus](http://polkadotjs.plus)
 - [SubWallet](https://subwallet.app/)
