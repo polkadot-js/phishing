@@ -84,6 +84,7 @@
 	"metamasks.pro",
 	"migrate-gala.pro",
 	"migration-dashboardmusyns.pro",
+	"migration-fegtoken.pro",
 	"migration-luffytoken.pro",
 	"migration-myria.pro",
 	"migration-psyop.pro",
