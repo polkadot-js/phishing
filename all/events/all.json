@@ -2,6 +2,7 @@
 	"ator-io.events",
 	"blur-io.events",
 	"cardano-ada.events",
+	"connext-network.events",
 	"efinity.events",
 	"gitcoin.events",
 	"livemints.events",
