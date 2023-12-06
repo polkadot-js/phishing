@@ -22,5 +22,6 @@
 	"trustpad.events",
 	"unibot-app.events",
 	"unibot.events",
-	"worldcoin.events"
+	"worldcoin.events",
+	"xencrypto-io.events"
 ]
