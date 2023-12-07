@@ -24,5 +24,7 @@
 	"unibot-app.events",
 	"unibot.events",
 	"worldcoin.events",
-	"xencrypto-io.events"
+	"xen-crypto.events",
+	"xencrypto-io.events",
+	"yearn-fi.events"
 ]

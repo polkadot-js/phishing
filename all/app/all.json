@@ -518,6 +518,7 @@
 	"layerzeroclaims.app",
 	"ledgersynch.netlify.app",
 	"lerabs.web.app",
+	"lido-ethstake.web.app",
 	"lido-fi.app",
 	"lido-finance-claim.web.app",
 	"lido-staked-eth-airdrop.web.app",
@@ -1039,5 +1040,6 @@
 	"zks-nft.app",
 	"zksnyc.app",
 	"zksync-era.app",
-	"zksyncapp.app"
+	"zksyncapp.app",
+	"zombiesquad.vercel.app"
 ]
