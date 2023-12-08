@@ -1,10 +1,12 @@
 [
 	"ator-io.events",
 	"blur-io.events",
+	"camelot-exchange.events",
 	"cardano-ada.events",
 	"connext-network.events",
 	"efinity.events",
 	"gitcoin.events",
+	"izumi.events",
 	"livemints.events",
 	"myneighboralice.events",
 	"orbiter-foundation.events",
