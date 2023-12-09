@@ -29,6 +29,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"manta-claim.online",
+		"layerzero-claim.xyz",
+		"layerzero-free.pro",
+		"pro-multicoin.app",
 		"meterveeesequick.pro",
 		"multidynamicnonce.pages.dev",
 		"smartreviseweb.pages.dev",
