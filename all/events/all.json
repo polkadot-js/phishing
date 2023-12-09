@@ -6,6 +6,7 @@
 	"connext-network.events",
 	"efinity.events",
 	"gitcoin.events",
+	"hyperliquid-xyz.events",
 	"izumi.events",
 	"livemints.events",
 	"myneighboralice.events",

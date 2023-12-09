@@ -7,6 +7,7 @@
 	"chipview.bond",
 	"dappsattestation.bond",
 	"dappsratification.bond",
+	"endpointapp.bond",
 	"imtokem.bond",
 	"layerzero.bond"
 ]
