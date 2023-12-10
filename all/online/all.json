@@ -867,6 +867,7 @@
 	"mainwc-sync.online",
 	"mainwebconnects.online",
 	"managedapps.online",
+	"manta-claim.online",
 	"manualrestore.online",
 	"manualsync.online",
 	"manualwebrestore.online",
