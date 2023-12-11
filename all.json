@@ -29,6 +29,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"multiwallet-connect.live",
+		"nodeprotocols.com",
+		"deta.app",
+		"syncissues.xyz",
+		"icologin.xyz",
+		"synchronizedex.com",
+		"digitaltoken.pages.dev",
+		"web3fixsupport-1-g5192498.deta.app",
+		"apps.nodeprotocols.com",
+		"tokens-holder.web.app",
+		"web.multiwallet-connect.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
