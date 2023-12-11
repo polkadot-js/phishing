@@ -29,6 +29,9 @@
 		"zapto.org"
 	],
 	"deny": [
+		"multiwallet-connect.live",
+		"nodeprotocols.com",
+		"deta.app",
 		"syncissues.xyz",
 		"icologin.xyz",
 		"synchronizedex.com",
