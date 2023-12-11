@@ -77,11 +77,16 @@
 	"tapio.claims",
 	"tokens.claims",
 	"trust-wallet.claims",
+	"venus-lo.claims",
+	"verasity-io.claims",
 	"vitadao.claims",
 	"vivy.claims",
+	"vulcanforged.claims",
 	"webofdog.claims",
 	"wrappedpepe.claims",
+	"xencrypto-io.claims",
 	"xrp.claims",
 	"yearn-finance.claims",
-	"yuga.claims"
+	"yuga.claims",
+	"zerion.claims"
 ]
