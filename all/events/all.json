@@ -1,5 +1,6 @@
 [
 	"ator-io.events",
+	"benqi.events",
 	"blur-io.events",
 	"camelot-exchange.events",
 	"cardano-ada.events",
@@ -7,6 +8,7 @@
 	"efinity.events",
 	"enter-starknetwork.events",
 	"gitcoin.events",
+	"hilomarket.events",
 	"hyperliquid-xyz.events",
 	"izumi.events",
 	"livemints.events",
@@ -31,6 +33,7 @@
 	"trustpad.events",
 	"unibot-app.events",
 	"unibot.events",
+	"venusio.events",
 	"vertexprotocol.events",
 	"worldcoin.events",
 	"xen-crypto.events",
