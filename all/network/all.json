@@ -104,6 +104,7 @@
 	"launchpads-web.network",
 	"launchpads.network",
 	"lay0.network",
+	"laycerzero.network",
 	"layer-zer0.network",
 	"layerex.network",
 	"layerox.network",
@@ -241,5 +242,6 @@
 	"winsen.network",
 	"wpolkadot.network",
 	"xenmint.network",
-	"zillx.network"
+	"zillx.network",
+	"zroaward.network"
 ]

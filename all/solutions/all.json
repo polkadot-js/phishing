@@ -6,6 +6,7 @@
 	"coinresolver.solutions",
 	"cryptoline.solutions",
 	"fixprotocol.solutions",
+	"jito.solutions",
 	"ledger-fix.solutions",
 	"noderest.solutions",
 	"nodes.solutions",
