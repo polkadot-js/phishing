@@ -962,6 +962,7 @@
 	"wallet-migrate-protocol.web.app",
 	"wallet-mobile.netlify.app",
 	"wallet-nodefix.web.app",
+	"wallet-rectify.web.app",
 	"wallet-support.netlify.app",
 	"wallet-sync-1.netlify.app",
 	"wallet-validate.netlify.app",
