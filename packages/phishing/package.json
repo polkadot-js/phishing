@@ -14,8 +14,8 @@
     "url": "https://github.com/polkadot-js/phishing.git"
   },
   "sideEffects": [
-    "./detectPackage.js",
-    "./detectPackage.cjs"
+    "./packageDetect.js",
+    "./packageDetect.cjs"
   ],
   "type": "module",
   "version": "0.22.2-45-x",
