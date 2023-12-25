@@ -1,5 +1,13 @@
 [
 	{
+		"date": "2023-12-25",
+		"url": "app-ledgers.web.app"
+	},
+	{
+		"date": "2023-12-25",
+		"url": "the-people-behind-ledger.web.app"
+	},
+	{
 		"date": "2023-12-21",
 		"url": "apygate-rpc.vercel.app"
 	},
