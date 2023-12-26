@@ -11,6 +11,8 @@
 	"erc20rescue.tools",
 	"hc-multibridge.tools",
 	"hodld.tools",
+	"io-dex.tools",
+	"io-web3.tools",
 	"kendribase.tools",
 	"multi-entitychain.tools",
 	"multibridge-chain.tools",
