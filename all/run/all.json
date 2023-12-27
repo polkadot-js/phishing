@@ -1,6 +1,7 @@
 [
 	"airdrop-venom.run",
 	"celestia.run",
+	"claim-tokens.run",
 	"connecthub.run",
 	"dapp-calo.run",
 	"imtoken-cn.run",
