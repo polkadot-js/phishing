@@ -29,6 +29,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"coins-pad.info",
+		"b4a.app",
+		"claim-tokens.run",
+		"azuki-reveal.com",
 		"metaveersechaain.pro",
 		"moonwellstake.fi",
 		"smartdappresolve.pages.dev",
