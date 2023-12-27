@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"fixdefi.rf.gd",
-		"sorra.org",
-		"iccofixxx.surge.sh",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -10544,6 +10541,7 @@
 		"fixdappsync.com",
 		"fixdappwallet.com",
 		"fixdaps.com",
+		"fixdefi.rf.gd",
 		"fixdeficonnect.org",
 		"fixdesolver.net",
 		"fixeadfioat.com",
@@ -11774,6 +11772,7 @@
 		"iayerzero.live",
 		"ibarachoir.com",
 		"iccofixx.surge.sh",
+		"iccofixxx.surge.sh",
 		"icecreammsswap.com",
 		"icedapeharborclub.com",
 		"ico-sale.com",
@@ -21219,6 +21218,7 @@
 		"sonne.events",
 		"sophiaverse-ai.com",
 		"sorares.store",
+		"sorra.org",
 		"sotana-network.com",
 		"sotkant.site",
 		"soulart.hu",
