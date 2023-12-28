@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"airdrop-manta.network",
 		"ppzhuntz.lol",
 		"vpndeg.tech",
 		"signups-verasity.io",
