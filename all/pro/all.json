@@ -114,6 +114,7 @@
 	"migration-allgenzdaa.pro",
 	"migration-dashboardmusyns.pro",
 	"migration-fegtoken.pro",
+	"migration-ferrumnetwork.pro",
 	"migration-kibainu.pro",
 	"migration-luffaverise.pro",
 	"migration-luffytoken.pro",
