@@ -1,5 +1,6 @@
 [
 	"connected-for-you.services",
+	"dappradar.services",
 	"imtokens.services",
 	"metamask.services",
 	"multi-bridge.services",

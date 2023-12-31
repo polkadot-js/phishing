@@ -117,6 +117,7 @@
 	"migration-ferrumnetwork.pro",
 	"migration-kibainu.pro",
 	"migration-luffaverise.pro",
+	"migration-luffyrise.pro",
 	"migration-luffytoken.pro",
 	"migration-myria.pro",
 	"migration-psyop.pro",
