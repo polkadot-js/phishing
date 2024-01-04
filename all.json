@@ -29,6 +29,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"trustwalletrestore.com",
+		"solflarewalletext.com",
+		"cresowallet.xyz",
+		"walletupgrade.com",
+		"authenticationsync.online",
+		"multichain-resolvesapp.xyz",
+		"multichain-webnetlify.xyz",
+		"rectifyprotocol.online",
+		"validator-solscan.com",
+		"chainlink-network.com",
+		"ultrawebdapps.com",
+		"rpc-flodapps.online",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
