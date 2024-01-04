@@ -1,4 +1,5 @@
 [
+	"chainlink.limited",
 	"distribution.limited",
 	"mina.limited",
 	"minaprotocols.limited"
