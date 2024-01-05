@@ -29,6 +29,11 @@
 		"zapto.org"
 	],
 	"deny": [
+		"mainnetchain.net",
+		"zkfargroup.xyz",
+		"duckzgroup.club",
+		"starkparticipate.com",
+		"nf-prompt.xyz",
 		"manta-test-sil.pages.dev",
 		"registers-manta.network",
 		"banxadappsupport.pages.dev",
