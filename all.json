@@ -29,6 +29,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"mantacoin.network",
+		"reg-manta.network",
+		"airdrop.mantanetwork.io",
+		"prismafinance.app",
+		"bnbair.org",
+		"arb-check.claim-web3.run",
+		"arb-check.manage-claim.run",
+		"layer3-layer3.site",
+		"digitalcrossways.com",
+		"claim-web3.run",
+		"manage-claim.run",
+		"mantanetwork.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
