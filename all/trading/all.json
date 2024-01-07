@@ -2,5 +2,6 @@
 	"dioneprotocol.trading",
 	"grayscale.trading",
 	"mav.trading",
+	"raydium.trading",
 	"unibot-app.trading"
 ]
