@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"airdrop.mantachain.network",
+		"mantachain.network",
 		"mantacoin.network",
 		"reg-manta.network",
 		"airdrop.mantanetwork.io",
