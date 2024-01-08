@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"airdrop.monta.network",
-		"monta.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -15774,6 +15772,7 @@
 		"monsterapeclub-mint.online",
 		"monsterhouse-lefilm.com",
 		"monstet.site",
+		"monta.network",
 		"moomoocoin.io",
 		"moon-beam.org",
 		"moonapelabs-syncwallet.square.site",
