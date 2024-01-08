@@ -241,6 +241,7 @@
 	"resolver.network",
 	"restore-allnodes.network",
 	"restoreallnodes.network",
+	"revchainconnect.network",
 	"reward-gari.network",
 	"reward-layer.network",
 	"rewards-celer.network",
