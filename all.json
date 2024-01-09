@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dapp.coinmerges.com",
 		"newparadigm.mantn.network",
 		"new-paradigm-manta.network",
 		"mantatreasuries.com",
@@ -36,6 +37,7 @@
 		"mantadrop.pages.dev",
 		"mantanetwork.ltd",
 		"mantn.network",
+		"coinmerges.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
