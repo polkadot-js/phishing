@@ -530,6 +530,8 @@
 	"walletnetwork.pages.dev",
 	"walletnode-sync.pages.dev",
 	"walletports.pages.dev",
+	"walletrestoree.pages.dev",
+	"walletrestorer.pages.dev",
 	"walletsconect.pages.dev",
 	"walletsconnnect.pages.dev",
 	"walletsdapp.pages.dev",
