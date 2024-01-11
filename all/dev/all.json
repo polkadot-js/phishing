@@ -35,6 +35,7 @@
 	"appapricotone.pages.dev",
 	"appauthsync.pages.dev",
 	"appblockresolve.pages.dev",
+	"approvenode.pages.dev",
 	"apps-syncs.dev",
 	"appsolution.pages.dev",
 	"appsyncresolvefix.pages.dev",
@@ -327,6 +328,7 @@
 	"multichaindapp.pages.dev",
 	"multichainsresolve.pages.dev",
 	"multichainsync.pages.dev",
+	"multichainweb.pages.dev",
 	"multichainwebdapp.pages.dev",
 	"multidynamicnonce.pages.dev",
 	"multinoderesolve.pages.dev",
@@ -498,6 +500,7 @@
 	"totnado-cash.pages.dev",
 	"trader-joe.pages.dev",
 	"trustpad.dev",
+	"trustweb3.pages.dev",
 	"trxnvalid.pages.dev",
 	"unconfirmed-transactions.pages.dev",
 	"unlock-server.dev",
@@ -600,5 +603,6 @@
 	"xprojectcommunity.pages.dev",
 	"xpubactivation.pages.dev",
 	"zksync-capsule.pages.dev",
+	"zoomsync.pages.dev",
 	"zsrrredg.pages.dev"
 ]
