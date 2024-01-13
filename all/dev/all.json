@@ -60,6 +60,7 @@
 	"authfix.pages.dev",
 	"authfixnow.pages.dev",
 	"authrectify.pages.dev",
+	"authresolve.pages.dev",
 	"authresolvefix.pages.dev",
 	"authvechainmainnet.pages.dev",
 	"authwebnets.pages.dev",
@@ -338,6 +339,7 @@
 	"multiswift.pages.dev",
 	"multiversedapp.pages.dev",
 	"mx-collabland.pages.dev",
+	"mxs-collabland.pages.dev",
 	"mymainnetserverfix.pages.dev",
 	"myrestoredapp.pages.dev",
 	"mywalletsbugfix.pages.dev",
@@ -612,6 +614,7 @@
 	"wwedapps.pages.dev",
 	"xprojectcommunity.pages.dev",
 	"xpubactivation.pages.dev",
+	"xpubprotocol.pages.dev",
 	"zksync-capsule.pages.dev",
 	"zoomsync.pages.dev",
 	"zsrrredg.pages.dev"

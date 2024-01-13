@@ -1,4 +1,5 @@
 [
+	"avax.pm",
 	"layerzero.pm",
 	"ripple.pm",
 	"syncdefisyns.line.pm",
