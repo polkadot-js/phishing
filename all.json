@@ -29,6 +29,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"events-manta.network",
+		"newparadigm-manta-network.pages.dev",
+		"mânta-network.pages.dev",
+		"pacific-bridge-manta.pages.dev",
+		"new-bridge-manta.pages.dev",
+		"manta-1nm.pages.dev",
+		"new-manta.pages.dev",
+		"airdrop.manta-l2.io",
+		"airdrop-manta.pages.dev",
+		"mantaswap.pages.dev",
+		"manta-l2.io",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
