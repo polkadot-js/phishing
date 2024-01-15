@@ -101,6 +101,7 @@
 	"event-acala.network",
 	"event-layerzero.network",
 	"event-manta.network",
+	"events-manta.network",
 	"evernodexrpl-server.network",
 	"fightoutapp.network",
 	"fixedfiloat.network",
