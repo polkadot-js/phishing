@@ -29,6 +29,16 @@
 		"zapto.org"
 	],
 	"deny": [
+		"pâcific-manta-network.pages.dev",
+		"drop-manta.pages.dev",
+		"funairdrop.ltd",
+		"mantarewards.com",
+		"atlantic-manta.network",
+		"get.manta.direct",
+		"solt-mnsolution.online",
+		"brokksolution.com",
+		"apidapp.github.io",
+		"manta.direct",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
