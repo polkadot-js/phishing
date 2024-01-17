@@ -29,6 +29,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"multisignfix.pages.dev",
+		"collablandbygithub.xyz",
+		"visit-manta.network",
+		"registry-manta.network",
+		"menta-network.vercel.app",
+		"launchpad-manta.network",
+		"mantanetwork.tokens-claiming.live",
+		"manta.aidrop.network",
+		"live-manta.com",
+		"aidrop.network",
+		"tokens-claiming.live",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
