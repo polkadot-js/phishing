@@ -488,6 +488,7 @@
 	"dappsynchronizers.online",
 	"dappsyncmobile.online",
 	"dappsyncprotocol.online",
+	"dappsyncweb.online",
 	"dapptokens.online",
 	"dappvalidatenodes.online",
 	"dappvalidation.online",
