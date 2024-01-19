@@ -29,6 +29,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"bonus-manta.network",
+		"airdrop.mantaoff.network",
+		"manta-tokens.network",
+		"airdrop-manta.vercel.app",
+		"official-manta.network",
+		"intoblue-manta.network",
+		"icorabbit.xyz",
+		"defi-manta.network",
+		"paradigm-manta.com",
+		"plunge-manta.network",
+		"mantas-project.com",
+		"mantaoff.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
