@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"new.paradigmnet.work",
+		"atlantics-manta.network",
 		"bonus-manta.network",
 		"airdrop.mantaoff.network",
 		"manta-tokens.network",
@@ -41,6 +43,7 @@
 		"plunge-manta.network",
 		"mantas-project.com",
 		"mantaoff.network",
+		"paradigmnet.work",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
