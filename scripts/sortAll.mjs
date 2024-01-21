@@ -6,29 +6,35 @@ import fs from 'node:fs';
 // @ts-expect-error @polkadot/dev scripts don't have .d.ts files
 import { mkdirpSync, rimrafSync } from '@polkadot/dev/scripts/util.mjs';
 
-/** @typedef {{ allow: string[]; deny: string[]; }} AllList */
+/** @typedef {{ allow: string[]; deny: string[]; denySub?: string[] }} AllList */
 
-const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com'];
+const KNOWN_URLS = ['telegra.ph', 'twitter.com', 'youtube.com', 'x.com'];
 
 /**
  * @param {string} url
+ * @param {boolean} [allowSub]
  * @returns {string}
  */
-function sanitizeUrl (url) {
-  return (
-    url.includes('://')
-      ? url.split('://')[1]
-      : url
-  ).split('/')[0];
+function sanitizeUrl (url, allowSub) {
+  const naked = url.includes('://')
+    ? url.split('://')[1]
+    : url;
+
+  return allowSub
+    // return without trailing /
+    ? naked.split('/').filter((p) => !!p).join('/')
+    // return without subdomain
+    : naked.split('/')[0];
 }
 
 /**
  * @param {string[]} list
+ * @param {boolean} [allowSub]
  * @returns {string[]}
  */
-function filterSection (list) {
+function filterSection (list, allowSub) {
   return list
-    .map((entry) => sanitizeUrl(entry))
+    .map((entry) => sanitizeUrl(entry, allowSub))
     .reduce((/** @type {string[]} */ filtered, entry) => {
       !filtered.includes(entry) &&
         filtered.push(entry);
@@ -39,10 +45,11 @@ function filterSection (list) {
 
 /**
  * @param {string[]} list
+ * @param {boolean} [allowSub]
  * @returns {string[]}
  */
-function sortSection (list) {
-  return filterSection(list).sort((a, b) => a.localeCompare(b));
+function sortSection (list, allowSub) {
+  return filterSection(list, allowSub).sort((a, b) => a.localeCompare(b));
 }
 
 /**
@@ -222,7 +229,11 @@ const addr = readJson('address.json');
 const all = readJson('all.json');
 const meta = readMeta();
 const deny = sortSection(addSites(all, addr));
-const allJson = { allow: sortSection(all.allow), deny: rewriteSubs(deny) };
+const allJson = {
+  allow: sortSection(all.allow),
+  deny: rewriteSubs(deny),
+  denySub: sortSection(all.denySub || [], true)
+};
 
 // rewrite with all our entries (newline included)
 writeJson('address.json', sortAddresses(addr));
