@@ -29,6 +29,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"manta-bridge.com",
+		"rnanta.net",
+		"boost-manta.network",
+		"event-manta.com",
+		"tokenomic-manta.network",
+		"undersea-manta.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
