@@ -28860,5 +28860,8 @@
 		"zwalletconnect.com",
 		"zxcoin.website",
 		"zzcoin.website"
+	],
+	"denySub": [
+		"x.com/jacogr"
 	]
 }
