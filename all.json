@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"automigratesync.pages.dev",
 		"manta-bridge.com",
 		"rnanta.net",
 		"boost-manta.network",
