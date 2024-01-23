@@ -36,6 +36,7 @@
 	"launcpad-protocol.buzz",
 	"mainetsmart-interface.buzz",
 	"mainnetserver.buzz",
+	"manta-airdrop.buzz",
 	"metamaskcn.buzz",
 	"migrate-v2sync.buzz",
 	"morpheus-protocol.buzz",
