@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"arkhamcoin.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -1773,6 +1772,7 @@
 		"arkham-tokens.com",
 		"arkham.claims",
 		"arkham.page",
+		"arkhamcoin.net",
 		"arkhamfinance.com",
 		"arkhamfinance.org",
 		"arkhami-ai.tech",
