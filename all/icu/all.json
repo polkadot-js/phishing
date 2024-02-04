@@ -52,7 +52,10 @@
 	"mainimportconnect.icu",
 	"mainnetrestore.icu",
 	"manta-claim.icu",
+	"manta-network.icu",
+	"manta-pro.icu",
 	"manta.icu",
+	"mantanet.icu",
 	"metacoin.icu",
 	"metamask-recovery.icu",
 	"metamaskcn.icu",
@@ -89,6 +92,7 @@
 	"web-zksync.icu",
 	"web3dapp.icu",
 	"webpolygon-wallets.icu",
+	"webvercel-multichain.icu",
 	"woodpeckersint.icu",
 	"wsmdar.icu"
 ]
