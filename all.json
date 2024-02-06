@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"talisman.gifts",
 		"manta-project.com",
 		"get.manta.plus",
 		"airdrop.mannta.xyz",
