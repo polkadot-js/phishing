@@ -29,9 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"tailsman.gives",
-		"network.manta.rs",
-		"manta.rs",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -14976,6 +14973,7 @@
 		"mańta.network",
 		"manta.plus",
 		"manta.quest",
+		"manta.rs",
 		"manta.su",
 		"manta.top",
 		"manta.uno",
@@ -24010,6 +24008,7 @@
 		"taiko-bridge.com",
 		"taikoclaim.click",
 		"taikoxyz.com",
+		"tailsman.gives",
 		"take-1inch.online",
 		"take-circleproject.com",
 		"take-dollarcoin.com",
