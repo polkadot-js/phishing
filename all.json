@@ -29,6 +29,14 @@
 		"zapto.org"
 	],
 	"deny": [
+		"talisman.gifts",
+		"manta-project.com",
+		"get.manta.plus",
+		"airdrop.mannta.xyz",
+		"manta-eligible.com",
+		"talisman.gift",
+		"mannta.xyz",
+		"manta.plus",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
