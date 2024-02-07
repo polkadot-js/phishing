@@ -383,6 +383,7 @@
 	"dappsolution.app",
 	"dappspaces.vercel.app",
 	"dappsprotocol.netlify.app",
+	"dappsprotocol.vercel.app",
 	"dappsreauthenticator.web.app",
 	"dappsrectification.netlify.app",
 	"dappsresolve-wallets.netlify.app",
