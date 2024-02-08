@@ -1,7 +1,10 @@
 [
 	"ait.financial",
+	"app-ether.financial",
+	"app-pendle.financial",
 	"consensys.financial",
 	"finalcoinmigratev2.financial",
+	"kucoin.financial",
 	"loyal.financial",
 	"manta.financial",
 	"olympusadao.financial",
