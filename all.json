@@ -29,6 +29,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"manta.in.net",
+		"manta-networks.web.app",
+		"mantalayerbank.finance",
+		"manta-layerbank.com",
+		"events-polkadot.network",
+		"get-manta.xyz",
+		"exploremanta.com",
+		"mantanetwork.ink",
+		"manta2.network",
+		"mantanetwork-0fficial.com",
+		"manta-network.club",
+		"moonbeamnetwork.top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
