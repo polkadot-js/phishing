@@ -29,6 +29,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"manta.in.net",
+		"manta-networks.web.app",
 		"mantalayerbank.finance",
 		"manta-layerbank.com",
 		"events-polkadot.network",
