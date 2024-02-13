@@ -1773,6 +1773,7 @@
 	"web3host.online",
 	"web3modal.online",
 	"web3panel.online",
+	"web3resolver.online",
 	"web3safecrypto.online",
 	"web3settings.online",
 	"web3validator.online",
@@ -1814,5 +1815,6 @@
 	"yourwalletconnect.online",
 	"zapdapp.online",
 	"zenlinknetwork.online",
+	"zerolend.online",
 	"zksync-swap.online"
 ]

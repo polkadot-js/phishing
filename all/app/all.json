@@ -119,6 +119,7 @@
 	"blascanner.web.app",
 	"blast-web3.app",
 	"blastairdrop.app",
+	"blastronaut.app",
 	"block-rectify.vercel.app",
 	"blockchain-activate.web.app",
 	"blockchain-fixnodes.web.app",
@@ -208,6 +209,7 @@
 	"collab-verification.vercel.app",
 	"collab-verifier.netlify.app",
 	"collab-verify-land.vercel.app",
+	"collabandverify.vercel.app",
 	"collabconnect-verify.vercel.app",
 	"collabconnection.vercel.app",
 	"collabconnects-verification.vercel.app",
@@ -766,6 +768,7 @@
 	"onlytransinterface.netlify.app",
 	"onlywcappsprojects.netlify.app",
 	"open-defi-notifications.web.app",
+	"openmystery2.vercel.app",
 	"opensail.app",
 	"opensea-offer-collection.web.app",
 	"opensea-user-reward.netlify.app",
@@ -1197,6 +1200,7 @@
 	"zks-nft.app",
 	"zksnyc.app",
 	"zksync-era.app",
+	"zksync-era.web.app",
 	"zksyncapp.app",
 	"zombiesquad.vercel.app"
 ]
