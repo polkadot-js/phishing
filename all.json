@@ -31,7 +31,6 @@
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"support-manta.pages.dev",
-		"mantanetwork.claims",
 		"collabandverify.vercel.app",
 		"collabandverify.onrender.com",
 		"co.llab-verify.xyz",
@@ -47,7 +46,6 @@
 		"zksync-bridge.world",
 		"web3resolver.online",
 		"web3nodeconnection.org",
-		"web3-manta.network",
 		"mystery-polygon.claims",
 		"blastronaut.app",
 		"zerolend.online",
