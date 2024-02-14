@@ -29,6 +29,11 @@
 		"zapto.org"
 	],
 	"deny": [
+		"themantatoken.com",
+		"mantanetworck.com",
+		"mantanetworkzk.com",
+		"airdrops-mantanetwork.online",
+		"moonbeamnetwork.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
