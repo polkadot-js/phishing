@@ -144,6 +144,7 @@
 	"fixedcfloat.info",
 	"fixeddfloat.info",
 	"fixedffloat.info",
+	"fixedfloat-exchange.info",
 	"fixedfzloat.info",
 	"fixedhfloat.info",
 	"fixedkfloat.info",
