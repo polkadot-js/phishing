@@ -29,6 +29,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dev-defi-fixit.pantheonsite.io",
+		"team-manta.network",
+		"airdrop-manta.cc",
+		"check-manta.com",
+		"astar-app.network",
+		"app-astar.network",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
