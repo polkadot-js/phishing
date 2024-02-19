@@ -29645,7 +29645,7 @@
 		"zzcoin.website"
 	],
 	"denySub": [
-		"twitter.com/AcalaNetworks",
-		"x.com/AcalaNetworks"
+		"https://twitter.com/AcalaNetworks",
+		"https://x.com/AcalaNetworks"
 	]
 }
