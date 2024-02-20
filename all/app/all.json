@@ -156,6 +156,7 @@
 	"chainbridge.app",
 	"chaindex.netlify.app",
 	"chaindrop.app",
+	"chaingptpad.app",
 	"chainmultisync.netlify.app",
 	"chainprotocol.netlify.app",
 	"chainrectify.netlify.app",
