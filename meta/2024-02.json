@@ -1,5 +1,633 @@
 [
 	{
+		"date": "2024-02-23",
+		"url": "0xprotocol.site"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "0xprotocol.tech"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "accessportal.site"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "ai-smadecentrelized.pages.dev"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "alchemypay.dev"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "allchainsrestore.tech"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "apibotsconnect.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "app-dappsprotocol.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "app-helium-mobile.network"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "appbakeyour-404.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "appcentralverse.pro"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "appsintercessor.live"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "appsreactify.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "appsreconciler.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "atomicportfolio-reports.info"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "automated-migrationdapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "avalanche-assist.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "bep2dex.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blezfegs.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "block-onchains.pages.dev"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blockbankai.net"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blockchain-genesis.vercel.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blockchain-resolvewallet.vercel.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blockchainfix.tech"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blockchainhelp.support"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blockfixapp.tech"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "blockvaults.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "chainbugsvalidation.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "chaindebughub.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "chainsync-multipaid.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "cipherblades.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "cipherglit.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "coinnode.info"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "coinnode.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "coinpool.pxxl.space"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "connectorv6.surge.sh"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "contract-auth.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "contractnodes.life"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "corectionfix.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "crelodappresolve.live"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "cryptohour.pro"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "cryptolinkconnect.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "cryptomainndapp.pages.dev"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "cybervalidator.site"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dappcoinsrectification.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dappdebugger.pro"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dappdifimigration.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dappoptimizer.pro"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dapprotocolmainnet.firebaseapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dapprotocolmainnet.web.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dapps-rectifyer.tech"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dappsnodesauthenticator.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "datarectifydapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "datawebconfiguration.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "debugdapphub.org"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "decentralized-dapps-connect.cyclic.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "decentralizedauthweb.vercel.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "decentralizedmainnetdapps.netlify.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "decentralizedserver.site"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "defiaccess.repair"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "defirefixprotocol.firebaseapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "defirefixprotocol.web.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "domainautofix.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dripnetworkmigrate.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "dymension-rpcdebugdapps.pages.dev"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "evaultrpcdappstool.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "evernodeapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "fieldsyncs.vercel.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "fundswap.shop"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "goldenprime-net.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "integratedmultifix.pages.dev"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "keyst-one.live"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "ledgerliivewallet.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "lorf.website"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "loyalethclaim.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "mainnetfaucet.live"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "manta-layerbank.finance"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "manta-network.cfd"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "manta-network.vip"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "manta-pacific.website"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "manta-pro.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "mantaapp.net"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "mantaneton.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "migrate-captaininu.pro"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "migration-spx6900.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "migration-stats.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "monlyswap.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "mtchainzrectify.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "multibchainrectify.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "multichain-webresolve.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "multichainconnect.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "multichainconnects.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "multismartuniverses.click"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "nodecoin-deployment.buzz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "nodecontractdeploy.life"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "nodedeployment.life"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "noderepairs.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "octodapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "onlinenetworks.org"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "openwavesnft.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "opuscule-uncertaint.000webhostapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "polkastarter-ov.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "reconnectto.org"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rectidev.net"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rectification.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rectifyapi.org"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rectifyprotocol.live"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rectifytrust.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rectifyw.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "refactoreddapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rendernetworks.net"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "reslovebot.fyi"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "resolve-syncstring.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "rpcdebugweb3.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "safe-bridgenet.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "saitachaincoin.co"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "scholarfundhub.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "scotttechconnect.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "shhido.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "smartconts.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "smartersolve.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "smartweb-multiverse.icu"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "socialwebonwebverse.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "softguardhub.info"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "sollutiondboardconect.live"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "stakingdgigame.app"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "supportappsdapps.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "swiftfixconnect.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "swiftresolve.buzz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "swiftresolve.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "sychronizerpcfix.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "syncclonedappresolve.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "syncset.net"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "syncsolution-inchpad.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "syncwallet.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "syncwebsolution.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "trustcustomercentre.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "ultramultichain-debug.icu"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "unifiedresolution.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "usertroubleshootdashboard.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "valuemints.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "vbridgeconn.net"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "vlaunchapp.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "wallet-synchronization-101153.square.site"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "web3-connect.me"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "web3-userdefiprotocol.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "web3authentication.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "web3ledgerlive.org"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "web3matrix.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "web3protocolpro.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "webainode.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "webdappconnect.com"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "webmobilepage.net"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "webpages-multichaix.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "webultramultichain.xyz"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "winswap.online"
+	},
+	{
+		"date": "2024-02-23",
+		"url": "zkmanta.org"
+	},
+	{
 		"date": "2024-02-22",
 		"url": "airdrop.campaign-manta.network"
 	},
