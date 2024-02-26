@@ -15,6 +15,7 @@
 	"izumi.events",
 	"livemints.events",
 	"manta-rewards.events",
+	"mantanetwork.events",
 	"myneighboralice.events",
 	"near-protocol.events",
 	"newparadigm-manta.events",
