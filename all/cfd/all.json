@@ -30,5 +30,6 @@
 	"solutiondashboard.cfd",
 	"syncdappsfix.cfd",
 	"tokem.cfd",
-	"walletconn.cfd"
+	"walletconn.cfd",
+	"web3check.cfd"
 ]

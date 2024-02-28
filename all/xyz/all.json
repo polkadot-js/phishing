@@ -302,6 +302,7 @@
 	"connect-syncapp.xyz",
 	"connect-wallet.xyz",
 	"connect-web3fixtool.xyz",
+	"connect-web3wallet.xyz",
 	"connectalll.xyz",
 	"connectechsolution.xyz",
 	"connectionbase.xyz",
@@ -774,6 +775,7 @@
 	"layerextension.xyz",
 	"layerzero-claim.xyz",
 	"layerzero-free.xyz",
+	"layerzeroclaims.xyz",
 	"layerzeronatwork.xyz",
 	"layerzro.xyz",
 	"ldo-token-lido.xyz",
@@ -1531,5 +1533,7 @@
 	"zksync-domains.xyz",
 	"zksync-eth.xyz",
 	"zksyncpepe.xyz",
+	"zro-claim.xyz",
+	"zroclaim.xyz",
 	"zsyncprotocols.xyz"
 ]
