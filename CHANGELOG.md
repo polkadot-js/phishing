@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.22.2 Feb 28, 2024
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Update to `@polkadot/util` 12.6.2
+- Allow addition of denySub entries
+
+
 ## 0.22.1 Nov 18, 2023
 
 Contributed:
