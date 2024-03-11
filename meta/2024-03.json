@@ -1,5 +1,509 @@
 [
 	{
+		"date": "2024-03-11",
+		"url": "accesspoint.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "affirmtokens.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "ailolcoin.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "apidaap.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "apisbotsconnect.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "appsfaucet-rpc.live"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "artprocollect.pro"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "asset-validation.info"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "authenticate-wallett.square.site"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "autoresolve.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "avalaanch.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "basesencrypt.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "blast-io.co"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "btc-etftoken.firebaseapp.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "btc-etftoken.web.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "cakekoreanswap.site"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "centraloptimal-pad.buzz"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "chainweb.pro"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "coinnode.tech"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "coinsynthx.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "cryptobunker.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "cryptoinsights.cloud"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "cryptorectifier.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dapps-encrypt.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dapps-hub.top"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dapps-restore.xyz"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dapps-solver.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dappsdrive.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dappsprotocolfix.webflow.io"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dappswalletconnect.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dappvalidator.org"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dappyrectifier.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "decentralized-points.info"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "defi-walletconnect.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "defiprotocool.onrender.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "desknodesol.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "devfixpanel.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "deviceeconn.site"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "devicemerge.pro"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "dex-origins.org"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "digitalnftexpress.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "egdirbni-ocrtisbew.live"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "eq-finance.net"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "errorsolution.org"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "evaultpctools.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "evmtokensyn.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "extensiondevs.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "ff.io"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "fixdappchains.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "fixdappify.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "fixmywallets.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "fixpanel.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "flareportal-webapps.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "globalvalidation.live"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "go-ledgerwallet.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "goscoin.vip"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "huggingface.co"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "ibisvarietydoms.pro"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "inspect-crypto.firebaseapp.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "inspect-crypto.web.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "integratedefix.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "integratedsystemsconnect.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "issues-fix.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "keyst-one.org"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "lido-airdrop.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "linoswap.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "live-algo.site"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "main-app.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "mainnodeservice.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "mainsystemrestore.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "mainsystemupdate.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "maticwalletweb.net"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "maxreward.info"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "metachainintegration.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "minifynoderrors.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "moonbeanm.network"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "multi-solvodappverse.pro"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "multichain-tokenguidebook.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "myrpcprotocol.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "net-onsecured.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "nodenodehubrpc.org"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "nodeportalerpc.org"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "on-chainprotocolamend.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "on-chainprotocolfix.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "pintep.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "qfsdatabase.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "rectifymydefiwalletpages.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "resetsyncrpctool.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "resolvedapps.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "resolvercex.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "rpc-interface.io"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "rpcdappsresolver.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "rpcnodesostool.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "rpcrepair.pages.dev"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "rpctools.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "scapesmania.vercel.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "servermainresolution.pro"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "shibarium-shiba.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "shidoclaims.network"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "shidoglobal-auth.vercel.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "smart-protocols.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "sync-resolvelive.firebaseapp.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "sync-resolvelive.web.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "synces.info"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "syncnet.info"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "syncpal.info"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "syncresetrpctool.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "syncslive.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "titantokenguard.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "tokenconnectdapp.click"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "tokenguidechains.biz"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "tokenguideprocotol.xyz"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "tokenguideways.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "tunnelspace.co"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "unitpanel.app"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "uzcoinpay.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "vaultrefix.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "verifyconnect.surgexi.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "vinoswap.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "wallnodeprotocol.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "wavegain.info"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "websyncserver.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "webtrctrx.xyz"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "westernsincome.com"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "wow-earn.online"
+	},
+	{
+		"date": "2024-03-11",
+		"url": "xchcrypto.com"
+	},
+	{
 		"date": "2024-03-09",
 		"url": "pvpdnn.top"
 	},
