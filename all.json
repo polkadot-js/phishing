@@ -30,6 +30,8 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"dodo-rpcdebugextension.pages.dev",
+		"superformxyz-rpcdebug.pages.dev",
 		"secure-collabland.neocities.org",
 		"web3-manta.pages.dev",
 		"mantasnetworks.app",
