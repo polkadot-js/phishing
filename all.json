@@ -6871,6 +6871,7 @@
 		"cryptohubtech.com",
 		"cryptoinsights.cloud",
 		"cryptojetix.com",
+		"cryptojunction.xyz",
 		"cryptoken.fun",
 		"cryptoken.ru",
 		"cryptokeninsurance.online",
@@ -10930,6 +10931,8 @@
 		"ethereumnetwork.foundation",
 		"ethereumrestore.com",
 		"ethereums.app",
+		"etherfi.wtf",
+		"etherfilive.com",
 		"ethermine-airdrop.com",
 		"ethermon.medium.com.ru",
 		"ethers-foundation.io",
@@ -20877,6 +20880,7 @@
 		"pu1sechain.com",
 		"pub--885da7a9ab534949a2c53b0725f6ecb0-r2-dev.translate.goog",
 		"pub-885da7a9ab534949a2c53b0725f6ecb0.r2.dev",
+		"pub-a0b6f56c81c746d397b9766ef68aefcd.r2.dev",
 		"pub-a20a6ffa53d44d36bfcb7d7b8d99b956.r2.dev",
 		"publicchainsecure.com",
 		"publicdappchain.netlify.app",
@@ -30356,11 +30360,7 @@
 		"zulumaka.top",
 		"zwalletconnect.com",
 		"zxcoin.website",
-		"zzcoin.website",
-		"etherfi.wtf",
-		"pub-a0b6f56c81c746d397b9766ef68aefcd.r2.dev",
-		"etherfilive.com",
-		"cryptojunction.xyz"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
