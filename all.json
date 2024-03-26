@@ -30,6 +30,12 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"connectdappresolve.pages.dev",
+		"autotecc.pages.dev",
+		"super-migration.com",
+		"livetecreset.pages.dev",
+		"whitelistedonly.pages.dev",
+		"allwhitelisted.pages.dev",
 		"grape-officialx.pages.dev",
 		"grape-official.pages.dev",
 		"flux-protocol.pages.dev",
