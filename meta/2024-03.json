@@ -1,6 +1,74 @@
 [
 	{
 		"date": "2024-03-26",
+		"url": "ai-dapp.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "airdrop-wormhole.firebaseapp.com"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "airdrop-wormhole.web.app"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "airdropmainnetprotocol.firebaseapp.com"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "airdropmainnetprotocol.web.app"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "airdropvalidate.firebaseapp.com"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "airdropvalidate.web.app"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "all4whitelisted.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "allfixednodes.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "allmulti.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "allwhitelisted.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "app-solana.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "appnetworksupport.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "autodappx.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "autotecc.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "autowhitelistx.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "basedrewardsxpresale.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
 		"url": "blockswiftresolve.pages.dev"
 	},
 	{
@@ -9,7 +77,31 @@
 	},
 	{
 		"date": "2024-03-26",
+		"url": "chain-base.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "chain-node.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "chainbase.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
 		"url": "chainfirm.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "chainfx.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "claim-all-rewards.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "claim-your-reward.pages.dev"
 	},
 	{
 		"date": "2024-03-26",
@@ -17,7 +109,31 @@
 	},
 	{
 		"date": "2024-03-26",
+		"url": "connectdappresolve.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
 		"url": "dappnodesrestore.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "dappsapp.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "dappsfixed.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "dappslog.vercel.app"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "dappsxfix.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "debug-x.pages.dev"
 	},
 	{
 		"date": "2024-03-26",
@@ -25,7 +141,31 @@
 	},
 	{
 		"date": "2024-03-26",
+		"url": "defilaunchpad.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "defilaunchpads.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "dexlaunchlive.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "dexlaunchpadlive.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
 		"url": "dualoptsmetalspad.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "erc-api.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "erclink.pages.dev"
 	},
 	{
 		"date": "2024-03-26",
@@ -65,6 +205,30 @@
 	},
 	{
 		"date": "2024-03-26",
+		"url": "filsmarttechprompt.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "fixchain-x.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "flux-protocol.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "grape-official.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "grape-officialx.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "livetecreset.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
 		"url": "manta-airdrop.7eel.com"
 	},
 	{
@@ -93,11 +257,19 @@
 	},
 	{
 		"date": "2024-03-26",
+		"url": "super-migration.com"
+	},
+	{
+		"date": "2024-03-26",
 		"url": "swiftdappnodeauth.pages.dev"
 	},
 	{
 		"date": "2024-03-26",
 		"url": "tryingffixedd.pages.dev"
+	},
+	{
+		"date": "2024-03-26",
+		"url": "whitelistedonly.pages.dev"
 	},
 	{
 		"date": "2024-03-25",
