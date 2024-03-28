@@ -5,7 +5,7 @@ A curated list of potentially less-than-honest sites inclusive of a simple JS ut
 
 ### Additions
 
-To add a new site, edit [all.json](https://github.com/polkadot-js/phishing/edit/master/all.json) and add any new entries, single or multiples is allowed per edit.
+To add a new site, edit [all.json](https://github.com/polkadot-js/phishing/edit/master/all.json) and add any new entries, single or multiple is allowed per edit.
 
 To add a new scam address (typically per site), edit [address.json](https://github.com/polkadot-js/phishing/edit/master/address.json) and add it in the correct section (which is keyed by the site providing them).
 
@@ -40,12 +40,12 @@ following that
 
 ### Integration
 
-Since the lists are published as JSON, integration for any non-JS wallets (only a JS library that is provided) should be simple - retrieve the applicable list, parse the JSON and do the required checks either on host or address as per the requirements. The Javascript library does have some features that may be worth thinking about for other integrations -
+Since the lists are published as JSON, integration for any non-JS wallets (only a JS library that is provided) should be simple - retrieve the applicable list, parse the JSON, and do the required checks either on the host or address as per the requirements. The Javascript library does have some features that may be worth thinking about for other integrations -
 
-- instead of retrieving the list each time a request is made, a local copy is cached for 45 mins and then re-retrieved when the timer expires (as a request is made)
-- for address checks the check is done on the decoded ss58 address to ensure that network-jumps with the same keys are avoided (so addresses does not have to be re-added for other networks, a single entry will cover all)
+- instead of retrieving the list each time a request is made, a local copy is cached for 45 minutes and then re-retrieved when the timer expires (as a request is made)
+- for address checks, the check is done on the decoded ss58 address to ensure that network-jumps with the same keys are avoided (so addresses do not have to be re-added for other networks, a single entry will cover all)
 
 
 ### Contributing
 
-This lists are intended to be maintained with active input from the community, so contributions are welcome, either via a pull request (edit above as described in additions) or by [logging an issue](https://github.com/polkadot-js/phishing/issues).
+These lists are intended to be maintained with active input from the community, so contributions are welcome, either via a pull request (edit above as described in additions) or by [logging an issue](https://github.com/polkadot-js/phishing/issues).
