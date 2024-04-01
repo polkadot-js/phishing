@@ -25,5 +25,6 @@
 	"solidity-cbridge.tools",
 	"stargatesfinance.tools",
 	"trustswallet.tools",
-	"walletconnect.tools"
+	"walletconnect.tools",
+	"webconnect.tools"
 ]
