@@ -29,6 +29,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"web-manta.site",
+		"manta-network.guru",
+		"renewparadignmanta.network",
+		"mantatrades.com",
+		"mantanetwork.capital",
+		"appmantanetwork.com",
+		"collabland-pad.com",
+		"collabland-assests.com",
+		"collabland-walet.com",
+		"collabland-syncs.com",
+		"collabland-log.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
