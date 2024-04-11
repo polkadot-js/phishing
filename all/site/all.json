@@ -805,6 +805,7 @@
 	"mainnetdappresolve.site",
 	"mainnetdapps.site",
 	"mainnetdev.site",
+	"mainnetfaucet.site",
 	"mainnetprotocol.site",
 	"mainnetsbridge.site",
 	"mainnetserver.site",
