@@ -120,6 +120,7 @@
 	"distribution-layerzero.network",
 	"distribution-wbtc.network",
 	"distributions-ftm.network",
+	"dotfi.network",
 	"drop-layerzero.network",
 	"drops-manta.network",
 	"earn-celsius.network",
@@ -240,6 +241,7 @@
 	"mantaproject.network",
 	"mantaprotcols.network",
 	"mantareward.network",
+	"mantata.network",
 	"mantatech.network",
 	"mantatokenclaim.network",
 	"mantaweb.network",
@@ -277,6 +279,7 @@
 	"myassetrectify.network",
 	"mymoon-beam.network",
 	"mymoonbeam.network",
+	"mymoonbeem.network",
 	"namta.network",
 	"new-paradigm-manta.network",
 	"new-paradigmanta.network",
@@ -373,6 +376,7 @@
 	"registration-manta.network",
 	"registration-stark.network",
 	"registry-manta.network",
+	"renewmanta-paradigm.network",
 	"renewparadigm-manta.network",
 	"renewparadignmanta.network",
 	"resolveabug.network",
@@ -463,5 +467,6 @@
 	"xenmint.network",
 	"xn--mata-c2a.network",
 	"zillx.network",
+	"zkmanta.network",
 	"zroaward.network"
 ]
