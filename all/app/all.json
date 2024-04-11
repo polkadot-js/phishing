@@ -677,6 +677,7 @@
 	"mainnetconnect.app",
 	"mainnetdapp.app",
 	"mainnetdapp.web.app",
+	"mainnetfix.web.app",
 	"mainnethub.app",
 	"mainnetnode-online.vercel.app",
 	"mainnetoncfix.netlify.app",
