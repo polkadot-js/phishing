@@ -62,7 +62,7 @@ const filtered = all
     a.join('.').localeCompare(b.join('.'))
   )
   .map((d) =>
-    // convert back to to a domain (aka re-reverse before printing)
+    // convert back to a domain (aka re-reverse before printing)
     d.reverse().join('.')
   );
 
