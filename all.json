@@ -29,8 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"manta.lo-io.online",
-		"subwallet-polkadot.app",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -15859,6 +15857,7 @@
 		"manta.icu",
 		"manta.in.net",
 		"manta.limited",
+		"manta.lo-io.online",
 		"manta.mobi",
 		"mańta.network",
 		"manta.pages.dev",
@@ -24437,6 +24436,7 @@
 		"subsyncsupports.pages.dev",
 		"subsyncsupports.web.app",
 		"subulussalamkota.desa.id",
+		"subwallet-polkadot.app",
 		"subwallet.exchange",
 		"subwallet.online",
 		"successfulbridge.website",
