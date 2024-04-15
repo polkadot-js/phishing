@@ -29,6 +29,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"swap.raydium.cm",
+		"dappnode.dev",
+		"dappsconnect-chain.info",
+		"mnt-network.org",
+		"mantanetwork.on-fleek.app",
+		"raydium.cm",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
