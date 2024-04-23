@@ -105,7 +105,6 @@
 	"solidfix.cc",
 	"spxmap.cc",
 	"suinetworks.cc",
-	"swapex.cc",
 	"synctoday.cc",
 	"syncwals-activation.cc",
 	"token-im.cc",
