@@ -1504,6 +1504,7 @@
 	"sync-trustedappscloud.online",
 	"sync-validator.online",
 	"sync-walletvalidationguard.online",
+	"sync1.online",
 	"syncandvalidateapps.online",
 	"syncapp.online",
 	"syncbit.online",
