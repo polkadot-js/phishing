@@ -720,6 +720,7 @@
 	"rpc-debugextensiondapps.pages.dev",
 	"rpc-mainnet.dev",
 	"rpcchain.dev",
+	"rpchubnodeportal.pages.dev",
 	"rpcrepair.pages.dev",
 	"rpctangem.dev",
 	"rpctools.pages.dev",
