@@ -10,6 +10,7 @@
 	"allbribge.cc",
 	"allbridge.cc",
 	"app-uniswap.cc",
+	"armywelfare.cc",
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
 	"btfinex.cc",
