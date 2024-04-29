@@ -3,6 +3,7 @@
 	"dioneprotocol.trading",
 	"grayscale.trading",
 	"lidofi.trading",
+	"manta.trading",
 	"mantaprotocols.trading",
 	"mav.trading",
 	"raydium.trading",
