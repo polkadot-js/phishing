@@ -29,7 +29,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"smartdappautofix.live",
 		"*.top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
@@ -24026,6 +24025,7 @@
 		"smartdapp.herokuapp.com",
 		"smartdapp.net",
 		"smartdapp.pages.dev",
+		"smartdappautofix.live",
 		"smartdappconnect.com",
 		"smartdappconnect.live",
 		"smartdappconnects.com",
