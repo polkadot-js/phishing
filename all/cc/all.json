@@ -16,6 +16,7 @@
 	"btfinex.cc",
 	"cellatis.cc",
 	"claim-scroll.cc",
+	"claim-service.cc",
 	"claims-scroll.cc",
 	"coin-solutions.cc",
 	"coinloan.cc",
