@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"mantananetwork.site",
 		"mantabridge-1d4.pages.dev",
 		"mantas-project.net",
 		"manta-company.net",
