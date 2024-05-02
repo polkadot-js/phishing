@@ -29,6 +29,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"claim-manta.top",
+		"manta-wallet.org",
+		"restaking-manta.network",
+		"register-mantanetwork.net",
+		"manta-claim-93x.pages.dev",
+		"mantaairdrop-czw.pages.dev",
+		"mantanetwork-5xq.pages.dev",
+		"manta-claim.app",
+		"mantacoin.pages.dev",
+		"manta.bridgepacific.xyz",
+		"manta-x.pages.dev",
+		"bridgepacific.xyz",
 		"*.top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
