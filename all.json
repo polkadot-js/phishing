@@ -29,6 +29,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"claim-manta.top",
+		"manta-wallet.org",
+		"restaking-manta.network",
+		"register-mantanetwork.net",
 		"manta-claim-93x.pages.dev",
 		"mantaairdrop-czw.pages.dev",
 		"mantanetwork-5xq.pages.dev",
