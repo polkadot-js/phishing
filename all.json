@@ -29,6 +29,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"manta-claim-93x.pages.dev",
 		"mantaairdrop-czw.pages.dev",
 		"mantanetwork-5xq.pages.dev",
 		"manta-claim.app",
