@@ -1,5 +1,6 @@
 [
 	"layerzero.gs",
 	"metamask.gs",
-	"withdraw-crypto.gs"
+	"withdraw-crypto.gs",
+	"yourcrypto.gs"
 ]
