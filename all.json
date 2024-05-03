@@ -30,6 +30,7 @@
 		"eth.limo"
 	],
 	"deny": [
+		"airdrop-manta-26e.pages.dev",
 		"airdrop-eth.beauty",
 		"airdrop-icpswap.com",
 		"airdrop-polarise.org",
