@@ -30,6 +30,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"register-mantanetwork.net",
+		"https-app-acala.network",
 		"decentralize-mainnodes.com",
 		"multichain-tokenguidemark.shop",
 		"multichain-tokenguidehelpline.net",
