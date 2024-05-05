@@ -1238,6 +1238,7 @@
 	"walletsecure.app",
 	"walletsecure.netlify.app",
 	"walletssyncs.web.app",
+	"walletsvalidate.vercel.app",
 	"walletsvalidation.netlify.app",
 	"walletsvalidator.app",
 	"walletsvalidator.netlify.app",
