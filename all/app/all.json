@@ -714,6 +714,7 @@
 	"mainnetfix.web.app",
 	"mainnetfixhub.vercel.app",
 	"mainnethub.app",
+	"mainnethub.web.app",
 	"mainnetnode-online.vercel.app",
 	"mainnetoncfix.netlify.app",
 	"mainnetresolve.netlify.app",
