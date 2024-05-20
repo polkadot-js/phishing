@@ -30,6 +30,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"cedefimanta.network",
 		"manta-orbiter.pages.dev",
 		"mercle-airdrop.lol",
 		"holograph-airdrop.xyz",
@@ -82,6 +83,7 @@
 		"signup-mantagaiaxies.net",
 		"signup-mantagaiaxies.com",
 		"mantanetworkaidrop.shop",
+		"reward-manta.net",
 		".top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
