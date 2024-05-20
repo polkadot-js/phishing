@@ -9,6 +9,7 @@
 	"airdrop-zksyncs.cc",
 	"allbribge.cc",
 	"allbridge.cc",
+	"app-dappradar.cc",
 	"app-uniswap.cc",
 	"armywelfare.cc",
 	"auth-walletconnect.cc",
