@@ -1,5 +1,581 @@
 [
 	{
+		"date": "2024-05-23",
+		"url": "alldapps-rpcs.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "allocate-peaq.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "allocation-optimismdao.net"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "allocation-venusprotocol.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "altreward.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "altrewards.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "api-netcrypto-fixtool.pro"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "api3upgradedtoken.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "apirepair-toolrpc.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "app-illuminex.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "appalienbase.net"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "appreconciller.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "arpaupgradedtoken.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "assidex.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "avalaunch.space"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "axelarupgradedtoken.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "b1ockchain.org"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "barnbridge.digital"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "base-claims.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "biconomyupgradedtoken.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "bits-crypto.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "blockdag-claim.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "blockonchains.live"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "bnbchains.org"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "chainlinks.lol"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "claim-initia.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "claim-layerzeronetwork.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "coinbasewebextensions.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "colabsyncapps.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "connect-availproject.org"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "cross-chainprotocol.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "cryptosupportonline.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "cryptrectify.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "ctrlchain.tech"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "dappdebugpro.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "davinaspace.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "debugging-protocol.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "defipage.sbs"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "defivalidation.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "devprojecttools.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "enjintoken.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "enroil-onchaincoin.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "enroll-degencoin.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "enroll-gnusai.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "entering-mantagalaxies.net"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "ependlehub.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "eth-tokens-staking.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "fix-walletconnect.pages.dev"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "fixdappcon.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "free-cryptoairdrop.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "galanodes.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "gpepetoken.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "illuviumtoken.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "illuviumtoken.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "land-assets.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "mainnetdappnode.live"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "mainnetsbridges.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "manualprotocol.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "marginfiauth.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "migrate-archloot.site"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "migration-rocketx.shop"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "multi-chainswebapp.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "multichainsbridges.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "multidappprotocol.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "multiplier-hyperliquid.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "multiswiftchain.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "multiverse-chain.info"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "nakachainxyz.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "nanoseverdapps.pages.dev"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "new-dappradar.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "newplatformformigration.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "nodeactivation.icu"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "nodehelpfix.live"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "nodesyncs.live"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "nodexsyncs.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "nonce-rectify.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "notcoin-live.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "notcoinfam.click"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "online-web3-fix.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "open-smartpools-io.pages.dev"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "ousdtoken.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "pendlehub.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "platformfornewmigration.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "portalbridge-dapp.vercel.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "program-chain.link"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "pulsechainnetworks.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "qfsassetreserves.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "qfsassetsallledgers.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "qfsxassetsbackups.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "quickvalidationupdate.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "rbntoken.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "register-blastl2.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "register-oasisprotocoi.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "register-teaprotocol.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "renzotoken.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "restaking-nodeai.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "resync.pages.dev"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "retikfinancialtoken.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "retiktoken.live"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "reward-chain.link"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "rewardlabs.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "rewardlabs.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "rewards-mode.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "rewardshub.top"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "rpcmultichain.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "safelaunchweb.site"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "securedfixapp.info"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "securesync.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "securewalletx.org"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "setronbitwallet.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "shadownodes.store"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "shibcswap.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "signup-mantagalaxies.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "simpleconnectapps.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "smartappconnector.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "solution-dapp.pro"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "solutionhelp.support"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "stakerstone.network"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "swapresolve.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "swift-multinetworks.site"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "sybil-layerzero.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "sybil-layerzero.net"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "sync-web3.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "thetamaintoken.org"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "thetanuts.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "thrustpad.icu"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "tokenized-pool.net"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "tokens-foundation.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "tokens-staking-rewards.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "ton-notcoin.xyz"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "trttro.pages.dev"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "trustclaim.pro"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "unidex.vip"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "uniswap-io-devs.pages.dev"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "v3pointsfix.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "v3vaultfix.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "valactiveasset.net"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "vault-omnifdn.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "vote-moonapp.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "vote-staderlabs.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "wallrectify.online"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "wardenprotocoi.app"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "xverse-extension.com"
+	},
+	{
+		"date": "2024-05-23",
+		"url": "xverseweb.xyz"
+	},
+	{
 		"date": "2024-05-22",
 		"url": "air-dappradar.pages.dev"
 	},
