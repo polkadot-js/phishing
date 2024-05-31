@@ -30,7 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"gaming-mantagalaxies.com",
 		".top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
@@ -13097,6 +13096,7 @@
 		"gamesfi-seedify.com",
 		"gamfinode.online",
 		"gamificacao.site",
+		"gaming-mantagalaxies.com",
 		"gaming-pudgypenguins.com",
 		"gamini-wallet.com",
 		"gamium.pages.dev",
