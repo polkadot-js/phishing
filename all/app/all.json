@@ -1389,6 +1389,7 @@
 	"webdappsinterface.app",
 	"weblinknode.web.app",
 	"webnodeauth.vercel.app",
+	"webnodedapp.netlify.app",
 	"webnodevalidate.netlify.app",
 	"webresolvefix.web.app",
 	"webswalletconnect.app",
