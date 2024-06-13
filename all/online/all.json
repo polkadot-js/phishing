@@ -934,6 +934,7 @@
 	"mainnet-support.online",
 	"mainnetauthentification.online",
 	"mainnetblock.online",
+	"mainnetblocks.online",
 	"mainnetbridge.online",
 	"mainnetchainlist.online",
 	"mainnetconnect.online",
