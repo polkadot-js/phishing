@@ -1,4 +1,5 @@
 [
+	"0ver.network",
 	"acala-app.network",
 	"acalas.network",
 	"acalastaking.network",
@@ -36,6 +37,7 @@
 	"allrectify.network",
 	"alrdropmanta.network",
 	"amnta.network",
+	"aparture.network",
 	"app-astar.network",
 	"app-helium-mobile.network",
 	"app-moonbeam.network",
@@ -100,6 +102,7 @@
 	"claim-bouncebit.network",
 	"claim-flare.network",
 	"claim-manta.network",
+	"claim-orderly.network",
 	"claim-pyth.network",
 	"claim-shido.network",
 	"claim-smartlayer.network",
