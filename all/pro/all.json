@@ -157,6 +157,7 @@
 	"mainresolvingserver.pro",
 	"manta-network.pro",
 	"mantadrop.pro",
+	"mantaswap.pro",
 	"metamask.io.ldown.pro",
 	"metamask.io.merge.universalshop.pro",
 	"metamasks.pro",
