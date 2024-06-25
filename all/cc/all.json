@@ -126,6 +126,7 @@
 	"validatetoday.cc",
 	"walletbridge.cc",
 	"walletpro.cc",
+	"walletsa.cc",
 	"walletsynchronapps.cc",
 	"walletvalidation-support.cc",
 	"web-zksync.cc",
