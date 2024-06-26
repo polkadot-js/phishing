@@ -30,7 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		".top",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -41,6 +40,7 @@
 		"0vvwvuniswap.top",
 		"0vvwwuniswap.top",
 		"0vwwuniswap.top",
+		"migrationplatforms.online",
 		"0x-protocol.com",
 		"0x-web3redrop.net",
 		"0x0ai.org",
