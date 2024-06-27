@@ -110,6 +110,7 @@
 	"securecoin.cc",
 	"solidfix.cc",
 	"spxmap.cc",
+	"stake-airdrop.cc",
 	"suinetworks.cc",
 	"synctoday.cc",
 	"syncwals-activation.cc",
