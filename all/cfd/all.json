@@ -22,6 +22,7 @@
 	"fixedfloat.cfd",
 	"flare.cfd",
 	"gavesync.cfd",
+	"karak-network.cfd",
 	"mainetdapps.cfd",
 	"mainetdappsync.cfd",
 	"mainetlinked.cfd",
