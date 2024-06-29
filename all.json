@@ -30,6 +30,9 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dappfixwebs.pages.dev",
+		"authnodesblock.pages.dev",
+		"mantanetwork-voting.net",
 		"allianceblockclaim.pages.dev",
 		"99bitcoin.cash",
 		"skyacc.pages.dev",
