@@ -2,6 +2,7 @@
 	"account-authentication.us",
 	"app-onlinelottoclaim.us",
 	"appwalletconnect.us",
+	"basenji.us",
 	"bitcharge.us",
 	"blockvalidator.us",
 	"bored-ape.us",
@@ -93,5 +94,6 @@
 	"wconnects.us",
 	"web3services.us",
 	"webdappsvalidate.us",
-	"webwallet-authntication.us"
+	"webwallet-authntication.us",
+	"zkbridge.us"
 ]
