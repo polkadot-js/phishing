@@ -30,6 +30,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"portlivebridgewalletdapp.com",
+		"dapprardar.app",
+		"liveportmigrtdapp.com",
+		"swapchaindapp.com",
+		"newsyncmultichains.top",
+		"airdrop-dogcoins.com",
+		"airdrop-mocaverse.site",
+		"runesairdrop-bevm.io",
+		"airdrop-blast-io.org",
+		"airdrops-blum.io",
+		"airdrops-layerzero.foundation",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
