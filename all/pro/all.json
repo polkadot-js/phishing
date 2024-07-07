@@ -68,6 +68,7 @@
 	"chainweb.pro",
 	"checkaml.pro",
 	"claim-zksyncid.pro",
+	"claims-etherfi.pro",
 	"coin-ex.pro",
 	"coin-express.pro",
 	"coinduck.pro",
