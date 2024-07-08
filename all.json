@@ -31,7 +31,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"mantawebdapp.pages.dev",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
 		"0nlinebot.github.io",
@@ -17812,6 +17811,7 @@
 		"mantaweb.network",
 		"mantaweb.pages.dev",
 		"mantawebapp.pages.dev",
+		"mantawebdapp.pages.dev",
 		"mantaworld-air.com",
 		"mantax.network",
 		"mantax.pages.dev",
