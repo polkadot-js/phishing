@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 0.23.1 July 13, 2024
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Bump polkadot/common to 13.0.2
+  - This contains the latest changes to the Ledger interface in `@polkadot/hw-ledger`. For more info please see ([13.0.1](https://github.com/polkadot-js/common/releases/tag/v13.0.1))
+- Bump yarn to 4.3.1
+
+
 ## 0.22.10 June 24, 2024
 
 Contributed:
