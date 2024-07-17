@@ -8,6 +8,7 @@
 	"connext-network.events",
 	"distribution-manta.events",
 	"efinity.events",
+	"efrogs.events",
 	"enter-starknetwork.events",
 	"gitcoin.events",
 	"hilomarket.events",
