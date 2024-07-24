@@ -1422,6 +1422,7 @@
 	"v2tokenbridge.live",
 	"v2tokenmigration.live",
 	"v2tokenswitch.live",
+	"v3cloudloop.live",
 	"v3dappsresolve.live",
 	"validappsync.live",
 	"validateassets.live",
