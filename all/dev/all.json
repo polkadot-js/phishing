@@ -954,6 +954,7 @@
 	"nodefixer.pages.dev",
 	"nodemodifier.dev",
 	"nodemultichainprotcol.pages.dev",
+	"nodemultisyncdapp.dev",
 	"nodeperfix.pages.dev",
 	"noderectifierdapp.pages.dev",
 	"noderelayer.pages.dev",
