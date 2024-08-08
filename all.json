@@ -31,6 +31,10 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"miles-plume-network.pages.dev",
+		"logsync.pages.dev",
+		"wallet-connect-a2g.pages.dev",
+		"fix-smokepresale.pages.dev",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
 		"0nlinebot.github.io",
