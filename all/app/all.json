@@ -486,6 +486,7 @@
 	"dapps-connect.app",
 	"dapps-errors-fix.web.app",
 	"dapps-integrate.app",
+	"dapps-protocol.web.app",
 	"dapps-rpc-protocol.vercel.app",
 	"dapps-secure.netlify.app",
 	"dapps-server.netlify.app",
