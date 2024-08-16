@@ -31,6 +31,12 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"multichainlink.pages.dev",
+		"allchainfix.pages.dev",
+		"refix-protocol.pages.dev",
+		"presaledappweb.pages.dev",
+		"test-newapp.pages.dev",
+		"swiftsmartwalletresolve.pages.dev",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
 		"0nlinebot.github.io",
