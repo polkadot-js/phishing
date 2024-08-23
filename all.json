@@ -31,6 +31,11 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"sun-auth.pages.dev",
+		"dappsclaim.pages.dev",
+		"dapp-wallet-connect.pages.dev",
+		"dappelitefix.pages.dev",
+		"secureweb3connect.pages.dev",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
 		"0nlinebot.github.io",
