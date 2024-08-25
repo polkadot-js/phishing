@@ -30,7 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"panelactivator.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
@@ -23083,6 +23082,7 @@
 		"pandoshidaapsintegration.onrender.com",
 		"panel-activate-trustpad.pages.dev",
 		"panel-activator.pages.dev",
+		"panelactivator.net",
 		"panelactivatordapp.com",
 		"panelresolver.com",
 		"panelweb3.com",
