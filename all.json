@@ -31,6 +31,11 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"dapp-sanc.pages.dev",
+		"maindappnodeprotocol.in",
+		"maindeveloper.pages.dev",
+		"lntegratechain.dev",
+		"dawallconnect.pages.dev",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
 		"0nlinebot.github.io",
