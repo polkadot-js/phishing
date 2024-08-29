@@ -32,6 +32,9 @@
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"encryptionsecurity.pages.dev",
+		"whitelists.pages.dev",
+		"altobaysescan.pages.dev",
+		"busydao.pages.dev",
 		"world-wallets.com",
 		"dappsynchronize.pages.dev",
 		"zmultichain.app",
