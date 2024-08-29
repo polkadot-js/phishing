@@ -31,6 +31,13 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"encryptionsecurity.pages.dev",
+		"dappsynchronize.pages.dev",
+		"zmultichain.app",
+		"world-wallets.com",
+		"syncblocknode.org",
+		"stepnactivationn.pages.dev",
+		"bridge-runemine.pages.dev",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
 		"0nlinebot.github.io",
