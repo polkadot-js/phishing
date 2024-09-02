@@ -31,6 +31,11 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"dashboardconnect.pages.dev",
+		"dappactivationsfix.pages.dev",
+		"tronbeer-contractrevoke-dashboard.online",
+		"optsbuildclaim.pages.dev",
+		"dappweb3-f9d3.onrender.com",
 		"09sync00.duckdns.org",
 		"0kxwallet.org",
 		"0nlinebot.github.io",
