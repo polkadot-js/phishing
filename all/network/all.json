@@ -1,5 +1,6 @@
 [
 	"0ver.network",
+	"5ire-migration.network",
 	"acala-app.network",
 	"acalas.network",
 	"acalastaking.network",
@@ -214,6 +215,7 @@
 	"jtodrop.network",
 	"jup-drop.network",
 	"jup-rewards.network",
+	"jupbridge.network",
 	"karahk.network",
 	"kernelprotocol.network",
 	"krowfund.network",
@@ -312,6 +314,8 @@
 	"mergemetadao.network",
 	"mianta.network",
 	"migratebencoin.network",
+	"migration-5ire.network",
+	"migration-5irechain.network",
 	"migration-astar.network",
 	"mine-manta.network",
 	"minipepe.network",
