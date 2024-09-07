@@ -85,6 +85,7 @@
 	"help7070-support22.cc",
 	"imtokendownload.cc",
 	"ispot.cc",
+	"layer3xyz.cc",
 	"limtoken.cc",
 	"link-wallets.cc",
 	"linkdapp.cc",
