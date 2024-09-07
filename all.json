@@ -31,6 +31,11 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"dapp-bft.pages.dev",
+		"dapp-migrate.online",
+		"securesolidxclaim.pages.dev",
+		"secureyourseldreward.pages.dev",
+		"secure-nodes.info",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdns.org",
 		"0kxwallet.org",
