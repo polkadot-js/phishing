@@ -31,6 +31,11 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"nodesapp.pages.dev",
+		"blockchaindapps.live",
+		"swiftbit.pages.dev",
+		"mantaweb-app.pages.dev",
+		"revapp.pages.dev",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdns.org",
 		"0kxwallet.org",
