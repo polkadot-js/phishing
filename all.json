@@ -30,7 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"portal-zerolend.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdns.org",
@@ -24885,6 +24884,7 @@
 		"portal-migrator.xyz",
 		"portal-networkastar.com",
 		"portal-nodes.pages.dev",
+		"portal-zerolend.net",
 		"portal-zksync.online",
 		"portal-zksync.pro",
 		"portal-zksync.website",
