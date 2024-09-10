@@ -30,7 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"zerolends.net",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdns.org",
@@ -36317,6 +36316,7 @@
 		"zerolend-finance.vercel.app",
 		"zerolend.gold",
 		"zerolend.online",
+		"zerolends.net",
 		"zestprotocol.app",
 		"zeta-chain.pages.dev",
 		"zeta-chain.xyz",
