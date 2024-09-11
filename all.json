@@ -30,8 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"toplynova.online",
-		"validitynormsnet.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdns.org",
@@ -31356,6 +31354,7 @@
 		"toplaser.com.au",
 		"toplentn.site",
 		"topliftunited.com",
+		"toplynova.online",
 		"topmainconnect.com",
 		"topolkadot.js.org",
 		"toponetrader.vercel.app",
@@ -32649,6 +32648,7 @@
 		"validityauth.com",
 		"validityfix.site",
 		"validitynodesync.com",
+		"validitynormsnet.pages.dev",
 		"validlive.us",
 		"validmetawalletfix.online",
 		"validnodes.org",
