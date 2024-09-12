@@ -240,6 +240,7 @@
 	"noderestore.pro",
 	"noderpcmaster.pro",
 	"nodesrectifier.pro",
+	"nodesrestore.pro",
 	"onchain-allocation.pro",
 	"openchainsdirectserver.pro",
 	"org-site-v3-defi.pro",
