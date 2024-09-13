@@ -31,6 +31,12 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"dapp-mister-miggles.pages.dev",
+		"dapp-timibase.pages.dev",
+		"dappmainnet.pages.dev",
+		"redirected-fixprotocol.pages.dev",
+		"app-holdium.pages.dev",
+		"dapps-rectification-axr.pages.dev",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdns.org",
 		"0kxwallet.org",
