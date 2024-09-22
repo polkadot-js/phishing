@@ -741,6 +741,7 @@
 	"errorfixing-api.online",
 	"errorfixingapi.online",
 	"ertamlek.online",
+	"etheism.online",
 	"events-blur.online",
 	"everdomedapps.online",
 	"everrisev3migration.online",
@@ -1594,6 +1595,7 @@
 	"setupclaims.online",
 	"shell-haqq-network.online",
 	"sika-swap.online",
+	"simonscat-claim.online",
 	"simonscatclaim.online",
 	"simplepairingapp.online",
 	"sinceredoge-bonus.online",
@@ -2134,5 +2136,6 @@
 	"zenlinknetwork.online",
 	"zerolend.online",
 	"zinu-netz.online",
-	"zksync-swap.online"
+	"zksync-swap.online",
+	"zsteth.online"
 ]
