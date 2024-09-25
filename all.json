@@ -31,7 +31,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"walletconnects.vercel.app",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdnrs.org",
 		"09sync1n0-duckdns.org",
@@ -34392,6 +34391,7 @@
 		"walletconnects.digital",
 		"walletconnects.org",
 		"walletconnects.support",
+		"walletconnects.vercel.app",
 		"walletconnects.xyz",
 		"walletconnectsapp.com",
 		"walletconnectsapp.org",
