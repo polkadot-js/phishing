@@ -8,6 +8,7 @@
 	"colabland.bond",
 	"dappsattestation.bond",
 	"dappsratification.bond",
+	"decrypt.bond",
 	"endpointapp.bond",
 	"imtokem.bond",
 	"layerzero.bond"
