@@ -7,6 +7,7 @@
 	"airdrop-linea.cc",
 	"airdrop-manta.cc",
 	"airdrop-zksyncs.cc",
+	"airdropx.cc",
 	"allbribge.cc",
 	"allbridge.cc",
 	"app-dappradar.cc",
