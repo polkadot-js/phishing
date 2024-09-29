@@ -496,6 +496,7 @@
 	"dappconnectv2.web.app",
 	"dappconnectwallet.web.app",
 	"dappdebugger.app",
+	"dappdecentralisedlaunchpad.vercel.app",
 	"dappdrops.vercel.app",
 	"dappfix.app",
 	"dappfix.vercel.app",
