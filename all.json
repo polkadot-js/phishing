@@ -31,7 +31,6 @@
 	],
 	"deny": [
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
-		"dappsconnectio.vercel.app",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdnrs.org",
 		"09sync1n0-duckdns.org",
@@ -10429,6 +10428,7 @@
 		"dappsconnected.com",
 		"dappsconnectfix.net",
 		"dappsconnectify.com",
+		"dappsconnectio.vercel.app",
 		"dappsconnection.cc",
 		"dappsconnection.net",
 		"dappsconnection.online",
