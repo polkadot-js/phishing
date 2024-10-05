@@ -30,9 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"airdropmythos.foundation",
-		"airdrop-mythos.foundation",
-		"kusarna.us",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdnrs.org",
@@ -912,6 +909,7 @@
 		"airdrop-muitibit.com",
 		"airdrop-multibit.blog",
 		"airdrop-myria.one",
+		"airdrop-mythos.foundation",
 		"airdrop-neirocoin.xyz",
 		"airdrop-network.online",
 		"airdrop-nostra.com",
@@ -1080,6 +1078,7 @@
 		"airdropmantatoken.com",
 		"airdropmaster.finance",
 		"airdropmeme.xyz",
+		"airdropmythos.foundation",
 		"airdropnft.top",
 		"airdropnulink.org",
 		"airdropo.app",
@@ -17486,6 +17485,7 @@
 		"kusamaswap.com",
 		"kusamat.js.org",
 		"kusamatokens.com",
+		"kusarna.us",
 		"kusbanmetr.site",
 		"kustuplop.site",
 		"kuzcanavari.site",
