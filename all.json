@@ -30,6 +30,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"allocation-walletconnect.trade",
 		"airdrop-scroll.site",
 		"airdrops-babydogecoin.com",
 		"monkeypoxairdrop.info",
