@@ -12,6 +12,7 @@
 	"claim-layerzeros.foundation",
 	"claimportal.foundation",
 	"connect-arbitrum.foundation",
+	"cosmicnetworkv2.foundation",
 	"dappadar.foundation",
 	"debridgeapp.foundation",
 	"debridgez.foundation",
@@ -23,6 +24,8 @@
 	"pepe2.foundation",
 	"sentient-agi.foundation",
 	"syncswap.foundation",
+	"thebeacon.foundation",
+	"triasv2.foundation",
 	"unidex.foundation",
 	"voltek.foundation"
 ]

@@ -2,6 +2,7 @@
 	"bakeryswap.trading",
 	"defisaver.trading",
 	"dioneprotocol.trading",
+	"getbasedai.trading",
 	"grayscale.trading",
 	"lidofi.trading",
 	"manta.trading",
@@ -9,6 +10,7 @@
 	"mav.trading",
 	"owlto.trading",
 	"polkastarter.trading",
+	"punpbitcoin.trading",
 	"raydium.trading",
 	"unibot-app.trading"
 ]
