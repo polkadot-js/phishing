@@ -68,6 +68,7 @@
 	"izumi.claims",
 	"join-starknet.claims",
 	"lmi.claims",
+	"lootlegends.claims",
 	"mai.claims",
 	"maker-spark.claims",
 	"manta-network.claims",
@@ -97,6 +98,7 @@
 	"proofofpepes.claims",
 	"props.claims",
 	"pudgypenguins.claims",
+	"puffer-fi.claims",
 	"quai.claims",
 	"quickswap.claims",
 	"redeem-blur.claims",
@@ -127,6 +129,7 @@
 	"xrp.claims",
 	"yearn-finance.claims",
 	"yuga.claims",
+	"zaptech.claims",
 	"zerion-io.claims",
 	"zerion.claims",
 	"zk-airdrop.claims"
