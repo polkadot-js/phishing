@@ -30,7 +30,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"polkadot-v3.xyz",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
 		"09sync1n0-duckdnrs.org",
@@ -25258,6 +25257,7 @@
 		"polkadot-technology.com",
 		"polkadot-token.network",
 		"polkadot-trust.site",
+		"polkadot-v3.xyz",
 		"polkadot-wallet.com",
 		"polkadot-wallet.net",
 		"polkadot-wallet.org",
