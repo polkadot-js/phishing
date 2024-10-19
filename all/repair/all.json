@@ -2,6 +2,7 @@
 	"dapprecovery.repair",
 	"dappsfix.repair",
 	"defiaccess.repair",
+	"defiasset.repair",
 	"noderest.repair",
 	"syncfix.repair",
 	"syncfixed.repair",

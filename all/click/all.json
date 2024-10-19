@@ -44,6 +44,7 @@
 	"defiservertool.click",
 	"defiservertools.click",
 	"dipconnect.click",
+	"ethereum-meta-migrate.click",
 	"ethereummeta-migratehub.click",
 	"ethmeta-contract-migrate.click",
 	"fastcoinsolutiion.click",
@@ -115,6 +116,7 @@
 	"walletextension.click",
 	"walletmultilink.click",
 	"wallreceivecondapp.click",
+	"web3-decentralized-userportal.click",
 	"web3-deflllama.click",
 	"whitelist-reg.click"
 ]
