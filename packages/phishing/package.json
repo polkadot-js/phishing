@@ -21,9 +21,9 @@
   "version": "0.23.8-5-x",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/util": "^13.0.2",
-    "@polkadot/util-crypto": "^13.0.2",
-    "@polkadot/x-fetch": "^13.0.2",
+    "@polkadot/util": "^13.2.1",
+    "@polkadot/util-crypto": "^13.2.1",
+    "@polkadot/x-fetch": "^13.2.1",
     "tslib": "^2.6.2"
   },
   "devDependencies": {
