@@ -1544,6 +1544,7 @@
 	"safemoonv2migration.org",
 	"sandboxclaim.org",
 	"saveukr.org",
+	"season2-modenetwork.org",
 	"secure-collabland.neocities.org",
 	"secure-collabland.org",
 	"secure-metamask.org",
@@ -1727,6 +1728,8 @@
 	"token-arbitrum.org",
 	"token-decentraland.org",
 	"token-gpt.org",
+	"token-lumia.org",
+	"token-swap-lumia.org",
 	"token-sync.org",
 	"tokenarb.org",
 	"tokencake.org",
@@ -2048,5 +2051,6 @@
 	"ypolkadot.js.org",
 	"zapperwalletconnect.org",
 	"zkmanta.org",
-	"zksync-ledger.org"
+	"zksync-ledger.org",
+	"zyfi-tokensoft.org"
 ]

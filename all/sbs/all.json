@@ -36,6 +36,7 @@
 	"pepetoken.sbs",
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
+	"rpcurl-rectification.sbs",
 	"shibatokengo.sbs",
 	"swiftappend.sbs",
 	"swiftdappaffix.sbs",
