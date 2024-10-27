@@ -12,6 +12,7 @@
 	"multichain-web3.uno",
 	"multichainresolver.uno",
 	"ripple.uno",
+	"rpcurl-rectification.uno",
 	"rtfkt.uno",
 	"uniswape.uno",
 	"validationbugs.uno"
