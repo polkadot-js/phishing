@@ -32,6 +32,7 @@
 	"deny": [
 		"0-chain.com",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
+		"netchain-block.surge.sh",
 		"fix-protocol.pages.dev",
 		"digitalconcept.pro",
 		"dappmainhub.vercel.app",
