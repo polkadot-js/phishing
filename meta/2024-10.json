@@ -1,5 +1,25 @@
 [
 	{
+		"date": "2024-10-30",
+		"url": "dappattest.pages.dev"
+	},
+	{
+		"date": "2024-10-30",
+		"url": "mainnet-validate.firebaseapp.com"
+	},
+	{
+		"date": "2024-10-30",
+		"url": "mainnet-validate.web.app"
+	},
+	{
+		"date": "2024-10-30",
+		"url": "safedapp-fix.pages.dev"
+	},
+	{
+		"date": "2024-10-30",
+		"url": "syncndefix.line.pm"
+	},
+	{
 		"date": "2024-10-29",
 		"url": "blockchain-rectification-merge.pages.dev"
 	},

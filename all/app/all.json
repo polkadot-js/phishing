@@ -963,6 +963,7 @@
 	"mainnet-connect.vercel.app",
 	"mainnet-pulsechain.app",
 	"mainnet-rpc.vercel.app",
+	"mainnet-validate.web.app",
 	"mainnet-zircuit.app",
 	"mainnetconnect.app",
 	"mainnetdapp.app",
