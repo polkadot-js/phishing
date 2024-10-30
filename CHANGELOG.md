@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.24.2 Oct 30, 2024
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Upgrade polkadot/common to 13.2.2 ([#4735](https://github.com/polkadot-js/phishing/pull/4735))
+
+
 ## 0.24.1 Oct 22, 2024
 
 Contributed:
@@ -9,7 +20,7 @@ Contributed:
 Changes:
 
 - Bump yarn to 4.5.1 ([#4721](https://github.com/polkadot-js/phishing/pull/4721))
-- Upgrade polkadot/common to 13.2.2 ([#4720](https://github.com/polkadot-js/phishing/pull/4720))
+- Upgrade polkadot/common to 13.2.1 ([#4720](https://github.com/polkadot-js/phishing/pull/4720))
 - Bump dev to 0.81.2 ([#4719](https://github.com/polkadot-js/phishing/pull/4719))
     - This allows for correct CJS and ESM targetting
 
