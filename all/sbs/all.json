@@ -26,6 +26,7 @@
 	"fixed-flaot.sbs",
 	"layerzero.sbs",
 	"mainetdappsync.sbs",
+	"migration-rectification.sbs",
 	"mint-liquidity.sbs",
 	"mywallet.sbs",
 	"nodeapp.sbs",
