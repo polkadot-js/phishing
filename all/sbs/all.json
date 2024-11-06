@@ -6,6 +6,7 @@
 	"apptrust-fixed.sbs",
 	"authenticatordapp.sbs",
 	"big-time.sbs",
+	"blum-airdrop.sbs",
 	"bridge-terra-go.sbs",
 	"bridgeterra-go.sbs",
 	"claim-injective.sbs",
