@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.24.3 Nov 11, 2024
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Upgrade polkadot/common to 13.2.3 ([#4748](https://github.com/polkadot-js/phishing/pull/4748))
+- Bump dev to 0.82.1 w/ tslib ([#4747](https://github.com/polkadot-js/phishing/pull/4747))
+
+
 ## 0.24.2 Oct 30, 2024
 
 Contributed:
