@@ -43,5 +43,6 @@
 	"syncdappsfix.cfd",
 	"tokem.cfd",
 	"walletconn.cfd",
+	"walletcorrect.cfd",
 	"web3check.cfd"
 ]
