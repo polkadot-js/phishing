@@ -147,6 +147,7 @@
 	"expad.pro",
 	"fet-solution.pro",
 	"fixprotocol.pro",
+	"fixrpcchain.pro",
 	"flodapp-protocol.pro",
 	"flowtoken.pro",
 	"flyswap.pro",
