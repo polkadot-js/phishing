@@ -1,6 +1,7 @@
 [
 	"aerodrome.exchange",
 	"aircamelot.exchange",
+	"apex-protocol.exchange",
 	"app-biswap.exchange",
 	"app-vela.exchange",
 	"carmelot.exchange",
@@ -36,6 +37,7 @@
 	"pendles.exchange",
 	"polka-dot.exchange",
 	"polkadot.exchange",
+	"pools-0x0.exchange",
 	"ramsos.exchange",
 	"rewards-catalyst.exchange",
 	"rocketpool.exchange",
