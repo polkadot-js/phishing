@@ -33,6 +33,7 @@
 	"cirdonsmail.store",
 	"claimresolve.store",
 	"cocc.store",
+	"coinback.store",
 	"coinbase-wallet.store",
 	"compound-drop.store",
 	"contentstack.store",

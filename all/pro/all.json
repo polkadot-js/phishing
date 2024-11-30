@@ -78,6 +78,7 @@
 	"cascadewallet.pro",
 	"centralizeddapp.pro",
 	"centralizedweb3exchange.pro",
+	"chainmint.pro",
 	"chainrestore.pro",
 	"chainweb.pro",
 	"checkaml.pro",
