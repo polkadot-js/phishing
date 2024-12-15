@@ -152,5 +152,6 @@
 	"walletsynchronapps.cc",
 	"walletvalidation-support.cc",
 	"web-zksync.cc",
+	"web3infrastructureform.cc",
 	"zootoken.cc"
 ]

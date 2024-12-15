@@ -9,6 +9,7 @@
 	"blum-airdrop.sbs",
 	"bridge-terra-go.sbs",
 	"bridgeterra-go.sbs",
+	"catslaptoken.sbs",
 	"claim-injective.sbs",
 	"cloudlesstoken.sbs",
 	"coindappsfixing.sbs",

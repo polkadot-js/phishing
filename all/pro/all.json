@@ -240,6 +240,7 @@
 	"multiappsmartconnect.pro",
 	"multichainportal.pro",
 	"multichainrectifier.pro",
+	"multichains.pro",
 	"multidappsrec.pro",
 	"multidapptool.pro",
 	"multidefichain.pro",
