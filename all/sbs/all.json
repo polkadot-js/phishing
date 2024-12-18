@@ -18,6 +18,7 @@
 	"cryptokens.sbs",
 	"cryptopay.sbs",
 	"cvv2.sbs",
+	"dapp-agint.sbs",
 	"dapprader.sbs",
 	"dapprotosync.sbs",
 	"dappsync-zone.sbs",
