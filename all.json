@@ -30,6 +30,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dapperadar.sbs",
+		"dappworldpro.org",
+		"coinwebdapp.xyz",
+		"multichainconnects.site",
 		"claimpage-lingocoincom.pages.dev",
 		"claims-lingocoinio.pages.dev",
 		"pepeunchalned.digital",
