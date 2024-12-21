@@ -19,6 +19,7 @@
 	"cryptopay.sbs",
 	"cvv2.sbs",
 	"dapp-agint.sbs",
+	"dapperadar.sbs",
 	"dapprader.sbs",
 	"dapprotosync.sbs",
 	"dappsync-zone.sbs",
