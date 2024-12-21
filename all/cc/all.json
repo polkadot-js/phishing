@@ -6,6 +6,7 @@
 	"ai-trade.cc",
 	"airdrop-linea.cc",
 	"airdrop-manta.cc",
+	"airdrop-ripple-xrp.cc",
 	"airdrop-zksyncs.cc",
 	"airdropx.cc",
 	"allbribge.cc",
