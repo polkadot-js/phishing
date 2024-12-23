@@ -127,6 +127,7 @@
 	"psyoptoken.cc",
 	"qfsworld.cc",
 	"securecoin.cc",
+	"solflarewallet.cc",
 	"solidfix.cc",
 	"spxmap.cc",
 	"stake-airdrop.cc",
