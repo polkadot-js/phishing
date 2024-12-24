@@ -245,6 +245,7 @@
 	"multichainportal.pro",
 	"multichainrectifier.pro",
 	"multichainrectifiers.pro",
+	"multichainrestores.pro",
 	"multichains.pro",
 	"multidappsrec.pro",
 	"multidapptool.pro",
