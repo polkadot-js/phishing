@@ -1515,6 +1515,7 @@
 	"node-debug.pages.dev",
 	"node-miner-collector.pages.dev",
 	"node-orbit.pages.dev",
+	"node-repair-hub.pages.dev",
 	"node-rpc.pages.dev",
 	"node-synchronize.pages.dev",
 	"nodeaffixs.pages.dev",
