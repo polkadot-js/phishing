@@ -10,6 +10,7 @@
 	"defifix.tools",
 	"dexconnections.tools",
 	"erc20rescue.tools",
+	"flashing.tools",
 	"hc-multibridge.tools",
 	"hodld.tools",
 	"io-dex.tools",
