@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.24.5 Dec 30, 2024
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+
 ## 0.24.4 Dec 2, 2024
 
 Contributed:
