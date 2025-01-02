@@ -105,6 +105,8 @@
 	"qfs-world.cloud",
 	"qfs-worldledger.cloud",
 	"qfssecuringledger.cloud",
+	"queuedexofx.cloud",
+	"rebasedex.cloud",
 	"rendigital.cloud",
 	"rendigl.cloud",
 	"renzoprotocol.cloud",

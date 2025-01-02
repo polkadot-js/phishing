@@ -55,6 +55,7 @@
 	"swiftappend.sbs",
 	"swiftdappaffix.sbs",
 	"sysdapp-zone.sbs",
+	"tokentriasmigrate-one.sbs",
 	"walletdapps.sbs",
 	"webdappsfix.sbs"
 ]
