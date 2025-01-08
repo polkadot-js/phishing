@@ -1,5 +1,6 @@
 [
 	"aave-app.digital",
+	"account-superchain.digital",
 	"allmigrationsfix.digital",
 	"app-thorswapfi.digital",
 	"arbairdrop.digital",
@@ -15,6 +16,7 @@
 	"bool-network.digital",
 	"bridge-transitions.digital",
 	"captchawalletconnect.digital",
+	"claim-bored.digital",
 	"coinfactory.digital",
 	"collabapprove.digital",
 	"connect-chain-block.digital",
@@ -43,6 +45,7 @@
 	"hathor.digital",
 	"homesynced.digital",
 	"kybernetwork.digital",
+	"laikachain.digital",
 	"lido-stake.digital",
 	"magicden.digital",
 	"mantaclaim.digital",

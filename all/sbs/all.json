@@ -47,6 +47,7 @@
 	"nodesapp.sbs",
 	"pancakeswapresolve.sbs",
 	"pepetoken.sbs",
+	"polkadot.sbs",
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"qfsultimatevault.sbs",
