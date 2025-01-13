@@ -461,6 +461,7 @@
 	"dappsrectify.site",
 	"dappsresolve.site",
 	"dappsresolveprotocol.site",
+	"dappsrestore.site",
 	"dappsrestoreprotocol.site",
 	"dappsrestoreprotocols.site",
 	"dappsrpc.site",
