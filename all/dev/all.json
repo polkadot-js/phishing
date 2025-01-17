@@ -1276,6 +1276,7 @@
 	"mainetlinkapps.pages.dev",
 	"mainetnodeauth.pages.dev",
 	"mainfaucet.pages.dev",
+	"mainnet-activate.pages.dev",
 	"mainnet-authenticate.pages.dev",
 	"mainnet-bugresolver.pages.dev",
 	"mainnet-chain.pages.dev",

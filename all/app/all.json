@@ -582,6 +582,7 @@
 	"dapps-errors-fix.web.app",
 	"dapps-integrate.app",
 	"dapps-protocol.web.app",
+	"dapps-rpc-extension.vercel.app",
 	"dapps-rpc-protocol.vercel.app",
 	"dapps-secure.netlify.app",
 	"dapps-server.netlify.app",
