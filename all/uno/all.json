@@ -30,6 +30,7 @@
 	"livenoderesolver.uno",
 	"lukso-rpcfix.uno",
 	"manta.uno",
+	"migration-equalizer.uno",
 	"multichain-web3.uno",
 	"multichainresolver.uno",
 	"multichainsync.uno",
