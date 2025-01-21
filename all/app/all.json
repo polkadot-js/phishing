@@ -1061,6 +1061,7 @@
 	"mainnet-rpc.vercel.app",
 	"mainnet-validate.web.app",
 	"mainnet-zircuit.app",
+	"mainnetblockstation.vercel.app",
 	"mainnetconnect.app",
 	"mainnetdapp.app",
 	"mainnetdapp.web.app",
