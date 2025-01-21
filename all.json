@@ -31,6 +31,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"rpcresolve.net",
 		"fixpanelweb.com",
 		"nodevalidationfix.com",
 		"web3resolverpro.com",
