@@ -31,6 +31,13 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"projectdatabaseserver.pages.dev",
+		"dappprotocolchain.pages.dev",
+		"m-smartappresolver.pages.dev",
+		"multichainnoderectification.pages.dev",
+		"dapps-align.42web.io",
+		"sonicchainlabs.net",
+		"blocksverse-protocols.vercel.app",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
