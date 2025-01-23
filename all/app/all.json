@@ -243,6 +243,7 @@
 	"blockscription.web.app",
 	"blocksdapps.web.app",
 	"blockstreams.app",
+	"blocksverse-protocols.vercel.app",
 	"blocksync.web.app",
 	"blocktools.app",
 	"blockverse-server.vercel.app",
