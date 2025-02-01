@@ -27,6 +27,7 @@
 	"claims-scroll.cc",
 	"coin-solutions.cc",
 	"coinchange.cc",
+	"coinflux.cc",
 	"coinloan.cc",
 	"coinshub.cc",
 	"coinsolution.cc",
