@@ -19,6 +19,7 @@
 	"cryptopay.sbs",
 	"cryptopia-withdrawals.sbs",
 	"cvv2.sbs",
+	"daoweb-rpcfix.sbs",
 	"dapp-agint.sbs",
 	"dapperadar.sbs",
 	"dapprader.sbs",
