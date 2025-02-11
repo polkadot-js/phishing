@@ -31,6 +31,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"omacyn.com",
+		"ftfgold.com",
 		"multchainwallet.com",
 		"nextcoinapp.firebaseapp.com",
 		"nextcoinapp.web.app",
