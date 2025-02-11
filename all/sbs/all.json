@@ -57,6 +57,8 @@
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"qfsultimatevault.sbs",
+	"rpcfix-daoweb.sbs",
+	"rpcfix-lukso.sbs",
 	"rpcurl-rectification.sbs",
 	"shibatokengo.sbs",
 	"shiryov2-migration.sbs",
