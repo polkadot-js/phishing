@@ -454,6 +454,7 @@
 	"connect-wallet-web.netlify.app",
 	"connect-wallet.app",
 	"connectauthsupport.web.app",
+	"connectdappcontrol.web.app",
 	"connectdapps.app",
 	"connectdappsminter.vercel.app",
 	"connectdaps.netlify.app",
