@@ -31,6 +31,9 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"dappworldweb.com",
+		"dappsflrportal.live",
+		"claimcoti.pages.dev",
 		"main-connect.vercel.app",
 		"solstorm.pages.dev",
 		"unifiedbitsnode.pages.dev",
