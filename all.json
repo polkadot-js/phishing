@@ -31,6 +31,11 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"subwalletwebwallet.live",
+		"stabbledev.pages.dev",
+		"web-opsec-computer.pages.dev",
+		"cedai-stakings.pages.dev",
+		"assetsdapps.netlify.app",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
 		"09sync00.duckdns.org",
