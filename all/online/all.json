@@ -1749,6 +1749,7 @@
 	"securednode.online",
 	"securednodeconnect.online",
 	"securenodechain.online",
+	"securenodeweb.online",
 	"securerectification.online",
 	"securesync.online",
 	"seedify-pad.online",
