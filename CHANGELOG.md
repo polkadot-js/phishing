@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.25.3 Feb 18, 2025
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Upgrade common to 13.4.3 ([#4957](https://github.com/polkadot-js/phishing/pull/4957))
+
+
 ## 0.25.3 Feb 4, 2025
 
 Contributed:
