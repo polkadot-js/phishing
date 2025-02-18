@@ -305,6 +305,7 @@
 	"cfdconnect.online",
 	"chain-assist.online",
 	"chain-nodesync.online",
+	"chain-resolve.online",
 	"chainassist.online",
 	"chainbridge.online",
 	"chainbridges.online",
