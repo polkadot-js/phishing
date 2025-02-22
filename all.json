@@ -30,6 +30,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"whitelist-polkadot.network",
 		"www.robinhood-airdrop.com",
 		"securedappportal.com",
 		"dappslink.cloud",
