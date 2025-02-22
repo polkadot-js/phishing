@@ -31,7 +31,6 @@
 	],
 	"deny": [
 		"whitelist-polkadot.network",
-		"www.robinhood-airdrop.com",
 		"securedappportal.com",
 		"dappslink.cloud",
 		"asset-arbitrum.org",
@@ -44,7 +43,6 @@
 		"claim.phaver.pw",
 		"onyx-register.com",
 		"zoneprotocol-network.com",
-		"www.coin.bittraderlimited.com",
 		"arbitrums-live.run",
 		"claim-myshell.com",
 		"unitokenapp.org",
