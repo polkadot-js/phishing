@@ -30,7 +30,7 @@
 		"zapto.org"
 	],
 	"deny": [
-		"www.robinhood-airdrop.com",
+		"whitelist-polkadot.network",
 		"securedappportal.com",
 		"dappslink.cloud",
 		"asset-arbitrum.org",
@@ -43,7 +43,6 @@
 		"claim.phaver.pw",
 		"onyx-register.com",
 		"zoneprotocol-network.com",
-		"www.coin.bittraderlimited.com",
 		"arbitrums-live.run",
 		"claim-myshell.com",
 		"unitokenapp.org",
