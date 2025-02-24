@@ -47,6 +47,7 @@
 	"mango-reward.sbs",
 	"meaievolution.sbs",
 	"metacade-migration.sbs",
+	"migrate-solvexnetwork.sbs",
 	"migration-rectification.sbs",
 	"migration-v2pitbullmigrationtokenclaim.sbs",
 	"mint-liquidity.sbs",
