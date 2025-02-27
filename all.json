@@ -31,6 +31,12 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"presale-app.com",
+		"cryptodecentralizedapp.xyz",
+		"cryptodecentralizedapp.xyz.",
+		"webappv3.com",
+		"dappsreconts.pages.dev",
+		"flarenetwork-connect.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
