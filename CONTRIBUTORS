@@ -29,6 +29,7 @@
        2	Leemo                         	Update all.json (#4274)
        2	paradoxxx-tt                  	Update address.json (#306)
        2	SimonKraus                    	add polkadotgiveaway dot com to the list (#114)
+       2	Valentin Fernandez            	v0.25.5 (#4993)
        1	Abdulbasit sadiq              	Update all.json - Remove cryptomaze.app site (#3578)
        1	Andrin Rehmann                	Remove AWS amplify from denied, add to allowed (#2775)
        1	Aoi                           	I have updated all.json with some more scam websites (#4954)
@@ -58,5 +59,4 @@
        1	stonegate                     	remove web3helpers.xyz from deny list (#2283)
        1	Sumz                          	Removed polkadot.world official distractive domain (#4446)
        1	Thibaut Sardan                	Update README.md (#2)
-       1	Valentin Fernandez            	0.25.3 (#4926)
        1	Zbyszek Cybulski              	Update all.json (#4241)
