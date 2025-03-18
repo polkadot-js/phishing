@@ -31,6 +31,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"debugnodesync.vercel.app",
+		"pepecoin-burn.pages.dev",
 		"ballroomsevents.ro",
 		"dappslayer.online",
 		"dappsynchronization.pages.dev",
