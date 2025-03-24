@@ -137,6 +137,7 @@
 	"psyoptoken.cc",
 	"qfsworld.cc",
 	"securecoin.cc",
+	"smartcheck.cc",
 	"solflarewallet.cc",
 	"solidfix.cc",
 	"spacegive.cc",

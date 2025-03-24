@@ -437,6 +437,7 @@
 	"vstex.pro",
 	"walletconnect-support.pro",
 	"wallvalidator.pro",
+	"web-flrsparkline.pro",
 	"web3-request-bounty.pro",
 	"web3azuki.pro",
 	"web3integrateddapp.pro",
