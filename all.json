@@ -32,6 +32,12 @@
 	"deny": [
 		"0-chain.com",
 		"dapp-dappfixconnect.pages.dev",
+		"system-mainnet.com",
+		"claim-nodes-onbeam.pages.dev",
+		"claims-nillion.pages.dev",
+		"app-smartchainfix.pages.dev",
+		"m-portalpolygon.pages.dev",
+		"m-lightchain.pages.dev",
 		"nodezdapp.net",
 		"wuaze.com",
 		"app-bugerrorfix.pages.dev",
