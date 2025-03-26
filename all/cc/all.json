@@ -86,6 +86,7 @@
 	"dappconnection.cc",
 	"dapprardar.cc",
 	"dappsconnection.cc",
+	"dappstonsnodes.cc",
 	"defi-app.cc",
 	"defi20.cc",
 	"deficollabland.cc",

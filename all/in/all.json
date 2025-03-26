@@ -1,6 +1,7 @@
 [
 	"accountvalidation.in",
 	"apecoinclaim.in",
+	"app-pufferfi.in",
 	"barnbridge.in",
 	"bridge-swancha.in",
 	"bridgetobase.in",
@@ -101,6 +102,7 @@
 	"walletsdappsync.in",
 	"walletverification.in",
 	"wc1.in",
+	"web3mail.in",
 	"winswap.in",
 	"z-chain.co.in",
 	"zkssync.in",
