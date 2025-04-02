@@ -8,7 +8,6 @@
 		"eth.limo",
 		"firebaseapp.com",
 		"github.io",
-		"wuaze.com",
 		"herokuapp.com",
 		"hopto.org",
 		"js.org",
@@ -28,6 +27,7 @@
 		"webflow.io",
 		"weebly.com",
 		"wixsite.com",
+		"wuaze.com",
 		"zapto.org"
 	],
 	"deny": [
@@ -9656,6 +9656,7 @@
 		"connect-pendle.network",
 		"connect-pepeunchained.com",
 		"connect-portals.web.za",
+		"connect-pr.wuaze.com",
 		"connect-pro.github.io",
 		"connect-protocol.pages.dev",
 		"connect-pudgypenguins.net",
@@ -43333,7 +43334,6 @@
 		"wtfcoin.website",
 		"wtnnws.com",
 		"wtullet.com",
-		"connect-pr.wuaze.com",
 		"wule.xyz",
 		"wuzl0kdaz4o.top",
 		"ww1-dappradar.com",
