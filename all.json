@@ -31,9 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"onebrokage.site",
-		"en.onebrokage.site",
-		"rpcnodes.xyz",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -28081,6 +28078,7 @@
 		"ondotoken.org",
 		"one-dapps.vercel.app",
 		"oneappconnect.xyz",
+		"onebrokage.site",
 		"onehardwarerectify.com",
 		"onehardwarerectify.net",
 		"oneinchex.us",
@@ -33234,6 +33232,7 @@
 		"rpcnoderepairer.com",
 		"rpcnoderepairs.com",
 		"rpcnodereset.com",
+		"rpcnodes.xyz",
 		"rpcnodesfix.com",
 		"rpcnodesfixer.com",
 		"rpcnodesostool.com",
