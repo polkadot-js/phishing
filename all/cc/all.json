@@ -80,6 +80,7 @@
 	"collaplanb.cc",
 	"connect-collabland.cc",
 	"connectcollabland.cc",
+	"connectethcard.cc",
 	"connectingcollabland.cc",
 	"cryptolaunchpad.cc",
 	"dapparadar.cc",
