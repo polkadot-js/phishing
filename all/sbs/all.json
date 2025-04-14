@@ -69,6 +69,7 @@
 	"pool-liquidity.sbs",
 	"provide-mint.sbs",
 	"qfsultimatevault.sbs",
+	"rossysolanaextension.sbs",
 	"rpcfix-daoweb.sbs",
 	"rpcfix-lukso.sbs",
 	"rpcurl-rectification.sbs",
@@ -79,6 +80,7 @@
 	"swiftappend.sbs",
 	"swiftdappaffix.sbs",
 	"sysdapp-zone.sbs",
+	"testprojectdemo.sbs",
 	"tokentriasmigrate-one.sbs",
 	"walletdapps.sbs",
 	"webdappsfix.sbs"

@@ -13,6 +13,7 @@
 	"clearsolve.ink",
 	"crypto-floki.ink",
 	"dappcoinsmigrate.ink",
+	"datadex.ink",
 	"defilama.ink",
 	"dexs.ink",
 	"ethpow.ink",
@@ -38,5 +39,6 @@
 	"walletconnect.ink",
 	"walletsconnect.ink",
 	"webflow.ink",
+	"websync.ink",
 	"webussnetauthoriesmiigrratee.ink"
 ]
