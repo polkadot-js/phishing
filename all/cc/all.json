@@ -107,6 +107,7 @@
 	"kyc-solutions.cc",
 	"layer3xyz.cc",
 	"ledgerapp.cc",
+	"ledgersupport.cc",
 	"limtoken.cc",
 	"link-wallets.cc",
 	"linkdapp.cc",
