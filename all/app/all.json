@@ -1576,6 +1576,7 @@
 	"rpc-protocolconnect.app",
 	"rpc-protocols.app",
 	"rpc-webprotocols.app",
+	"rpcdeploy.app",
 	"rpcdiagnostics.app",
 	"rpconevalidator.app",
 	"s-conn.netlify.app",
