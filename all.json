@@ -33,6 +33,8 @@
 	"deny": [
 		"0-chain.com",
 		"dappcore.com",
+		"unifiedchain-dapp.pages.dev",
+		"web3connect-tronlink.pages.dev",
 		"flarexrpconnect-network.com",
 		"serviceconnect-dapps.pages.dev",
 		"blockchainsdapp.pages.dev",
