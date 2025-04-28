@@ -7,5 +7,6 @@
 	"dappradar.rest",
 	"pyth.rest",
 	"tokenpocketn.rest",
-	"wallet.socially.rest"
+	"wallet.socially.rest",
+	"walletconnect.rest"
 ]

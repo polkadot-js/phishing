@@ -7,6 +7,7 @@
 	"app-pullix.sbs",
 	"app-synternet.sbs",
 	"appnet-sync.sbs",
+	"appreefchain.sbs",
 	"apptrust-fixed.sbs",
 	"authenticatordapp.sbs",
 	"avalon-claim.sbs",
