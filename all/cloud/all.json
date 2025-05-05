@@ -91,6 +91,7 @@
 	"layernetwork.cloud",
 	"ledgerwebcontract.cloud",
 	"mainetnest.cloud",
+	"mainnetdapps.cloud",
 	"mainnetdappsync.cloud",
 	"mainnetsrevoke.cloud",
 	"mainnetsynchronizer.cloud",
