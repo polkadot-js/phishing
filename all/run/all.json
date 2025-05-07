@@ -23,6 +23,7 @@
 	"jito-network.run",
 	"manage-claim.run",
 	"manta-network.run",
+	"masktokens.run",
 	"mini-pepe.run",
 	"minipepe.run",
 	"mintchain-today.run",
@@ -34,6 +35,7 @@
 	"raydium-v2.run",
 	"reaper.run",
 	"sui-network.run",
+	"trustwallet.run",
 	"uniswap.run",
 	"zks-claim-now.run"
 ]

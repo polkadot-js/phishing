@@ -33,6 +33,7 @@
 	"dappsprotocolsync.in",
 	"dappsystools.in",
 	"dapptools.in",
+	"dapptoolsynch.in",
 	"dapptxid.in",
 	"dappwallet.in",
 	"defi-dapp-reconnect.in",
