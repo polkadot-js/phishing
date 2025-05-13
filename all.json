@@ -32,6 +32,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"tdfcrrsy.pages.dev",
+		"quickfixprotocol.pages.dev",
 		"dappsroutes.firebaseapp.com",
 		"dappsroutes.web.app",
 		"dappnodetech.pages.dev",
