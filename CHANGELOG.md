@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.25.10 Apr 13, 2025
+## 0.25.10 May 13, 2025
 
 Contributed:
 
