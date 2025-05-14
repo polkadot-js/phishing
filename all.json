@@ -33,6 +33,9 @@
 	"deny": [
 		"0-chain.com",
 		"resolverwebapp.pages.dev",
+		"opensea5mint.firebaseapp.com",
+		"opensea5mint.web.app",
+		"dydx-events.pages.dev",
 		"opensea4mint.firebaseapp.com",
 		"opensea4mint.web.app",
 		"jitbundledap.pages.dev",
