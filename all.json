@@ -32,6 +32,13 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"resolverwebapp.pages.dev",
+		"opensea4mint.firebaseapp.com",
+		"opensea4mint.web.app",
+		"jitbundledap.pages.dev",
+		"node-mainnet.netlify.app",
+		"stepnconnectdapp.pages.dev",
+		"subwallet-landing2.pages.dev",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
