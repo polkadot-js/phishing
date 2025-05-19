@@ -29,6 +29,7 @@
 	"mainwallect.surge.sh",
 	"netchain-block.surge.sh",
 	"nodenet.surge.sh",
+	"protocolsyncwallet.surge.sh",
 	"quickprotocol.surge.sh",
 	"rectsyncs.surge.sh",
 	"revokeca.sh",
