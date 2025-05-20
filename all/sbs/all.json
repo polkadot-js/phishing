@@ -48,6 +48,7 @@
 	"flokicoin.sbs",
 	"ftx-validate.sbs",
 	"hybrid-reward.sbs",
+	"launchdrop.sbs",
 	"layerzero.sbs",
 	"luksosupport.sbs",
 	"mainetdappsync.sbs",
