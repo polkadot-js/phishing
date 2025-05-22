@@ -31,7 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"peaq.claims",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -29781,6 +29780,7 @@
 		"peaq-layerzero.xyz",
 		"peaq-network.lol",
 		"peaq-network.sbs",
+		"peaq.claims",
 		"peaq.menu",
 		"peaq.world",
 		"peaqapp.network",
