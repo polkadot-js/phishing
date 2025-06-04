@@ -32,6 +32,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"beer2-0claim.pages.dev",
+		"pepeunchained-m.pages.dev",
 		"autofix-24.pages.dev",
 		"walletconnect-node.xyz",
 		"walletconnect-node.xyz.",
