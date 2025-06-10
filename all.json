@@ -32,6 +32,9 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"fastfixccdapp.pages.dev",
+		"mymint-click13.vercel.app",
+		"opensea-nft7-phi.vercel.app",
 		"cyclixgames-cygtosol.pages.dev",
 		"app-vaderai.pages.dev",
 		"en-mindofpepe.pages.dev",
