@@ -32,6 +32,9 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"cyclixgames-cygtosol.pages.dev",
+		"app-vaderai.pages.dev",
+		"en-mindofpepe.pages.dev",
 		"dapps-debug.firebaseapp.com",
 		"dapps-debug.web.app",
 		"richmachine-app.pages.dev",
