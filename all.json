@@ -32,6 +32,9 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"nft-giftbox1-seven.vercel.app",
+		"opensea-luckybox11-omega.vercel.app",
+		"opensea-giftbox11-three.vercel.app",
 		"fastfixccdapp.pages.dev",
 		"mymint-click1.vercel.app",
 		"mymint-click2.vercel.app",
