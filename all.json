@@ -32,6 +32,12 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"0xhot.xyz",
+		"0xhot.xyz.",
+		"trustpad-season.live",
+		"0xgive.xyz",
+		"0xgive.xyz.",
+		"0xclaims.shop",
 		"portal-flarenetwork.pages.dev",
 		"accessrecess-eco.pages.dev",
 		"dappradar-app.net",
