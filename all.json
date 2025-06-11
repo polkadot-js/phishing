@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"accessrecess-eco.pages.dev",
 		"dappradar-app.net",
 		"defidapp-protocol.firebaseapp.com",
 		"defidapp-protocol.web.app",
