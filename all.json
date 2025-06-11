@@ -31,11 +31,14 @@
 		"zapto.org"
 	],
 	"deny": [
+		"fixolution.xyz",
 		"sorcery.finance",
 		"pendle-voting.org",
 		"app.swapx-x.fi",
 		"cuits.fun",
 		"claim-mindofpepe.live",
+		"leveredge-claim.pages.dev",
+		"natlon.run",
 		"kyberswap.cloud",
 		"presale-rollblock.world",
 		"tangem-verifyaudit.online",
@@ -59,7 +62,6 @@
 		"opensea-giftbox18-tau.vercel.app",
 		"zircuit-staking.eth.limo",
 		"zircuitstakes-io.firebaseapp.com",
-		"fixolution.xyz",
 		"allocation-kekiusmaximus.co",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
