@@ -31,6 +31,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"claim-humafinance.com",
+		"tos.hyperliquidfndn.org",
+		"claim.signprotocol.info",
+		"defisyncprotocol.vercel.app",
+		"mint.hypurrnfts.org",
+		"dashboard-nexchain.net",
+		"airdrop.signtoken.info",
+		"airdrop-crypto.sbs",
+		"tech.evmrefresh.com",
+		"rpcselect.net",
+		"delegateio.vercel.app",
+		"vaultnode.pages.dev",
 		"sumermoney.top",
 		"spoooky.top",
 		"stlink.vip",
