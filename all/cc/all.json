@@ -25,6 +25,7 @@
 	"claim-scroll.cc",
 	"claim-service.cc",
 	"claim-strategicbitcoireserve.cc",
+	"claims-buildon.cc",
 	"claims-scroll.cc",
 	"coin-solutions.cc",
 	"coinchange.cc",
