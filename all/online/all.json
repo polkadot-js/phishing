@@ -1785,6 +1785,7 @@
 	"rpc-protocolsync.online",
 	"rpcbridge.online",
 	"rpcflodapps.online",
+	"rpcnode.online",
 	"rpcsolutions.online",
 	"rpcurl-rectification.online",
 	"rpcwebzone.online",
