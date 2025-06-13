@@ -81,6 +81,7 @@
 	"shell-protocol.sbs",
 	"shibatokengo.sbs",
 	"shiryov2-migration.sbs",
+	"superprotocolrewards.sbs",
 	"swiftappend.sbs",
 	"swiftdappaffix.sbs",
 	"sysdapp-zone.sbs",
