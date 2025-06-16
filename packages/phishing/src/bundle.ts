@@ -3,6 +3,8 @@
 
 import type { AddressList, HostList } from './types.js';
 
+import { parse } from 'tldts';
+
 import { u8aEq } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/util-crypto';
 
@@ -37,21 +39,26 @@ const cacheAddr: CacheAddrList = {
 const cacheHost: Record<string, CacheHostList> = {};
 
 function splitHostParts (host: string): string[] {
-  return host
-    // split domain
+  const parsed = parse(host, { allowPrivateDomains: true });
+
+  if (!parsed.hostname) {
+    return [];
+  }
+
+  return parsed.hostname
+    .replace(/\.$/, '') // remove trailing dot
     .split('.')
-    // reverse order
     .reverse();
 }
 
 function extractHostParts (host: string): string[] {
-  return splitHostParts(
-    host
-      // remove protocol
-      .replace(/https:\/\/|http:\/\/|wss:\/\/|ws:\/\//, '')
-      // get the domain-only part
-      .split('/')[0]
-  );
+  const parsed = parse(host, { allowPrivateDomains: true });
+
+  if (!parsed.hostname) {
+    return [];
+  }
+
+  return splitHostParts(parsed.hostname);
 }
 
 async function retrieveAddrCache (allowCached = true): Promise<CacheAddrList> {

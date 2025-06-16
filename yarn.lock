@@ -508,6 +508,7 @@ __metadata:
     "@polkadot/x-fetch": "npm:^13.5.1"
     "@types/js-yaml": "npm:^4.0.9"
     js-yaml: "npm:^4.1.0"
+    tldts: "npm:^7.0.8"
     tslib: "npm:^2.8.1"
   languageName: unknown
   linkType: soft
@@ -8982,6 +8983,24 @@ __metadata:
   version: 1.1.0
   resolution: "thunky@npm:1.1.0"
   checksum: 10/825e3bd07ab3c9fd6f753c457a60957c628cacba5dd0656fd93b037c445e2828b43cf0805a9f2b16b0c5f5a10fd561206271acddb568df4f867f0aea0eb2772f
+  languageName: node
+  linkType: hard
+
+"tldts-core@npm:^7.0.8":
+  version: 7.0.8
+  resolution: "tldts-core@npm:7.0.8"
+  checksum: 10/a43d1a485ef460fd897bcfc618c4bc57e33f59a97526a08cffa8d8e3447abee82c9ec3bc652c2aebd8faf4a4f10cabd63211f9e955af4fca20258b2dba42bae9
+  languageName: node
+  linkType: hard
+
+"tldts@npm:^7.0.8":
+  version: 7.0.8
+  resolution: "tldts@npm:7.0.8"
+  dependencies:
+    tldts-core: "npm:^7.0.8"
+  bin:
+    tldts: bin/cli.js
+  checksum: 10/b3cf1c0d78c982e99618eccacd628e5af1b4ef3700d6fb182eba78eda5dbb944fb4a154be220cc60342ab2c52de52876ef632df00e8cb2d1ceef01c833ef9e7c
   languageName: node
   linkType: hard
 
