@@ -24,6 +24,7 @@
     "@polkadot/util": "^13.5.1",
     "@polkadot/util-crypto": "^13.5.1",
     "@polkadot/x-fetch": "^13.5.1",
+    "tldts": "^7.0.8",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
