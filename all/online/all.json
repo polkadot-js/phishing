@@ -269,6 +269,7 @@
 	"blockchainserver.online",
 	"blockchainvalidator.online",
 	"blockdagnetworking.online",
+	"blockdawg.online",
 	"blockfix.online",
 	"blockmigration.online",
 	"blocknfixapp.online",
