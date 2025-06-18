@@ -9,6 +9,7 @@
 	"servicesitilition.services",
 	"setting-dapp.services",
 	"syncswap.services",
+	"uniprotocol.services",
 	"usdt-study.meta-lead.services",
 	"walletconnection.services"
 ]
