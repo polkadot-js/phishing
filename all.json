@@ -32,6 +32,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"astars.top",
+		"claim-acs.com",
 		"opensea-nftbox11-psi.vercel.app",
 		"opensea-nftbox13-one.vercel.app",
 		"opensea-nftbox14-ten.vercel.app",
