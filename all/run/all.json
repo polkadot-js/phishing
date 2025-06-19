@@ -11,6 +11,7 @@
 	"celestia.run",
 	"claim-tokens.run",
 	"claim-web3.run",
+	"claim.defiapp.run",
 	"coinsniperbot.run",
 	"connecthub.run",
 	"cryptopulse.run",
