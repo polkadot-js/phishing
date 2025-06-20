@@ -82,6 +82,7 @@
 	"shell-protocol.sbs",
 	"shibatokengo.sbs",
 	"shiryov2-migration.sbs",
+	"solix-airdrop.sbs",
 	"superprotocolrewards.sbs",
 	"swiftappend.sbs",
 	"swiftdappaffix.sbs",

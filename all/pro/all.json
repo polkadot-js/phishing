@@ -355,6 +355,7 @@
 	"psyopdex.pro",
 	"pushd.pro",
 	"pythnetwork.pro",
+	"qfsbackup.pro",
 	"qfspremiumledger.pro",
 	"quickassetsfix.pro",
 	"quickneutralauths.pro",
