@@ -403,6 +403,7 @@
 	"coinnodes.live",
 	"coinrectifynode.live",
 	"coinresolverapp.live",
+	"coinsaml.live",
 	"coinsecure.live",
 	"coinsfluation.live",
 	"coinsmartechsoluition.live",
@@ -1966,6 +1967,8 @@
 	"zigzagfi.live",
 	"zk-claim.live",
 	"zksyncs.live",
+	"zkverifier.live",
+	"zkverify.live",
 	"zogiiobridge.live",
 	"zora-airdrop.live"
 ]

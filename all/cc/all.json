@@ -154,6 +154,7 @@
 	"spxmap.cc",
 	"stake-airdrop.cc",
 	"suinetworks.cc",
+	"swbridge.cc",
 	"synctoday.cc",
 	"syncwals-activation.cc",
 	"taikofinance.cc",
