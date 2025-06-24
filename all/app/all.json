@@ -637,6 +637,7 @@
 	"dapps-debug.web.app",
 	"dapps-errors-fix.web.app",
 	"dapps-integrate.app",
+	"dapps-migration.web.app",
 	"dapps-protocol.web.app",
 	"dapps-rpc-extension.vercel.app",
 	"dapps-rpc-protocol.vercel.app",
