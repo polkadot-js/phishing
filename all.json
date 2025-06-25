@@ -31,10 +31,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"points.zkverify.digital",
 		"smartdexnodereset.pages.dev",
 		"multidapp-protocol.web.app",
 		"mindofpepeverifier.web.app",
-		"points.zkverify.digital",
 		"earn-protocol-bittensor.vercel.app",
 		"smartprochaintool.web.app",
 		"0-chain.com",
