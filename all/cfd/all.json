@@ -62,6 +62,7 @@
 	"syncdappsfix.cfd",
 	"tokem.cfd",
 	"usual-launchpool.cfd",
+	"wallet-initial.cfd",
 	"walletconn.cfd",
 	"walletcorrect.cfd",
 	"web3check.cfd",
