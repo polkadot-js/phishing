@@ -1,11 +1,22 @@
 # CHANGELOG
 
+## 0.25.14 July 2, 2025
+
+Changes:
+
+- Update polkadot dependencies to 13.5.3 ([#5161](https://github.com/polkadot-js/phishing/pull/5161))
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+
 ## 0.25.13 Jun 17, 2025
 
 Changes:
 
 - Fix hostname normalization logic for phishing domain checks ([#5128](https://github.com/polkadot-js/phishing/pull/5128))
-- bump polkadot/common deps to 13.5.2 ([#5134](https://github.com/polkadot-js/phishing/pull/5128))
+- bump polkadot/common deps to 13.5.2 ([#5134](https://github.com/polkadot-js/phishing/pull/5134))
 
 
 Contributed:
