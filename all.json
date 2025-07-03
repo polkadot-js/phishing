@@ -31,6 +31,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"beam-sushi.cc",
 		"vista-sushi.cfd",
 		"gala-sushi.cfd",
 		"ldo-sushi.cfd",
@@ -58,7 +59,6 @@
 		"lion-sushi.xyz",
 		"mana-sushi.xyz",
 		"zbu-sushi.xyz",
-		"parti-sushi.xyz",
 		"eth-sushi.xyz",
 		"paal-sushi.xyz",
 		"avax-sushi.xyz",
