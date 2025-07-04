@@ -31,8 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"xcn-sushi.my",
-		"virtual-sushi.fit",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -42838,6 +42836,7 @@
 		"viratoken.store",
 		"virtdapps.pages.dev",
 		"virtual-ledger.live",
+		"virtual-sushi.fit",
 		"virtual-sushi.lat",
 		"virtual-sushi.top",
 		"virtualhubs.xyz",
@@ -46474,6 +46473,7 @@
 		"xchange-gemini.com",
 		"xchangeapps.pro",
 		"xchcrypto.com",
+		"xcn-sushi.my",
 		"xcoinbridgetokensync.com",
 		"xcoinflow.com",
 		"xcoinsea.com",
