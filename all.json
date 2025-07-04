@@ -32,6 +32,12 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"valhalla-game.pages.dev",
+		"m-kuji-rujira.pages.dev",
+		"activefusionnet.vercel.app",
+		"everfythexrecover.pages.dev",
+		"app-hacken.pages.dev",
+		"apiwebresolve.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
