@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"bittensor-tao.us",
-		"migrate-zilliqa.org",
 		"claim.saharachain.xyz",
 		"bridge.trustwallet-sundog.info",
 		"bnb100k-register.network",
