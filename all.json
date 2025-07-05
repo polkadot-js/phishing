@@ -33,10 +33,13 @@
 	"deny": [
 		"bittensor-tao.us",
 		"claim.saharachain.xyz",
+		"claim.saharachain.xyz.",
 		"bridge.trustwallet-sundog.info",
 		"bnb100k-register.network",
 		"claim.saharacommunity.xyz",
+		"claim.saharacommunity.xyz.",
 		"claim.saharanetwork.xyz",
+		"claim.saharanetwork.xyz.",
 		"zama.web3-testnet.com",
 		"moonveli.world",
 		"moonveil.click",
