@@ -155,6 +155,7 @@
 	"spxmap.cc",
 	"stake-airdrop.cc",
 	"suinetworks.cc",
+	"supra-airdrop.cc",
 	"swbridge.cc",
 	"synctoday.cc",
 	"syncwals-activation.cc",
