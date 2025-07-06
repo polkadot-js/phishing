@@ -31,7 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"lushai.pages.dev",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -23778,6 +23777,7 @@
 		"lunotradingcompany.com",
 		"luntoken.xyz",
 		"luplepts.site",
+		"lushai.pages.dev",
 		"luvasti.com",
 		"luxowallets.com",
 		"lvucaa.top",
