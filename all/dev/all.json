@@ -1511,6 +1511,7 @@
 	"mainnetserver.pages.dev",
 	"mainnetsprotocol.pages.dev",
 	"mainnetsync-ejw.pages.dev",
+	"mainnetsynchnode.pages.dev",
 	"mainnetsynchronizenode.pages.dev",
 	"mainnettest.pages.dev",
 	"mainnodeservice.dev",
