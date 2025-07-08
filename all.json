@@ -32,9 +32,6 @@
 	],
 	"deny": [
 		"0-chain.com",
-		"inj-sushi.pro",
-		"assetsrefixnode.pages.dev",
-		"cryptsupport.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
@@ -3916,6 +3913,7 @@
 		"assetspair.com",
 		"assetsplusdapps.biz",
 		"assetsrectify.com",
+		"assetsrefixnode.pages.dev",
 		"assetsrestore.org",
 		"assetsrpcfix.com",
 		"assetssecuritybackup.co",
@@ -11898,6 +11896,7 @@
 		"cryptsolution.net",
 		"cryptsolution.online",
 		"cryptsolutions.digital",
+		"cryptsupport.com",
 		"cryptsyncs.com",
 		"cryptvali.cloud",
 		"cryptvalidate.com",
@@ -21318,6 +21317,7 @@
 		"inj-openseanft8.vercel.app",
 		"inj-openseanft9.vercel.app",
 		"inj-space.app",
+		"inj-sushi.pro",
 		"injdrop.pages.dev",
 		"injective-allocation.com",
 		"injective-app.info",
@@ -31831,6 +31831,7 @@
 		"polkadotswallet.website",
 		"polkadotswap.online",
 		"polkadotsync.com",
+		"polkadott.network",
 		"polkadottechnology.com",
 		"polkadottii3.co.uk",
 		"polkadottoken.live",
@@ -47266,8 +47267,7 @@
 		"zxcoin.website",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"polkadott.network"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",

@@ -1,4 +1,4 @@
-    1180	Tim Janssen                   	Update all.json (#5186)
+    1181	Tim Janssen                   	Update all.json (#5189)
     1152	Frank                         	Update all.json (#5188)
      719	mhusnirizal                   	update all.json (#5187)
      618	Mich                          	Block hub-polkadot.com (#4343)
@@ -36,6 +36,7 @@
        1	Andrin Rehmann                	Remove AWS amplify from denied, add to allowed (#2775)
        1	Aoi                           	I have updated all.json with some more scam websites (#4954)
        1	Arjun Porwal                  	feat: add tldts dependency for improved hostname parsing (#5128)
+       1	ChainPatrol Bot               	Add phishing domains from ChainPatrol (#5193)
        1	Christina-Marie A Miyar       	Update all.json (#855)
        1	Christopher Bleckmann-Dreher  	Update all.json (#1360)
        1	Danny Salman                  	Add scam site (#461)
