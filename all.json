@@ -32,6 +32,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"app-vaderai-ai.pages.dev",
+		"m-qubetics.pages.dev",
 		"nakamotodex-claim.pages.dev",
 		"claim-nakamotodex.pages.dev",
 		"m-hacken.pages.dev",
