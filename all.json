@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"0-chain.com",
-		"gempad-app-presale.pages.dev",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
@@ -19916,6 +19915,7 @@
 		"geminito.com",
 		"geminitrading.org",
 		"geminiverify.app",
+		"gempad-app-presale.pages.dev",
 		"gemtops.site",
 		"gemwalletfix.com",
 		"genboxai.live",
