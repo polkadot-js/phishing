@@ -123,6 +123,7 @@
 	"app-aitprotocol.app",
 	"app-ave.app",
 	"app-chatastra.web.app",
+	"app-dapp.app",
 	"app-dappsagregator.netlify.app",
 	"app-dappsintegrator.netlify.app",
 	"app-ledgers.web.app",
