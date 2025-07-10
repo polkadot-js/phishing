@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"0-chain.com",
-		"nft-giftbox17-inky.vercel.app",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
@@ -28829,6 +28828,7 @@
 		"nft-fantasyapp.pages.dev",
 		"nft-gamee.com",
 		"nft-giftbox1-seven.vercel.app",
+		"nft-giftbox17-inky.vercel.app",
 		"nft-imints.com",
 		"nft-immutable.com",
 		"nft-livemint.com",
