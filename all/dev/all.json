@@ -1245,6 +1245,7 @@
 	"fixaccounts.pages.dev",
 	"fixbugmigrate.pages.dev",
 	"fixccapp.pages.dev",
+	"fixccappexperts.pages.dev",
 	"fixccservicesdapp.pages.dev",
 	"fixchain-x.pages.dev",
 	"fixchainbugs.pages.dev",

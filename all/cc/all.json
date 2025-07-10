@@ -13,6 +13,7 @@
 	"allbridge.cc",
 	"app-dappradar.cc",
 	"app-uniswap.cc",
+	"apps-dappradar.cc",
 	"armywelfare.cc",
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
