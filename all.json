@@ -31,8 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"web3securitynetwork.com",
-		"aevo-sushi.cfd",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -715,6 +713,7 @@
 		"aethir.site",
 		"aethraclaim.online",
 		"aevo-apps.xyz",
+		"aevo-sushi.cfd",
 		"aevoclaim.com",
 		"aevoclaim.live",
 		"aevofoundation.support",
@@ -45944,6 +45943,7 @@
 		"web3secure3d.lol",
 		"web3secureauth.com",
 		"web3securedefi.com",
+		"web3securitynetwork.com",
 		"web3securityvault.com",
 		"web3server.xyz",
 		"web3servermodal.tech",
