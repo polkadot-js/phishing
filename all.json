@@ -31,6 +31,8 @@
 		"zapto.org"
 	],
 	"deny": [
+		"wconnect.world",
+		"live-checker.website",
 		"megapot.bet",
 		"firsttry-1gh.pages.dev",
 		"par-group.pro",
