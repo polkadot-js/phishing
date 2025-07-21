@@ -32,6 +32,11 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"mainnetv3.world",
+		"gasstruelley.com",
+		"aurealone.io",
+		"rpcnodefix.xyz",
+		"rpcnodefix.xyz.",
 		"flaresparkline.digital",
 		"rpdcnodeupdate.pro",
 		"mint-nft-box2-gamma.vercel.app",
