@@ -32,6 +32,11 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"istorechain.com",
+		"rpcnodefixs.pages.dev",
+		"b1ockdag-meges.pages.dev",
+		"datadapp-manualsdex.xyz",
+		"datadapp-manualsdex.xyz.",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
