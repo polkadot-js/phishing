@@ -32,6 +32,12 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"dapps.defi-update.com",
+		"theredeemer.pages.dev",
+		"defi-update.com",
+		"nft-luckybox3-nine.vercel.app",
+		"nft-luckybox14-mu.vercel.app",
+		"nft-giftbox4-delta.vercel.app",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
