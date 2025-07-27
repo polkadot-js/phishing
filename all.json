@@ -31,6 +31,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"securedapps-bridge.vercel.app",
+		"basedappsmainnet.vercel.app",
+		"appcrypto3.vercel.app",
+		"trackdapp-eight.vercel.app",
+		"mainnettdappfix.vercel.app",
+		"kosh-wallet.vercel.app",
+		"wallet-kosh.vercel.app",
+		"wallet-kage.vercel.app",
+		"fogo-wallet.vercel.app",
+		"walletauthenticators.vercel.app",
+		"walletkeeper.vercel.app",
+		"pi7-two.vercel.app",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
