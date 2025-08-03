@@ -1,6 +1,7 @@
 [
 	"agent.mlndnetwork.world",
 	"airdrop-din.world",
+	"airdrop-linea.world",
 	"airdrop-pythnetwork.world",
 	"airdropio.world",
 	"airdrops-claimsmetversetokens.world",
@@ -20,6 +21,7 @@
 	"blockchainsolution.world",
 	"blockresolverapp.world",
 	"blur-airdrop.world",
+	"bob-drop.world",
 	"buidlpad-sahara-ai.world",
 	"buidlpad-saharaai.world",
 	"captchawalletconnect.world",
@@ -76,6 +78,7 @@
 	"metacoins.world",
 	"monad-claims.world",
 	"moonveli.world",
+	"moonwell.world",
 	"moricoin.world",
 	"multichainapp.world",
 	"multiwallet-dapp.world",
