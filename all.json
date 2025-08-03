@@ -31,6 +31,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"btcbull.network",
 		"multichaintool.xyz",
 		"dapp.resolverdashboard.com",
 		"app.btcbull.network",
