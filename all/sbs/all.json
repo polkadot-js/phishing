@@ -48,6 +48,7 @@
 	"fixdapps-zone.sbs",
 	"fixed-flaot.sbs",
 	"flokicoin.sbs",
+	"freebitcoin.sbs",
 	"ftx-validate.sbs",
 	"hybrid-reward.sbs",
 	"launchdrop.sbs",
@@ -97,5 +98,6 @@
 	"trololol.sbs",
 	"walletdapps.sbs",
 	"wardenprotocolrewards.sbs",
-	"webdappsfix.sbs"
+	"webdappsfix.sbs",
+	"webkey.sbs"
 ]
