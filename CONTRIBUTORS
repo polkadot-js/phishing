@@ -37,6 +37,7 @@
        1	Andrin Rehmann                	Remove AWS amplify from denied, add to allowed (#2775)
        1	Aoi                           	I have updated all.json with some more scam websites (#4954)
        1	Arjun Porwal                  	feat: add tldts dependency for improved hostname parsing (#5128)
+       1	Bastian Köcher                	Peaq.xyz is legit :) (#5259)
        1	Christina-Marie A Miyar       	Update all.json (#855)
        1	Christopher Bleckmann-Dreher  	Update all.json (#1360)
        1	Danny Salman                  	Add scam site (#461)
