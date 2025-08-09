@@ -31,10 +31,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"qubetic-claim.web.app",
 		"multiblockdapp.xyz",
 		"getbonkairdrop.xyz",
 		"airdrop-qubetics.com",
-		"www.yaps.kaito.ai.wallet-connect.festivaleternajuventud.com",
 		"yaps.kaito.ai.wallet-connect.skinsmeonkey.com",
 		"awayfinderodos.com",
 		"blockchaindapps.web.app",
@@ -52,7 +52,6 @@
 		"origindefitoken.world",
 		"paintswap.in",
 		"skinsmeonkey.com",
-		"festivaleternajuventud.com",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
