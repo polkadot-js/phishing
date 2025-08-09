@@ -24,6 +24,7 @@
 	"alienform-migration.pro",
 	"allbridge.pro",
 	"allchainfix.pro",
+	"allchainsfix.pro",
 	"aminorewards.pro",
 	"aml-autocheck.pro",
 	"aml-verify.pro",
