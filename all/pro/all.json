@@ -115,6 +115,7 @@
 	"chaindrive.pro",
 	"chainmint.pro",
 	"chainrestore.pro",
+	"chainshieldhub.pro",
 	"chainweb.pro",
 	"checkaml.pro",
 	"cheems-sushi.pro",
