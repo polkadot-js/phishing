@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"0-chain.com",
-		"decentralizedchain.on.fleek.co",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
@@ -15415,6 +15414,7 @@
 		"decentralizedchain.co",
 		"decentralizedchain.info",
 		"decentralizedchain.live",
+		"decentralizedchain.on.fleek.co",
 		"decentralizedchainnetwork.com",
 		"decentralizedclaim.com",
 		"decentralizedcloud.live",
@@ -32665,6 +32665,7 @@
 		"polkadotwallet.co",
 		"polkadotwallet.help",
 		"polkadotwallet.js.org",
+		"polkadotwallet.live",
 		"polkadotwallet.org",
 		"polkadotwallet.xyz",
 		"polkadotware.com",
@@ -47847,7 +47848,6 @@
 		"ww1.polkadot9.click",
 		"ww1.polkadot9.site",
 		"ww22hper-app.com",
-		"ww3.polkadotwallet.live",
 		"ww38.polkadotnft.com",
 		"ww7.polkadot1.online",
 		"ww7.polkadot1.xyz",
@@ -48586,8 +48586,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"polkadotwallet.live"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
