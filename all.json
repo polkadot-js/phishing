@@ -31,9 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"oneconnectcoindapps.pages.dev",
-		"1thdexapp.pages.dev",
-		"acala-network.live",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -196,6 +193,7 @@
 		"1polkadot-5x1e.js.org",
 		"1sgexchange.com",
 		"1st4exchange.online",
+		"1thdexapp.pages.dev",
 		"1token-im.com",
 		"1v4t96knneojmqrl1rblweebvongdgjsd657zqwqzs6jmdspolkadot.js.org",
 		"1vsoumsoosby8aazwusucqrysh7lakimcneijp8shsj8x6bpolkadot.js.org",
@@ -427,6 +425,7 @@
 		"acala-app.network",
 		"acala-netwonk.gay",
 		"acala-network.com",
+		"acala-network.live",
 		"acala-network.site",
 		"acala-network.tech",
 		"acala-networks.com",
@@ -30548,6 +30547,7 @@
 		"one-dapps.vercel.app",
 		"oneappconnect.xyz",
 		"onebrokage.site",
+		"oneconnectcoindapps.pages.dev",
 		"onehardwarerectify.com",
 		"onehardwarerectify.net",
 		"oneinchex.us",
