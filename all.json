@@ -32,6 +32,10 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"chainid.dev",
+		"org-w3.shop",
+		"daaps.digital",
+		"chąinlist.org",
 		"luckymint9268.vercel.app",
 		"firstledgerhomes.xyz",
 		"firstledgerhomes.xyz.",
