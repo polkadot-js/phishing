@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.25.17 Aug 13, 2025
+
+Changes:
+
+- Bump polkadot/common to 13.5.5 ([#5284](https://github.com/polkadot-js/phishing/pull/5284))
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+
 ## 0.25.16 July 29, 2025
 
 Changes:
