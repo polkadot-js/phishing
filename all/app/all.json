@@ -848,6 +848,7 @@
 	"dex-migration.web.app",
 	"dexchain.netlify.app",
 	"dexclaim.app",
+	"dexintegrations.netlify.app",
 	"dexpanel.app",
 	"dexproject.netlify.app",
 	"dexscreeners.app",
