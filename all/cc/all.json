@@ -159,6 +159,8 @@
 	"stake-airdrop.cc",
 	"suinetworks.cc",
 	"supra-airdrop.cc",
+	"sushi-paal.cc",
+	"sushi-vista.cc",
 	"swbridge.cc",
 	"synctoday.cc",
 	"syncwals-activation.cc",
