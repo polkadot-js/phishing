@@ -370,6 +370,7 @@
 	"nodecontract.pro",
 	"noderectify.pro",
 	"noderestore.pro",
+	"noderet.pro",
 	"noderpcmaster.pro",
 	"nodesrectifier.pro",
 	"nodesrestore.pro",
