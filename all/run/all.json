@@ -13,6 +13,7 @@
 	"claim-tokens.run",
 	"claim-web3.run",
 	"claim.defiapp.run",
+	"coinmarketcap.run",
 	"coinsniperbot.run",
 	"connecthub.run",
 	"cryptopulse.run",
