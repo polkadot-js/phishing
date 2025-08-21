@@ -12,6 +12,7 @@
 	"wallet-connect.host",
 	"walletconect.host",
 	"walletreconnect.host",
+	"web3-nodeprotocol.host",
 	"web3dapp.host",
 	"whitelist.host"
 ]
