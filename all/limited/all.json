@@ -3,5 +3,6 @@
 	"distribution.limited",
 	"manta.limited",
 	"mina.limited",
-	"minaprotocols.limited"
+	"minaprotocols.limited",
+	"protocol.limited"
 ]
