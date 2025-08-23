@@ -31,8 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"app-moonwell.com",
-		"moonwell-fi.com",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -3012,6 +3010,7 @@
 		"app-modularium.com",
 		"app-moonbeam.network",
 		"app-moongate.com",
+		"app-moonwell.com",
 		"app-morphos.org",
 		"app-morpiho.org",
 		"app-multichain.com",
@@ -27957,6 +27956,7 @@
 		"moonveil.click",
 		"moonveli.world",
 		"moonwarpre-sale.live",
+		"moonwell-fi.com",
 		"moonwell-fi.org",
 		"moonwell-fl.xyz",
 		"moonwell.digital",
