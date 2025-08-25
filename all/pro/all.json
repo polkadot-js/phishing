@@ -48,6 +48,7 @@
 	"appverse-multichainnode.pro",
 	"appverse-sync-page.pro",
 	"appversecontinental.pro",
+	"appxamanextensionweb.pro",
 	"apx-sushi.pro",
 	"arbm.pro",
 	"artprocollect.pro",
@@ -158,6 +159,7 @@
 	"cryptosyncfix.pro",
 	"cryptotradex.pro",
 	"currencydex.pro",
+	"cvx-sushi.pro",
 	"cyclopsagconnect.pro",
 	"dapp-radar.pro",
 	"dappactivationpanel.pro",
@@ -459,6 +461,7 @@
 	"starknet-airdrop.pro",
 	"starnetx.pro",
 	"stepns.pro",
+	"stg-sushi.pro",
 	"suncoastsoftball.pro",
 	"supersmartappverse.pro",
 	"swap360.pro",
@@ -542,5 +545,6 @@
 	"wsync.pro",
 	"xchangeapps.pro",
 	"ytr6tyu.pro",
-	"zapper-defi.pro"
+	"zapper-defi.pro",
+	"zig-sushi.pro"
 ]
