@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"flarenetworkxrp-claim.com",
 		"allchainsolution.pages.dev",
 		"connect-controle.duckdns.org",
 		"walletconnect-verify.duckdns.org",
