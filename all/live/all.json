@@ -1209,6 +1209,7 @@
 	"multinode.live",
 	"multiprocessor.live",
 	"multisyncslinkeds.live",
+	"multiupdate.live",
 	"multiwallet-connect.live",
 	"multiwallet-dapps.live",
 	"myblockassist.live",
