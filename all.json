@@ -31,6 +31,10 @@
 		"zapto.org"
 	],
 	"deny": [
+		"uniswap-web3.com",
+		"app-uniswap.xyz",
+		"novawalletdesktop.com",
+		"subwalletdappsfix.me",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
