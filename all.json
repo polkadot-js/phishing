@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"blockchainserverfix.pages.dev",
 		"noderectificationsprotocol.vercel.app",
 		"santoshialini.github.io",
 		"resolvedprocedures.vercel.app",
