@@ -674,6 +674,7 @@
 	"rewards-celer.network",
 	"rewards-injective.network",
 	"rewards-mantle.network",
+	"rewards-quant.network",
 	"rewards-sidekick.network",
 	"rewards-story.network",
 	"rewards-zksync.network",
