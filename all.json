@@ -32,6 +32,9 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"worldlibfinanceseth.xyz",
+		"worldlibfinanceseth.xyz.",
+		"layerzeroairdrop.pages.dev",
 		"io-online-v2-exchanger-api.com",
 		"io-online-api-v2-exchanger.com",
 		"io-cdn-connects-dex-prod.com",
