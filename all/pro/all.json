@@ -170,6 +170,7 @@
 	"dappconnectorfixes.pro",
 	"dappdebugger.pro",
 	"dappdropnode.pro",
+	"dappoptimize.pro",
 	"dappoptimizer.pro",
 	"dappradars.pro",
 	"dapps-rectifier.pro",
