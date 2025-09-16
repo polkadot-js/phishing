@@ -1,4 +1,5 @@
 [
+	"0x0.claims",
 	"1fuel.claims",
 	"1inch-network.claims",
 	"1inch.claims",
@@ -169,6 +170,7 @@
 	"vivy.claims",
 	"vulcanforged.claims",
 	"webofdog.claims",
+	"worldliberty.claims",
 	"wrappedpepe.claims",
 	"xei.claims",
 	"xencrypto-io.claims",
