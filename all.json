@@ -32,6 +32,9 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"claims-layerbrett.pages.dev",
+		"dexrp-presale.xyz",
+		"dexrp-presale.xyz.",
 		"dappmainblockk.org",
 		"decentrilizedinfo.xyz",
 		"decentrilizedinfo.xyz.",
