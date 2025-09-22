@@ -1499,6 +1499,7 @@
 	"resolveprotocol.live",
 	"resolver-dappvalidator.live",
 	"resolver-dappvalidators.live",
+	"resolverdapp-validator.live",
 	"resolvetrx.live",
 	"resourcenode.live",
 	"resourcewallet.live",
