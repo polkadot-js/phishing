@@ -31,6 +31,13 @@
 		"zapto.org"
 	],
 	"deny": [
+		"blockdappresolver.xyz",
+		"resolverdapp-validator.live",
+		"dappchainresolver.com",
+		"moonwellallocation.com",
+		"portal-peaq.xyz",
+		"portal-peaq.com",
+		"peaq.website",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
