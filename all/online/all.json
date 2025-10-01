@@ -280,6 +280,7 @@
 	"blockchainvalidator.online",
 	"blockdagnetworkdrops.online",
 	"blockdagnetworking.online",
+	"blockdagpresalenetwork.online",
 	"blockdawg.online",
 	"blockfix.online",
 	"blockmigration.online",
