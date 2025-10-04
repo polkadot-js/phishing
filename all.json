@@ -31,6 +31,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"peaqportal.app",
+		"blockchaindapp.site",
+		"dapp-port.com",
+		"dapp-syncresolver.com",
+		"dapp-uxlink.xyz",
+		"multifixdapp.com",
+		"smartsolanadapp.xyz",
+		"peaq.lol",
+		"airdroptracer.xyz",
+		"ariagameairdrop.com",
+		"overtakeairdrop.com",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
