@@ -20,6 +20,7 @@
 	"bridgeterra-go.sbs",
 	"catslaptoken.sbs",
 	"claim-injective.sbs",
+	"claimjustoglabsrewards.sbs",
 	"cloudlesstoken.sbs",
 	"coindappsfixing.sbs",
 	"coinrabit.sbs",
