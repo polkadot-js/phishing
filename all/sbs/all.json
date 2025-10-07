@@ -51,6 +51,7 @@
 	"flokicoin.sbs",
 	"freebitcoin.sbs",
 	"ftx-validate.sbs",
+	"go-eth.sbs",
 	"hybrid-reward.sbs",
 	"launchdrop.sbs",
 	"layerzero.sbs",
