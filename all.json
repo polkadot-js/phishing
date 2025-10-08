@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"wormhole-com.pages.dev",
-		"claim.piasma.app",
 		"buildonbnbrewardclaim.vercel.app",
 		"claim.piasma.net",
 		"claim.plasma.support",
@@ -43,7 +42,6 @@
 		"standsx.com",
 		"tape-labs.com",
 		"portalpeaq.xyz",
-		"piasma.app",
 		"anyone-protocol.fi",
 		"plasma.support",
 		"piasma.net",
