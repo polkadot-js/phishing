@@ -31,6 +31,18 @@
 		"zapto.org"
 	],
 	"deny": [
+		"wormhole-com.pages.dev",
+		"claim.piasma.app",
+		"buildonbnbrewardclaim.vercel.app",
+		"claim.piasma.net",
+		"claim.plasma.support",
+		"dashboard.anyone-protocol.fi",
+		"solcard-cc.netlify.app",
+		"etherealallocation.xyz",
+		"proposal-morphos.org",
+		"standsx.com",
+		"tape-labs.com",
+		"portalpeaq.xyz",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
