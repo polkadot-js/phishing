@@ -29,6 +29,7 @@
 	"bool-network.digital",
 	"bridge-transitions.digital",
 	"bridges-swipers.digital",
+	"cakepad.digital",
 	"captchawalletconnect.digital",
 	"claim-bored.digital",
 	"claim-diamante.digital",
