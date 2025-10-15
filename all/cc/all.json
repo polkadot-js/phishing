@@ -113,6 +113,7 @@
 	"hodldapp.cc",
 	"imtokendownload.cc",
 	"ispot.cc",
+	"jupitermultichain.cc",
 	"keplr.cc",
 	"kyc-solutions.cc",
 	"layer3xyz.cc",
