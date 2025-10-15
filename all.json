@@ -31,6 +31,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dev.syncnodedapps.com",
 		"jupitermultichain.cc",
 		"airdropseekprotocol.xyz",
 		"ordinalclaiprotocol.xyz",
@@ -46,6 +47,7 @@
 		"defiee.com",
 		"defirew.com",
 		"dappschains-evm.net",
+		"syncnodedapps.com",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
