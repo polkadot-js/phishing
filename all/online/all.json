@@ -2323,6 +2323,7 @@
 	"wallet-api.online",
 	"wallet-avax.online",
 	"wallet-centre.online",
+	"wallet-centrifuge.online",
 	"wallet-connected.online",
 	"wallet-connection.online",
 	"wallet-extension.online",
