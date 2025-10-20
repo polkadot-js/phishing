@@ -178,6 +178,7 @@
 	"node-fx-protocol.icu",
 	"nodeactivation.icu",
 	"nodecorrection.icu",
+	"nodefixer.icu",
 	"nodehubrestore.icu",
 	"nodeprotocols.icu",
 	"nodevalidation.icu",
