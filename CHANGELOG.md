@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.25.21 Oct 21, 2025
+
+Changes:
+
+- bump @polkadot/common deps to v13.5.7 ([#5440](https://github.com/polkadot-js/phishing/pull/5440))
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+
 ## 0.25.20 Oct 8, 2025
 
 Contributed:
