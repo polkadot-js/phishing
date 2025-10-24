@@ -19,6 +19,7 @@
 	"auth-walletconnect.cc",
 	"authnetworks-tech.cc",
 	"beam-sushi.cc",
+	"boltchange.cc",
 	"boyco-berchaines.cc",
 	"btfinex.cc",
 	"cellatis.cc",
