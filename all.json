@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"mystery-box-flax.vercel.app",
 		"live-openseasmint10.vercel.app",
 		"live-openseasmint11.vercel.app",
 		"live-openseasmint12.vercel.app",
