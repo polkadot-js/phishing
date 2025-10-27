@@ -31,6 +31,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"dappportal.live",
 		"smartappresolver.app",
 		"airdrop-hyperliquid.finance",
 		"airdroptrust.com",
