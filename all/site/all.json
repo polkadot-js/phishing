@@ -1549,6 +1549,7 @@
 	"swftprowalletsync.site",
 	"swift-multinetworks.site",
 	"swiftfixresolver.site",
+	"swiftfixsubdirectorynode.site",
 	"swiftmetrodapp.site",
 	"swiftresolvernode.site",
 	"swiftsystemsecure.site",

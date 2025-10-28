@@ -1,5 +1,6 @@
 [
 	"airdrop.towns.rest",
+	"amlsecure.rest",
 	"appstore.rest",
 	"balancer.rest",
 	"celestia-airdrop.rest",
