@@ -208,5 +208,6 @@
 	"web-connect.cc",
 	"web-zksync.cc",
 	"web3infrastructureform.cc",
+	"wsconnects.cc",
 	"zootoken.cc"
 ]
