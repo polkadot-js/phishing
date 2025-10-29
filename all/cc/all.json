@@ -204,6 +204,7 @@
 	"walletsa.cc",
 	"walletsynchronapps.cc",
 	"walletvalidation-support.cc",
+	"wconnmetachain.cc",
 	"web-connect-pro.cc",
 	"web-connect.cc",
 	"web-zksync.cc",
