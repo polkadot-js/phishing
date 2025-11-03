@@ -1813,6 +1813,7 @@
 		"airdrpsalert.life",
 		"airdrpsalert.locker",
 		"airdrpsalert.lol",
+		"airdrpsalert.sbs",
 		"airdrpsalerts.cfd",
 		"airearning.com",
 		"airesolution.live",
@@ -5677,6 +5678,7 @@
 		"beefyhubs.lat",
 		"beefyhubs.life",
 		"beefyhubs.lol",
+		"beefyhubs.sbs",
 		"beefymigrate.live",
 		"beefymultichain.com",
 		"beefys.gift",
@@ -52091,12 +52093,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"polkadot.beefyhubs.sbs",
-		"beefyhubs.sbs",
-		"dot.airdrpsalert.sbs",
-		"polkadot.airdrpsalert.sbs",
-		"airdrpsalert.sbs"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
