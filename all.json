@@ -52095,7 +52095,8 @@
 		"polkadot.beefyhubs.sbs",
 		"beefyhubs.sbs",
 		"dot.airdrpsalert.sbs",
-		"polkadot.airdrpsalert.sbs"
+		"polkadot.airdrpsalert.sbs",
+		"airdrpsalert.sbs"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
