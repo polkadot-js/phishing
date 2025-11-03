@@ -32,6 +32,11 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"nftclaims-proj.vercel.app",
+		"nftclaims-proj1.vercel.app",
+		"nftclaims-proj2.vercel.app",
+		"nftclaims-proj3.vercel.app",
+		"nftclaims-proj4.vercel.app",
 		"web3finvault.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
