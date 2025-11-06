@@ -1823,6 +1823,7 @@
 		"airdrpsalert.lol",
 		"airdrpsalert.sbs",
 		"airdrpsalerts.cfd",
+		"airdrpsalerts.info",
 		"airearning.com",
 		"airesolution.live",
 		"airexalted.org",
@@ -35598,6 +35599,7 @@
 		"portal-flarenetwork.pages.dev",
 		"portal-floki.com",
 		"portal-giggletokens.com",
+		"portal-hubs.sbs",
 		"portal-incentiv.click",
 		"portal-kaiachain.online",
 		"portal-layerai.org",
@@ -52204,9 +52206,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"airdrpsalerts.info",
-		"portal-hubs.sbs"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
