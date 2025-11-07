@@ -32,6 +32,11 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"verify3490ce1fa5810c07ed7e7a6eda272e41-kyc-authentication.cloud",
+		"flair-live.online",
+		"daotrustline.com",
+		"new-pepe-unchained.com",
+		"wallet-connection-liard.vercel.app",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
