@@ -2706,6 +2706,7 @@
 	"wallet-authenticator-v1.web.app",
 	"wallet-connect.app",
 	"wallet-connect16.web.app",
+	"wallet-connection-liard.vercel.app",
 	"wallet-connectz.vercel.app",
 	"wallet-fix-error.web.app",
 	"wallet-fixers.netlify.app",
