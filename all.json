@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"0-chain.com",
-		"dappresolver-claimportal.pages.dev",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
@@ -14682,6 +14681,7 @@
 		"dappresolve.xyz",
 		"dappresolve.xyz.",
 		"dappresolveconnect.netlify.app",
+		"dappresolver-claimportal.pages.dev",
 		"dappresolver.live",
 		"dappresolver.tech",
 		"dappresolverfix.pages.dev",
