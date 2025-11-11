@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 0.25.22 Nov 11, 2025
+
+Changes:
+
+- Bump @polkadot dependencies ([#5508](https://github.com/polkadot-js/phishing/pull/5508))
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+
 ## 0.25.21 Oct 21, 2025
 
 Changes:
