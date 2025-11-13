@@ -60,6 +60,7 @@
 	"freebitcoin.sbs",
 	"ftx-validate.sbs",
 	"go-eth.sbs",
+	"hub-airdropalert.sbs",
 	"hybrid-reward.sbs",
 	"launchdrop.sbs",
 	"layerzero.sbs",

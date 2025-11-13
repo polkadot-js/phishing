@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"0-chain.com",
-		"polkadotapp.space",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
@@ -22902,6 +22901,7 @@
 		"httpslink.com",
 		"httpssolaxylaunch.co",
 		"hub-activator.xyz",
+		"hub-airdropalert.sbs",
 		"hub-boosteth.com",
 		"hub-collab.land",
 		"hub-dashboard.network",
@@ -35127,6 +35127,7 @@
 		"polkadotairdrop.com",
 		"polkadotairdrop.xyz",
 		"polkadotapp.co",
+		"polkadotapp.space",
 		"polkadotapp.xyz",
 		"polkadotapps.com",
 		"polkadotapps.io",
@@ -52401,8 +52402,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"hub-airdropalert.sbs"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
