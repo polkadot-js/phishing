@@ -52,5 +52,6 @@
 	"testnet.humanitu.run",
 	"trustwallet.run",
 	"uniswap.run",
-	"zks-claim-now.run"
+	"zks-claim-now.run",
+	"zksync.run"
 ]
