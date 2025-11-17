@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"web3pro.netlify.app",
 		"proj-massgft21.vercel.app",
 		"proj-massgft20.vercel.app",
 		"proj-massgft19.vercel.app",
