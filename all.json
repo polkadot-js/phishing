@@ -32,6 +32,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"exclusive-mints10.vercel.app",
+		"claimtopearnrewards.sbs",
 		"rpcnodeprotocol.network",
 		"dappmainent.top",
 		"multcoinprotocol.net",
