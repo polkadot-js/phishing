@@ -286,6 +286,7 @@
 	"bits-check.web.app",
 	"bits-portfolio.web.app",
 	"bittensor-en.app",
+	"bittensor-govtool.web.app",
 	"bittensor-wtao.vercel.app",
 	"bittensorai.app",
 	"bittensordao.app",
