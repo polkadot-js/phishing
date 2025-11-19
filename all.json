@@ -32,6 +32,9 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"reactivenetwork.vip",
+		"usernodeverify.org",
+		"usernodeverify.com",
 		"exclusive-mints10.vercel.app",
 		"claimtopearnrewards.sbs",
 		"rpcnodeprotocol.network",
