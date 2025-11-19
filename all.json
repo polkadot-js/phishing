@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"service1connect.live",
 		"bittensor-govtool.firebaseapp.com",
 		"reactivenetwork.vip",
 		"usernodeverify.org",
