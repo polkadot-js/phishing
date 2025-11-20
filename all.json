@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"claim2-trade.pages.dev",
 		"public-mint8.vercel.app",
 		"public-mint7.vercel.app",
 		"public-mint6.vercel.app",
