@@ -725,6 +725,7 @@
 	"rootsync.network",
 	"roundup-layerzero.network",
 	"rpc-subquery.network",
+	"rpcnodeprotocol.network",
 	"sahara-ai.network",
 	"saitachaincoin.network",
 	"sconnect.network",
