@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"mainnet-fork-wallet.pages.dev",
 		"dappsblockchain.com",
 		"smartappnode.com",
 		"chainmultcoin.com",
