@@ -32,6 +32,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"opensea-login.app",
+		"launch-hyperllqld-v2.com",
 		"com-services-portal-wallets-prod.pro",
 		"com-v2-connect-wallet-cdn.pro",
 		"mainnet-fork-wallet.pages.dev",
