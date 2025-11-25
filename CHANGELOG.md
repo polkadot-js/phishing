@@ -4,7 +4,7 @@
 
 Changes:
 
-- Bump @polkadot dependencies ([#5539](https://github.com/polkadot-js/phishing/pull/5539))
+- Bump polkadot dependencies ([#5539](https://github.com/polkadot-js/phishing/pull/5539))
 
 Contributed:
 
