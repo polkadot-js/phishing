@@ -32,6 +32,8 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"portal-claim.pages.dev",
+		"directdapps.pages.dev",
 		"asterdexmainnet.pages.dev",
 		"secret-service-protocol.com",
 		"nft2.top",
