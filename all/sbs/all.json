@@ -66,6 +66,7 @@
 	"ftx-validate.sbs",
 	"go-eth.sbs",
 	"hub-airdropalert.sbs",
+	"hubs-beefy.sbs",
 	"hybrid-reward.sbs",
 	"launchdrop.sbs",
 	"layerzero.sbs",
