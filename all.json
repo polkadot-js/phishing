@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"app-bittensorwallet.pages.dev",
 		"portal-claim.pages.dev",
 		"directdapps.pages.dev",
 		"asterdexmainnet.pages.dev",
