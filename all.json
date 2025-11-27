@@ -32,6 +32,10 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"collab-care.online",
+		"collab-land-verification.click",
+		"dappdata.pages.dev",
+		"backendform.pages.dev",
 		"app-bittensorwallet.pages.dev",
 		"portal-claim.pages.dev",
 		"directdapps.pages.dev",
