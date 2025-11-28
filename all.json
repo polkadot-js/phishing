@@ -31,8 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"migrate-polkadotapp.pro",
-		"polkadotmigration.live",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -29281,6 +29279,7 @@
 		"migrate-pepeunchained.com",
 		"migrate-petversegames.com",
 		"migrate-polkadot.com",
+		"migrate-polkadotapp.pro",
 		"migrate-portal.com",
 		"migrate-psyoploy.pro",
 		"migrate-pufferfi.com",
@@ -35526,6 +35525,7 @@
 		"polkadotlite.online",
 		"polkadotlive.com",
 		"polkadotlive.network",
+		"polkadotmigration.live",
 		"polkadotmining.de",
 		"polkadotmoney.xyz",
 		"polkadotnet.com",
@@ -52808,8 +52808,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"polkadotmigration.live"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
