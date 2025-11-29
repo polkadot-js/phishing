@@ -31,8 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"defiresolverapp.xyz",
-		"peaqclaim.live",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -17442,6 +17440,7 @@
 		"defiresolutions.com",
 		"defiresolve.xyz",
 		"defiresolveapp.com",
+		"defiresolverapp.xyz",
 		"defiresolverprotocol.com",
 		"defirestore.com",
 		"defirestore.org",
@@ -34545,6 +34544,7 @@
 		"peaqallocation.xyz.",
 		"peaqapp.network",
 		"peaqapp.xyz",
+		"peaqclaim.live",
 		"peaqdashboard.xyz",
 		"peaqdashboard.xyz.",
 		"peaqportal.app",
@@ -43052,6 +43052,7 @@
 		"sushi-botto.xyz.",
 		"sushi-bsdeth.top",
 		"sushi-bulla.top",
+		"sushi-cn.asia",
 		"sushi-cn.cc",
 		"sushi-coco.top",
 		"sushi-com.bid",
@@ -52810,8 +52811,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"sushi-cn.asia"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
