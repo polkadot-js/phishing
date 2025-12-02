@@ -13,5 +13,6 @@
 	"decrypt.bond",
 	"endpointapp.bond",
 	"imtokem.bond",
-	"layerzero.bond"
+	"layerzero.bond",
+	"sushi-cc.bond"
 ]
