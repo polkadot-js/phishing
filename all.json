@@ -31,8 +31,6 @@
 		"zapto.org"
 	],
 	"deny": [
-		"resolenddexpro.com",
-		"ultra-wavedigitalgrid.web.app",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
@@ -1776,6 +1774,7 @@
 		"airdropsahara.com",
 		"airdropsalert.bar",
 		"airdropsalert.click",
+		"airdropsalert.onl",
 		"airdropsalert.pro",
 		"airdropsalert.sbs",
 		"airdropsalert.xyz",
@@ -38526,6 +38525,7 @@
 		"resoiv.net",
 		"resoiv.org",
 		"resolbinan.shop",
+		"resolenddexpro.com",
 		"resolution-evolve.com",
 		"resolution-mainnet.live",
 		"resolution-mainnets.live",
@@ -46743,6 +46743,7 @@
 		"ultimative-bank.com",
 		"ultiverse.top",
 		"ultra-defiprotocol.network",
+		"ultra-wavedigitalgrid.web.app",
 		"ultrabasefirmware.com",
 		"ultrabasenode.com",
 		"ultrabaseprotocol.online",
@@ -53009,8 +53010,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"airdropsalert.onl"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
