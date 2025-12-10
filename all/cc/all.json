@@ -13,6 +13,7 @@
 	"allbridge.cc",
 	"app-dappradar.cc",
 	"app-dot-polkadot.cc",
+	"app-pokladot.cc",
 	"app-uniswap.cc",
 	"apps-dappradar.cc",
 	"armywelfare.cc",
@@ -215,5 +216,6 @@
 	"web-zksync.cc",
 	"web3infrastructureform.cc",
 	"wsconnects.cc",
+	"zer.potrfolio.cc",
 	"zootoken.cc"
 ]

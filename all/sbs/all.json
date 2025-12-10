@@ -44,6 +44,7 @@
 	"cryptokens.sbs",
 	"cryptopay.sbs",
 	"cryptopia-withdrawals.sbs",
+	"curve.sbs",
 	"cvv2.sbs",
 	"daoweb-rpcfix.sbs",
 	"daowebrpcfix.sbs",
