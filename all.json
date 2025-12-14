@@ -31,6 +31,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"bitboxinsurance.com",
+		"net-sys.at",
+		"ff-io.at",
+		"ff-io.cc",
+		"fixfloat.vip",
+		"v3simpleswap.com",
+		"simple-swap.dev",
+		"easy-exchange.pro",
+		"exoduwallet.io",
+		"scanledgerwallet.com",
+		"trezorwalletsupport.com",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
