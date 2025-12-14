@@ -58,6 +58,7 @@
        1	Muiz Nadeem                   	remove unlockpolkadot from deny list (#4938)
        1	Nathan Quarles                	add "linkupaffix.co" (#866)
        1	Nikhil Ranjan                 	Removing polkassembly.network (#304)
+       1	ninjacatcher                  	[False Negative]: add 11 phishing domains (bitboxinsurance[.]com, exodus[.]net-sys[.]at, ...) (#5585)
        1	Pavel Zavadsky                	Update all.json (#4388)
        1	Ruslan                        	report scam pvdnn (#4298)
        1	Stas Busygin                  	Update all.json (#4061)
