@@ -31,6 +31,11 @@
 		"zapto.org"
 	],
 	"deny": [
+		"coinomi.co.com",
+		"trust-download.co.com",
+		"app-phantom.co.com",
+		"app-atomic.co.com",
+		"trust-wallet-app.to",
 		"0-chain.com",
 		"web3auth.site",
 		"000000000000000000000deadburn.pages.dev",
