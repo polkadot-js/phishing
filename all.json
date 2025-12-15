@@ -31,6 +31,15 @@
 		"zapto.org"
 	],
 	"deny": [
+		"trezor-app-suite.co.com",
+		"www-firsthorlzen.top",
+		"shopify-app.co.com",
+		"qonto-app.co.com",
+		"connexpay-app.co.com",
+		"www.exodusupdate.app",
+		"www-tipelti.top",
+		"skrill-app.top",
+		"ray-dium.cyou",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
