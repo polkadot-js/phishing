@@ -35987,6 +35987,7 @@
 		"polkadotjs.org",
 		"polkadotjs.website",
 		"polkadotlabs.co",
+		"polkadotlabs.com",
 		"polkadotlabs.digital",
 		"polkadotlabs.xyz",
 		"polkadotlender.xyz",
@@ -36066,6 +36067,7 @@
 		"polkadottoken.live",
 		"polkadottoken.org",
 		"polkadottoken.xyz",
+		"polkadottokenization.xyz",
 		"polkadottrading.xyz",
 		"polkadotunlockwallet.com",
 		"polkadotup.net",
@@ -53573,9 +53575,7 @@
 		"zxxyz.xyz",
 		"zyfi-tokensoft.org",
 		"zyloqsupport.online",
-		"zzcoin.website",
-		"polkadottokenization.xyz",
-		"polkadotlabs.com"
+		"zzcoin.website"
 	],
 	"denySub": [
 		"twitter.com/AcalaNetworks",
