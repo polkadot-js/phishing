@@ -32,6 +32,7 @@
 	],
 	"deny": [
 		"0-chain.com",
+		"cardano-change.com",
 		"tuplyunified.pages.dev",
 		"trust-whitebridge.network",
 		"trustpadv2claim.pages.dev",
