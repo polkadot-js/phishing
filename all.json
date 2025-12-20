@@ -31,6 +31,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"whoamlcheck.online",
 		"syncportaldapp.com",
 		"smartcoinapp.net",
 		"theairdrop.online",
