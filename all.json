@@ -31,6 +31,14 @@
 		"zapto.org"
 	],
 	"deny": [
+		"airdrop-espressosys.org",
+		"asterairdrop.cc",
+		"hyperliquid-airdrop.xyz",
+		"polymarketairdrop.cc",
+		"multichainssol.live",
+		"walletdappapp.world",
+		"blockdagnetworks.live",
+		"dapp-resolverprotocol.com",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
