@@ -483,6 +483,7 @@
 	"resolutionmainserver.pro",
 	"resolvingmainserver.pro",
 	"roasthimjimtokens.pro",
+	"rpcresolverhome.pro",
 	"rpdcnodeupdate.pro",
 	"runesterminal.pro",
 	"safeswap.pro",

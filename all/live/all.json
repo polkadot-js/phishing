@@ -1,4 +1,5 @@
 [
+	"0x0migrate.live",
 	"0xfc0d6cf33e38bce7ca7d89c0e292274031b7157a.live",
 	"1fuel.live",
 	"3appsworld.live",
@@ -434,6 +435,7 @@
 	"claims-plumenetworks.live",
 	"claims-sosovalue.live",
 	"claimsimon.live",
+	"claimspacepaytoken.live",
 	"claimstarknet.live",
 	"claimtrojanonsolana.live",
 	"claimweb.live",
@@ -1755,6 +1757,7 @@
 	"smartnetworkrectify.live",
 	"smartnetworkresolve.live",
 	"smartnoderestore.live",
+	"smartnodesapp.live",
 	"smartnord-synchronization.live",
 	"smartnordsynchronization.live",
 	"smartointechdappsolutiion.live",
