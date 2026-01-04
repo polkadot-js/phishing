@@ -31,6 +31,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"2026-uni.com",
+		"2026-uni.net",
+		"209494.com",
+		"aave.vote",
+		"aavebank.net",
+		"airdrop-onbasebrian.com",
+		"aster-dex.ltd",
+		"dapp-restore-panel.com",
+		"smartnodedapp.click",
+		"decentralized-protocol.world",
+		"wallet-rescue-protocols.info",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
