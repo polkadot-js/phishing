@@ -31,6 +31,7 @@
 		"zapto.org"
 	],
 	"deny": [
+		"portal-uniswap.org",
 		"2026-uni.com",
 		"2026-uni.net",
 		"209494.com",
