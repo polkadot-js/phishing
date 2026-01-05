@@ -31,6 +31,12 @@
 		"zapto.org"
 	],
 	"deny": [
+		"mainnetdex-resolver.com",
+		"ether-airdrop.top",
+		"lighter-airdrops.xyz",
+		"sea-airdrop.com",
+		"chainresolvedapp.com",
+		"resolvemainnetprotocol.xyz",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
