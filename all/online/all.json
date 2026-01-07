@@ -948,6 +948,7 @@
 	"extensionallnodesolve.online",
 	"exxplorerprotocol.online",
 	"fancourier.ro-plato.online",
+	"faroswap.online",
 	"fast-swap.online",
 	"fastauthfixed.online",
 	"fastnetschainfixtool.online",
@@ -1038,6 +1039,7 @@
 	"gooddollar-airdrop.online",
 	"gpepetoken.online",
 	"gpt-crypto.online",
+	"grandlinehub.online",
 	"graphsupport.online",
 	"grokaiclaim.online",
 	"grouphelpcaptchabot.online",
@@ -2224,6 +2226,7 @@
 	"tokensupporthelplinkconnect.online",
 	"tokensvalidate.online",
 	"tokensvalidator.online",
+	"tokenvest.online",
 	"tokenvibe.online",
 	"tokenwallet-affix.online",
 	"tokenwalletconnectify.online",
@@ -2592,5 +2595,6 @@
 	"zinu-netz.online",
 	"zksync-swap.online",
 	"zsteth.online",
+	"zygoclaim.online",
 	"zyloqsupport.online"
 ]
