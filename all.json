@@ -31,6 +31,13 @@
 		"zapto.org"
 	],
 	"deny": [
+		"rectify-app.site",
+		"massdrop-multichain-app.online",
+		"servrdapp.icu",
+		"protocolnetwork.xyz",
+		"airdrop-qie.digital",
+		"claim-steer.finance",
+		"geminairdrops.com",
 		"0-chain.com",
 		"seasonalairdrop09.vercel.app",
 		"seasonalairdrop08.vercel.app",
