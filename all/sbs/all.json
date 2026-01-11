@@ -84,6 +84,7 @@
 	"migration-rectification.sbs",
 	"migration-v2pitbullmigrationtokenclaim.sbs",
 	"mint-liquidity.sbs",
+	"mutuumstake.sbs",
 	"mysoniclabsclaims.sbs",
 	"mywallet.sbs",
 	"nodeapp.sbs",
