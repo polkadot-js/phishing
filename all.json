@@ -32,7 +32,6 @@
 	],
 	"deny": [
 		"0-chain.com",
-		"memecoinpump.pages.dev",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
 		"07e96d43-381a-46a3-9c16-6daf97213efc.co",
@@ -29156,6 +29155,7 @@
 		"memecoinland.org",
 		"memecoinnavy.com",
 		"memecoinpump.fun",
+		"memecoinpump.pages.dev",
 		"memecoins.biz",
 		"memecoins.claims",
 		"memecoins.top",
