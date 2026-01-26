@@ -16,6 +16,7 @@
 	"app-dappradar.cc",
 	"app-dot-polkadot.cc",
 	"app-pokladot.cc",
+	"app-uniswap-trade.cc",
 	"app-uniswap.cc",
 	"apps-dappradar.cc",
 	"armywelfare.cc",
