@@ -94,6 +94,8 @@
 	"connectcollabland.cc",
 	"connectethcard.cc",
 	"connectingcollabland.cc",
+	"cow-swap.cc",
+	"cowswap.cc",
 	"crustnetwork.cc",
 	"crv-sushi.cc",
 	"cryptolaunchpad.cc",

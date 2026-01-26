@@ -131,5 +131,6 @@
 	"walletdapps.sbs",
 	"wardenprotocolrewards.sbs",
 	"webdappsfix.sbs",
-	"webkey.sbs"
+	"webkey.sbs",
+	"xdcnetwork.sbs"
 ]
