@@ -31,6 +31,17 @@
 		"zapto.org"
 	],
 	"deny": [
+		"changelly.com.lc",
+		"us-changelly.com.co",
+		"app-changelly.net",
+		"phantomlocal.com",
+		"changelly.com.mx",
+		"trezor-uk.at",
+		"changelly-en.at",
+		"en-leger.org",
+		"up-ledger.com",
+		"ledger-nano.com",
+		"ledger.net.cn",
 		"0-chain.com",
 		"000000000000000000000deadburn.pages.dev",
 		"074ff59hdo02j37aj-ch9in201.pages.dev",
